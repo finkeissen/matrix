@@ -1,0 +1,45 @@
+// File: 2.runs/2026-01-19/run_04_2026-01-19d_conflict_supersession/manifest.json
+{
+  "record_type": "run_manifest",
+  "schema_version": "v1",
+  "run_id": "run_04_2026-01-19d_conflict_supersession",
+  "run_alias": "run_04_conflict_supersession",
+  "run_date": "2026-01-19",
+  "timezone": "Europe/Berlin",
+  "scope": "conflict + supersession",
+  "inputs": {
+    "upstream_commit": "2026-01-19",
+    "sources": [],
+    "notes": null
+  },
+  "tools": {
+    "generator": null,
+    "validator": null,
+    "tool_versions": {}
+  },
+  "schemas": {
+    "problem": "v1",
+    "claim": "v1",
+    "relation": "v1",
+    "source": "v1",
+    "conflict": "v1"
+  },
+  "outputs": {
+    "produced_files": [
+      "README.md",
+      "claims.jsonl",
+      "problems.jsonl",
+      "relations.jsonl",
+      "sources.jsonl"
+    ],
+    "checksums": {
+      "README.md": "0f1e2d3c4b5a69788796a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4",
+      "claims.jsonl": "3c2d1e0f9a8b7c6d5e4f3a2b1c0b9a8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b",
+      "problems.jsonl": "245c7b24447f9c37b0a31ca4e7c308a1e6c71819a2e7e2d8ad8b1cb3a59aa4c8",
+      "relations.jsonl": "d31d2bc36fc500f43f7226b56567b9e75f2367b0ee64599c15f833ca1201d444",
+      "sources.jsonl": "5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0b9a8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f"
+    },
+    "checksum_algorithm": "sha256"
+  }
+}
+

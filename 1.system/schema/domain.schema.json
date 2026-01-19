@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "domain schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "domain_id",
+    "statements"
+  ],
+  "properties": {
+    "domain_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique identifier of the domain."
+    },
+    "description": {
+      "type": "string",
+      "description": "Optional human-readable description of the domain."
+    },
+    "statements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claims",
+        "relations",
+        "sources"
+      ],
+      "properties": {
+        "claims": {
+          "$ref": "#/definitions/statement_artifact"
+        },
+        "relations": {
+          "$ref": "#/definitions/statement_artifact"
+        },
+        "sources": {
+          "$ref": "#/definitions/statement_artifact"
+        },
+        "observations": {
+          "$ref": "#/definitions/statement_artifact",
+          "description": "Optional observations describing structural patterns detected in this domain."
+        }
+      }
+    }
+  },
+  "definitions": {
+    "statement_artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative path to the JSONL file containing the statements."
+        },
+        "format": {
+          "type": "string",
+          "default": "jsonl",
+          "description": "Format of the statement artifact."
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Optional number of entries contained in the artifact."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes. Must not add normative meaning."
+        }
+      }
+    }
+  }
+}
+

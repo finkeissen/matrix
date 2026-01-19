@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Matrix State Schema",
+  "description": "Schema for a persistent Matrix knowledge base state. This schema defines representation only and has no epistemic or normative authority.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "matrix_id",
+    "generated_at",
+    "runs",
+    "policy",
+    "domains"
+  ],
+  "properties": {
+    "matrix_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique identifier of this Matrix state snapshot."
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when this Matrix state was generated."
+    },
+    "runs": {
+      "type": "array",
+      "description": "Identifiers of all Runs contributing artifacts to this Matrix state.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "policy": {
+      "$ref": "#/definitions/artifact_ref",
+      "description": "Reference to the research-program (policy) version enforced for this Matrix state."
+    },
+    "domains": {
+      "type": "object",
+      "description": "Domain-scoped collections of artifact references.",
+      "additionalProperties": {
+        "$ref": "#/definitions/domain_state"
+      }
+    }
+  },
+  "definitions": {
+    "domain_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "domain_id",
+        "artifacts"
+      ],
+      "properties": {
+        "domain_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Identifier of the domain."
+        },
+        "artifacts": {
+          "type": "object",
+          "description": "Canonical epistemic artifacts for this domain.",
+          "additionalProperties": false,
+          "required": [
+            "claims",
+            "relations",
+            "sources"
+          ],
+          "properties": {
+            "claims": {
+              "$ref": "#/definitions/artifact_ref",
+              "description": "Reference to claim artifacts."
+            },
+            "relations": {
+              "$ref": "#/definitions/artifact_ref",
+              "description": "Reference to relation artifacts."
+            },
+            "sources": {
+              "$ref": "#/definitions/artifact_ref",
+              "description": "Reference to source or provenance artifacts."
+            }
+          }
+        },
+        "enrichments": {
+          "$ref": "#/definitions/artifact_ref",
+          "description": "Optional non-authoritative enrichment artifacts (e.g. evaluations, experience markers, 'bad', 'failed')."
+        }
+      }
+    },
+    "artifact_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative path to the artifact file within the Matrix storage."
+        },
+        "format": {
+          "type": "string",
+          "description": "Optional format hint (e.g. json, jsonl, csv)."
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Optional number of entries contained in the artifact."
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Identifier of the Run that produced this artifact."
+        }
+      }
+    }
+  }
+}
+

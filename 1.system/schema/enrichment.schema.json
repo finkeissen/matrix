@@ -1,0 +1,391 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Enrichment Artifact Schema",
+  "description": "Schema for non-authoritative enrichment artifacts. Enrichments annotate existing Matrix artifacts with explicit, attributable experience or critique without deleting, overriding, or implying truth.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "enrichment_id",
+    "created_at",
+    "run_id",
+    "kind",
+    "targets",
+    "attribution",
+    "content"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Version identifier of this enrichment schema used to produce the artifact."
+    },
+    "enrichment_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique identifier of this enrichment artifact."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when this enrichment was created."
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Run identifier that produced this enrichment artifact."
+    },
+    "domain_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional domain identifier this enrichment is associated with."
+    },
+    "kind": {
+      "type": "string",
+      "description": "Enrichment category. All kinds are non-authoritative and must not imply correctness or consensus.",
+      "enum": [
+        "experience_marker",
+        "critique",
+        "comparison",
+        "evaluation_report",
+        "annotation"
+      ]
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "description": "List of artifact identifiers (or stable references) this enrichment refers to.",
+      "items": {
+        "$ref": "#/definitions/target_ref"
+      },
+      "uniqueItems": true
+    },
+    "attribution": {
+      "$ref": "#/definitions/attribution",
+      "description": "Explicit attribution of who/what produced this enrichment and under which conditions."
+    },
+    "content": {
+      "description": "Enrichment payload. Structure depends on 'kind'.",
+      "oneOf": [
+        { "$ref": "#/definitions/experience_marker_content" },
+        { "$ref": "#/definitions/critique_content" },
+        { "$ref": "#/definitions/comparison_content" },
+        { "$ref": "#/definitions/evaluation_report_content" },
+        { "$ref": "#/definitions/annotation_content" }
+      ]
+    }
+  },
+  "definitions": {
+    "target_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Opaque identifier or reference to an existing Matrix artifact."
+    },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "producer_type",
+        "producer_id"
+      ],
+      "properties": {
+        "producer_type": {
+          "type": "string",
+          "description": "Type of producer.",
+          "enum": [
+            "human",
+            "service",
+            "tool",
+            "organization"
+          ]
+        },
+        "producer_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Identifier of the producer (name, handle, service id)."
+        },
+        "method": {
+          "type": "string",
+          "description": "Optional description of the method/procedure used to produce this enrichment."
+        },
+        "inputs": {
+          "type": "array",
+          "description": "Optional list of input references used to produce the enrichment (documents, datasets, logs, etc.).",
+          "items": {
+            "$ref": "#/definitions/input_ref"
+          }
+        },
+        "context": {
+          "type": "object",
+          "description": "Optional structured context fields (non-semantic; purely descriptive).",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "input_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ref"
+      ],
+      "properties": {
+        "ref": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Opaque reference to an input (e.g., a source id, file path, URL, dataset id)."
+        },
+        "ref_type": {
+          "type": "string",
+          "description": "Optional input reference type hint.",
+          "enum": [
+            "source",
+            "file",
+            "url",
+            "dataset",
+            "artifact",
+            "other"
+          ]
+        }
+      }
+    },
+    "experience_marker_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "marker",
+        "statement"
+      ],
+      "properties": {
+        "marker": {
+          "type": "string",
+          "description": "Experience marker label. This is not a truth claim and does not invalidate the target.",
+          "enum": [
+            "bad",
+            "failed",
+            "insufficient",
+            "dead_end",
+            "fragile",
+            "incomplete",
+            "needs_revision",
+            "unsafe_to_use",
+            "works_in_limited_scope",
+            "unknown"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable description of the experience and why the marker applies."
+        },
+        "scope_limitations": {
+          "type": "array",
+          "description": "Optional explicit scope limitations under which the marker was observed.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "evidence_refs": {
+          "type": "array",
+          "description": "Optional references to supporting artifacts/sources/logs (non-authoritative).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "critique_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "statement"
+      ],
+      "properties": {
+        "statement": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Critique text. Does not imply correctness or consensus."
+        },
+        "issues": {
+          "type": "array",
+          "description": "Optional list of explicitly named issues.",
+          "items": {
+            "$ref": "#/definitions/issue"
+          }
+        },
+        "evidence_refs": {
+          "type": "array",
+          "description": "Optional references to supporting material.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Issue label (e.g. 'missing assumption', 'non-reproducible', 'ambiguous definition')."
+        },
+        "details": {
+          "type": "string",
+          "description": "Optional details of the issue."
+        }
+      }
+    },
+    "comparison_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "items",
+        "statement"
+      ],
+      "properties": {
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "description": "Targets compared. Comparison does not select winners.",
+          "items": {
+            "$ref": "#/definitions/compare_item"
+          }
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Description of the comparison, framing, and observed differences."
+        },
+        "dimensions": {
+          "type": "array",
+          "description": "Optional comparison dimensions (non-scoring, descriptive).",
+          "items": {
+            "$ref": "#/definitions/dimension"
+          }
+        }
+      }
+    },
+    "compare_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target"
+      ],
+      "properties": {
+        "target": {
+          "$ref": "#/definitions/target_ref"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes about this item in the comparison."
+        }
+      }
+    },
+    "dimension": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Dimension label (e.g. 'assumptions', 'scope', 'complexity', 'failure modes')."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional descriptive notes for the dimension."
+        }
+      }
+    },
+    "evaluation_report_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "statement"
+      ],
+      "properties": {
+        "statement": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Evaluation report text. Must be attributable and non-authoritative."
+        },
+        "criteria": {
+          "type": "array",
+          "description": "Optional explicitly listed criteria used in the evaluation (descriptive, not scoring).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "outcomes": {
+          "type": "array",
+          "description": "Optional explicit outcomes (descriptive, not final judgments).",
+          "items": {
+            "$ref": "#/definitions/outcome"
+          }
+        },
+        "evidence_refs": {
+          "type": "array",
+          "description": "Optional references to supporting material.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Outcome label."
+        },
+        "details": {
+          "type": "string",
+          "description": "Optional outcome details."
+        }
+      }
+    },
+    "annotation_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "statement"
+      ],
+      "properties": {
+        "statement": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Non-authoritative annotation text."
+        },
+        "tags": {
+          "type": "array",
+          "description": "Optional tags for organizing annotations (no implied ranking).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
+

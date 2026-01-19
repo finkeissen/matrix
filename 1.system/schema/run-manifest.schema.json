@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "run manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "timestamp"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "minLength": 1
+    },
+    "research_program_commit": {
+      "type": "string"
+    },
+    "mms_commit": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/artifact_ref"
+      },
+      "default": []
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/artifact_ref"
+      },
+      "default": []
+    }
+  },
+  "definitions": {
+    "artifact_ref": {
+      "title": "artifact reference",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "path"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "claims",
+            "relations",
+            "sources",
+            "observations",
+            "snapshot",
+            "export",
+            "log",
+            "report",
+            "other"
+          ]
+        },
+        "domain": {
+          "type": "string",
+          "description": "Optional domain identifier for domain-bound artifacts."
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "type": "string",
+          "description": "Optional format hint (e.g., jsonl, json, md)."
+        },
+        "hash": {
+          "type": "string",
+          "description": "Optional content hash for auditability."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional free-text notes. Must not change artifact meaning."
+        }
+      }
+    }
+  }
+}
+

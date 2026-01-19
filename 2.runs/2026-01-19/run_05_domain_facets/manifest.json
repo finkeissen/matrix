@@ -1,0 +1,31 @@
+{
+  "record_type": "run_manifest",
+  "schema_version": "v1",
+  "run_id": "run_05_domain_facets",
+  "run_date": "2026-01-19",
+  "timezone": "Europe/Berlin",
+  "scope": "domain and subdomain facets for problems",
+  "inputs": {
+    "upstream_commit": "2026-01-19",
+    "sources": [],
+    "notes": "Domains treated as facets of atomic problems; multiple assignments allowed."
+  },
+  "tools": {
+    "generator": null,
+    "validator": null,
+    "tool_versions": {}
+  },
+  "schemas": {
+    "problem": "v1"
+  },
+  "outputs": {
+    "produced_files": [
+      "problems.jsonl"
+    ],
+    "checksums": {
+      "problems.jsonl": "bc91f4de9345847b2d660d99bb2b0d06ba3ec655bf4731a462b5235d9de798e4"
+    },
+    "checksum_algorithm": "sha256"
+  }
+}
+

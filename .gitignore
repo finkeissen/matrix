@@ -1,0 +1,58 @@
+# =========================
+# Matrix Repository .gitignore (v1.1 – cautious)
+# =========================
+
+# --- Secrets / credentials (never commit)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# --- OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+dir.txt
+
+# --- Python / tooling caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Generic caches / temp
+.cache/
+.tmp/
+tmp/
+temp/
+
+# --- Archives / exports (never commit)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# --- Logs (default exclude)
+*.log
+logs/
+log/
+
+# --- Raw archival material (explicitly excluded)
+old/
+
