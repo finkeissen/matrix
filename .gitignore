@@ -1,85 +1,62 @@
-# =========================
-# Matrix Repository .gitignore (v1.1 – cautious)
-# =========================
+# ==================================================
+# MATRIX REPO — IGNORE RULES
+# Purpose:
+# - keep the repo structurally clean
+# - exclude generated, local, or bulk artifacts
+# - preserve only curated, decision-relevant material
+# ==================================================
 
-# --- Secrets / credentials (never commit)
-.env
-.env.*
-*.pem
-*.key
-*.p12
-*.pfx
-id_rsa*
-id_ed25519*
 
-# --- OS / editor noise
+# --------------------------------------------------
+# OS / Editor noise
+# --------------------------------------------------
 .DS_Store
 Thumbs.db
-.idea/
-.vscode/
 *.swp
 *.swo
+*~
+.idea/
+.vscode/
+
+
+# --------------------------------------------------
+# Secrets / local environment
+# --------------------------------------------------
+.env
+.env.*
+*.key
+*.pem
+*.secret
+*.credentials
+
+
+# --------------------------------------------------
+# Temporary / generated meta artifacts
+# --------------------------------------------------
 dir.txt
+ToDo
 
-# --- Python / tooling caches
-__pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.tox/
-.coverage
-coverage.xml
-htmlcov/
-.ipynb_checkpoints/
 
-# --- Generic caches / temp
-.cache/
-.tmp/
-tmp/
-temp/
+# --------------------------------------------------
+# Runs — bulk execution output
+#
+# Principle:
+# - runs are generated artifacts
+# - only explicitly curated runs should be committed
+# - bulk or exploratory runs are excluded by default
+# --------------------------------------------------
 
-# --- Archives / exports (never commit)
-*.zip
-*.tar
-*.tar.gz
-*.tgz
-*.7z
-*.rar
-
-# --- Logs (default exclude)
-*.log
-logs/
-log/
-
-# --- Raw archival material (explicitly excluded)
-old/
-
-# =========================
-# Matrix repo folders (public showcase hygiene)
-# =========================
-
-# --- Internal / non-public areas
-0.legacy/
-2.work/
-3.commit/
-
-# --- Run artifacts that are usually generated/noisy
-2.runs/logs/
-2.runs/output/
-2.runs/import/
-
-# --- Large run collections (exclude bulk; keep curated examples)
-2.runs/2026-02-11/
+# Explicit bulk runs (dated, exploratory)
 2.runs/2026-01-20/
+2.runs/2026-02-11/
 
-# If you ever exclude *all* dated runs, you can do this instead:
-# 2.runs/20*/
-# …and then whitelist curated ones:
-# !2.runs/2026-01-19/
-# !2.runs/2026-01-19/run_01_position/
-# !2.runs/2026-01-19/run_02_salience/
-# !2.runs/2026-01-19/run_03_supersession/
-# !2.runs/2026-01-19/run_04_conflict_supersession/
+
+# --------------------------------------------------
+# Notes
+#
+# - .gitignore is part of repo governance
+# - exclusions are intentional and documented
+# - whitelisting (!path) may be used later
+#   for exemplary or canonical runs
+# --------------------------------------------------
 

@@ -58,7 +58,17 @@ Status:
 ## Run taxonomy (high-level)
 
 This taxonomy is an orientation layer.
-Exact definitions live in individual run `README.md` / `stress_test.md`.
+
+**Stress tests live per run.**  
+Each execution run contains its own `stress_test.md` inside its run folder, e.g.  
+`2.runs/YYYY-MM-DD/run_XX_.../stress_test.md`.  
+There is no single global root-level `stress_test.md` by design.
+
+**Per-run artifacts:**  
+Evaluation artifacts such as `stress_test.md` are stored inside each run directory  
+(`2.runs/YYYY-MM-DD/run_XX_.../stress_test.md`), not at repo root.
+
+
 
 ### A) Authority and provenance transfers
 - Policy → authority

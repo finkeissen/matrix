@@ -1,16 +1,21 @@
-# Research Program Repository
+# Matrix Repository
+
+Public, curated showcase of the Matrix within the Matrix/MMS research program.
+
+---
 
 ## Status
 
-This document defines the scope of validity of the repository.
-It is not a working document and is not subject to iterative extension.
+This document defines the scope of validity of this repository.
+It defines structural boundaries and admissibility conditions.
+It is not a working log and does not function as a development notebook.
 
 ---
 
 ## Scope of Validity
 
-This repository implements a research program with an explicit
-scope-of-validity and access architecture (Matrix / MMS).
+This repository implements the Matrix as an instantiated component
+within a formally bounded research program architecture (Matrix / MMS).
 
 It does **not** constitute:
 - a theory of the world,
@@ -18,6 +23,8 @@ It does **not** constitute:
 - a truth theory,
 - a normative framework,
 - or an ontology.
+
+It demonstrates how bounded formal coordination can be implemented.
 
 ---
 
@@ -37,21 +44,23 @@ The scope is comparable to a `chroot`:
 
 ## Position of the Matrix
 
-The Matrix is an instantiated component within this research program.
-It is not the program itself, and it does not define the scope of validity.
+The Matrix is an instantiated component within a layered architecture.
+It is not the research program itself,
+and it does not define the scope of validity.
 
 This document defines the boundary within which the Matrix operates.
-All Matrix-specific behavior is specified separately.
+All Matrix-specific behavior is specified separately
+under `1.system/`.
 
 ---
 
-## legacy/
+## 0.legacy/
 
-Contents under `legacy/` are part of the repository,
+Contents under `0.legacy/` are part of the repository
 but **not part of the system architecture**.
 
 They document inherited bodies of knowledge and serve exclusively
-as raw material for later analysis and structural decomposition.
+as raw material for later structural decomposition.
 
 Their presence implies **no recognition** of truth, validity,
 or structural authority.
@@ -82,9 +91,8 @@ Any implicit transfer:
 - from provability to truth,
 - from structure to normativity,
 
-is considered **inadmissible** and triggers refusal or STOP.
-
----
+is considered **inadmissible**
+and triggers refusal or STOP.
 
 ---
 
@@ -96,30 +104,51 @@ Later components do not ground earlier ones.
 The intended build-up is:
 
 1. **Language Architecture (Luftschloss)**  
-   Formal preconditions for symbolic systems, models, and interpretation.
+   Formal preconditions for symbolic systems, models, and interpretation.  
    No ontology, no semantics, no truth claims.
 
 2. **Model Toolkit**  
-   A construction kit for building explicit models:
-   states, parameters, relations, observation layers, and purposes.
+   A construction kit for building explicit models:  
+   states, parameters, relations, observation layers, and purposes.  
    Models are artifacts, not explanations.
 
 3. **DBMS Layer**  
-   Storage, versioning, provenance, and audit of artifacts and runs.
+   Storage, versioning, provenance, and audit of artifacts and runs.  
    The DBMS is intentionally blind to meaning and truth.
 
 4. **MMS (Meta-Model System)**  
-   Coordination, constraint enforcement, comparison, and composition
+   Coordination, constraint enforcement, comparison, and composition  
    of models within the admissible system scope.
 
 5. **Matrix Instantiations**  
-   Concrete, task-bound model configurations for analysis,
+   Concrete, task-bound model configurations for analysis,  
    experimentation, or application.
 
 No layer licenses an ontological or epistemic upgrade of earlier layers.
 Pragmatic success at higher layers does not retroactively ground
 lower layers in reality.
 
+Note: Files like `stress_test.md` are generated and stored per run under `2.runs/...`, not as a single global document in the root.
+
+
+---
+
+## Repository Character
+
+This repository is intentionally curated.
+
+It demonstrates:
+- structural layering,
+- admissibility constraints,
+- formal artifact schemas,
+- and a small number of representative example runs.
+
+It does **not** aim to provide:
+- exhaustive domain coverage,
+- a comprehensive dataset,
+- or a complete knowledge archive.
+
+---
 
 ## Work Status
 

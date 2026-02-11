@@ -1,5 +1,9 @@
 # 2.runs
 
+This directory contains execution runs only.
+Runs are diagnostic operations, not claims.
+No architecture, norms, or system rules may be defined here.
+
 Reproducible generators and validators.
 
 A **run** represents a **single, explicit execution step**

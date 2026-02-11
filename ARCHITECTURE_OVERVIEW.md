@@ -9,9 +9,6 @@ of claims, distinctions, and judgments.
 
 It is **not** a knowledge base, decision engine, or truth-evaluation framework.
 
-For architectural foundations and normative constraints, see:
-`ARCHITECTURE_OVERVIEW.md`.
-
 
 ---
 
@@ -140,6 +137,8 @@ Progress is measured by:
 - increased resistance to self-sealing reasoning.
 
 Not by accumulation, consensus, or closure.
+
+
 
 
 ---

@@ -1509,3 +1509,6 @@ Any future attempt to:
 
 constitutes a **structural violation** and must be corrected.
 
+All files in `1.system/` define binding system rules for this repository.
+They are normative within scope and apply to all runs and artifacts.
+
