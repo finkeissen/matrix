@@ -6,50 +6,83 @@
 
 - **Contract level:** v1 (required)
 - **Applies to:** canonical Matrix commits (`3.commit/*`)
-- **Scope:** structural admissibility, not semantic correctness
-- **Authority:** technical contract only (non-epistemic)
+- **Scope:** structural admissibility only
+- **Authority:** technical contract (non-epistemic)
 
 ---
 
 ## Purpose of the Claim Record
 
-A **Claim** represents a single articulated assertion
-within a problem-centered epistemic structure.
+A **Claim** is a single articulated assertion
+expressed **within an explicit problem context**.
 
-Claims exist **only** in relation to explicit problems.
-They do not stand on their own and do not assert authority or truth.
+Claims:
+- do not assert truth,
+- do not confer authority,
+- do not stand alone.
 
-> **No problem → no claim in the canonical Matrix.**
+> **Without an explicit problem reference, a claim is inadmissible.**
 
-Claims are the atomic units from which
-problem–solution structures emerge through relations and conflicts.
+Claims are the atomic assertion units
+from which structure emerges through:
+- relations,
+- conflicts,
+- scope constraints,
+- provenance.
 
 ---
 
-## Record Type and Versioning
+## What a Claim Is (and Is Not)
 
-Each claim record is exactly one JSON object per line.
+### A Claim Is
 
-Required fields:
+A Claim is:
+- an explicit assertion,
+- index-atomic (one coherent statement),
+- problem-anchored,
+- attributable,
+- append-only.
 
+Claims describe **what is being asserted**,
+not whether it should be believed.
+
+---
+
+### A Claim Is Not
+
+A Claim is **not**:
+- a fact,
+- a conclusion,
+- a solution,
+- an endorsement,
+- a resolution of disagreement.
+
+Claims gain structure only via explicit links.
+
+---
+
+## Record Type and Versioning (Binding)
+
+Each claim record is exactly one JSON object per line (JSONL).
+
+Required:
 - `record_type` MUST be `"claim"`
 - `schema_version` MUST be present (string)
 
-Schema versioning ensures that historical commits
-remain interpretable as formats evolve.
+Schema versioning ensures interpretability across commits.
 
 ---
 
-## Required Identifiers
+## Required Identifier
 
 ### `claim_id` (required)
 
-- Stable identifier for the claim.
-- MUST be globally unique within the Matrix.
+- MUST be present (string).
+- MUST be unique within a commit bundle.
 - SHOULD be content-addressed (recommended),
-  or explicitly versioned if curated.
+  or explicitly curated and versioned.
 
-The `claim_id` identifies the **assertion**, not its truth.
+The `claim_id` identifies the **assertion**, not its correctness.
 
 ---
 
@@ -60,14 +93,14 @@ The `claim_id` identifies the **assertion**, not its truth.
 - MUST be present as an array.
 - MUST be non-empty.
 - Every element MUST be a valid `problem_id`.
-- Every referenced problem MUST exist
-  in `matrix.problems.jsonl`
-  (in the same commit or a referenced prior state).
 
-This is a **hard structural rule**.
+Rules:
+- Every referenced problem MUST resolve
+  within the same commit or a referenced prior commit.
+- Claims without problem anchoring MUST NOT appear
+  in canonical commits.
 
-Claims without explicit problem references
-are **inadmissible** in canonical commits.
+This rule is **non-negotiable**.
 
 ---
 
@@ -77,11 +110,11 @@ are **inadmissible** in canonical commits.
 
 - MUST be present.
 - MUST be a non-empty string.
-- MUST be understandable on its own.
-- SHOULD express exactly one coherent assertion
-  (index-atomic).
+- MUST be understandable without external context.
+- MUST express exactly one coherent assertion.
 
-Composite statements must be split into multiple claims.
+Composite or conjunctive statements MUST be split
+into multiple claims.
 
 ---
 
@@ -89,25 +122,24 @@ Composite statements must be split into multiple claims.
 
 ### `matrix_validity` (required)
 
-Defines the status of the claim **inside the Matrix**.
+Defines the lifecycle of the claim **inside the Matrix**.
 
 Required fields:
-
-- `introduced_in_commit` (string)  
-  - MUST equal the commit directory name (e.g. `"2026-01-18"`)
-
+- `introduced_in_commit` (string)
 - `deprecated_in_commit` (string or null)
+- `status` (string)
 
-- `status` (string)  
-  - MUST be one of:
-    - `"active"`
-    - `"deprecated"`
+Allowed `status` values (v1):
+- `active`
+- `deprecated`
 
-Notes:
-- Deprecation does **not** remove history.
-- Changes are expressed through:
+Rules:
+- Claims are append-only.
+- Changes are expressed via:
   - new claims,
   - and explicit relations (e.g. `supersedes`).
+
+If `matrix_validity.status` is invalid, the commit MUST STOP.
 
 ---
 
@@ -115,29 +147,33 @@ Notes:
 
 ### `provenance` (required)
 
-Provenance is mandatory for all canonical claims.
+All canonical claims MUST be attributable.
 
-Required structure:
-
-- `provenance` MUST be present (object)
+`provenance` MUST be present as an object.
 
 Within `provenance`:
 
-- `source_ids` MUST be present (array)
-  - MAY be empty
-  - each element MUST be a `source_id` (string)
+#### `source_ids` (required)
 
-- `extracted_by_run` SHOULD be present (string)
+- MUST be present as an array.
+- MAY be empty.
+- Each entry MUST be a valid `source_id`.
 
-Rationale:
-- Even manually created claims must be explicitly attributable.
-- Absence of provenance structure is **not allowed** in canonical commits.
+If a provided `source_id` does not resolve,
+the commit MUST STOP.
+
+#### `extracted_by_run` (recommended)
+
+- SHOULD be present (string).
+- Identifies the MMS run that introduced the claim.
+
+Manual claims MUST still include the `provenance` container.
 
 ---
 
 ## Optional but Supported Fields (v1)
 
-The following fields are **optional** but allowed and encouraged when applicable.
+The following fields are optional and non-binding.
 
 ### World Validity (Optional)
 
@@ -145,80 +181,53 @@ The following fields are **optional** but allowed and encouraged when applicable
 
 - `from` (string or null)
 - `until` (string or null)
-- `status` (string)  
-  e.g. `"asserted"`, `"unknown"`, `"disputed"`
-- `assumption` (string)  
-  e.g. `"globally_uniform"`
-- `precision` (string)  
-  e.g. `"day"`, `"month"`, `"year"`, `"era"`
+- `status` (string; e.g. `asserted`, `unknown`, `disputed`)
+- `assumption` (string)
+- `precision` (string)
 
-World validity describes how a claim relates to the world,
-not whether it is correct.
+World validity describes applicability in the world,
+not correctness or acceptance.
 
 ---
 
-### Claim Role (Optional, Controlled)
+### Claim Role (Optional, Controlled Vocabulary)
 
 `claim_role` (string)
 
-The role aids retrieval and interpretation.
-It does not confer priority, authority, or correctness.
+Roles are **descriptive labels only**.
+They MUST NOT be interpreted as execution logic.
 
 Recommended values (non-exhaustive):
 
-**General:**
-- `"solution_fragment"`
-- `"evidence"`
-- `"constraint"`
-- `"assumption"`
-- `"definition"`
+- `assumption`
+- `definition`
+- `evidence`
+- `constraint`
+- `solution_fragment`
 
-**Knowledge navigation (Position → Target → Routing):**
-- `"position"`  
-  (Standortbestimmung; context / current state / situational constraints)
+Navigation-oriented roles:
+- `position`
+- `target`
+- `option`
+- `route_segment`
 
-- `"target"`  
-  (Zielbestimmung; desired outcomes, preferences, must-not constraints)
+Tradeoff-related roles:
+- `pro`
+- `con`
+- `tradeoff`
+- `cost`
 
-- `"option"`  
-  (a candidate path / course of action)
-
-- `"route_segment"`  
-  (optional: intermediate segment of an option/path)
-
-**Tradeoffs:**
-- `"pro"`  
-  (advantage / benefit claim linked to an option)
-
-- `"con"`  
-  (disadvantage / downside claim linked to an option)
-
-- `"tradeoff"`  
-  (structured tradeoff statement, e.g. cost vs risk vs time)
-
-- `"cost"`  
-  (descriptive cost; not automatically negative)
-
-**Norms / Authorities (represented, not enforced):**
-- `"norm"`  
-  (a rule / norm / requirement statement)
-
-- `"authority"`  
-  (institution / issuer / interpreter statement)
-
-Notes:
-- Roles are descriptive labels for retrieval.
-- A claim may be linked into navigation via relations;
-  roles must never be treated as execution logic.
+Norm-representing roles (descriptive only):
+- `norm`
+- `authority`
 
 ---
 
 ### Tags (Optional)
 
 - `tags` (array of strings)
-- MAY be empty
 
-Used exclusively for retrieval and faceting.
+Used only for retrieval and faceting.
 
 ---
 
@@ -226,15 +235,87 @@ Used exclusively for retrieval and faceting.
 
 - `entities` (array)
 
-Each entry MAY include:
+May include:
 - `entity_id`
 - `role`
 
-v1 does not require an entity catalog to exist.
+v1 does not require an entity registry to exist.
 
 ---
 
 ### Notes (Optional)
 
 - `notes` (string)
+
+Non-canonical commentary.
+Notes MUST NOT function as hidden evaluation.
+
+---
+
+## Structural Constraints (Binding)
+
+1. **No Free-Floating Claims**  
+   Every claim MUST reference ≥ 1 problem.
+
+2. **No Implicit Authority**  
+   Claims never assert truth or priority.
+
+3. **Append-Only History**  
+   Claims are never modified in place.
+
+4. **Explicit Structure Only**  
+   All structure must be represented via records,
+   not inferred.
+
+---
+
+## STOP Conditions (v1)
+
+A canonical commit MUST STOP if any of the following holds:
+
+- `record_type` is missing or not `"claim"`.
+- `schema_version` is missing or empty.
+- `claim_id` is missing or empty.
+- `problem_ids` is missing, empty, or contains unresolved IDs.
+- `text` is missing or empty.
+- `matrix_validity` is missing or incomplete.
+- `matrix_validity.status` is not an allowed value.
+- `provenance` is missing or not an object.
+- `provenance.source_ids` is missing or not an array.
+- any provided `source_id` does not resolve.
+
+---
+
+## What This Contract Does Not Enforce
+
+This contract does **not** enforce:
+- correctness,
+- importance,
+- usefulness,
+- completeness,
+- resolution of disagreement.
+
+It enforces **structural admissibility only**.
+
+---
+
+## Minimal Valid Example (v1)
+
+```json
+{
+  "record_type": "claim",
+  "schema_version": "mms.claim@1",
+  "claim_id": "clm:sha256:...",
+  "problem_ids": ["prb:sha256:xyz"],
+  "text": "Policy A reduces short-term emissions but increases long-term costs.",
+  "provenance": {
+    "source_ids": ["src:doi:10.1234/example"],
+    "extracted_by_run": "run:2026-01-18T10-12Z:analysis01"
+  },
+  "matrix_validity": {
+    "introduced_in_commit": "2026-01-18",
+    "deprecated_in_commit": null,
+    "status": "active"
+  }
+}
 

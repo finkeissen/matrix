@@ -1,0 +1,45 @@
+{
+  "run_id": "run:2026-02-10T19-40Z:construct:seed",
+  "run_type": "R_construct",
+  "created_at": "2026-02-10T19:40:00Z",
+  "created_by": "mms",
+  "inputs": [
+    {
+      "kind": "artifact_jsonl",
+      "path": "3.commit/2026-01-19/matrix.problems.jsonl",
+      "format": "jsonl",
+      "artifact_types": ["problem"],
+      "counts": { "problem": 192 }
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_jsonl",
+      "path": "2.runs/2026-02-10/run_15_new_domain_seed/problems.jsonl",
+      "format": "jsonl",
+      "domain": "informatics",
+      "artifact_types": ["problem"],
+      "counts": { "problem": 40 }
+    },
+    {
+      "kind": "artifact_jsonl",
+      "path": "2.runs/2026-02-10/run_15_new_domain_seed/claims.jsonl",
+      "format": "jsonl",
+      "domain": "informatics",
+      "artifact_types": ["claim"],
+      "counts": { "claim": 0 }
+    }
+  ],
+  "parameters": {
+    "domain": "informatics",
+    "seed_mode": "problems_only"
+  },
+  "tooling": null,
+  "non_determinism": { "present": false, "sources": [], "notes": "" },
+  "notes": "",
+  "validation": {
+    "schema": { "status": "passed", "messages": [] },
+    "policy": { "status": "passed", "messages": [] }
+  }
+}
+

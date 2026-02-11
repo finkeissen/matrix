@@ -91,3 +91,24 @@ This `system/architecture/` directory is local documentation only.
 
 Its architecture exists to keep that distinction stable.
 
+
+---
+
+### Note on Model Construction
+
+Model construction within this ecosystem follows a separate, explicitly
+non-ontological **Model Toolkit**.
+
+The toolkit defines:
+- how models are specified as artifacts,
+- which components must be made explicit,
+- and which interpretive upgrades are disallowed.
+
+The toolkit does not:
+- define truth,
+- privilege any theory,
+- or grant semantic authority to models.
+
+All models appearing in `domains/` or produced by `runs/`
+are assumed to comply with that toolkit.
+

@@ -1,0 +1,13 @@
+{
+  "id": "example.stop_record.v1",
+  "type": "stop_record",
+  "created_at": "1970-01-01T00:00:00Z",
+  "run_id": "example.run.v1",
+  "provenance_ref": { "status": "unknown" },
+  "lifecycle_state": "active",
+  "scope": {},
+  "stop_reason": "unknown",
+  "stop_layer": "system",
+  "trigger": { "type": "problem", "id": "example.problem.v1" }
+}
+

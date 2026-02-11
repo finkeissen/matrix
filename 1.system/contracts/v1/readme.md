@@ -6,14 +6,14 @@
 
 - **Contract set:** v1
 - **Scope:** canonical Matrix commits (`3.commit/*`)
-- **Stability:** stable (v1)
+- **Stability:** closed and stable
 - **Authority:** technical contracts only (non-epistemic)
 
-This directory defines the **first stable contract set**
+This directory defines the **first complete and closed contract set**
 for canonical Matrix content.
 
 v1 is considered **sufficient and complete**
-to produce real Matrix commits.
+to produce real, auditable Matrix commits.
 
 ---
 
@@ -24,54 +24,58 @@ for Matrix records such that:
 
 - content is structurally admissible,
 - records are referencable and indexable,
-- provenance is explicit,
-- conflicts are preservable,
-- and the commit history remains interpretable over time.
+- provenance is explicit and auditable,
+- disagreement can be preserved without collapse,
+- commit history remains interpretable over time.
 
 v1 deliberately optimizes for:
 - stability,
 - simplicity,
-- auditability,
+- mechanical validation,
+- long-term interpretability,
 
-not for expressiveness or completeness.
+not for expressiveness, elegance, or epistemic ambition.
 
 ---
 
 ## What v1 Does — and Does Not — Do
 
-### v1 Does
+### What v1 Does
 
 v1 contracts:
 - define **required fields** for canonical records,
 - enforce **problem-centered anchoring**,
-- ensure **append-only history**,
-- make provenance explicit,
-- keep disagreement representable,
-- enable mechanical validation.
+- mandate **append-only history**,
+- require explicit provenance,
+- preserve conflicts as first-class artifacts,
+- enable deterministic validation at commit time.
 
-v1 is designed to **hold under real data pressure**.
+v1 is designed to **survive real-world data pressure**.
 
 ---
 
-### v1 Does Not
+### What v1 Does Not Do
 
 v1 explicitly does **not**:
-- define epistemic correctness,
+- define truth or correctness,
 - rank claims or sources,
 - resolve conflicts,
-- enforce ontologies,
+- enforce ontologies or taxonomies,
 - guarantee completeness,
 - prescribe workflows or tooling,
 - encode domain semantics.
 
 All evaluation, interpretation, and authority
-lie **outside** the contracts.
+lie **outside the contract layer**.
 
 ---
 
 ## Included Record Contracts (v1)
 
-The following record types are defined as **required** in v1:
+The following record types are **required** in v1.
+Each is defined in a dedicated contract file.
+
+---
 
 ### 1. Problem Records
 
@@ -81,9 +85,9 @@ The following record types are defined as **required** in v1:
 Problems define:
 - where epistemic work begins,
 - how relevance is scoped,
-- how claims, relations, and conflicts are anchored.
+- how all other records are anchored.
 
-> Without a problem, no canonical Matrix content is admissible.
+> Without an explicit problem, no canonical Matrix content is admissible.
 
 ---
 
@@ -93,7 +97,7 @@ Problems define:
 - **Role:** atomic assertions
 
 Claims:
-- express single assertions,
+- express single, index-atomic assertions,
 - always reference ≥ 1 problem,
 - never stand on their own,
 - never assert authority or truth.
@@ -108,8 +112,8 @@ Claims:
 Relations:
 - connect problems, claims, and other artifacts,
 - never introduce new claims,
-- never resolve conflicts,
-- preserve alternative structures.
+- never resolve disagreement,
+- preserve alternative structures explicitly.
 
 ---
 
@@ -132,29 +136,32 @@ Conflicts:
 - **Role:** provenance anchors
 
 Sources:
-- record attribution,
-- do not imply trust or authority,
+- record attribution and traceability,
+- do not imply trust, quality, or authority,
 - prevent implicit credibility assignment.
 
 ---
 
 ## Contract Scope and Enforcement
 
-v1 contracts are enforced at **commit time**.
+v1 contracts are enforced **at commit time**.
 
 A commit is valid **only if**:
 - all required record types conform to their contracts,
-- required fields are present,
-- references resolve to existing records,
-- problem anchoring rules are satisfied.
+- all required fields are present,
+- all references resolve to existing records,
+- problem anchoring rules are satisfied,
+- STOP conditions are not triggered.
 
-Semantic correctness is **out of scope**.
+Semantic correctness is explicitly **out of scope**.
 
 ---
 
 ## Relationship to Other Layers
 
-- **research-program**  
+These contracts operate within a larger architecture:
+
+- **Research Program**  
   Defines epistemic boundaries and admissibility assumptions.
 
 - **MMS**  
@@ -173,14 +180,14 @@ They operationalize their separation.
 
 - v1 is **append-only**.
 - Changes to required fields result in **v2**.
-- Additions of optional fields may occur in v1.x documents,
-  but must not invalidate existing commits.
+- Optional-field extensions MAY occur in v1.x,
+  but MUST NOT invalidate existing commits.
 
 Historical commits must always remain interpretable.
 
 ---
 
-## When to Revise v1
+## Revision Criteria
 
 v1 should be revised **only** if:
 
@@ -190,17 +197,17 @@ v1 should be revised **only** if:
 - or new record types become unavoidable.
 
 Convenience, elegance, or expressiveness
-are **not sufficient reasons**.
+are **not sufficient reasons** for revision.
 
 ---
 
 ## Freeze Statement
 
-> **v1 is considered closed and ready for real Matrix commits.**
+> **v1 is closed and ready for real Matrix commits.**
 
 Further work should focus on:
 - real data ingestion,
-- real runs,
+- real MMS runs,
 - real commit history.
 
 Structural changes belong in v2.

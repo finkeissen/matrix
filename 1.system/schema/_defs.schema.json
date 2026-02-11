@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/_defs.schema.json",
+  "title": "Matrix Schema v1 - Shared Definitions",
+  "type": "object",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Globally unique, stable identifier."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["active", "inactive", "deprecated", "superseded", "archived", "context_restricted"]
+    },
+    "provenance_ref": {
+      "description": "Reference to provenance record or explicit 'unknown'.",
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "object", "required": ["status"], "properties": { "status": { "const": "unknown" } }, "additionalProperties": false }
+      ]
+    },
+    "artifact_type_v1": {
+      "type": "string",
+      "enum": ["problem", "claim", "relation", "conflict", "source", "observation", "stop_record"]
+    },
+    "artifact_ref": {
+      "type": "object",
+      "required": ["type", "id"],
+      "properties": {
+        "type": { "$ref": "#/$defs/artifact_type_v1" },
+        "id": { "$ref": "#/$defs/id" }
+      },
+      "additionalProperties": false
+    },
+    "time_interval": {
+      "description": "Closed-open interval [start, end) by convention; allow open-ended.",
+      "type": "object",
+      "properties": {
+        "start": { "oneOf": [{ "$ref": "#/$defs/timestamp" }, { "type": "null" }] },
+        "end": { "oneOf": [{ "$ref": "#/$defs/timestamp" }, { "type": "null" }] }
+      },
+      "required": ["start", "end"],
+      "additionalProperties": false
+    },
+    "scope": {
+      "description": "Scope is mandatory as an object; fields may be unknown/omitted but object must exist.",
+      "type": "object",
+      "properties": {
+        "time": {
+          "oneOf": [
+            { "$ref": "#/$defs/time_interval" },
+            { "type": "object", "required": ["status"], "properties": { "status": { "const": "unknown" } }, "additionalProperties": false }
+          ]
+        },
+        "jurisdiction": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+          ]
+        },
+        "population": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+          ]
+        },
+        "method": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+          ]
+        },
+        "domain_context": { "type": "string" },
+        "language": {
+          "description": "Labels only; language does not change identity.",
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "base_fields": {
+      "type": "object",
+      "required": ["id", "type", "created_at", "run_id", "provenance_ref", "lifecycle_state", "scope"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "type": { "$ref": "#/$defs/artifact_type_v1" },
+        "created_at": { "$ref": "#/$defs/timestamp" },
+        "run_id": { "$ref": "#/$defs/id" },
+        "provenance_ref": { "$ref": "#/$defs/provenance_ref" },
+        "lifecycle_state": { "$ref": "#/$defs/lifecycle_state" },
+        "scope": { "$ref": "#/$defs/scope" },
+        "lifecycle_note": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  }
+}
+

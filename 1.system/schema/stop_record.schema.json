@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/stop_record.schema.json",
+  "title": "stop_record (v1)",
+  "type": "object",
+  "allOf": [
+    { "$ref": "./_defs.schema.json#/$defs/base_fields" },
+    {
+      "required": ["stop_reason", "stop_layer", "trigger"],
+      "properties": {
+        "type": { "const": "stop_record" },
+        "stop_layer": { "type": "string", "enum": ["research_program", "mms", "system", "run"] },
+        "stop_reason": {
+          "type": "string",
+          "enum": [
+            "inadmissible_problem_binding",
+            "high_stakes_action_guidance_risk",
+            "insufficient_provenance",
+            "schema_violation",
+            "authority_transfer_risk",
+            "privacy_leak_risk",
+            "cross_domain_leak_risk",
+            "non_reproducible_operation",
+            "unknown"
+          ]
+        },
+        "trigger": { "$ref": "./_defs.schema.json#/$defs/artifact_ref" },
+        "resume_conditions": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  ]
+}
+

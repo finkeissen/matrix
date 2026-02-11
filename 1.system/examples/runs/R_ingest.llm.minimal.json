@@ -1,0 +1,48 @@
+{
+  "run_id": "run:2026-02-10T20-30Z:ingest:llm_extract_terms",
+  "run_type": "R_ingest",
+  "created_at": "2026-02-10T20:30:00Z",
+  "created_by": "mms",
+  "inputs": [
+    {
+      "kind": "artifact_jsonl",
+      "path": "2.work/1.pre-matrix/physics/readme.md",
+      "format": "md",
+      "notes": "Pre-matrix seed text"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_jsonl",
+      "path": "2.runs/2026-02-10/run_17_term_extract/observations.jsonl",
+      "format": "jsonl",
+      "artifact_types": ["observation"],
+      "counts": { "observation": 1 }
+    }
+  ],
+  "parameters": {
+    "task": "extract_terms",
+    "language": "en"
+  },
+  "tooling": {
+    "tools": [
+      {
+        "name": "llm",
+        "provider": "openai",
+        "version": "unknown",
+        "params": { "temperature": 0.7 }
+      }
+    ]
+  },
+  "non_determinism": {
+    "present": true,
+    "sources": ["llm_sampling"],
+    "notes": "Sampling-based generation; exact reproducibility not assumed."
+  },
+  "notes": "",
+  "validation": {
+    "schema": { "status": "passed", "messages": [] },
+    "policy": { "status": "passed", "messages": [] }
+  }
+}
+

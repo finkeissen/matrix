@@ -1,0 +1,15 @@
+{
+  "id": "example.lifecycle_event.deprecate.v1",
+  "type": "lifecycle_event",
+  "created_at": "1970-01-01T00:00:00Z",
+  "run_id": "example.run.v1",
+  "provenance_ref": { "status": "unknown" },
+  "lifecycle_state": "active",
+  "scope": {},
+  "event_type": "deprecate",
+  "reason_code": "method_superseded",
+  "effective_time": { "start": "1970-01-01T00:00:00Z", "end": null },
+  "target": { "type": "claim", "id": "example.claim.v1" },
+  "reason_text": "Illustrative: deprecated due to a newer method, without asserting falsity."
+}
+

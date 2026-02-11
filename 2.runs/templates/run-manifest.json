@@ -1,0 +1,46 @@
+```json
+{
+  "run_id": "",
+  "run_type": "",
+  "created_at": "",
+
+  "description": "",
+
+  "inputs": {
+    "source_paths": [],
+    "source_ids": []
+  },
+
+  "tools": {
+    "generator": "",
+    "version": "",
+    "parameters": {}
+  },
+
+  "outputs": {
+    "candidate_problems": null,
+    "candidate_claims": null,
+    "candidate_relations": null,
+    "candidate_sources": null,
+    "candidate_conflicts": null
+  },
+
+  "schema_versions": {
+    "problem": "mms.problem@1",
+    "claim": "mms.claim@1",
+    "relation": "mms.relation@1",
+    "source": "mms.source@1",
+    "conflict": "mms.conflict@1"
+  },
+
+  "statistics": {
+    "problems_extracted": 0,
+    "claims_extracted": 0,
+    "relations_extracted": 0,
+    "conflicts_extracted": 0
+  },
+
+  "notes": ""
+}
+```
+

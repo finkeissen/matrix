@@ -1,0 +1,18 @@
+{
+  "id": "example.lifecycle_event.supersede.v1",
+  "type": "lifecycle_event",
+  "created_at": "1970-01-01T00:00:00Z",
+  "run_id": "example.run.v1",
+  "provenance_ref": { "status": "unknown" },
+  "lifecycle_state": "active",
+  "scope": {},
+  "event_type": "supersede",
+  "reason_code": "duplicate_clustered",
+  "effective_time": { "start": "1970-01-01T00:00:00Z", "end": null },
+  "target": { "type": "claim", "id": "example.claim.v1" },
+  "supersedes": [
+    { "type": "claim", "id": "example.claim.v1.old" }
+  ],
+  "reason_text": "Illustrative: explicit replacement link; no truth implied."
+}
+

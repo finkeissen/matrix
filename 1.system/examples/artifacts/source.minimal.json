@@ -1,0 +1,12 @@
+{
+  "id": "example.source.v1",
+  "type": "source",
+  "created_at": "1970-01-01T00:00:00Z",
+  "run_id": "example.run.v1",
+  "provenance_ref": { "status": "unknown" },
+  "lifecycle_state": "active",
+  "scope": {},
+  "source_type": "internal_note",
+  "citation": "Example source citation (illustrative only)."
+}
+

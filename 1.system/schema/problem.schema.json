@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/problem.schema.json",
+  "title": "problem (v1)",
+  "type": "object",
+  "allOf": [
+    { "$ref": "./_defs.schema.json#/$defs/base_fields" },
+    {
+      "required": ["domain", "statement", "problem_type"],
+      "properties": {
+        "type": { "const": "problem" },
+        "domain": { "type": "string", "minLength": 1 },
+        "statement": { "type": "string", "minLength": 1 },
+        "problem_type": {
+          "type": "string",
+          "enum": ["descriptive", "interpretive", "classification", "tradeoff", "methodological", "normative_non_action_guiding"]
+        },
+        "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "assumptions": { "type": "array", "items": { "type": "string" } },
+        "exclusions": { "type": "array", "items": { "type": "string" } },
+        "language_labels": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        }
+      },
+      "additionalProperties": true
+    }
+  ]
+}
+

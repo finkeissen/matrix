@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/lifecycle_event.schema.json",
+  "title": "lifecycle_event (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "created_at",
+    "run_id",
+    "provenance_ref",
+    "lifecycle_state",
+    "scope",
+    "event_type",
+    "reason_code",
+    "effective_time",
+    "target"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "type": { "const": "lifecycle_event" },
+
+    "created_at": { "type": "string", "format": "date-time" },
+    "run_id": { "type": "string", "minLength": 1 },
+    "provenance_ref": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "object", "required": ["status"], "properties": { "status": { "const": "unknown" } }, "additionalProperties": false }
+      ]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["active", "inactive", "deprecated", "superseded", "archived", "context_restricted"]
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": true
+    },
+
+    "event_type": {
+      "type": "string",
+      "enum": ["activate", "deactivate", "reactivate", "deprecate", "archive", "restrict_scope", "supersede"]
+    },
+
+    "reason_code": {
+      "type": "string",
+      "enum": [
+        "empirically_outdated",
+        "method_superseded",
+        "regulatory_changed",
+        "scope_invalid",
+        "safety_risk",
+        "privacy_risk",
+        "authority_transfer_risk",
+        "data_quality_issue",
+        "duplicate_clustered",
+        "unknown"
+      ]
+    },
+
+    "reason_text": {
+      "type": "string",
+      "description": "Optional short explanation. Must not introduce implicit authority."
+    },
+
+    "effective_time": {
+      "description": "When the event becomes effective. Not identical to created_at by default.",
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "oneOf": [{ "type": "string", "format": "date-time" }, { "type": "null" }] },
+            "end": { "oneOf": [{ "type": "string", "format": "date-time" }, { "type": "null" }] }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["status"],
+          "properties": { "status": { "const": "unknown" } },
+          "additionalProperties": false
+        }
+      ]
+    },
+
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["problem", "claim", "relation", "conflict", "source", "observation", "stop_record", "lifecycle_event"]
+        },
+        "id": { "type": "string", "minLength": 1 }
+      }
+    },
+
+    "supersedes": {
+      "description": "Only meaningful for event_type = supersede or deprecate; explicit predecessor(s).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "id"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["problem", "claim", "relation", "conflict", "source", "observation", "stop_record", "lifecycle_event"]
+          },
+          "id": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+
+    "resume_conditions": {
+      "type": "string",
+      "description": "Optional; especially for restrict_scope or deactivate."
+    }
+  }
+}
+

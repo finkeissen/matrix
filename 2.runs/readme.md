@@ -111,3 +111,23 @@ Runs are **not**:
 
 They exist solely to make artifact generation
 **explicit, reproducible, and auditable**.
+
+
+## Placeholder Runs and Intentional Minimality
+
+A run may exist **without producing substantive artifacts**.
+
+Such runs serve to:
+- explicitly fix a conceptual boundary or failure mode,
+- reserve architectural space for future execution,
+- prevent implicit category collapse,
+- document that a distinction has been identified, even if not yet executed.
+
+Placeholder runs are **intentional**, not incomplete.
+
+They may contain only minimal documentation (`README.md`, `stress_test.md`)
+until a concrete execution is required.
+
+The absence of generated artifacts does **not** imply that a run is invalid,
+failed, or pending completion.
+

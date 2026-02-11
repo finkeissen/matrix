@@ -1,0 +1,41 @@
+{
+  "run_id": "run:2026-02-10T20-10Z:compare:state_diff",
+  "run_type": "R_compare",
+  "created_at": "2026-02-10T20:10:00Z",
+  "created_by": "mms",
+  "inputs": [
+    {
+      "kind": "snapshot",
+      "path": "exports/snapshots/2026-01-19/state.json",
+      "format": "json",
+      "notes": "Baseline snapshot"
+    },
+    {
+      "kind": "snapshot",
+      "path": "exports/snapshots/2026-02-10/state.json",
+      "format": "json",
+      "notes": "Candidate snapshot"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "artifact_jsonl",
+      "path": "2.runs/2026-02-10/run_16_state_diff/observations.jsonl",
+      "format": "jsonl",
+      "artifact_types": ["observation"],
+      "counts": { "observation": 3 }
+    }
+  ],
+  "parameters": {
+    "diff_mode": "graph",
+    "depth": 2
+  },
+  "tooling": null,
+  "non_determinism": { "present": false, "sources": [], "notes": "" },
+  "notes": "",
+  "validation": {
+    "schema": { "status": "passed", "messages": [] },
+    "policy": { "status": "passed", "messages": [] }
+  }
+}
+

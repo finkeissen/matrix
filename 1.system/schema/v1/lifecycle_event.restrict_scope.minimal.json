@@ -1,0 +1,17 @@
+{
+  "id": "example.lifecycle_event.restrict_scope.v1",
+  "type": "lifecycle_event",
+  "created_at": "1970-01-01T00:00:00Z",
+  "run_id": "example.run.v1",
+  "provenance_ref": { "status": "unknown" },
+  "lifecycle_state": "active",
+  "scope": {
+    "jurisdiction": "example_jurisdiction"
+  },
+  "event_type": "restrict_scope",
+  "reason_code": "scope_invalid",
+  "effective_time": { "start": "1970-01-01T00:00:00Z", "end": null },
+  "target": { "type": "problem", "id": "example.problem.v1" },
+  "resume_conditions": "Illustrative: provide explicit jurisdiction scope."
+}
+

@@ -6,27 +6,28 @@
 
 - **Contract level:** v1 (required)
 - **Applies to:** canonical Matrix commits (`3.commit/*`)
-- **Scope:** provenance and traceability, not authority or trust
+- **Scope:** provenance and traceability only
 - **Authority:** technical contract only (non-epistemic)
 
 ---
 
 ## Purpose of the Source Record
 
-A **Source** records where information comes from.
+A **Source** records **where information comes from**.
+
+Sources exist to:
+- make attribution explicit,
+- preserve traceability,
+- prevent implicit authority through unattributed assertions.
 
 Sources do **not**:
 - establish truth,
 - confer authority,
 - rank credibility,
-- or validate claims.
+- validate claims,
+- imply correctness.
 
-They make **attribution explicit** and **traceable**.
-
-Every canonical claim, relation, conflict, or problem
-may reference sources.
-Sources exist to prevent implicit authority
-through unattributed assertions.
+A source answers **“where did this come from?”**, nothing more.
 
 ---
 
@@ -38,7 +39,7 @@ A Source is:
 - a referenceable origin of information,
 - human, institutional, documentary, or technical,
 - stable enough to be cited over time,
-- explicitly identified.
+- explicitly identified and addressable.
 
 Sources function as **provenance anchors**.
 
@@ -48,26 +49,24 @@ Sources function as **provenance anchors**.
 
 A Source is **not**:
 - evidence of correctness,
-- a guarantee of quality,
+- a measure of quality,
 - an endorsement,
-- a ranking signal,
+- a trust signal,
 - a proxy for truth.
 
-Presence of a source never upgrades epistemic status.
+The presence of a source never upgrades epistemic status.
 
 ---
 
-## Record Type and Versioning
+## Record Type and Versioning (Binding)
 
-Each source record is exactly one JSON object per line.
+Each source record is exactly one JSON object per line (JSONL).
 
-Required fields:
-
+Required:
 - `record_type` MUST be `"source"`
 - `schema_version` MUST be present (string)
 
-Schema versioning ensures interpretability
-across time and format changes.
+Schema versioning ensures interpretability across time.
 
 ---
 
@@ -76,12 +75,11 @@ across time and format changes.
 ### `source_id` (required)
 
 - MUST be present (string).
-- MUST be globally unique within the Matrix.
-- SHOULD be content-addressed
-  (e.g. hash of a canonical reference),
+- MUST be unique within a commit bundle.
+- SHOULD be content-addressed (recommended),
   or explicitly curated.
 
-The `source_id` identifies the **reference**, not its reliability.
+The `source_id` identifies the **reference**, not its reliability or authority.
 
 ---
 
@@ -90,19 +88,20 @@ The `source_id` identifies the **reference**, not its reliability.
 ### `source_type` (required)
 
 - MUST be present (string).
+- MUST NOT be empty.
 
-Examples (non-exhaustive):
-- `"scientific_publication"`
-- `"legal_text"`
-- `"standard"`
-- `"dataset"`
-- `"expert_statement"`
-- `"interview"`
-- `"observation"`
-- `"guideline"`
-- `"web_resource"`
+Examples (illustrative, non-exhaustive):
+- `scientific_publication`
+- `legal_text`
+- `standard`
+- `dataset`
+- `expert_statement`
+- `interview`
+- `observation`
+- `guideline`
+- `web_resource`
 
-The type aids interpretation.
+The type aids classification.
 It does not imply hierarchy or trust.
 
 ---
@@ -120,26 +119,33 @@ Examples:
 - dataset accession number
 - institutional document ID
 
+If a reference cannot be resolved or identified, the source MUST NOT be introduced.
+
 ---
 
-## Required Provenance Metadata
+## Required Provenance Container
 
 ### `provenance` (required)
 
-Sources themselves are also artifacts
+Sources themselves are Matrix artifacts
 and must be attributable.
 
-Required structure:
-
-- `provenance` MUST be present (object)
+`provenance` MUST be present as an object.
 
 Within `provenance`:
 
-- `added_by_run` SHOULD be present (string)
-- `added_manually_by` MAY be present (string or identifier)
+#### `added_by_run` (recommended)
 
-This distinguishes automated ingestion
-from editorial introduction.
+- SHOULD be present (string).
+- Identifies the MMS run that introduced the source.
+
+#### `added_manually_by` (optional)
+
+- MAY be present (string or identifier).
+- Used for editorial or manual introduction.
+
+At least one of `added_by_run` or `added_manually_by`
+SHOULD be present to avoid orphan sources.
 
 ---
 
@@ -147,19 +153,22 @@ from editorial introduction.
 
 ### `matrix_validity` (required)
 
-Defines the status of the source **inside the Matrix**.
+Defines the lifecycle of the source **inside the Matrix**.
 
 Required fields:
-
 - `introduced_in_commit` (string)
 - `deprecated_in_commit` (string or null)
 - `status` (string)
-  - MUST be one of:
-    - `"active"`
-    - `"deprecated"`
 
-Deprecation does not erase references.
-It marks that the source should no longer be newly used.
+Allowed `status` values (v1):
+- `active`
+- `deprecated`
+
+Rules:
+- Sources are append-only.
+- Deprecation prevents new use but preserves history.
+
+If `matrix_validity.status` is not an allowed value, the commit MUST STOP.
 
 ---
 
@@ -167,7 +176,7 @@ It marks that the source should no longer be newly used.
 
 The following fields are optional and non-binding:
 
-### Metadata (Optional)
+### Descriptive Metadata (Optional)
 
 - `title`
 - `authors`
@@ -178,8 +187,8 @@ The following fields are optional and non-binding:
 - `version`
 - `accessed_at`
 
-These fields support retrieval and interpretation.
-Their absence must not block a commit.
+These fields aid retrieval and interpretation.
+Their absence MUST NOT block a commit.
 
 ---
 
@@ -187,9 +196,8 @@ Their absence must not block a commit.
 
 - `world_validity` (object)
 
-Same semantics as in other record types.
-Describes applicability in the world,
-not trustworthiness.
+Describes contextual applicability in the world.
+It does not express trust or correctness.
 
 ---
 
@@ -197,26 +205,40 @@ not trustworthiness.
 
 - `notes` (string)
 
-Free-text commentary, warnings, or context.
-Notes must not function as credibility judgments.
+Free-text commentary or warnings.
+Notes MUST NOT function as credibility judgments.
 
 ---
 
 ## Structural Constraints (Binding)
 
-1. **No Implicit Trust**  
-   Sources never imply correctness or priority.
+1. **No Implicit Authority**  
+   Sources never imply correctness, priority, or trust.
 
 2. **Stable Referencing**  
-   A `source_id` must remain stable once introduced.
+   A `source_id` MUST remain stable once introduced.
 
 3. **Append-Only History**  
-   Sources are never deleted.
-   They may be deprecated.
+   Sources are never deleted; they may be deprecated.
 
-4. **Non-Blocking Absence**  
-   Claims may exist without sources,
-   but source references must be explicit when present.
+4. **Reference Integrity**  
+   If a source is referenced by another record,
+   the referenced `source_id` MUST resolve.
+
+---
+
+## STOP Conditions (v1)
+
+A canonical commit MUST STOP if any of the following holds:
+
+- `record_type` is missing or not `"source"`.
+- `schema_version` is missing or empty.
+- `source_id` is missing or empty.
+- `source_type` is missing or empty.
+- `reference` is missing or empty.
+- `provenance` is missing or not an object.
+- `matrix_validity` is missing or incomplete.
+- `matrix_validity.status` is not an allowed value.
 
 ---
 

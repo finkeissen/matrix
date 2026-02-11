@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/claim.schema.json",
+  "title": "claim (v1)",
+  "type": "object",
+  "allOf": [
+    { "$ref": "./_defs.schema.json#/$defs/base_fields" },
+    {
+      "required": ["problem_id", "text", "claim_type"],
+      "properties": {
+        "type": { "const": "claim" },
+        "problem_id": { "$ref": "./_defs.schema.json#/$defs/id" },
+        "text": { "type": "string", "minLength": 1 },
+        "claim_type": {
+          "type": "string",
+          "enum": [
+            "definition",
+            "constraint",
+            "assumption",
+            "model_statement",
+            "empirical_statement",
+            "normative_statement_non_action_guiding",
+            "counterclaim",
+            "open_question"
+          ]
+        },
+        "qualifiers": { "type": "array", "items": { "type": "string" } },
+        "valid_time": {
+          "oneOf": [
+            { "$ref": "./_defs.schema.json#/$defs/time_interval" },
+            { "type": "null" }
+          ]
+        },
+        "jurisdiction": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+          ]
+        },
+        "population": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+          ]
+        },
+        "method_assumptions": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    }
+  ]
+}
+

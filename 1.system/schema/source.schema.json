@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/source.schema.json",
+  "title": "source (v1)",
+  "type": "object",
+  "allOf": [
+    { "$ref": "./_defs.schema.json#/$defs/base_fields" },
+    {
+      "required": ["source_type", "citation"],
+      "properties": {
+        "type": { "const": "source" },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "textbook",
+            "paper",
+            "dataset",
+            "standard",
+            "guideline",
+            "legal_text",
+            "case_law",
+            "manual",
+            "web",
+            "internal_note",
+            "unknown"
+          ]
+        },
+        "citation": {
+          "description": "Freeform citation or structured blob.",
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "object", "additionalProperties": true }
+          ]
+        },
+        "retrieved_at": { "type": "string", "format": "date-time" },
+        "version": { "type": "string" },
+        "jurisdiction": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+          ]
+        },
+        "license": { "type": "string" },
+        "access": { "type": "string", "enum": ["public", "private", "unknown"] },
+        "integrity_hash": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  ]
+}
+

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/relation.schema.json",
+  "title": "relation (v1)",
+  "type": "object",
+  "allOf": [
+    { "$ref": "./_defs.schema.json#/$defs/base_fields" },
+    {
+      "required": ["relation_type", "from", "to"],
+      "properties": {
+        "type": { "const": "relation" },
+        "relation_type": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "contradicts",
+            "depends_on",
+            "refines",
+            "derived_from",
+            "groups",
+            "supersedes",
+            "reinterprets",
+            "applies_under_conditions",
+            "similar_to"
+          ]
+        },
+        "from": { "$ref": "./_defs.schema.json#/$defs/artifact_ref" },
+        "to": { "$ref": "./_defs.schema.json#/$defs/artifact_ref" },
+        "qualifiers": {
+          "description": "Non-authoritative metadata; required for similar_to to carry metric references.",
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  ]
+}
+

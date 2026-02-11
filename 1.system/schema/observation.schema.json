@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/matrix/system/schema/v1/observation.schema.json",
+  "title": "observation (v1)",
+  "type": "object",
+  "allOf": [
+    { "$ref": "./_defs.schema.json#/$defs/base_fields" },
+    {
+      "required": ["observation_type", "about", "payload"],
+      "properties": {
+        "type": { "const": "observation" },
+        "observation_type": {
+          "type": "string",
+          "enum": [
+            "similarity_result",
+            "state_diff",
+            "run_regression",
+            "schema_mismatch",
+            "drift_note",
+            "coverage_note",
+            "structural_anomaly",
+            "gap_report"
+          ]
+        },
+        "about": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "./_defs.schema.json#/$defs/artifact_ref" }
+        },
+        "payload": {
+          "description": "Structured output; must not encode authority or decisions.",
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  ]
+}
+

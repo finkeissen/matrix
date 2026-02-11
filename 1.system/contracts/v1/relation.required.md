@@ -6,27 +6,27 @@
 
 - **Contract level:** v1 (required)
 - **Applies to:** canonical Matrix commits (`3.commit/*`)
-- **Scope:** structural admissibility, not semantic correctness
+- **Scope:** structural admissibility (not semantic correctness)
 - **Authority:** technical contract only (non-epistemic)
 
 ---
 
 ## Purpose of the Relation Record
 
-A **Relation** represents an explicit, typed connection
-between two or more canonical Matrix records.
+A **Relation** is an explicit, typed connection between two or more canonical Matrix records.
 
-Relations do not introduce new claims.
-They make existing structure explicit.
+Relations:
+- do **not** introduce new claims,
+- do **not** resolve disagreements,
+- do **not** transfer authority.
 
-Relations are required to:
-- express how claims, problems, and other artifacts are connected,
-- preserve alternative structures without collapse,
-- document disagreement, refinement, or dependency,
-- enable graph-based retrieval without implicit inference.
+They exist to:
+- make structure explicit (no implicit inference),
+- preserve parallel structures without collapse,
+- encode refinement, dependency, contradiction, or linkage,
+- enable graph-based retrieval under explicit problem contexts.
 
-Relations never assert truth or priority.
-They describe **structure**, not validity.
+Relations describe **structure**, not truth.
 
 ---
 
@@ -35,38 +35,32 @@ They describe **structure**, not validity.
 ### A Relation Is
 
 A Relation is:
-- an explicit statement that two or more records are related,
-- typed to make the nature of the relationship explicit,
-- directional or non-directional as declared,
-- independent of correctness or acceptance.
-
-Relations function as **epistemic connectors**.
-
----
+- explicit (never inferred),
+- typed (relation kind is named),
+- scoped (anchored to one or more problems),
+- attributable (provenance exists),
+- append-only (never mutated in place).
 
 ### A Relation Is Not
 
 A Relation is **not**:
 - a new claim,
 - a conclusion,
-- a ranking or preference,
-- a resolution of conflict,
+- a ranking or endorsement,
+- a conflict resolution,
 - an implicit solution.
-
-Relations must never be interpreted as endorsement.
 
 ---
 
-## Record Type and Versioning
+## Record Type and Versioning (Binding)
 
-Each relation record is exactly one JSON object per line.
+Each relation record is exactly one JSON object per line (JSONL).
 
-Required fields:
-
+Required:
 - `record_type` MUST be `"relation"`
 - `schema_version` MUST be present (string)
 
-Schema versioning ensures historical interpretability.
+`schema_version` ensures historical interpretability.
 
 ---
 
@@ -74,9 +68,9 @@ Schema versioning ensures historical interpretability.
 
 ### `relation_id` (required)
 
-- Stable identifier for the relation.
-- MUST be globally unique.
-- SHOULD be content-addressed,
+- Stable identifier for this relation instance.
+- MUST be unique within a commit bundle.
+- SHOULD be content-addressed (recommended),
   or explicitly versioned if curated.
 
 The `relation_id` identifies the **connection**, not its correctness.
@@ -87,22 +81,28 @@ The `relation_id` identifies the **connection**, not its correctness.
 
 ### `from_ids` (required)
 
-- MUST be present as a non-empty array.
+- MUST be present as an array.
+- MUST be non-empty.
 - Each element MUST be a valid record ID
-  (problem_id, claim_id, or other supported record type).
+  (e.g., problem_id, claim_id, source_id, conflict_id, etc.),
+  as permitted by the system contracts.
 
 ### `to_ids` (required)
 
-- MUST be present as a non-empty array.
+- MUST be present as an array.
+- MUST be non-empty.
 - Each element MUST be a valid record ID.
 
-Relations may be:
+Relations MAY be:
 - one-to-one,
 - one-to-many,
 - many-to-many.
 
-Endpoints must exist in the same commit
-or in a referenced prior state.
+Endpoints MUST resolve either:
+- within the same commit bundle, or
+- in an explicitly referenced prior state (as defined by the commit contract).
+
+If any referenced endpoint cannot be resolved, the commit MUST STOP.
 
 ---
 
@@ -111,11 +111,12 @@ or in a referenced prior state.
 ### `relation_type` (required)
 
 - MUST be a non-empty string.
-- MUST be selected from a controlled vocabulary
-  defined in `1.system/relations.vocab.md`
-  (or equivalent).
+- MUST be selected from a controlled vocabulary.
 
-Typical examples (non-exhaustive):
+The controlled vocabulary is defined here:
+- `1.system/relations.vocab.md` (or the canonical equivalent path)
+
+Typical relation types (illustrative, non-exhaustive):
 - `supports`
 - `contradicts`
 - `refines`
@@ -124,8 +125,10 @@ Typical examples (non-exhaustive):
 - `answers`
 - `is_variant_of`
 
-The relation type makes semantics explicit
-but does not enforce interpretation.
+Relation type makes intended semantics explicit,
+but does not enforce correctness.
+
+If `relation_type` is not in the controlled vocabulary, the commit MUST STOP.
 
 ---
 
@@ -135,15 +138,14 @@ but does not enforce interpretation.
 
 - MUST be present as an array.
 - MUST be non-empty.
-- Every element MUST be a valid `problem_id`.
+- Each element MUST be a valid `problem_id`.
 
-At least one problem referenced by the relation
-MUST overlap with the problems of the linked records.
+**Problem consistency rule (v1):**
+At least one `problem_id` in the relation MUST be shared with
+at least one endpoint record (directly or via the endpoint’s own problem anchoring rules),
+to prevent cross-problem leakage and implicit global structure.
 
-This prevents:
-- cross-problem leakage,
-- implicit global structure,
-- accidental synthesis across unrelated contexts.
+If problem anchoring cannot be established, the commit MUST STOP.
 
 ---
 
@@ -151,18 +153,22 @@ This prevents:
 
 ### `matrix_validity` (required)
 
-Defines the status of the relation **inside the Matrix**.
+Defines the lifecycle of the relation inside the Matrix.
 
 Required fields:
-
 - `introduced_in_commit` (string)
 - `deprecated_in_commit` (string or null)
 - `status` (string)
-  - MUST be one of:
-    - `"active"`
-    - `"deprecated"`
 
-Relations follow the same append-only rules as claims.
+Allowed `status` values (v1):
+- `active`
+- `deprecated`
+
+Append-only rule:
+- relations MUST NOT be modified in place,
+- changes are expressed by adding a new record and/or setting deprecation metadata.
+
+If `matrix_validity.status` is not one of the allowed values, the commit MUST STOP.
 
 ---
 
@@ -172,56 +178,77 @@ Relations follow the same append-only rules as claims.
 
 Relations must be attributable.
 
-Required structure:
-
-- `provenance` MUST be present (object)
+`provenance` MUST be present as an object.
 
 Within `provenance`:
 
-- `source_ids` MUST be present (array)
-  - MAY be empty
-- `extracted_by_run` SHOULD be present (string)
+#### `source_ids` (required)
 
-Manual or editorial relations
-must still be explicitly attributable.
+- MUST be present as an array.
+- MAY be empty (v1 allows editorial/structural relations without a directly cited source).
+- If non-empty, every referenced `source_id` MUST resolve to a Source record.
+
+If any `source_id` does not resolve, the commit MUST STOP.
+
+#### `extracted_by_run` (recommended)
+
+- SHOULD be present as a string.
+- If the relation is produced by an MMS run, this SHOULD identify that run.
+
+If absent, the relation is treated as editorial/manual.
 
 ---
 
-## Optional but Supported Fields (v1)
+## Optional but Supported Fields (Non-Required in v1)
 
-The following fields are optional:
+Allowed but not required:
+- `confidence` (uncertainty of the relation itself)
+- `notes` (free-text explanation; non-canonical)
+- `directionality` (`directed` / `undirected`)
+- `scope_constraints` (additional applicability limits)
 
-- `confidence`  
-  (expressed uncertainty of the relation itself)
-
-- `notes`  
-  (free-text, non-canonical explanation)
-
-- `directionality`  
-  (`"directed"` / `"undirected"`)
-
-- `scope_constraints`  
-  (additional applicability limits)
-
-Absence of these fields must not block a commit.
+Absence of these fields MUST NOT block a canonical commit.
 
 ---
 
 ## Structural Constraints (Binding)
 
 1. **No Implicit Relations**  
-   Relations must be explicitly recorded.
-   They must not be inferred by tooling.
+   Relations MUST be explicitly recorded.
+   Tooling MUST NOT infer relations and treat them as canonical.
 
 2. **No Authority Transfer**  
-   Relations do not elevate the status of linked records.
+   Relations do not elevate or validate endpoint records.
 
-3. **Problem Consistency**  
-   Relations must remain within explicit problem contexts.
+3. **Problem-Scoped by Default**  
+   Relations MUST operate inside explicit problem contexts.
+   Cross-problem linking must be explicit and justified through shared anchoring.
 
-4. **Immutability**  
+4. **Immutability (Append-only)**  
    Relations are never modified in place.
-   Change is expressed via new relations.
+   Supersession is expressed via new records and/or lifecycle metadata.
+
+---
+
+## STOP Conditions (v1)
+
+A canonical commit MUST STOP if any of the following holds:
+
+- `record_type` is missing or not `"relation"`.
+- `schema_version` is missing or empty.
+- `relation_id` is missing or empty.
+- `from_ids` is missing, not an array, or empty.
+- `to_ids` is missing, not an array, or empty.
+- any endpoint ID in `from_ids` or `to_ids` does not resolve.
+- `relation_type` is missing/empty or not in the controlled vocabulary.
+- `problem_ids` is missing, not an array, or empty.
+- any `problem_id` does not resolve.
+- problem anchoring cannot be established for the relation.
+- `matrix_validity` is missing or incomplete.
+- `matrix_validity.status` is not an allowed value.
+- `provenance` is missing or not an object.
+- `provenance.source_ids` is missing or not an array.
+- any `provenance.source_ids[*]` does not resolve.
 
 ---
 
@@ -230,7 +257,7 @@ Absence of these fields must not block a commit.
 This contract does **not** enforce:
 - correctness of the relation,
 - appropriateness of the relation type,
-- logical consistency,
+- logical consistency across the graph,
 - conflict resolution.
 
 It enforces **structural explicitness only**.

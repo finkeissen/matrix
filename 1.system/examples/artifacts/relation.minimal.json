@@ -1,0 +1,13 @@
+{
+  "id": "example.relation.v1",
+  "type": "relation",
+  "created_at": "1970-01-01T00:00:00Z",
+  "run_id": "example.run.v1",
+  "provenance_ref": { "status": "unknown" },
+  "lifecycle_state": "active",
+  "scope": {},
+  "relation_type": "depends_on",
+  "from": { "type": "claim", "id": "example.claim.v1" },
+  "to": { "type": "problem", "id": "example.problem.v1" }
+}
+

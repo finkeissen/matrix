@@ -1,0 +1,13 @@
+{
+  "id": "example.claim.v1",
+  "type": "claim",
+  "created_at": "1970-01-01T00:00:00Z",
+  "run_id": "example.run.v1",
+  "provenance_ref": { "status": "unknown" },
+  "lifecycle_state": "active",
+  "scope": {},
+  "problem_id": "example.problem.v1",
+  "text": "Example claim text (problem-bound).",
+  "claim_type": "open_question"
+}
+
