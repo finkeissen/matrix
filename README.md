@@ -342,6 +342,9 @@ they impose constraints on admissible operations.
 They are not paradigms of explanation, prediction, or truth.
 They are paradigms of disciplined reasoning under uncertainty.
 
+## Verification
+- Status: VERIFICATION_STATUS.md
+- Index: VERIFICATION_INDEX.md
 
 
 ## Repository Structure
