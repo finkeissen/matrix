@@ -60,3 +60,26 @@ ToDo
 #   for exemplary or canonical runs
 # --------------------------------------------------
 
+# Local notes
+ToDo
+dir.txt
+
+# All real runs (private)
+2.runs/*/
+
+# But keep structure + templates
+!2.runs/README.md
+!2.runs/.gitkeep
+!2.runs/templates/
+!2.runs/templates/**
+
+# --- Future/local workspaces (keep out of public repo for now) ---
+2.work/
+3.commit/
+worlds/
+
+# foundation WIP / drafts (optional)
+foundation/_hypotheses/
+foundation/README.alt
+foundation/CHANGE-NOTES.md
+

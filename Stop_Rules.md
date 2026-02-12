@@ -88,3 +88,36 @@ These rules apply to themselves.
 
 No exemption is implicit.
 
+
+# STOP Rules
+
+STOP rules are **structural safeguards**.
+They are not conclusions and do not imply error.
+
+## SR-01 — Implicit Authority
+
+Triggered when a claim acquires authority
+without explicit justification of scope and responsibility.
+
+## SR-02 — Illegitimate Transfer
+
+Triggered when a transfer between epistemic levels
+is performed implicitly or without binding conditions.
+
+## SR-03 — Self-Sealing Reasoning
+
+Triggered when a claim justifies itself
+by reference to its own coherence, acceptance, or persistence.
+
+## SR-04 — Exhausted Decomposition
+
+Triggered when further analysis adds no new diagnostic distinction.
+
+## Effect of STOP
+
+When STOP is triggered:
+- analysis halts
+- no verdict is produced
+- Absence or Gap is recorded
+- responsibility remains external to the Matrix
+

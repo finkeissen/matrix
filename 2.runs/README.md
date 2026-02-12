@@ -135,3 +135,79 @@ until a concrete execution is required.
 The absence of generated artifacts does **not** imply that a run is invalid,
 failed, or pending completion.
 
+## Status of Runs — Explicit Declaration
+
+All artifacts contained in `2.runs/` are **not knowledge production**.
+
+They are **diagnostic instantiations** executed under the
+Matrix admissibility and STOP regime.
+
+### Production Status
+
+- The system is **normatively frozen** (Research Program + MMS).
+- Run generation is **explicitly permitted**.
+- This permission applies **only** to:
+  - diagnostic runs
+  - stress-tests
+  - boundary checks
+  - admissibility validation
+- It does **not** imply:
+  - epistemic closure
+  - correctness
+  - truth
+  - recommendation
+  - decision support
+
+### Meaning of “Production”
+
+Within this repository, *production* means:
+
+> Sequential creation of inspectable diagnostic artifacts  
+> under explicit admissibility, STOP, and non-knowledge constraints.
+
+It does **not** mean:
+- result delivery
+- optimization
+- accumulation of valid claims
+- progress toward consensus
+
+### Consequence
+
+- STOP-dominant outcomes are expected.
+- Absence, Gap, or Silence are valid final states.
+- Persistence or quantity of runs confers **no authority**.
+- Any attempt to read runs as conclusions constitutes a category error.
+
+This declaration is normative.
+
+
+### Epistemic Termination Rule (Normative)
+
+All runs in this directory are governed by the following rule:
+
+A run terminates by STOP.
+Its outcome is Absence, Gap, or Silence.
+Continuation is never presumed.
+
+This rule is normative.
+Any interpretation of runs as steps toward progress, improvement,
+closure, or readiness constitutes a category error.
+
+
+### Epistemic Termination (Normative)
+
+All runs in this directory terminate by STOP.
+
+Their only valid outcomes are:
+- Absence
+- Gap
+- Silence
+
+Continuation, improvement, or progression is never presumed.
+
+This rule is normative and overrides any intuitive
+reading of runs as steps toward results or readiness.
+
+
+Occam applies: runs must not introduce new structure; they may only expose tensions under existing constraints.
+

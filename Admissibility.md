@@ -128,3 +128,51 @@ This document applies to itself.
 Any claim of exemption
 must be explicit and justified.
 
+
+# Admissibility Gate
+
+This document defines the **minimum conditions** under which
+any artifact may enter the Matrix as admissible for inspection.
+
+Admissibility is **structural**, not epistemic.
+
+## A. Illegitimate Transfer
+
+An artifact is inadmissible if it performs an implicit transfer between:
+- formal description → normative conclusion
+- aggregate evidence → individual prescription
+- model behavior → world behavior
+- consistency → correctness
+- coherence → truth
+
+without explicit binding conditions.
+
+## B. Required Properties
+
+An admissible artifact must:
+- identify the specific transfer being attempted
+- describe the transfer without domain expertise
+- state at least one counterfactual under which the transfer fails
+- declare its scope explicitly
+
+## C. Explicit Exclusions
+
+The following are **never admissible**:
+- rhetorical critique
+- historical commentary without diagnostic value
+- opinion or value assertion
+- examples without a generalizable transfer pattern
+
+Failure to meet these criteria results in **structural refusal**.
+
+
+## Occam Constraint
+
+No new structure is admissible unless it is strictly necessary.
+
+Necessary means:
+- it resolves at least two independent tensions already present, or
+- it prevents a recurrent category error that cannot be blocked locally.
+
+Otherwise: do not add structure. Prefer silence.
+
