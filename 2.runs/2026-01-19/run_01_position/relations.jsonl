@@ -1,1 +1,0 @@
-{"record_type":"relation","schema_version":"v1","relation_id":"relation:has_position-001","from_ids":["problem:example-001"],"to_ids":["claim:position-001"],"relation_type":"has_position","problem_ids":["problem:example-001"],"provenance":{"source_ids":[]},"matrix_validity":{"introduced_in_commit":"2026-01-19","deprecated_in_commit":null,"status":"active"}}

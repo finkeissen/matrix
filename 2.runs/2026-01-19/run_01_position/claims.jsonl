@@ -1,1 +1,0 @@
-{"record_type":"claim","schema_version":"v1","claim_id":"claim:position-001","problem_ids":["problem:example-001"],"text":"Current state is uncertain and contested.","claim_role":"position","provenance":{"source_ids":[]},"matrix_validity":{"introduced_in_commit":"2026-01-19","deprecated_in_commit":null,"status":"active"}}
