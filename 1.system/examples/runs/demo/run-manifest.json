@@ -1,0 +1,13 @@
+{
+  "run_id": "demo_synthetic_stop",
+  "purpose": "Demonstrate admissibility and stop rules",
+  "roles": {
+    "author": "synthetic",
+    "evaluator": "structural"
+  },
+  "admissible_artifacts": ["claim", "relation"],
+  "bindings": [
+    "RUN_ADMISSIBILITY.md",
+    "Stop_Rules.md"
+  ]
+}

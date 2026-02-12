@@ -1,0 +1,17 @@
+{
+  "type": "run_template",
+  "template_kind": "gap_candidate_probe",
+  "candidate": {
+    "slug": "meta_position_requires_exemption",
+    "title": "Meta-position requires exemption"
+  },
+  "expected_terminal": "STOP+GAP",
+  "schema_version": "v1",
+  "placeholders": {
+    "run_id": "TEMPLATE",
+    "date": "YYYY-MM-DD",
+    "author": "TBD",
+    "related_runs": [],
+    "related_claims": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "run_template",
+  "template_kind": "gap_candidate_probe",
+  "candidate": {
+    "slug": "compliance_masks_non_admissibility",
+    "title": "Compliance masks non-admissibility"
+  },
+  "expected_terminal": "STOP+GAP",
+  "schema_version": "v1",
+  "placeholders": {
+    "run_id": "TEMPLATE",
+    "date": "YYYY-MM-DD",
+    "author": "TBD",
+    "related_runs": [],
+    "related_claims": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "run_template",
+  "template_kind": "gap_candidate_probe",
+  "candidate": {
+    "slug": "self_application_violates_constraints",
+    "title": "Self-application violates constraints"
+  },
+  "expected_terminal": "STOP+GAP",
+  "schema_version": "v1",
+  "placeholders": {
+    "run_id": "TEMPLATE",
+    "date": "YYYY-MM-DD",
+    "author": "TBD",
+    "related_runs": [],
+    "related_claims": []
+  }
+}

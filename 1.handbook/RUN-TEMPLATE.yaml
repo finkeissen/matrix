@@ -1,0 +1,45 @@
+run:
+  metadata:
+    run_id: ""
+    date: ""
+    domain: ""
+    canonical: false
+    purpose: "diagnostic stress-test"
+    provenance: ""
+    mode: diagnostic
+
+  problem:
+    statement: ""
+    explicit_context_required: true
+    scope_limit: ""
+
+  claims: []
+
+  admissibility:
+    gate_reference: Admissibility.md
+
+  audit_log: []
+
+  outcome:
+    type: ""
+    status: ""
+    stop_triggered: false
+    stop_rule: ""
+
+  next_steps: []
+
+termination_policy:
+  rule: STOP
+  outcome_space:
+    - Absence
+    - Gap
+    - Silence
+  continuation:
+    presumed: false
+    permitted: false
+    note: "Runs are terminal diagnostic artifacts, not steps in a sequence."
+
+occam:
+  new_structure: prohibited
+  exception_only_if: "explicit necessity declared (see Admissibility.md)"
+
