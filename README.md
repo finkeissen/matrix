@@ -274,6 +274,38 @@ It does **not** aim to provide:
 
 ---
 
+## Architecture Overview
+
+The architecture consists of four strictly separated layers:
+
+0. **Legacy**  
+   Preserves prior assumptions,
+   unresolved contradictions,
+   structural patterns,
+   and contextual material
+   that exist *before* admissibility,
+   governance,
+   or instantiation.
+           ↓
+1. **Research Program (RP)**  
+   Defines ontological primitives
+   and admissible structural forms.
+           ↓
+2. **Meta-Management System (MMS)**  
+   Enforces admissibility rules
+   without structural or epistemic authority.
+           ↓
+3. **Matrix**  
+   Records concrete instantiations,
+   conflicts,
+   STOPs,
+   and explicit absences.
+
+
+The Matrix contains only what remains after RP definition and MMS enforcement.
+
+No layer may absorb the role of another.
+
 ## Work Status
 
 Open tasks, development order, and working notes
@@ -356,5 +388,70 @@ They are paradigms of disciplined reasoning under uncertainty.
 2.runs/        – Append-only diagnostic runs
 3.commit/      – Publication-ready artifacts / curated exports
 foundation/    – Shared conceptual or structural base layer
+
+---
+
+## Structured Claim Records (Addendum)
+
+To support mechanical auditability under MMS enforcement,
+claims may be stored in structured form.
+
+This does not change their status as hypotheses.
+
+A machine-validatable schema may be defined under:
+
+1.system/matrix/schemas/
+
+Structured storage does not introduce authority.
+It only enables:
+
+- deterministic provenance tracking
+- admissibility validation
+- trace reconstruction
+- audit consistency under scaling
+
+All claims remain hypothetical and non-authoritative.
+
+## Role in the epistemic flow
+
+The Matrix records the epistemic states that remain after Research Program definition and MMS enforcement.
+
+It does not produce knowledge.
+It records admissible structure.
+
+Possible states include:
+- instantiated artifact
+- explicit absence
+- STOP
+- Gap or Silence
+
+## Artifact lifecycle
+
+Artifacts may:
+- enter the Matrix when admissible,
+- remain provisional,
+- regress via STOP,
+- or be preserved as unresolved structure in Legacy.
+
+The Matrix therefore represents states, not conclusions.
+
+
+## Interface to MMS
+
+MMS determines admissible transitions.
+The Matrix records their outcomes.
+
+MMS enforces constraints.
+The Matrix preserves resulting epistemic states.
+
+
+## External orientation
+
+The Matrix is where the effects of the architecture become visible:
+structure,
+conflict,
+STOP,
+and absence.
+
 
 
