@@ -1,0 +1,19 @@
+{
+  "subdomain": "Szenario-Planung",
+  "problem_groups": [
+    "Unklarheit der Zielsetzung",
+    "Mangelnde Datenbasis",
+    "Fehlende Stakeholder-Einbindung",
+    "Überforderung durch Komplexität",
+    "Unzureichende Szenarienabdeckung",
+    "Verfehlte Priorisierung von Szenarien",
+    "Inkonsistente Annahmen",
+    "Mangelnde Validierbarkeit der Ergebnisse",
+    "Fehlende Kommunikationsstrategie",
+    "Unzureichende Ressourcenplanung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203665
+  }
+}

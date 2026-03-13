@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Symbole",
+  "problem_groups": [
+    "Symbolverfall durch Übernutzung",
+    "Kontextuelle Missinterpretation von Symbolen",
+    "Verlust traditioneller Symbolbedeutungen",
+    "Konflikt zwischen moderner und traditioneller Symbolik",
+    "Unklarheit bei der Zuordnung von Symbolen zu Themen",
+    "Mangelnde Anpassung von Symbolen an neue kulturelle Entwicklungen",
+    "Verwechslung von Symbolen mit anderen visuellen Elementen",
+    "Reduzierung symbolischer Vielfalt durch Standardisierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202943
+  }
+}

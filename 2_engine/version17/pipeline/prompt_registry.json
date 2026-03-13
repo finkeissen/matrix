@@ -1,0 +1,72 @@
+{
+  "version": "14.0.0",
+  "description": "Prompt version registry. Auto-updated by prompt_loader.py on first load of each step.",
+  "prompts": {
+    "01_scope": {
+      "active_file": "01_scope.md",
+      "active_hash": "sha256:b0ba1a8c2961ea7482c7d6f443e211ea90fe0fa080e19c559def3bd0109516c9",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "04b_generation_review": {
+      "active_file": "04b_generation_review.md",
+      "active_hash": "sha256:94e1455db1435edece056d8a69da46027401b3cc03783c60c3fdc088494c71af",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "07_alternative_check": {
+      "active_file": "07_alternative_check.md",
+      "active_hash": "sha256:3e280dcc9765bcb135696bc8a60ee10fe8a1840a179d49ca3d1bf7ab66cfd66c",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "03_gap_detection": {
+      "active_file": "03_gap_detection.md",
+      "active_hash": "sha256:c9035f5527cd760b38446c59cdcfb8d46ee75fbfa6379caf4b930ee3de852165",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "03_categories": {
+      "active_file": "03_categories.md",
+      "active_hash": "sha256:3bfd160ec972dc3012c60d2d894de5a42175d7553c625ed43aa91368c319f1c7",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "04a_generation": {
+      "active_file": "04a_generation.md",
+      "active_hash": "sha256:ce4994e2c17e1771593ca26dbe4f5e8cc1dfc3ebbf8326e6c5072f4bd57df02e",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "06_clarification": {
+      "active_file": "06_clarification.md",
+      "active_hash": "sha256:1764327139e743d99695ec31a9a3a8cef1fe17e8bd5bafe0f264752655059d1e",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "07_hallucination_scan": {
+      "active_file": "07_hallucination_scan.md",
+      "active_hash": "sha256:19402d11cd4a61c58add3e5bc6d32d9182b36c13b09fbc145ffa4adc60a36adc",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "01_scope_confidence": {
+      "active_file": "01_scope_confidence.md",
+      "active_hash": "sha256:2b68ac9a36356d5a22ddf7c74da0ef809c677adb3277c9b8a4e3b045f7eb26cd",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "05_validation_atomicity": {
+      "active_file": "05_validation_atomicity.md",
+      "active_hash": "sha256:60346b69fd982c842be48d007237ea1e0c15e3695244e31dd46a79334b1d8ccd",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    },
+    "08_finalization_summary": {
+      "active_file": "08_finalization_summary.md",
+      "active_hash": "sha256:8ae72aff89142b27b3001fa87e6583fc467c2ddc8963545024e2c939ee81104f",
+      "active_variant": "active",
+      "last_loaded": "2026-03-07T07:30:00Z"
+    }
+  }
+}

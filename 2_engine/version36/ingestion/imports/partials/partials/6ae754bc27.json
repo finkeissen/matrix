@@ -1,0 +1,17 @@
+{
+  "subdomain": "Technikfolgenabschätzung",
+  "problem_groups": [
+    "Unvollständige Zukunftsvorhersagen",
+    "Wechselwirkungen zwischen Technologie und Gesellschaft",
+    "Ethische Bewertungskriterien",
+    "Mangelnde Stakeholder-Partizipation",
+    "Datenqualitätsprobleme bei Prognosen",
+    "Interdisziplinäre Koordinationsschwierigkeiten",
+    "Kommunikationsbarrieren zwischen Wissenschaft und Praxis",
+    "Rechtliche Unsicherheiten bei Innovationen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203673
+  }
+}

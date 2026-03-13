@@ -1,0 +1,19 @@
+{
+  "subdomain": "Klimasystemforschung",
+  "problem_groups": [
+    "Datenintegrationsschwierigkeiten",
+    "Modell-realitätsdiskrepanzen",
+    "Feedbackmechanismen-Complexität",
+    "Zeit-Raum-Auflösungsbeschränkungen",
+    "Interdisziplinäre Schnittstellenprobleme",
+    "Nichtlineares Systemverhalten",
+    "Langzeitbeobachtungslücken",
+    "Parametrisierungsunsicherheiten",
+    "Komponentenkopplungsdynamiken",
+    "Klimasensitivitätsvariabilität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200460
+  }
+}

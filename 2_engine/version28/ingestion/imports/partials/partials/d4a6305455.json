@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Medien",
+  "problem_groups": [
+    "Technologische Limitationen bei Gewebe- und Organregeneration",
+    "Ethik und Recht der medizinischen Regenerationsforschung",
+    "Langfristige Sicherheit und Biokompatibilität von Implantaten",
+    "Mangel an standardisierten Qualitätskriterien für regenerative Medizintechnologien",
+    "Kosten- und Zugangshürden für regenerative Therapien",
+    "Unklarheiten in der Patientenauswahl und Indikationsstellung",
+    "Risiken durch unkontrollierte Zellproliferation oder Tumorbildung",
+    "Mangel an langfristigen klinischen Daten zur Wirksamkeit",
+    "Interdisziplinäre Kommunikationsschwierigkeiten zwischen Forschung und Klinik",
+    "Öffentliche Wahrnehmung und Akzeptanz regenerativer Medien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202602
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Agiles Management",
+  "problem_groups": [
+    "Anpassung an wechselnde Anforderungen",
+    "Balance zwischen Flexibilität und Struktur",
+    "Kommunikationsprobleme mit Stakeholdern",
+    "Widerstand gegen agile Praktiken",
+    "Langfristige vs. kurzfristige Zielorientierung",
+    "Skalierbarkeit agiler Methoden",
+    "Zeitmanagement in Sprints",
+    "Kontinuierliche Verbesserung durch Retrospektiven"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198117
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Spieltheorie",
+  "problem_groups": [
+    "Nash-Gleichgewicht",
+    "Kooperative vs. nicht-kooperativen Spiele",
+    "Informationsasymmetrie",
+    "Dominante Strategien",
+    "Wiederholte Spiele",
+    "Nullsummenspiele",
+    "Gleichgewichtsanalyse",
+    "Spielrepräsentation",
+    "Pareto-Effizienz",
+    "Verhandlungslösungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203424
+  }
+}

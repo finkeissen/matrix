@@ -1,0 +1,19 @@
+{
+  "subdomain": "Causal Inference",
+  "problem_groups": [
+    "Kontrollgruppen-Selektion",
+    "Konfusionsvariable-Identifikation",
+    "Selektionsbias-Erkennung",
+    "Kausale Modellierungsgrenzen",
+    "Gegenfaktische Schlussfolgerungen",
+    "Experimentergebnisse-Interpretation",
+    "Nichtkompliziertheit in Experimenten",
+    "Kovariaten-Unbalance",
+    "Äußere Validität-Einschränkungen",
+    "Kausale Effekt-Schätzung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198635
+  }
+}

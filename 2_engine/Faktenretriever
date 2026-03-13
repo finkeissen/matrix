@@ -1,0 +1,154 @@
+
+Genau! Das ist das **zentrale Retrieval-Problem** – und es ist eigentlich selbst ein KI-Problem:
+
+---
+
+## Das Meta-Problem: Relevanz-Bestimmung vor der Faktenprüfung
+
+```
+┌──────────────────────────────────────────────────────┐
+│                                                      │
+│  Query → [WAS ist relevant?] → [Fakten laden] →     │
+│               ↑                                      │
+│        Das ist selbst das                            │
+│        schwierigste Problem                          │
+│                                                      │
+└──────────────────────────────────────────────────────┘
+```
+
+---
+
+### Die Retrieval-Pipeline
+
+```python
+class RelevanzBestimmer:
+    def __init__(self):
+        self.semantic_index = VectorDB()      # Embeddings aller Fakten
+        self.knowledge_graph = KnowledgeGraph() # Strukturelle Beziehungen
+        self.query_expander = LLM()           # Query-Erweiterung
+
+    def bestimme_relevante_fakten(self, query: str) -> list[Fakt]:
+       
+        # 1. Query verstehen & erweitern
+        intents = self.query_expander.extract_intents(query)
+        expanded = self.query_expander.expand(query)
+        # "Python Performance" → ["GIL", "CPython", "PyPy", "Benchmarks"...]
+       
+        # 2. Semantische Ähnlichkeit
+        kandidaten = self.semantic_index.search(
+            expanded,
+            top_k=50  # Erst grob
+        )
+       
+        # 3. Graph-Traversierung: verlinkte Fakten mitladen
+        erweitert = self.knowledge_graph.expand_neighborhood(
+            kandidaten,
+            hops=2  # Direkte + indirekte Zusammenhänge
+        )
+       
+        # 4. Re-Ranking: Was ist wirklich relevant?
+        final = self.reranker.score(query, erweitert)
+       
+        return final[:20]  # Nur was in den Kontext passt
+```
+
+---
+
+### Das eigentliche Schichten-Problem
+
+```
+ALLE FAKTEN (Milliarden)
+        │
+        ▼ Embedding-Suche (semantisch)
+KANDIDATEN (~1000)
+        │
+        ▼ Knowledge Graph (strukturell) 
+VERNETZT (~200)
+        │
+        ▼ Re-Ranking (kontextuell)
+RELEVANT (~50)
+        │
+        ▼ Kontext-Budget-Optimierung
+IM KONTEXT (~20)  ← Was das LLM wirklich sieht
+```
+
+---
+
+### Das Tücken-Problem: Was man nicht sucht, findet man nicht
+
+```
+Query: "Ist Aspirin sicher?"
+
+Offensichtlich relevant:        Nicht-offensichtlich aber kritisch:
+✓ Aspirin-Wirkung               ✗ Wechselwirkung mit Blutverdünnern
+✓ Dosierung                     ✗ Reye-Syndrom bei Kindern
+✓ Nebenwirkungen                ✗ Neue Studie von letzter Woche
+```
+
+**Lösung: Hypothetisches Reasoning vor dem Retrieval**
+
+```python
+# LLM generiert erst: "Was KÖNNTE an dieser Frage gefährlich/komplex sein?"
+# → steuert dann gezielt das Retrieval
+pre_retrieval_hypothesen = llm.generate(
+    f"Welche Fakten könnten bei '{query}' kritisch sein, "
+    f"die man leicht übersehen würde?"
+)
+```
+
+---
+
+### Kontext-Budget als Optimierungsproblem
+
+```python
+# Nicht alle relevanten Fakten passen rein → Priorisierung nötig
+def optimiere_kontext(fakten, budget_tokens=8000):
+    return maximize(
+        fakten,
+        objective=lambda f: f.relevanz * f.vertrauenswürdigkeit,
+        constraint=lambda subset: sum(f.tokens for f in subset) <= budget_tokens,
+        # Knapsack-Problem!
+    )
+```
+
+| Faktor | Gewichtung |
+|---|---|
+| Semantische Nähe zur Query | hoch |
+| Aktualität | mittel-hoch |
+| Vertrauenswürdigkeit der Quelle | hoch |
+| Nicht-Redundanz | mittel |
+| Kritikalität (Sicherheit etc.) | sehr hoch |
+
+---
+
+### Die elegante Lösung: Hierarchisches Retrieval
+
+```
+Query
+  │
+  ├─► Meta-Agent: "Was für ein Wissenstyp wird gebraucht?"
+  │         │
+  │    ┌────┴─────────────────────┐
+  │    ▼                         ▼
+  │  Fakten-Typ A            Fakten-Typ B
+  │  (medizinisch)           (statistisch)
+  │    │                         │
+  │    ▼                         ▼
+  │  Spezialist-               Spezialist-
+  │  Retriever A               Retriever B
+  │         │                   │
+  └─────────┴──────┬────────────┘
+                   ▼
+           Kontext zusammengebaut
+                   │
+                   ▼
+            Fakten-Agent prüft
+                   │
+                   ▼
+              Generator-LLM
+```
+
+---
+
+**Kern-Einsicht:** Das Relevanz-Problem ist **rekursiv** – man braucht Intelligenz um zu bestimmen, welche Fakten man für eine intelligente Antwort braucht. Der Fakten-Agent wird damit zum **zweistufigen System**: erst Relevanz-Navigator, dann Wahrheits-Prüfer.
+

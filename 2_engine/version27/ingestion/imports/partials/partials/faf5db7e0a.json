@@ -1,0 +1,17 @@
+{
+  "subdomain": "Philosophie der Nachhaltigkeit",
+  "problem_groups": [
+    "Konflikt zwischen Gegenwartsbedürfnissen und zukünftiger Generationen",
+    "Ethische Bewertung von Ressourcenverbrauch und Umweltbelastung",
+    "Definition von Nachhaltigkeit in kulturell unterschiedlichen Kontexten",
+    "Verantwortung des Individuums gegenüber der Gemeinschaft",
+    "Kollision zwischen ökonomischem Wachstum und ökologischen Grenzen",
+    "Moralische Verpflichtung zur Schadensminimierung",
+    "Widerspruch zwischen kurzfristiger Effizienz und langfristigem Gleichgewicht",
+    "Kritik an anthropozentrischen Nachhaltigkeitsmodellen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201357
+  }
+}

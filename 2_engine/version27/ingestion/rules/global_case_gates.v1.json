@@ -1,0 +1,120 @@
+{
+  "asset_id": "global_case_gates.v1",
+  "asset_type": "rule_library",
+  "domain": "global",
+  "version": "v1",
+  "status": "approved",
+  "sources": [
+    "cases.zip"
+  ],
+  "rules": [
+    {
+      "id": "A-000001",
+      "slug": "implicit-assumption-conflict-core-model",
+      "status": "STOP",
+      "failure_modes": [
+        "epistemic"
+      ],
+      "source_dir": "imports/cases/cases/A-000001__implicit-assumption-conflict-core-model"
+    },
+    {
+      "id": "A-000002",
+      "slug": "scope-collapse-advisory-to-operational",
+      "status": "STOP",
+      "failure_modes": [
+        "epistemic",
+        "contextual"
+      ],
+      "source_dir": "imports/cases/cases/A-000002__scope-collapse-advisory-to-operational"
+    },
+    {
+      "id": "A-000003",
+      "slug": "authority-leakage-internal-guidance",
+      "status": "STOP",
+      "failure_modes": [
+        "institutional"
+      ],
+      "source_dir": "imports/cases/cases/A-000003__authority-leakage-internal-guidance"
+    },
+    {
+      "id": "A-000004",
+      "slug": "temporal-drift-legacy-assumptions",
+      "status": "STOP",
+      "failure_modes": [
+        "temporal"
+      ],
+      "source_dir": "imports/cases/cases/A-000004__temporal-drift-legacy-assumptions"
+    },
+    {
+      "id": "A-000005",
+      "slug": "constraint-inversion-metric-optimization",
+      "status": "STOP",
+      "failure_modes": [
+        "institutional",
+        "epistemic"
+      ],
+      "source_dir": "imports/cases/cases/A-000005__constraint-inversion-metric-optimization"
+    },
+    {
+      "id": "A-000006",
+      "slug": "contextual-dependency-lost-environment",
+      "status": "STOP",
+      "failure_modes": [
+        "contextual"
+      ],
+      "source_dir": "imports/cases/cases/A-000006__contextual-dependency-lost-environment"
+    },
+    {
+      "id": "A-000007",
+      "slug": "epistemic-overconfidence-weak-evidence",
+      "status": "STOP",
+      "failure_modes": [
+        "epistemic"
+      ],
+      "source_dir": "imports/cases/cases/A-000007__epistemic-overconfidence-weak-evidence"
+    },
+    {
+      "id": "A-000008",
+      "slug": "epistemic-vs-contextual-borderline",
+      "status": "STOP",
+      "failure_modes": [
+        "epistemic",
+        "contextual"
+      ],
+      "source_dir": "imports/cases/cases/A-000008__epistemic-vs-contextual-borderline"
+    },
+    {
+      "id": "A-000009",
+      "slug": "almost-allow-but-stop",
+      "status": "STOP",
+      "failure_modes": [
+        "epistemic"
+      ],
+      "source_dir": "imports/cases/cases/A-000009__almost-allow-but-stop"
+    },
+    {
+      "id": "A-000010",
+      "slug": "pressure-to-invent-new-mode",
+      "status": "STOP",
+      "failure_modes": [
+        "institutional",
+        "epistemic"
+      ],
+      "source_dir": "imports/cases/cases/A-000010__pressure-to-invent-new-mode"
+    },
+    {
+      "id": "A-XXXXXX",
+      "slug": "CASE_TEMPLATE",
+      "status": "STOP",
+      "failure_modes": [
+        "<failure-mode-name>"
+      ],
+      "source_dir": "imports/cases/cases/CASE_TEMPLATE"
+    }
+  ],
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": [
+    "Gate metadata extracted from YAML front matter."
+  ]
+}

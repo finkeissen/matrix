@@ -1,0 +1,21 @@
+{
+  "subdomain": "Finanzielle Autonomie",
+  "problem_groups": [
+    "Einkommensunabhängigkeit",
+    "Kostenkontrolle",
+    "Vermögensentwicklung",
+    "Risikominimierung",
+    "Finanzplanung",
+    "Kreditvermeidung",
+    "Sparstrategien",
+    "Investitionsentscheidungen",
+    "Kapitalanlage",
+    "Verzicht auf Konsumkredite",
+    "Einnahmenoptimierung",
+    "Langfristige Finanzsicherheit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199499
+  }
+}

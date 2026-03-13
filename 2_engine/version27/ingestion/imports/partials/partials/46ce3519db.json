@@ -1,0 +1,19 @@
+{
+  "subdomain": "Medizinrobotik",
+  "problem_groups": [
+    "Integration von Robotersystemen in klinische Umgebungen",
+    "Sicherheit und Risikominimierung bei medizinischen Roboteranwendungen",
+    "Präzision und Genauigkeit von chirurgischen Robotern",
+    "Benutzerfreundlichkeit und Bedienbarkeit medizinischer Roboter",
+    "Kollisionsvermeidung in der Medizinrobotik",
+    "Datensicherheit und Vertraulichkeit bei roboterassistierten Diagnosen",
+    "Interoperabilität zwischen Robotersystemen und medizinischen Geräten",
+    "Ergonomie und physische Belastung für medizinisches Personal bei Roboterbetrieb",
+    "Adaptivität von Robotern an unterschiedliche klinische Anforderungen",
+    "Kosten- und Nutzenanalyse medizinischer Roboter"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200827
+  }
+}

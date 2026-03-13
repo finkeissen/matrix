@@ -1,0 +1,15 @@
+{
+  "subdomain": "Politik der Reife",
+  "problem_groups": [
+    "Definitionskonflikte um 'Reife'",
+    "Umsetzungshindernisse bei Alters- und Reifekriterien",
+    "Interessenskonflikte zwischen Generationen",
+    "Öffentlichkeitswahrnehmung von Reifepolitik",
+    "Rechtliche Rahmenbedingungen für Reifedefinitionen",
+    "Wirksamkeitsevaluation von Reifepolitiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201511
+  }
+}

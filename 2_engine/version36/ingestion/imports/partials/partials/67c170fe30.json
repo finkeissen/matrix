@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Stille",
+  "problem_groups": [
+    "Unwirksamkeit von Regenerationsmethoden",
+    "Soziale Konflikte durch Stilleanforderungen",
+    "Zugänglichkeit für Menschen mit Behinderung",
+    "Missverständnisse über die Funktion von Stille",
+    "Umgebungsgeräusche im Naturreich",
+    "Psychische Belastung durch Stille",
+    "Kulturelle Unterschiede in der Wahrnehmung von Stille",
+    "Überabhängigkeit von Stillen als Therapieform"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202933
+  }
+}

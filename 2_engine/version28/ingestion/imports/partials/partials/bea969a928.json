@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Transparenz",
+  "problem_groups": [
+    "Definition von Regenerationsprozessen",
+    "Messung und Quantifizierung von Transparenz",
+    "Interdependenzen zwischen Transparenz und Nachhaltigkeit",
+    "Kommunikation von Regenerationsfortschritten",
+    "Vertrauensbildung durch transparente Prozesse",
+    "Datenverfügbarkeit für regenerative Systeme",
+    "Ethische Aspekte der Transparenz in Regeneration",
+    "Technologische Grenzen der Transparenzsteigerung",
+    "Sozialer Widerstand gegen transparenzorientierte Praktiken",
+    "Langfristige Auswirkungen von Transparenz auf Ökosysteme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202964
+  }
+}

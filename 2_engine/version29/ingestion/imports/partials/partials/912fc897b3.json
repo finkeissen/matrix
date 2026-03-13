@@ -1,0 +1,19 @@
+{
+  "subdomain": "Resilienztheorie",
+  "problem_groups": [
+    "Definition und Operationalisierung von Resilienz",
+    "Kontextabhängigkeit von Resilienz",
+    "Interdependenzen zwischen Resilienz und Vulnerabilität",
+    "Einfluss von sozialen Strukturen auf Resilienz",
+    "Messung und Validierung von Resilienz",
+    "Dynamik von Resilienz über Zeit",
+    "Kultur- und kognitiv-basierte Unterschiede in Resilienz",
+    "Resilienz als Ressource oder Risiko",
+    "Wechselwirkung zwischen individueller und kollektiver Resilienz",
+    "Grenzen und Limits von Resilienz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203148
+  }
+}

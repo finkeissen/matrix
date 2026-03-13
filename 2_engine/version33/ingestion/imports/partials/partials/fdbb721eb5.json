@@ -1,0 +1,19 @@
+{
+  "subdomain": "Differentialgeometrie",
+  "problem_groups": [
+    "Kurven und Flächen in höheren Dimensionen",
+    "Metrik und Längenmessung",
+    "Krümmungsbegriffe und deren Darstellung",
+    "Tangentialräume und Vektorfelder",
+    "Differenzierbare Abbildungen und ihre Eigenschaften",
+    "Koordinatentransformationen und Invarianzen",
+    "Flächenintegrale und Flussgrößen",
+    "Geodätische Linien und Minimalitätsbedingungen",
+    "Tensoranalysis und Tensoren",
+    "Riemannsche Geometrie und Krümmungstensor"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198986
+  }
+}

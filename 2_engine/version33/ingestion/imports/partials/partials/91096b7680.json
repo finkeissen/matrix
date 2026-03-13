@@ -1,0 +1,19 @@
+{
+  "subdomain": "Teilchenphysik",
+  "problem_groups": [
+    "Klassifizierung von Elementarteilchen",
+    "Standardmodell-Extensionen",
+    "Wechselwirkungen fundamentaler Kräfte",
+    "Hochenergie-Experimente",
+    "Detektortechnologie",
+    "Symmetriebrüche im Teilchenzustand",
+    "Quantenfeldtheorien",
+    "Neutrino-Oszillationen",
+    "Dunkle Materie und Energie",
+    "Theoretische Modellierung von Teilcheninteraktionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203743
+  }
+}

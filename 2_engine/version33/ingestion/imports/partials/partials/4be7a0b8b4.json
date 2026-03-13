@@ -1,0 +1,19 @@
+{
+  "subdomain": "Digital Business Models",
+  "problem_groups": [
+    "Geschäftsmodell-Definition und -Validierung",
+    "Einnahmequellen-Optimierung",
+    "Skalierbarkeit und Wachstum",
+    "Technologische Integration",
+    "Datenschutz und Sicherheit",
+    "Kundenbindung und -beziehung",
+    "Regulierung und Compliance",
+    "Innovation und Wettbewerbsfähigkeit",
+    "Kosteneffizienz und -optimierung",
+    "Markteinführung und -akzeptanz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199003
+  }
+}

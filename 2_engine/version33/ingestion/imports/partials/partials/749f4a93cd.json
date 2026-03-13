@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Synergie",
+  "problem_groups": [
+    "Interdisziplinäre Integrationsschwierigkeiten",
+    "Ressourcenkonflikte bei nachhaltiger Entwicklung",
+    "Technologische Kompatibilitätsprobleme",
+    "Soziale Akzeptanzbarrieren",
+    "Ökonomische Rentabilitätsdilemmata",
+    "Ecosystem-Balance-Verluste",
+    "Kultur-spezifische Implementationshürden",
+    "Langfristige Wirkungsvorhersagen",
+    "Regulierungslücken in innovativen Anwendungen",
+    "Menschenrechtsaspekte bei Technologieeinbindung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202948
+  }
+}

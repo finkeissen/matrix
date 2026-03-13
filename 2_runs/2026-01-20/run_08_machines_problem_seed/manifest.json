@@ -1,0 +1,17 @@
+{
+  "run_id": "run_08_machines_problem_seed",
+  "date": "2026-01-19",
+  "domain": "mechanical_engineering",
+  "subdomains": [
+    "automotive_engineering",
+    "machine_design"
+  ],
+  "purpose": "Seed the Matrix with mechanical engineering problems that stress constraints, tradeoffs, safety margins, verification/validation, and domain-specific norms without collapsing into recommendations.",
+  "scope": {
+    "target_problem_count": 150,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "illustrative only (standards, manuals, textbooks) \u2014 not exhaustive"
+  },
+  "notes": "Problems are framed to expose constraint interactions (cost, safety, manufacturability, reliability, regulation, environment). No single 'best design' is assumed."
+}

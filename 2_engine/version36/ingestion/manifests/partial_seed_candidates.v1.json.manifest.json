@@ -1,0 +1,17 @@
+{
+  "asset_id": "partial_seed_candidates.v1.json",
+  "asset_path": "seeds/partial_seed_candidates.v1.json",
+  "asset_type": "seed_candidates",
+  "domain": "mixed",
+  "version": "v1",
+  "status": "reviewed",
+  "sources": [
+    "partials.zip"
+  ],
+  "decision": "candidate_only",
+  "decision_reason": "Mixed-domain generator output needs filtering before reuse.",
+  "reuse_policy": "Do not load directly in runtime; domain filter first.",
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Sharing Economy",
+  "problem_groups": [
+    "Vertrauensprobleme zwischen Nutzern",
+    "Regulatorische Unsicherheit",
+    "Ressourcenverteilung und -nutzung",
+    "Datenschutz und Privatsphäre",
+    "Wettbewerbsverzerrungen durch Plattformen",
+    "Kulturelle Akzeptanzschwierigkeiten",
+    "Einkommensungleichheit durch Gig-Arbeit",
+    "Technische Zuverlässigkeit von Diensten",
+    "Minderung der Ressourcennutzungseffizienz",
+    "Rechtliche Verantwortlichkeitsklarheit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203315
+  }
+}

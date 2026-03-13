@@ -1,0 +1,16 @@
+{
+  "subdomain": "KI-Transparenz",
+  "problem_groups": [
+    "Erklärbarkeit von Entscheidungsprozessen",
+    "Datenbias und Diskriminierung",
+    "Unzureichende Dokumentation und Zugänglichkeit",
+    "Mangelnde Benutzerkompetenz",
+    "Verantwortlichkeitsklarheit bei Fehlern",
+    "Algorithmen-Transparenz vs. Komplexität",
+    "Rechtliche Anforderungen an KI-Transparenz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200364
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Positive Psychologie",
+  "problem_groups": [
+    "Messung subjektiver Wohlbefinden",
+    "Balance zwischen individuellen Stärken und gesellschaftlichen Anforderungen",
+    "Überbewertung positiven Denkens in Therapien",
+    "Kulturelle Unterschiede bei positiven Eigenschaften",
+    "Langfristige Wirksamkeit von Positivinterventionen",
+    "Ethische Herausforderungen der Positivitätspromotion",
+    "Integration in Bildungssysteme",
+    "Umgang mit negativen Emotionen neben Positivem",
+    "Validität von Glück als zentrales Ziel",
+    "Zugänglichkeit positiver Praktiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201612
+  }
+}

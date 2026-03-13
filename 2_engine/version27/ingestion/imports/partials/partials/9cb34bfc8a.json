@@ -1,0 +1,19 @@
+{
+  "subdomain": "Digital Fabrication",
+  "problem_groups": [
+    "Materialverträglichkeit und Kompatibilität",
+    "Präzisionsfehler bei der Umsetzung digitaler Modelle",
+    "Wartung und Verschleiß von Werkzeugen",
+    "Oberflächenqualität und Rauheit",
+    "Integration von Digitaldesign-Software",
+    "Energieverbrauch und Effizienz",
+    "Skalierbarkeit von Fertigungsprozessen",
+    "Abfallmanagement und Materialnutzungsoptimierung",
+    "Interoperabilität zwischen Systemen",
+    "Umweltbelastung durch Materialien und Prozesse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199026
+  }
+}

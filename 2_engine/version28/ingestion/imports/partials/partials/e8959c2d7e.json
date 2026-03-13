@@ -1,0 +1,17 @@
+{
+  "subdomain": "Zukunftsforschung",
+  "problem_groups": [
+    "Unsicherheit der Prognosemethoden",
+    "Interdisziplinäre Integrationsschwierigkeiten",
+    "Datenmangel bei langfristigen Szenarien",
+    "Ethische Implikationen von Zukunftsszenarien",
+    "Kommunikationsbarrieren zwischen Wissenschaft und Praxis",
+    "Überforderung durch komplexe Systemdynamiken",
+    "Politische Einflüsse auf Forschungsrichtungen",
+    "Mangel an standardisierten Bewertungskriterien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204394
+  }
+}

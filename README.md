@@ -455,3 +455,12 @@ and absence.
 
 
 
+## Engine / Step Separation
+
+The pipeline is now structured as a chain of locally executable steps.
+Each step can be treated as a separate work unit with an explicit Input -> Step -> Output contract.
+
+Static step work packages live under `engine/steps/`.
+Runtime step artifacts are written under `data/runs/<run-id>/steps/<step>/run/`.
+
+See `ENGINE.md` for the step-oriented engine layout.

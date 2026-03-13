@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Weisheit",
+  "problem_groups": [
+    "Konflikt zwischen traditioneller und moderner Weisheit",
+    "Unfähigkeit zur Anwendung von Regenerationsweisen in der Praxis",
+    "Verlust von kultureller Erinnerung bei Regeneration",
+    "Überforderung durch widersprüchliche Weisheitsansätze",
+    "Mangel an strukturellen Rahmenbedingungen für regenerative Lernprozesse",
+    "Isolation von Wissenssystemen in der Regenerationsphase",
+    "Unvermögen zur Synthese von altem und neuem Wissen",
+    "Erosion von sozialer Weisheit durch technologische Interventionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203050
+  }
+}

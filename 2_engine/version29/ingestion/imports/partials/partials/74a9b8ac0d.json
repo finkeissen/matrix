@@ -1,0 +1,18 @@
+{
+  "subdomain": "Global Workspace Theory",
+  "problem_groups": [
+    "Definition und Klarstellung des Konzepts",
+    "Integration mit anderen kognitiven Theorien",
+    "Erklärung von Bewusstseinszuständen",
+    "Neurophysiologische Grundlagen",
+    "Modellierung der Informationsverarbeitung",
+    "Umgang mit subjektiver Erfahrung",
+    "Kritik an der Theorie",
+    "Anwendung in klinischen Kontexten",
+    "Verhältnis zu anderen Bewusstseinsmodellen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199842
+  }
+}

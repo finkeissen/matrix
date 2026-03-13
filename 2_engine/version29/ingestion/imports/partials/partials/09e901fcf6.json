@@ -1,0 +1,24 @@
+{
+  "subdomain": "Gesundheitspsychologie",
+  "problem_groups": [
+    "Krankheitsvermeidung und Gesundheitsvorsorge",
+    "Psychische Belastungen durch chronische Erkrankungen",
+    "Verhaltensprobleme im Zusammenhang mit Gesundheit",
+    "Soziale Isolation bei gesundheitlichen Einschränkungen",
+    "Gesundheitskompetenz und Informationsverarbeitung",
+    "Kopf- und Körperwahrnehmung bei körperlichen Beschwerden",
+    "Umgang mit medizinischen Diagnosen und Therapien",
+    "Gesundheitsbezogene Entscheidungsfindung",
+    "Psychosomatische Symptome",
+    "Gesundheitsverhalten im Lebenslauf",
+    "Kommunikation zwischen Patienten und Gesundheitsdienstleistern",
+    "Gesundheitliche Risikovermeidung durch Suchtverhalten",
+    "Emotionale Reaktionen auf gesundheitliche Veränderungen",
+    "Gesundheitswahrnehmung in kulturellen Kontexten",
+    "Selbstwirksamkeit im Gesundheitskontext"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199800
+  }
+}

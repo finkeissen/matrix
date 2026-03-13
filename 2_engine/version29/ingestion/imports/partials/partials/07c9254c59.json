@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Organisation",
+  "problem_groups": [
+    "Organisationsstruktur und Regenerationsfähigkeit",
+    "Ressourcenverfügbarkeit für Regeneration",
+    "Kommunikation und Informationsfluss in regenerativen Prozessen",
+    "Mitarbeiterengagement bei organisatorischer Veränderung",
+    "Zielsetzung und Ausrichtung von Regenerationsprozessen",
+    "Resistenz gegen Veränderungen in der Organisation",
+    "Koordination zwischen Abteilungen während Regeneration",
+    "Evaluierung der Regenerationsfortschritte",
+    "Führungskompetenzen bei organisatorischer Transformation",
+    "Balance zwischen Stabilität und Anpassungsfähigkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202723
+  }
+}

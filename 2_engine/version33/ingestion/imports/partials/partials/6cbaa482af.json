@@ -1,0 +1,24 @@
+{
+  "subdomain": "Pädagogische Psychologie",
+  "problem_groups": [
+    "Lernmotivationsschwächen",
+    "Soziale Interaktion im Unterricht",
+    "Emotionale Entwicklung im Bildungsprozess",
+    "Kognitive Entwicklungsstadien",
+    "Individuelle Lernstile",
+    "Schulische Leistungsdruck",
+    "Psychologische Belastungen durch Schule",
+    "Unterstützung bei Lernschwierigkeiten",
+    "Verhaltensauffälligkeiten im Unterricht",
+    "Soziale Kompetenzentwicklung",
+    "Selbstwirksamkeitserwartung",
+    "Klassenklima und Gruppenbeziehungen",
+    "Lernumgebungsgestaltung",
+    "Psychologische Entwicklung in der Kindheit",
+    "Bildungsungleichheit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201768
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Homologische Algebra",
+  "problem_groups": [
+    "Kettenkomplexe und Homologiegruppen",
+    "Exakte Folgen und Kern-Quotienten-Beziehungen",
+    "Abgeleitete Funktoren (Ext, Tor)",
+    "Spektralsequenzen und Konvergenzprobleme",
+    "Homologische Dimensionen von Modulen",
+    "Kohomologie-Theorien und Dualitäten",
+    "Auflösungen und Projektivität/Injektivität",
+    "Verknüpfung von Homologie und Kohomologie"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199996
+  }
+}

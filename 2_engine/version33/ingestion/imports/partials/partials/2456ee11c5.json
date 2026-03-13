@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Gnade",
+  "problem_groups": [
+    "Konflikt zwischen Selbstverdienst und Gnade",
+    "Schwierigkeiten mit der Vergebung von Sünden",
+    "Unfähigkeit zur Anwendung von Gnade im Alltag",
+    "Sucht nach spiritueller Vollkommenheit",
+    "Soziale Isolation durch Glaubenskonflikte",
+    "Verständnisdefizite über Gnade und Reue",
+    "Widerstand gegen die Idee der unverdienten Gnade",
+    "Konflikte zwischen individueller Gnade und Gemeinschaftserwartungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202374
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Klimapolitik",
+  "problem_groups": [
+    "Klimaschutzgesetze",
+    "Internationale Klimaverträge und Kooperation",
+    "Förderung erneuerbarer Energien",
+    "Klimawandel-bedingte Migration",
+    "Öffentliche Akzeptanz von Klimaschutzmaßnahmen",
+    "Klimafinanzierung und Entwicklungshilfe",
+    "Industrieemissionen und Regulierung",
+    "Biodiversitätsverlust durch Klimawandel",
+    "Umweltverschmutzung und Gesundheit",
+    "Klimaschutz und Wirtschaftswachstum"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200445
+  }
+}

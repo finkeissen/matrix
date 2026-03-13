@@ -1,0 +1,17 @@
+{
+  "subdomain": "Open-Source-Innovation",
+  "problem_groups": [
+    "Kollaborationsbarrieren zwischen Entwicklern und Unternehmen",
+    "Nachhaltigkeit von Community-Engagement",
+    "Konflikte zwischen proprietärer und offener Innovation",
+    "Qualitätssicherung in dezentralen Entwicklungsumgebungen",
+    "Lizenzkompatibilitätsprobleme bei Softwareintegration",
+    "Ressourcenmangel für langfristige Projektförderung",
+    "Technische Schulden durch unkoordinierte Weiterentwicklung",
+    "Sicherheitsrisiken durch unkontrollierte Codeverteilung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201181
+  }
+}

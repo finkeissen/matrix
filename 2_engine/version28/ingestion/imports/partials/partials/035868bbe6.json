@@ -1,0 +1,19 @@
+{
+  "subdomain": "Nachhaltige Materialien",
+  "problem_groups": [
+    "Ressourcenverbrauch bei Produktion",
+    "Abfallmanagement von Materialien",
+    "Energieeffizienz in der Herstellung",
+    "Toxische Inhaltsstoffe in Materialien",
+    "Langlebigkeit und Verschleiß",
+    "Recyclingfähigkeit von Materialien",
+    "Klimawirkung durch Materialherstellung",
+    "Verfügbarkeit nachhaltiger Rohstoffe",
+    "Transport- und Logistikprobleme",
+    "Marktverzerrung durch umweltfreundliche Alternativen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200935
+  }
+}

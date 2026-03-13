@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Verbundenheit",
+  "problem_groups": [
+    "Mangelnde soziale Verknüpfung",
+    "Unfähigkeit zur emotionalen Resonanz",
+    "Zerstörung von Beziehungsnetzen",
+    "Isolation im sozialen Umfeld",
+    "Verlust von gemeinschaftlicher Identität",
+    "Unterdrückung von Verbundenheitsimpulsen",
+    "Fehlende Ressourcen für Zusammenhalt",
+    "Zersplitterung der sozialen Strukturen",
+    "Unvermögen zur kollektiven Regeneration",
+    "Verhärtung von Beziehungsbarrieren"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202999
+  }
+}

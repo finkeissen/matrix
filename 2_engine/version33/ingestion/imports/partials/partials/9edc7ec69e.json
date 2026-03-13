@@ -1,0 +1,16 @@
+{
+  "subdomain": "Wilber’s Integraltheorie",
+  "problem_groups": [
+    "Integration von heterogenen Paradigmen",
+    "Komplexität der multidisziplinären Struktur",
+    "Konflikte zwischen ontologischen Grundannahmen",
+    "Skalierbarkeit in unterschiedlichen Anwendungskontexten",
+    "Validierung von Integralmodellen",
+    "Kommunikationsbarrieren in interdisziplinären Teams",
+    "Balance zwischen Holismus und Reduktionismus"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204226
+  }
+}

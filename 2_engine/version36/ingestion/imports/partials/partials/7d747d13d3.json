@@ -1,0 +1,20 @@
+{
+  "subdomain": "Postwachstumsökonomie",
+  "problem_groups": [
+    "Ressourcenverknappung",
+    "Kapitalverwertungsproblematik",
+    "Arbeitsmarktwandel",
+    "Sozialer Ausgleichsbedarf",
+    "Infrastrukturversorgungsschwierigkeiten",
+    "Energieversorgungsunsicherheit",
+    "Umweltbelastungskontrolle",
+    "Klimawandelanpassung",
+    "Demografischer Strukturwandel",
+    "Finanzsystemstabilität",
+    "Wirtschaftsmodelltransformation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201633
+  }
+}

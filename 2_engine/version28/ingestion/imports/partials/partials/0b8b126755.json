@@ -1,0 +1,19 @@
+{
+  "subdomain": "Schwarmrobotik",
+  "problem_groups": [
+    "Kommunikationsstörungen im Schwarm",
+    "Koordinationsprobleme bei gleichzeitiger Aktion",
+    "Energieverwaltung in heterogenen Roboterschwärmen",
+    "Fehlertoleranz bei Komponentenausfällen",
+    "Konfliktvermeidung bei Ressourcenkonkurrenz",
+    "Dynamische Anpassung an veränderte Umgebungen",
+    "Skalierbarkeit von Schwarmalgorithmen",
+    "Datensynchronisation in dezentralen Systemen",
+    "Sicherheit vor externen Störungen und Angriffen",
+    "Verhaltenskonsistenz bei unterschiedlichen Robotertypen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203205
+  }
+}

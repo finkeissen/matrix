@@ -1,0 +1,23 @@
+{
+  "subdomain": "Geschichte der Medizin",
+  "problem_groups": [
+    "Entstehung medizinischer Theorien",
+    "Verbreitung von Heilmethoden",
+    "Einfluss religiöser Überzeugungen auf Medizin",
+    "Medizinische Forschung im Krieg",
+    "Übertragung medizinischen Wissens zwischen Kulturen",
+    "Entwicklung der medizinischen Bildung",
+    "Veränderung von Diagnosemethoden",
+    "Einfluss politischer Systeme auf Medizin",
+    "Historische Entwicklung der Chirurgie",
+    "Medizin in der Antike",
+    "Aufkommen der wissenschaftlichen Medizin",
+    "Traditionelle Heilpraktiken im Vergleich zur modernen Medizin",
+    "Verbreitung von Krankheiten und Impfmethoden",
+    "Medizinische Ethik in historischem Kontext"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199765
+  }
+}

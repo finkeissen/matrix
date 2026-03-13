@@ -1,0 +1,18 @@
+{
+  "subdomain": "KI für Nachhaltigkeit",
+  "problem_groups": [
+    "Ethik der KI-Anwendung in nachhaltigen Projekten",
+    "Datenqualität für Umweltmodelle",
+    "Integration von KI-Tools in bestehende Nachhaltigkeitsstrategien",
+    "Algorithmenbias bei Ressourcenverteilung",
+    "Skalierbarkeit von KI-Lösungen in heterogenen Ökosystemen",
+    "Energieverbrauch von Trainingsprozessen",
+    "Rechtliche Rahmenbedingungen für KI-gestützte Nachhaltigkeitsmaßnahmen",
+    "Öffentliche Akzeptanz von KI-basierten Umweltentscheidungen",
+    "Interdisziplinäre Koordination zwischen KI-Entwicklung und Umweltwissenschaften"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200298
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "subdomain": "Kategorientheorie",
+  "problem_groups": [
+    "Definition und Axiome von Kategorien",
+    "Verhalten von Funktoren und natürlichen Transformationen",
+    "Konstruktion von Limiten und Kolimiten",
+    "Adjunkte Paare und ihre Eigenschaften",
+    "Äquivalenz versus Isomorphie in Kategorien",
+    "Anwendung des Yoneda-Lemmas",
+    "Kommutativität von Diagrammen",
+    "Universalitätsbedingungen für Objekte und Morphismen",
+    "Kategorische Darstellung von algebraischen Strukturen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200242
+  }
+}

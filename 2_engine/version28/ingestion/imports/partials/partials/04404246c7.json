@@ -1,0 +1,19 @@
+{
+  "subdomain": "KI-Verantwortung",
+  "problem_groups": [
+    "Verantwortlichkeitszuordnung bei Entscheidungen",
+    "Ethische Dilemmata in KI-Systemen",
+    "Transparenz und Erklärbarkeit von Algorithmen",
+    "Diskriminierende Muster in Trainingsdaten",
+    "Datenschutz und Privatsphäreverletzungen",
+    "Rechtliche Haftung bei Schadensfällen",
+    "Mangelnde menschliche Kontrolle über Systeme",
+    "Vertrauensdefizite durch unklare Entscheidungsprozesse",
+    "Umweltbelastung durch Rechenintensität",
+    "Verbreitung von Falschinformationen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200379
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Existenzphilosophie",
+  "problem_groups": [
+    "Existenzsinn und Lebenszweck",
+    "Menschenwelt-Beziehung",
+    "Lebensbedingungen und -umstände",
+    "Tod und Sterblichkeit",
+    "Selbstwahrnehmung und Identität",
+    "Lebensentfaltung und -realisierung",
+    "Zukunft und Hoffnung",
+    "Lebensrisiken und -unsicherheiten",
+    "Menschenwelt-Interaktion",
+    "Lebensbedeutung und -wert"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199448
+  }
+}

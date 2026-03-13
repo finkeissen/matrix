@@ -1,0 +1,15 @@
+{
+  "subdomain": "Regenerative Spiritualität",
+  "problem_groups": [
+    "Authentizitätsverlust bei spirituellen Praktiken",
+    "Konflikt zwischen moderner Lebensweise und spiritueller Praxis",
+    "Überabhängigkeit von spezifischen spirituellen Techniken",
+    "Integration von Spiritualität in den Alltag ohne Zwang",
+    "Nachhaltigkeit der spirituellen Praktiken im Langzeitverlauf",
+    "Soziale Anerkennung und Verständigungsschwierigkeiten bezüglich Regenerativer Spiritualität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202894
+  }
+}

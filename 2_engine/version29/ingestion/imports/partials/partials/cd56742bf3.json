@@ -1,0 +1,19 @@
+{
+  "subdomain": "Theoretische Informatik",
+  "problem_groups": [
+    "Formale Sprachen und Grammatiken",
+    "Automatenmodelle und deren Eigenschaften",
+    "Komplexitätstheorie und Klassen von Problemen",
+    "Logik in der Informatik",
+    "Algorithmenanalyse und Laufzeitanalyse",
+    "Kryptografische Grundlagen und Sicherheitsmodellierung",
+    "Beweistechniken in der Theoretischen Informatik",
+    "Verifikation von Algorithmen und Systemen",
+    "Modelltheorie und Semantik formaler Sprachen",
+    "Reduktionen zwischen Problemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203775
+  }
+}

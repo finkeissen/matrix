@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Jetzt",
+  "problem_groups": [
+    "Klimawandel-Resilienz",
+    "Umweltverschmutzungskontrolle",
+    "Biodiversitätsverlust",
+    "Ressourcenknappheit",
+    "Energiesystemtransformation",
+    "Landnutzungskonflikte",
+    "Kohlenstoffsequestrierung",
+    "Ökologische Balancestörungen",
+    "Naturkatastrophenprävention",
+    "Umweltgerechte Entwicklung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202467
+  }
+}

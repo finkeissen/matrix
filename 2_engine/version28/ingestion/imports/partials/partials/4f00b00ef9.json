@@ -1,0 +1,16 @@
+{
+  "subdomain": "Tropische Geometrie",
+  "problem_groups": [
+    "Konstruktion tropischer Varietäten",
+    "Beziehung zur klassischen Algebraischen Geometrie",
+    "Analyse tropischer Polynome und deren Graphen",
+    "Integration in Informatik und Physik",
+    "Klassifikation tropischer Morphismen",
+    "Verständnis von Tropischen Strukturen",
+    "Algorithmische Komplexitätstheorie in der Tropischen Geometrie"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203939
+  }
+}

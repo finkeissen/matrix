@@ -1,0 +1,19 @@
+{
+  "subdomain": "Risikomanagement",
+  "problem_groups": [
+    "Unvollständige Risikoidentifikation",
+    "Inkonsistente Risikoquantifizierung",
+    "Fehlende Priorisierung von Risiken",
+    "Mangelnde Kommunikation von Risiken",
+    "Unzureichende Integration in Geschäftsprozesse",
+    "Datenqualitätsdefizite bei Risikodaten",
+    "Ressourcenmangel für Risikobewältigung",
+    "Nicht einhaltbare Compliance-Anforderungen",
+    "Fehlende Szenarioplanung",
+    "Unzureichende Überwachung von Risiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203185
+  }
+}

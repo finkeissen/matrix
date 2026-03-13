@@ -1,0 +1,19 @@
+{
+  "subdomain": "Evolutionsbiologie",
+  "problem_groups": [
+    "Mechanismen der evolutionären Veränderung",
+    "Adaptive Merkmale und ihre Entwicklung",
+    "Phylogenetische Beziehungen und Klassifizierung",
+    "Speziation und Aussterbungsprozesse",
+    "Genetische Variation und Mutationsraten",
+    "Ko-Evolution von Artenbeziehungen",
+    "Evolutionäre Zeitskalen und Dynamik",
+    "Entwicklungsbeschränkungen in der Evolution",
+    "Konvergente Evolution und parallele Anpassungen",
+    "Umweltbedingte Einflüsse auf die Evolution"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199429
+  }
+}

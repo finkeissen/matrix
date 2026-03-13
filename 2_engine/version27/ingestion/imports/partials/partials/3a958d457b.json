@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Gleichgewicht",
+  "problem_groups": [
+    "Energieverlust bei Regenerationsprozessen",
+    "Unausgewogene Zellreifung",
+    "Stoffwechselstörungen in regenerativen Prozessen",
+    "Immunreaktionen während der Regeneration",
+    "Mangel an Stammzellfunktion",
+    "Zyklusverwirrung im Gewebe-Regenerationsprozess",
+    "Unkontrollierte Zellproliferation",
+    "Degradation von Extrazellularmatrix",
+    "Fehlregulation der Apoptose",
+    "Minderwertige Wundheilungsmechanismen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202358
+  }
+}

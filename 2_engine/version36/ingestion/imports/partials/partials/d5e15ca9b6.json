@@ -1,0 +1,19 @@
+{
+  "subdomain": "Planetary Health",
+  "problem_groups": [
+    "Klimawandel-bedingte Gesundheitsrisiken",
+    "Umweltverschmutzung und menschliche Gesundheit",
+    "Biodiversitätsverlust und Ökosystemdienstleistungen",
+    "Nahrungsmittelunsicherheit und Ernährungsprobleme",
+    "Wasserknappheit und Trinkwasserversorgung",
+    "Umweltbedingte Migration und Flucht",
+    "Klimaresilienz von Gesundheitssystemen",
+    "Umweltrisiken durch industrielle Aktivitäten",
+    "Lärmbelastung und gesundheitliche Auswirkungen",
+    "Abfallproblematik und Umweltverschmutzung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201456
+  }
+}

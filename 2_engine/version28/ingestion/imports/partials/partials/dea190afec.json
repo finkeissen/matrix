@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Einheit",
+  "problem_groups": [
+    "Zellregeneration und Gewebeheilung",
+    "Stemzellen und Differenzierungsprobleme",
+    "Immunantwort bei Regenerationsprozessen",
+    "Nährstoffversorgung und Stoffwechselanpassung",
+    "Genetische Faktoren der Regenerationskapazität",
+    "Mikrobiom-basierte Einflüsse auf Regeneration",
+    "Mechanische Belastung und Gewebeelastizität",
+    "Chronisches Entzündungsverhalten im Regenerationsprozess",
+    "Neurotrophes Wachstum und Nervenreparatur",
+    "Aging-bedingte Degeneration der Regenerationsfähigkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202119
+  }
+}

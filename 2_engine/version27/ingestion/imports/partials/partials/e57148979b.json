@@ -1,0 +1,16 @@
+{
+  "subdomain": "Trendforschung",
+  "problem_groups": [
+    "Datenqualität",
+    "Fluktuationsidentifikation",
+    "Quellendiversität",
+    "Relevanzprüfung",
+    "Prognosegenauigkeit",
+    "Datenabhängigkeit",
+    "Validierungskriterien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203927
+  }
+}

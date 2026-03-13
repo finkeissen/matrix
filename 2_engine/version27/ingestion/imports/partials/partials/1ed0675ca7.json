@@ -1,0 +1,19 @@
+{
+  "subdomain": "Finanzielle Transparenz",
+  "problem_groups": [
+    "Unklare Finanzberichterstattung",
+    "Mangelnde Offenlegung von Verbindlichkeiten",
+    "Fehlende Einblicksmöglichkeiten in Investitionen",
+    "Unzureichende Kommunikation von Risiken",
+    "Inkonsistente Bewertungsstandards",
+    "Verdeckte Kostentransferierungen",
+    "Mangelnde Nachvollziehbarkeit von Finanzströmen",
+    "Unklare Verantwortlichkeiten bei Finanzentscheidungen",
+    "Fehlende Standardisierung von Finanzdaten",
+    "Unsichere Informationsquellen für Stakeholder"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199508
+  }
+}

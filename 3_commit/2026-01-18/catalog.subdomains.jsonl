@@ -1,0 +1,1 @@
+{"record_type":"subdomain","schema_version":"mms.catalog.subdomain@1","subdomain_id":"sub:0001","domain_id":"dom:0001","name":"Anchoring & Identity","description":"IDs, stability, and anchoring semantics.","matrix_validity":{"introduced_in_commit":"2026-01-18","deprecated_in_commit":null,"status":"active"}}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bodencommons",
+  "problem_groups": [
+    "Landrechtskonflikte",
+    "Ressourcenübernutzung",
+    "Umweltschutzdefizite",
+    "Soziale Ungleichheit im Landeigentum",
+    "Rechtliche Unklarheiten bei Gemeinschaftsland",
+    "Nutzerkonflikte auf gemeinsam genutzten Flächen",
+    "Nachhaltigkeitsmangel in Landwirtschaft",
+    "Biodiversitätsverlust durch Monokulturen",
+    "Stadterweiterung und Bodennutzungsstreitigkeiten",
+    "Klimawandel-bedingte Landnutzungsprobleme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198573
+  }
+}

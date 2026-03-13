@@ -1,0 +1,18 @@
+{
+  "subdomain": "Nahrungsketten",
+  "problem_groups": [
+    "Primärproduzenten-Defizite",
+    "Konsumverknappung",
+    "Räuber-Beute-Dynamikstörungen",
+    "Zersetzer-Unterbrechungen",
+    "Energiefluss-Ineffizienzen",
+    "Humanbedingte Störungen",
+    "Invasivspezies-Einwirkung",
+    "Klimafaktoren-Beeinträchtigungen",
+    "Nährstoffkreislauf-Blockaden"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200984
+  }
+}

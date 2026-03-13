@@ -1,0 +1,19 @@
+{
+  "subdomain": "Plurale Ökonomien",
+  "problem_groups": [
+    "Konflikte zwischen ökonomischen Systemen",
+    "Unvereinbarkeit von Wirtschaftsmodellen",
+    "Ressourcenverteilungsprobleme",
+    "Kulturelle und soziale Unterschiede in Ökonomien",
+    "Institutionelle Inkonsistenzen",
+    "Finanzierungs- und Kapitalflüchtlingsproblematik",
+    "Arbeitsmarktdifferenzierung",
+    "Infrastrukturunterschiede",
+    "Kommunikationsbarrieren zwischen Ökonomien",
+    "Rechtliche und politische Konflikte"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201500
+  }
+}

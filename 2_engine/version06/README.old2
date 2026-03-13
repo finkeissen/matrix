@@ -1,0 +1,344 @@
+# Matrix Engine — version06
+
+This document is the normative system contract for the Matrix Engine.
+
+It defines:
+
+- architecture
+- runtime invariants
+- agent model
+- workspace model
+- verification model
+- legacy governance
+- version06 deterministic vertical slice
+
+This README MUST be sufficient to implement and operate the engine without additional documentation.
+
+---
+
+# Core invariant
+
+A run is the canonical unit of work.
+
+Everything reproducible MUST exist under:
+
+2.runs/<date>/<run_id>/
+
+Workspace is execution projection only.  
+Canonical run directory is the source of truth.
+
+---
+
+# Architecture (Persistent since version05)
+
+The engine is a coordinated system:
+
+- Orchestrator → lifecycle + state authority
+- Planner → task definition + policy
+- Load balancing → placement + objectives
+- Stage workers → execution
+- Integrator → external boundary
+- Shared infrastructure → ids, fs, hashing, logging
+
+Control plane:
+orchestrator + planner
+
+Execution plane:
+stage workers / agents
+
+Data plane:
+run directory
+
+This separation MUST remain stable across versions.
+
+---
+
+# Workspace model
+
+Runs execute inside a materialized workspace on ramdisk.
+
+Workspace:
+
+- mutable
+- complete
+- ephemeral
+- fast
+
+Canonical run:
+
+- append-only
+- durable
+- auditable
+- authoritative
+
+Snapshots materialize workspace into canonical storage.
+
+Resume MUST work using canonical data only.
+
+No hidden runtime state allowed.
+
+---
+
+# Agent sandbox model
+
+Agents operate inside isolated directories within the workspace.
+
+Each agent has:
+
+- log
+- staging
+- claims
+- cache
+- tmp
+- metrics
+
+Agents produce outputs via staging → atomic commit.
+
+Agents never own canonical state.
+
+Agents are replaceable.  
+Runs are durable.
+
+---
+
+# Lifecycle state machine
+
+INIT  
+PREFLIGHT  
+PLANNED  
+RUNNING  
+FINALIZING  
+DONE | STOP
+
+Transitions MUST be explicit and logged.
+
+STOP is a valid terminal outcome.
+
+---
+
+# Stage model
+
+Minimal stage set:
+
+intake  
+validate  
+execute  
+self_control  
+update  
+
+Stages:
+
+- declare inputs
+- declare outputs
+- are idempotent
+- cannot mutate previous artifacts
+- complete only when outputs exist canonically
+
+---
+
+# Manifest & determinism
+
+The manifest is authoritative metadata.
+
+Artifacts MUST be hashed (SHA-256).  
+State MUST be append-only.  
+Resume MUST verify hashes.
+
+Determinism is required for resume safety.
+
+---
+
+# Verification model
+
+Generated content is not accepted by default.
+
+Verification is explicit work:
+
+- schema validation
+- conflict detection
+- matrix alignment
+- cross-provider recomputation
+- reasoning comparison
+
+Verification is iterative and persistent across runs.
+
+Content states:
+
+candidate  
+verified  
+disputed  
+superseded  
+rejected
+
+---
+
+# Dedup & canonicalization
+
+Dedup occurs at:
+
+- task level
+- artifact level
+- knowledge level
+
+Equivalent artifacts produce canonical representation with provenance.
+
+History is never deleted.
+
+---
+
+# Anti-loop safeguards
+
+The engine MUST prevent regeneration loops via:
+
+- deterministic task ids
+- cooldown windows
+- recomputation limits
+- novelty scoring
+- verification gating
+
+Repeated generation without novelty is discouraged.
+
+---
+
+# Problem model
+
+Problems are first-class runtime events.
+
+Problem lifecycle:
+
+detect  
+record  
+classify  
+mitigate  
+re-evaluate
+
+Problems never silently disappear.
+
+Local problems → mitigation  
+Global problems → STOP
+
+---
+
+# Legacy governance
+
+Legacy code may be reused only via wrapper.
+
+Legacy:
+
+- never writes canonical artifacts
+- must declare provenance
+- must be archivable in 0.legacy/
+
+Rejected structures are moved, not deleted.
+
+Repository hygiene is mandatory.
+
+Legacy is memory, not dependency.
+
+---
+
+# Compute classification
+
+Deterministic → stability  
+Semantic → prioritization  
+LLM → exploration  
+
+Scheduling priority:
+
+deterministic  
+semantic  
+LLM
+
+No single LLM failure halts a run.
+
+---
+
+# version06 Focus — Deterministic Vertical Slice
+
+version06 implements the first fully runnable slice.
+
+Required capabilities:
+
+- CLI run entry
+- preflight
+- manifest creation
+- append-only state
+- minimal stage pipeline
+- hello artifact
+- snapshot
+- deterministic resume
+- STOP emission
+
+No distributed execution required.
+
+---
+
+# TaskEnvelope runtime
+
+All work executes via TaskEnvelope.
+
+Envelope defines:
+
+- task identity
+- stage
+- inputs
+- expected outputs
+- policy
+- provenance
+
+Envelope is immutable.
+
+Completion = outputs exist + hashes registered.
+
+---
+
+# Resume invariant
+
+Using only canonical run directory:
+
+The engine MUST:
+
+- rebuild workspace
+- restore planner state
+- continue deterministically
+
+No manual reconstruction.
+
+---
+
+# Claude orchestration boundary
+
+Claude may:
+
+- plan envelopes
+- select next deterministic task
+- verify outputs
+- trigger snapshot
+- emit STOP
+
+Claude may NOT:
+
+- bypass contracts
+- overwrite artifacts
+- change lifecycle
+- assign authority
+
+Claude optimizes execution only.
+
+---
+
+# Version boundary
+
+version06 complete when:
+
+- minimal run executes
+- resume deterministic
+- STOP enforced
+- artifacts reproducible
+
+Future versions introduce:
+
+- queue + leases
+- remote agents
+- semantic planning
+- distributed execution

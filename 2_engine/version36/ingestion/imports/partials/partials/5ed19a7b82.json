@@ -1,0 +1,19 @@
+{
+  "subdomain": "Genetische Commons",
+  "problem_groups": [
+    "Zugangsrechte zu genetischen Ressourcen",
+    "Verwaltungsstruktur der genetischen Commons",
+    "Ethische Nutzung von genetischen Daten",
+    "Datensicherheit und Privatsphäre in genetischen Commons",
+    "Ressourcenschutz und Nachhaltigkeit",
+    "Gleichmäßige Verteilung genetischer Ressourcen",
+    "Rechtsrahmen für genetische Commons",
+    "Konflikte um geistiges Eigentum an Genen",
+    "Biodiversitätschutz durch genetische Commons",
+    "Interessenkonflikte zwischen Stakeholdern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199676
+  }
+}

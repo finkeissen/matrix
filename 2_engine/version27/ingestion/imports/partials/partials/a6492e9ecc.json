@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ökonomie der Transparenz",
+  "problem_groups": [
+    "Kosten von Informationsverfügbarkeit",
+    "Machtungleichgewichte durch Datenkontrolle",
+    "Verzerrung von Marktpreisen durch Informationsasymmetrie",
+    "Risiko von Überlastung durch Informationsflut",
+    "Erosion von Vertrauen in wirtschaftliche Systeme",
+    "Kapitalisierung von Transparenz als Wettbewerbsvorteil",
+    "Verknappung von Ressourcen für Transparenzmaßnahmen",
+    "Konflikt zwischen Privatsphäre und Öffentlichkeit",
+    "Unverhältnismäßige Regulierung durch Transparenzanforderungen",
+    "Zyklus von Informationskosten und -nutzen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204500
+  }
+}

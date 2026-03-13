@@ -1,0 +1,20 @@
+{
+  "subdomain": "Palliativmedizin",
+  "problem_groups": [
+    "Schmerzmanagement und Symptomkontrolle",
+    "Kommunikation mit Patienten und Angehörigen",
+    "Psychosoziale Unterstützung bei schwerwiegenden Erkrankungen",
+    "Entscheidungsfindung im End-of-Life-Setting",
+    "Interdisziplinäre Zusammenarbeit in der Palliativversorgung",
+    "Ressourcenplanung und -verfügbarkeit für Palliativdienste",
+    "Aufklärung und Information von Patienten und Belegschaft",
+    "Ethik und rechtliche Aspekte im Palliativsetting",
+    "Pflegequalität und -sicherheit in der Palliativmedizin",
+    "Integration der Palliativmedizin in das Gesundheitssystem",
+    "Forschung und Entwicklung neuer palliativer Therapien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201289
+  }
+}

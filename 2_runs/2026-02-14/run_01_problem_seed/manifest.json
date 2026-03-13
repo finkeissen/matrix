@@ -1,0 +1,10 @@
+{
+  "run_id": "2026-02-14/run_01_problem_seed",
+  "module_id": "problems/update_problem_seed",
+  "tool_ref": "1.system/tools/run_module.py",
+  "config_ref": "1.system/tools/config.toml",
+  "outputs": [
+    "patches.jsonl",
+    "report.json"
+  ]
+}

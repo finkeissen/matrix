@@ -1,0 +1,42 @@
+{
+  "commit_id": "foundation-v1-production-line-v1",
+  "commit_date": "2026-02-11",
+  "commit_version": "v1.0",
+  "source_runs": [
+    "2.runs/foundation/logic",
+    "2.runs/foundation/epistemology_method",
+    "2.runs/foundation/probability_stats",
+    "2.runs/foundation/math_structures",
+    "2.runs/foundation/cs",
+    "2.runs/foundation/mms_interface"
+  ],
+  "run_dates": [
+    "2026-02-10",
+    "2026-02-11"
+  ],
+  "run_manifests": [],
+  "foundation_version": "foundation-v1",
+  "foundation_modules": [
+    "logic",
+    "epistemology_method",
+    "probability_stats",
+    "math_structures",
+    "cs",
+    "mms_interface"
+  ],
+  "compliance_statement": "",
+  "stop_events": [],
+  "gaps_referenced": [],
+  "rejected_items": [],
+  "artefacts": [
+    {
+      "artefact_id": "matrix_problems_v1",
+      "type": "matrix_problems",
+      "source_run": "2.runs/2026-01-19/run_*/problems.jsonl",
+      "checksum": "sha256:<HIER_DEN_SHA256_AUS_checksums.sha256>"
+    }
+  ],
+  "validation_status": "unchecked",
+  "validation_runs": [],
+  "known_limitations": []
+}

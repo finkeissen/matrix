@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Offenbarung",
+  "problem_groups": [
+    "Unvollständige Darstellung",
+    "Verwechslungen mit anderen Konzepten",
+    "Mangelnde Klarheit in der Terminologie",
+    "Unklarheiten in der Anwendung",
+    "Fehlende Verbindung zu anderen Bereichen",
+    "Unsichere Grundlagen",
+    "Mangelnde Integration in bestehende Systeme",
+    "Unklarheiten im kulturellen Kontext",
+    "Fehlende Validierung durch Praxisbeispiele",
+    "Unklarheiten in der Zielsetzung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202718
+  }
+}

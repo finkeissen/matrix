@@ -1,0 +1,19 @@
+{
+  "subdomain": "Nachhaltigkeitsmanagement",
+  "problem_groups": [
+    "Mangelnde Stakeholder-Engagement",
+    "Unklare Zielsetzungen und KPIs",
+    "Fehlende Integration in Geschäftsprozesse",
+    "Ressourcenmangel für Nachhaltigkeitsinitiativen",
+    "Widersprüchliche gesetzliche Anforderungen",
+    "Mangelnde Datenbasis zur Nachhaltigkeitsbewertung",
+    "Unzureichende Kommunikation von Nachhaltigkeitsstrategien",
+    "Konflikte zwischen ökonomischen und ökologischen Zielen",
+    "Fehlende Langfristplanung für Nachhaltigkeit",
+    "Unsichere Finanzierung von Nachhaltigkeitsprojekten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200946
+  }
+}

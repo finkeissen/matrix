@@ -1,0 +1,20 @@
+{
+  "subdomain": "Kartographie",
+  "problem_groups": [
+    "Topografische Genauigkeit",
+    "Darstellung von 3D-Räumen auf 2D-Karten",
+    "Skalierung und Detailgrad von Karten",
+    "Veraltete oder fehlerhafte Kartendaten",
+    "Kulturelle oder politische Verzerrungen in Karten",
+    "Projektionsverzerrungen und deren Auswirkungen",
+    "Integration heterogener Datensätze in Karten",
+    "Barrierefreiheit von Karten für Menschen mit Behinderung",
+    "Einfluss von Umweltveränderungen auf Kartendaten",
+    "Echtzeitdatenintegration in dynamischen Karten",
+    "Anpassung von Karten an unterschiedliche Benutzerbedürfnisse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200222
+  }
+}

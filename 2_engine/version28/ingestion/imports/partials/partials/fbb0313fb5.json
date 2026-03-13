@@ -1,0 +1,19 @@
+{
+  "subdomain": "Astrophysik",
+  "problem_groups": [
+    "Beobachtungsbedingte Datenlimitationen",
+    "Gravitationswechselwirkungen in Sternsystemen",
+    "Kosmologische Strukturbildung",
+    "Stellare Evolution und Supernova-Phänomene",
+    "Interstellare Mediumdynamik",
+    "Exoplaneten-Detektionsmethoden",
+    "Schwarze Löcher und Ereignishorizonte",
+    "Hochenergetische Prozesse im Universum",
+    "Dark Matter-Wechselwirkungen",
+    "Kosmische Strahlung und Magnetosphären"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198350
+  }
+}

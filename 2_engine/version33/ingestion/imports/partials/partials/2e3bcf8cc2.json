@@ -1,0 +1,24 @@
+{
+  "subdomain": "Politische Soziologie",
+  "problem_groups": [
+    "Machtverhältnisse und Herrschaftssysteme",
+    "Soziale Ungleichheit und Klassenstruktur",
+    "Gruppenidentitäten und Kollektivdynamik",
+    "Staatliche Institutionen und Politikformen",
+    "Zivilgesellschaft und Partizipation",
+    "Kulturpolitische Einflüsse und Normen",
+    "Migration und Integrationsschwierigkeiten",
+    "Wahlverhalten und Wählermobilisierung",
+    "Politische Mobilisierung und Bewegungen",
+    "Gewalt und Konfliktentwicklung",
+    "Medienwirkung auf politisches Denken",
+    "Globalisierung und nationale Politik",
+    "Demokratieerhaltung und Erosion",
+    "Intersektionale Diskriminierungsformen",
+    "Politische Sozialisation und Erziehung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201560
+  }
+}

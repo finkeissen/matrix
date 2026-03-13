@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Feiern",
+  "problem_groups": [
+    "Mangelnde Verständnis für regenerative Prinzipien",
+    "Logistische Herausforderungen bei Ressourcenmanagement",
+    "Konflikt zwischen Feierlichkeiten und Nachhaltigkeitszielen",
+    "Inklusionsprobleme bei Teilnehmern",
+    "Schwierigkeiten bei der Bewertung von Regenerationswirkung",
+    "Unvereinbarkeit von Erwartungen unterschiedlicher Gruppen",
+    "Authentizitätsverlust durch kommerzialisierte Feiern",
+    "Mangelnde langfristige Beteiligungsbereitschaft"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202235
+  }
+}

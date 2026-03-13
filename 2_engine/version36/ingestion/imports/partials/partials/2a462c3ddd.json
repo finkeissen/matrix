@@ -1,0 +1,19 @@
+{
+  "subdomain": "Zeitreihenanalyse",
+  "problem_groups": [
+    "Datenqualitätsprobleme in Zeitreihen",
+    "Ungewöhnliche Mustererkennung",
+    "Saisonalitätserkennung und Modellierung",
+    "Trendidentifikation",
+    "Rauschunterdrückung in Zeitreihen",
+    "Fehlende Daten in Zeitreihen",
+    "Modellselektion für Zeitreihen",
+    "Prognosegenauigkeitsschwankungen",
+    "Exogenen Einflussfaktoren Identifikation",
+    "Korrelation zwischen Zeitreihen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204318
+  }
+}

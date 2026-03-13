@@ -1,0 +1,17 @@
+{
+  "subdomain": "Mind Uploading",
+  "problem_groups": [
+    "Identitätskontinuität bei digitaler Übertragung",
+    "Ethische Implikationen der Bewusstseinsdigitalisierung",
+    "Technische Grenzen der neuronalen Datenreplikation",
+    "Rechtliche Verantwortlichkeit digitaler Identitäten",
+    "Psychologische Auswirkungen der Bewusstseinsmigration",
+    "Datensicherheit und Integrität bei neuronalen Speicherung",
+    "Soziale Akzeptanz von nicht-menschlichen Bewusstseinsformen",
+    "Philosophische Fragestellungen zur Subjektivität in digitaler Form"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200890
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Quantenmetrologie",
+  "problem_groups": [
+    "Quantenbegrenzte Präzision",
+    "Decoherence-Effekte in Messungen",
+    "Korrelation von Quantenzuständen",
+    "Kalibrierung quantenmechanischer Sensoren",
+    "Rauschunterdrückung in Quantensystemen",
+    "Skalierbarkeit quantenmetrologischer Verfahren",
+    "Interferenz bei Überlagerungsprozessen",
+    "Datenauswertung bei Quantenmessungen",
+    "Kopplung von Quantentechnologien",
+    "Stabilität von Quantenreferenzsystemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201818
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "subdomain": "Dermatologie",
+  "problem_groups": [
+    "Akne und Pimpelbildung",
+    "Allergische Hautreaktionen",
+    "Chronische Ekzeme",
+    "Follikuläre Erkrankungen",
+    "Hauttumoren und Neubildungen",
+    "Infektiöse Hauterkrankungen",
+    "Mikrobielle Besiedlung der Haut",
+    "Neurodermatitis",
+    "Pigmentstörungen",
+    "Pruritus und Juckreiz",
+    "Schuppenflechte (Psoriasis)",
+    "Vergröberte Hautstruktur",
+    "Vaskuläre Hautveränderungen",
+    "Wundheilungsstörungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198950
+  }
+}

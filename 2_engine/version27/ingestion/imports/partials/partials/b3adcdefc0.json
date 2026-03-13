@@ -1,0 +1,19 @@
+{
+  "subdomain": "Turbulenzforschung",
+  "problem_groups": [
+    "Modellierung von Turbulenzphänomenen",
+    "Numerische Simulation von turbulenten Strömungen",
+    "Analyse von Grenzschichtverhalten",
+    "Charakterisierung von Wirbelstrukturen",
+    "Validierung von Turbulenzmodellen",
+    "Skalierung von Turbulenzparametern",
+    "Einfluss von Randbedingungen auf Turbulenz",
+    "Wechselwirkung zwischen Turbulenz und Struktur",
+    "Erhaltungsgleichungen für turbulente Fluide",
+    "Instabilitäten in turbulenten Strömungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203943
+  }
+}

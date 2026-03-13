@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Pädagogik",
+  "problem_groups": [
+    "Konzeptionelle Verwirrung zwischen Regeneration und Erneuerung",
+    "Mangel an interdisziplinärer Integration in pädagogischen Praxen",
+    "Unklarheit über die Rolle von Ressourcen im Lernprozess",
+    "Widerstand gegen veränderte Rollenbilder von Pädagogen und Lernenden",
+    "Fehlende Validierung von Regenerationsmethoden in der Forschung",
+    "Überforderung durch komplexe Anforderungen an Selbstregulation",
+    "Unzureichende Berücksichtigung kultureller Unterschiede in regenerativen Ansätzen",
+    "Mangelnde Infrastruktur zur Umsetzung regenerativer Pädagogik",
+    "Konflikte zwischen traditionellen und innovativen pädagogischen Methoden",
+    "Unklarheit über die langfristigen Auswirkungen regenerativer Praktiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202775
+  }
+}

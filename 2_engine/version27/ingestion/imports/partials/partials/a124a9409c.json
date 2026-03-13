@@ -1,0 +1,19 @@
+{
+  "subdomain": "Forensische Psychologie",
+  "problem_groups": [
+    "Bewusstseinszustandsbeurteilung bei Straftätern",
+    "Evaluierung von Rechtsdurchsetzungsfähigkeit",
+    "Psychologische Risikobewertung in der Justiz",
+    "Verhaltensprognose für Rechtsverbrecher",
+    "Traumafolgestörungen im forensischen Kontext",
+    "Gefährlichkeitseinschätzung von Straftätern",
+    "Psychologische Gutachten für Gerichte",
+    "Kriminalitätsprävention durch psychologische Interventionen",
+    "Verhaltensanalyse bei Rechtsverstößen",
+    "Evaluierung von Schuld- und Verantwortungsbewusstsein"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199513
+  }
+}

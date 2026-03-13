@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ökologische Ethik",
+  "problem_groups": [
+    "Konflikte zwischen ökonomischen Interessen und Umweltschutz",
+    "Moralische Bewertung von Ressourcennutzung",
+    "Verantwortung für zukünftige Generationen",
+    "Ethik der Tierhaltung und -nutzung",
+    "Umgang mit Klimawandel und Klimaschutzmaßnahmen",
+    "Ökologische Gerechtigkeit zwischen Ländern",
+    "Moralische Bewertung von Umweltverschmutzung",
+    "Verantwortung für Biodiversitätsschutz",
+    "Ethik der Technologieentwicklung im Umweltschutz",
+    "Konflikte zwischen individuellen und kollektiven Umweltinteressen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204418
+  }
+}

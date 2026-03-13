@@ -1,0 +1,19 @@
+{
+  "subdomain": "Politische Theorie",
+  "problem_groups": [
+    "Konflikte zwischen Ideologien",
+    "Unvereinbarkeit von Theorien und Praxis",
+    "Definition politischer Konzepte",
+    "Legitimationsprobleme von Machtstrukturen",
+    "Dynamik von Herrschaft und Widerstand",
+    "Normative vs. deskriptive Ansätze",
+    "Interdependenzen zwischen Theorie und Politik",
+    "Kritik an etablierten politischen Modellen",
+    "Integration von Diversität in theoretische Rahmen",
+    "Verhältnis von Individuum und Gemeinschaft"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201572
+  }
+}

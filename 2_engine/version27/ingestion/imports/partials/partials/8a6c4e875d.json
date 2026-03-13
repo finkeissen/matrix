@@ -1,0 +1,19 @@
+{
+  "subdomain": "Nachhaltigkeitsmarketing",
+  "problem_groups": [
+    "Kommunikationswidersprüche zwischen Unternehmensimage und Nachhaltigkeitsversprechen",
+    "Mangelnde Transparenz bei Nachhaltigkeitsmaßnahmen",
+    "Überforderung durch komplexe Nachhaltigkeitsstandards und Zertifizierungen",
+    "Fehlende Differenzierung zwischen Greenwashing und echter Nachhaltigkeit",
+    "Unzureichende Zielgruppenansprache im Nachhaltigkeitsmarketing",
+    "Konflikte zwischen ökonomischen Zielen und nachhaltigen Praktiken",
+    "Mangelnde Langzeitwirkung von Nachhaltigkeitskampagnen",
+    "Inkompatibilität von Marketingstrategien mit ökologischen Prinzipien",
+    "Unklare Verantwortlichkeiten im Nachhaltigkeitsmanagement",
+    "Übermäßige Verbreitung von Greenwashing-Praktiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200953
+  }
+}

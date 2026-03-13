@@ -1,0 +1,16 @@
+{
+  "subdomain": "Metabolomik",
+  "problem_groups": [
+    "Dateninterpretation bei komplexen Metabolitenmuster",
+    "Identifikation von Biomarkern mit geringer Spezifität",
+    "Integration von Metabolomdaten in Multi-Omics-Modelle",
+    "Standardisierung von Probenahme und Präparation",
+    "Dynamische Range-Begrenzung bei Quantifizierungsanalysen",
+    "Validierung von metabolischen Pathway-Modellen",
+    "Interpretation von Störeffekten in Metabolitenprofilen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200843
+  }
+}

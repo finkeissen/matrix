@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Symbiose",
+  "problem_groups": [
+    "Interdependenz von Ökosystemen und menschlichen Aktivitäten",
+    "Ressourcenverknappung in symbiotischen Beziehungen",
+    "Störfaktoren durch anthropogene Einflüsse",
+    "Unbalancierte Nährstoffkreisläufe",
+    "Verlust von Biodiversität in symbiotischen Systemen",
+    "Klimatische Veränderungen und ihre Auswirkung auf Symbiosen",
+    "Mangel an Wissen über langfristige Symbiose-Interaktionen",
+    "Konflikte zwischen ökologischer Stabilität und wirtschaftlicher Nutzung",
+    "Degradation von symbiotischen Ökosystemen durch Umweltverschmutzung",
+    "Unzureichende Schutzmaßnahmen für symbiotische Beziehungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202939
+  }
+}

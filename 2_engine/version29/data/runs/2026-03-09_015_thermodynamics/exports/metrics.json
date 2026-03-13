@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-03-09T10:44:03Z",
+  "step.01_scope.duration_ms": 0,
+  "step.01_scope.status": "completed",
+  "step.02_seed_expansion.duration_ms": 0,
+  "step.02_seed_expansion.status": "completed",
+  "step.03_categories.duration_ms": 0,
+  "step.03_categories.status": "completed",
+  "step.04_problem_generation.duration_ms": 0,
+  "step.04_problem_generation.status": "completed",
+  "step.05_validation.duration_ms": 0,
+  "step.05_validation.status": "completed",
+  "step.06_deduplication.duration_ms": 0,
+  "step.06_deduplication.status": "completed",
+  "step.07_ranking.duration_ms": 0,
+  "step.07_ranking.status": "completed",
+  "step.08_export.duration_ms": 0,
+  "step.08_export.status": "completed",
+  "generated": 30,
+  "accepted": 26,
+  "rejected_exact": 0,
+  "rejected_normalized": 0,
+  "rejected_semantic": 0,
+  "duplicates": 0,
+  "rejected_content": 4,
+  "acceptance_rate": 0.867,
+  "invariant_errors": [
+    "count_mismatch"
+  ],
+  "run.status": "completed_with_warnings"
+}

@@ -1,0 +1,43 @@
+{
+  "record_type": "run_manifest",
+  "schema_version": "v1",
+  "run_id": "run_P-002_scope_transfer_violation_2026-02-12",
+  "run_alias": "run_P-002_scope_transfer_violation",
+  "run_date": "2026-02-12",
+  "timezone": "Europe/Berlin",
+  "scope": "verification / scope transfer",
+  "inputs": {
+    "upstream_commit": "2026-02-11",
+    "sources": [],
+    "notes": "P-002 verification run"
+  },
+  "tools": {
+    "generator": null,
+    "validator": null,
+    "tool_versions": {}
+  },
+  "schemas": {
+    "problem": "v1",
+    "claim": "v1",
+    "relation": "v1",
+    "source": "v1",
+    "conflict": "v1"
+  },
+  "outputs": {
+    "produced_files": [
+      "README.md",
+      "RUN_REVIEW.md",
+      "STOP.md",
+      "candidate_transfer.md",
+      "manifest.json"
+    ],
+    "checksums": {
+      "README.md": "bcbe13303aec2ae67a58b20428722ebe06bbb1a2d72d99164f200b40d0c85221",
+      "candidate_transfer.md": "0cc1aa17f74ef577d070b8e9d94365000af22f3f15ba2d7f27058d2470dd8def",
+      "STOP.md": "129db0876aa46ff967f7f0b467ee1344cc36119d0e55cc2dfd9395b3e2945a40",
+      "RUN_REVIEW.md": "91d4d4ad9cb5c6a67d27d307bfe1c4b19851d9637af8bd4ce7c25a6e328c10a7",
+      "manifest.json": "88b39fbdb42c62c7c9df1fd21326a2de946cc1a4182d5a558277f6ef68cd1fb3"
+    },
+    "checksum_algorithm": "sha256"
+  }
+}

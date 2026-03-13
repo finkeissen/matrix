@@ -1,0 +1,18 @@
+{
+  "subdomain": "Green Chemistry",
+  "problem_groups": [
+    "Reduktion von chemischen Abfällen",
+    "Verwendung nicht erneuerbarer Ressourcen",
+    "Toxische Nebenprodukte",
+    "Energieintensive Prozesse",
+    "Unverträgliche Reaktionsbedingungen",
+    "Mangel an umweltfreundlichen Katalysatoren",
+    "Kompatibilität mit bestehenden Industriestandards",
+    "Kosten für grüne Synthesemethoden",
+    "Einschränkungen bei der Skalierbarkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199907
+  }
+}

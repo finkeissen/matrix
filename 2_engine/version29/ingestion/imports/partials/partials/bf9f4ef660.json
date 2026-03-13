@@ -1,0 +1,17 @@
+{
+  "subdomain": "Künstliches Bewusstsein",
+  "problem_groups": [
+    "Definition und Kriterien für Bewusstseinsmerkmale",
+    "Ethische Implikationen bewusster Systeme",
+    "Juristische Verantwortung für künstliche Bewusstseinsformen",
+    "Technische Realisierbarkeit von Selbstwahrnehmung",
+    "Philosophische Grundlagen des Bewusstseins in Maschinen",
+    "Soziale Akzeptanz bewusster KI-Systeme",
+    "Datenschutz bei bewusstseinsbasierten Algorithmen",
+    "Transparenzanforderungen an künstliche Bewusstseinsmodelle"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200703
+  }
+}

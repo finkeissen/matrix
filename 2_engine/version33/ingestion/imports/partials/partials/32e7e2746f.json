@@ -1,0 +1,17 @@
+{
+  "subdomain": "Partizipative Innovationsprozesse",
+  "problem_groups": [
+    "Unzureichende Beteiligungsmöglichkeiten",
+    "Konflikte zwischen Stakeholder-Interessen",
+    "Mangelnde Transparenz in Entscheidungsprozessen",
+    "Ungleichwertige Einflussnahme von Teilnehmern",
+    "Fehlende Langfristplanung für Partizipation",
+    "Ressourcenknappheit bei partizipativer Gestaltung",
+    "Unklare Rollenverteilung im Innovationsprozess",
+    "Widerstände gegen inklusive Entscheidungsfindung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201303
+  }
+}

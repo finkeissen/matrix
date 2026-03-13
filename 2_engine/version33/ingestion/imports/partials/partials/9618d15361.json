@@ -1,0 +1,19 @@
+{
+  "subdomain": "Partielle Differentialgleichungen",
+  "problem_groups": [
+    "Existenz und Eindeutigkeit von Lösungen",
+    "Numerische Approximation von PDEs",
+    "Stabilität von Lösungsverfahren",
+    "Randbedingungen und deren Einfluss",
+    "Klassifizierung von Differentialgleichungstypen",
+    "Verifikation von numerischen Modellen",
+    "Effizienz von Algorithmen zur Lösung von PDEs",
+    "Modellierung physikalischer Phänomene mit PDEs",
+    "Konvergenz von Approximationsmethoden",
+    "Behandlung von singulären Stellen in Gleichungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201293
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subdomain": "Ethische Investitionen",
+  "problem_groups": [
+    "Kriterien für ethische Investitionen definieren",
+    "Konflikt zwischen Profitmaximierung und ethischen Prinzipien",
+    "Mangelnde Transparenz in der Berichterstattung ethischer Praktiken",
+    "Greenwashing-Phänomen",
+    "Langfristige vs. kurzfristige Auswirkungen ethischer Investitionen",
+    "Unklarheit bei der Bewertung von sozialer und ökologischer Nachhaltigkeit",
+    "Regulatorische Unsicherheit im Bereich ethischer Investitionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199397
+  }
+}

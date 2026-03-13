@@ -1,0 +1,19 @@
+{
+  "subdomain": "Philosophie des Geistes",
+  "problem_groups": [
+    "Bewusstseinsphänomene",
+    "Mental-physikalische Beziehungen",
+    "Selbstbewusstsein und Identität",
+    "Willensfreiheit und Determinismus",
+    "Geist-körperliche Dualismen",
+    "Subjektivität und Erlebnis",
+    "Erkenntnistheoretische Grundlagen",
+    "Sprache und Geist",
+    "Moralische Entscheidungen",
+    "Kognition und Wahrnehmung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201383
+  }
+}

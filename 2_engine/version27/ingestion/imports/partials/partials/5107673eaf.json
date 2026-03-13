@@ -1,0 +1,19 @@
+{
+  "subdomain": "Tissue Engineering",
+  "problem_groups": [
+    "Material-Substrat-Interaktionen",
+    "Zell-Integration und -Verhalten",
+    "Vaskularisierungsprobleme",
+    "Mechanische Stabilität von Geweben",
+    "Immunologische Kompatibilität",
+    "Langzeit-Biokompatibilität",
+    "Regenerative Kapazität",
+    "Scaffolding-Design",
+    "Zell-Differenzierungssteuerung",
+    "Skalierung von Gewebekonstrukten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203823
+  }
+}

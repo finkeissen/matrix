@@ -1,0 +1,19 @@
+{
+  "subdomain": "Quantenoptik",
+  "problem_groups": [
+    "Wechselwirkung von Licht und Materie auf quantenmechanischer Ebene",
+    "Kohärente Zustandsdynamik in optischen Systemen",
+    "Quantenmessprozesse mit photonenbasierten Sensoren",
+    "Entanglement-Generierung durch optische Wechselwirkungen",
+    "Nichtlineare Effekte in quantenoptischen Systemen",
+    "Zustandsvorbereitung und -manipulation von Quantensystemen",
+    "Quanteninformationstransfer über optische Kanäle",
+    "Korrelationen zwischen Lichtfeldern und quantenmechanischen Zuständen",
+    "Störungssensitivität in quantenoptischen Experimenten",
+    "Interferometrische Präzision bei quantenoptischen Messungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201824
+  }
+}

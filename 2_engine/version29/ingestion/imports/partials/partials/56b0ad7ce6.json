@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bioinspirierte Robotik",
+  "problem_groups": [
+    "Biologische Modellierung und Simulation",
+    "Materialien und Strukturdesign",
+    "Energieeffizienz und Bewegungssteuerung",
+    "Sensorik und Umgebungsinteraktion",
+    "Adaptivität und Lernverhalten",
+    "Integration biologischer Prinzipien in technische Systeme",
+    "Skalierbarkeit und Modularität von Robotersystemen",
+    "Robustheit gegenüber Umweltstörungen",
+    "Mensch-Roboter-Interaktion im bioinspirierten Kontext",
+    "Ethik und soziale Akzeptanz biologisch inspirierter Systeme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198507
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subdomain": "Phänomenologie des Bewusstseins",
+  "problem_groups": [
+    "Struktur der intentionalen Erfahrung",
+    "Selbstbewusstsein und Subjektivität",
+    "Zeitstruktur bewusster Erlebnisse",
+    "Körper-Bewusstseins-Beziehung",
+    "Sprache und Bewusstseinsformen",
+    "Grenzen der bewussten Wahrnehmung",
+    "Einheit von Bewusstseinsprozessen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201427
+  }
+}

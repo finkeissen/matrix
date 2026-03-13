@@ -1,0 +1,19 @@
+{
+  "subdomain": "Queer Studies",
+  "problem_groups": [
+    "Diskriminierung aufgrund von Geschlechtsidentität und sexueller Orientierung",
+    "Erkennung und Anerkennung nicht-binärer Identitäten",
+    "Intersektionale Überlagerung von Queer-Identitäten mit Rassismus oder Klassismus",
+    "Verzerrte Darstellung von Queer-Identitäten in Medien und Popkultur",
+    "Mangel an geschlechtergerechten Forschungsansätzen in der Wissenschaft",
+    "Exklusion von Queer-Perspektiven in politischen Entscheidungsprozessen",
+    "Pathologisierung von nicht-heteronormativen Verhaltensweisen",
+    "Fehlende Repräsentation von Queer-Individuen in Bildungssystemen",
+    "Kulturelle Aneignung von Queer-Symbolik und Sprache",
+    "Konflikte zwischen individueller Identität und gesellschaftlicher Normierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201898
+  }
+}

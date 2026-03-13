@@ -1,0 +1,19 @@
+{
+  "subdomain": "Psychologie der Transparenz",
+  "problem_groups": [
+    "Definition von Transparenz in psychologischen Kontexten",
+    "Einfluss von Transparenz auf Vertrauensbildungsprozesse",
+    "Transparenz als Faktor in therapeutischen Beziehungen",
+    "Wahrnehmung und Bewertung von Transparenz durch Individuen",
+    "Konflikte zwischen Transparenzanforderungen und Privatsphäre",
+    "Soziale Erwartungen an transparennte Kommunikation",
+    "Transparenz in der Forschungspraxis",
+    "Psychologische Barrieren für transparentes Verhalten",
+    "Kulturelle Unterschiede in der Wahrnehmung von Transparenz",
+    "Transparenz als Instrument im Konfliktmanagement"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201728
+  }
+}

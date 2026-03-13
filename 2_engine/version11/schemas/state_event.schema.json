@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "state_event.schema.json",
+  "title": "StateEvent",
+  "description": "One append-only line in state.jsonl. Complete run history reconstructable from this log.",
+  "type": "object",
+  "required": ["ts", "run_id", "actor", "event"],
+  "additionalProperties": false,
+  "properties": {
+    "ts":       { "type": "string", "format": "date-time" },
+    "run_id":   { "type": "string" },
+    "actor":    { "type": "string", "description": "e.g. orchestrator, executor, step:04_hypothesis" },
+    "actor_type": {
+      "type": "string",
+      "enum": ["control", "executor", "step"],
+      "description": "control = orchestrator/planner; executor = dispatch layer; step = stage worker"
+    },
+    "event": {
+      "type": "string",
+      "enum": [
+        "run.init",
+        "run.preflight_ok",
+        "run.planned",
+        "run.done",
+        "run.stop",
+        "task.created",
+        "task.dispatched",
+        "task.claimed",
+        "task.complete",
+        "task.failed",
+        "task.retrying",
+        "task.cache_hit",
+        "artifact.state_change",
+        "snapshot.created",
+        "loop.detected",
+        "clarification.round_start",
+        "clarification.round_complete"
+      ]
+    },
+    "task_id":  { "type": ["string", "null"] },
+    "payload":  {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Event-specific data. Contents vary by event type."
+    }
+  },
+  "examples": [
+    {
+      "ts": "2026-03-03T09:01:22Z",
+      "run_id": "2026-03-03_001",
+      "actor": "executor",
+      "actor_type": "executor",
+      "event": "task.complete",
+      "task_id": "sha256:a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "payload": {
+        "step": "01_parsing_01_extraction",
+        "duration_ms": 1240,
+        "cache_hit": false,
+        "output_keys": ["raw_facts"]
+      }
+    },
+    {
+      "ts": "2026-03-03T09:02:10Z",
+      "run_id": "2026-03-03_001",
+      "actor": "orchestrator",
+      "actor_type": "control",
+      "event": "artifact.state_change",
+      "task_id": "sha256:a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "payload": {
+        "artifact_hash": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "from_state": "candidate",
+        "to_state": "verified",
+        "reason": "validation_passed"
+      }
+    }
+  ]
+}

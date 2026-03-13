@@ -1,0 +1,19 @@
+{
+  "subdomain": "Maschinelles Lernen",
+  "problem_groups": [
+    "Datenaufbereitung und -qualität",
+    "Modellgeneralisierung und Überanpassung",
+    "Featureauswahl und -transformation",
+    "Hyperparameteroptimierung",
+    "Modellauswahl und -architektur",
+    "Evaluationsmethoden und Metriken",
+    "Computational Resources und Skalierbarkeit",
+    "Interpretierbarkeit und Erklärbarkeit von Modellen",
+    "Ethik und Bias in Algorithmen",
+    "Integration in Produktionsumgebungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200762
+  }
+}

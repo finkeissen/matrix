@@ -1,0 +1,18 @@
+{
+  "subdomain": "Wissenscommons",
+  "problem_groups": [
+    "Zugangshindernisse",
+    "Qualitätskontrolle",
+    "Nachhaltigkeit",
+    "Rechtsfragen",
+    "Motivation zur Beitragsleistung",
+    "Datenüberflutung",
+    "Kulturelle Unterschiede",
+    "Governance-Strukturen",
+    "Digitale Kluft"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204285
+  }
+}

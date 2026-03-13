@@ -1,0 +1,19 @@
+{
+  "subdomain": "KI für menschliche Reife",
+  "problem_groups": [
+    "Ethische Implikationen von KI-Entscheidungen",
+    "Datenschutz und Privatsphäre in KI-Anwendungen",
+    "Verzerrung durch Trainingsdaten in KI-Systemen",
+    "Soziale Ungleichheit durch KI-gestützte Entscheidungsfindung",
+    "Mangelnde Transparenz von KI-Algorithmen",
+    "Abhängigkeit von KI bei kritischen menschlichen Entscheidungen",
+    "Verlust von sozialen Fähigkeiten durch KI-Nutzung",
+    "Überforderung durch KI-gestützte Kommunikation",
+    "Unvermögen zur Emotionswahrnehmung in KI-Interaktionen",
+    "Durchdringung von KI in pädagogische Prozesse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200281
+  }
+}

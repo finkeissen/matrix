@@ -1,0 +1,15 @@
+{
+  "subdomain": "Regenerative Ewigkeit",
+  "problem_groups": [
+    "Sustainability of Regenerative Processes",
+    "Balance Between Consumption and Renewal",
+    "Ethical Implications of Perpetual Regeneration",
+    "Resource Allocation for Long-Term Viability",
+    "Temporal Sustainability Challenges",
+    "Interplay of Natural Cycles and Human Intervention"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202211
+  }
+}

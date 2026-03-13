@@ -1,0 +1,18 @@
+{
+  "subdomain": "Digitales Lernen",
+  "problem_groups": [
+    "Technische Infrastruktur und Zugang",
+    "Digitale Kompetenz der Nutzer",
+    "Inhaltliche Qualität digitaler Materialien",
+    "Motivation und Engagement im Selbststudium",
+    "Barrierefreiheit digitaler Lernumgebungen",
+    "Datenschutz und Sicherheitsrisiken",
+    "Unterstützung von Lehrkräften in der Digitalisierung",
+    "Integration von Analog- und Digitalmethoden",
+    "Evaluationsmethoden für digitales Lernen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199061
+  }
+}

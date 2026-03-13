@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ökozentrische Ethik",
+  "problem_groups": [
+    "Konflikt zwischen ökologischen und wirtschaftlichen Interessen",
+    "Menschenwürde vs. Umweltverschmutzung",
+    "Verantwortung für zukünftige Generationen",
+    "Naturschutz versus Ressourcennutzung",
+    "Klimawandel als ethisches Problem",
+    "Ungleiche Auswirkungen von Umweltschäden auf verschiedene Bevölkerungsgruppen",
+    "Verantwortung für Tierrechte im ökologischen Kontext",
+    "Ökologische Gerechtigkeit und Verteilungsgerechtigkeit",
+    "Moralische Bewertung von Technologie zur Umweltgestaltung",
+    "Kultur- und Wissensverlust durch Umweltzerstörung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204518
+  }
+}

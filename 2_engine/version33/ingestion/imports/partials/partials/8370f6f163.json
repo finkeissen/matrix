@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Finanzwesen",
+  "problem_groups": [
+    "Mangelnde Verständigung über regenerative Finanzierungsinstrumente",
+    "Unklare Definition von Regenerativität in finanziellen Kontexten",
+    "Fehlende Standardisierung von Nachhaltigkeitskriterien",
+    "Schwierigkeiten bei der Risikobewertung regeneratorischer Investitionen",
+    "Unzureichende Integration in traditionelle Finanzsysteme",
+    "Mangelnde Ressourcenallokation für regenerative Projekte",
+    "Fehlende Interoperabilität zwischen Finanzierungsinstrumenten",
+    "Unklare Rechtsrahmen für regenerative Finanzierungsmodelle",
+    "Geringe Akzeptanz von Regenerativitätsprinzipien in der Wirtschaft",
+    "Mangelnde Langfristplanung im regenerativen Finanzwesen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202253
+  }
+}

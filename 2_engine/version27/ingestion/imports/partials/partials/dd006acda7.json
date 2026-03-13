@@ -1,0 +1,17 @@
+{
+  "subdomain": "Generative Kunst",
+  "problem_groups": [
+    "Technische Limitationen generativer Werkzeuge",
+    "Balance zwischen Kontrolle und Zufälligkeit im kreativen Prozess",
+    "Bewertungskriterien für algorithmisch erzeugte Werke",
+    "Urheberrecht und Eigentumsfragen bei maschinengenerierter Kunst",
+    "Abhängigkeit von spezifischen Algorithmen oder Plattformen",
+    "Integration generativer Methoden in traditionelle künstlerische Praktiken",
+    "Diversität der algorithmisch erzeugten Ergebnisse",
+    "Ethische Implikationen KI-gestützter Kreativität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199646
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "subdomain": "Regenerative Landschaft",
+  "problem_groups": [
+    "Bodenverdichtung und Erosion",
+    "Nährstoffmangel im Boden",
+    "Wasserknappheit und Drainageprobleme",
+    "Verlust der Biodiversität",
+    "Klimaresistenz von Pflanzenarten",
+    "Unverträglichkeit zwischen Nutzungsformen",
+    "Soziale Ungleichheit im Zugang zu Land",
+    "Fehlende Wissensvermittlung und Bildung",
+    "Mangel an finanziellen Ressourcen",
+    "Kulturelle Verdrängung und Identitätsverlust",
+    "Ungleichgewicht zwischen Erhaltung und Nutzung",
+    "Verstörende Einflüsse durch Infrastrukturentwicklung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202569
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "texts": [
+    {
+      "source_id": "legacy_md_1",
+      "text": "The system frequently produces inconsistent IDs when two concurrent runs write to the same commit folder. Symptoms include missing checksums and overwritten manifests."
+    }
+  ]
+}

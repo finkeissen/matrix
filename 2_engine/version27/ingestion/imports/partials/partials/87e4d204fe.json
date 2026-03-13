@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Befreiung",
+  "problem_groups": [
+    "Begrenzte Ressourcenverfügbarkeit",
+    "Unzureichende Wissensvermittlung",
+    "Soziale Ungleichheit in der Teilhabe",
+    "Mangelnde politische Unterstützung",
+    "Kulturelle Widerstände gegen Veränderung",
+    "Fehlende langfristige Planung",
+    "Überlastete Infrastruktur",
+    "Unklare Rechtsgrundlagen",
+    "Geringe Öffentlichkeit der Bemühungen",
+    "Mangelnde Interdisziplinarität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202010
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Sein",
+  "problem_groups": [
+    "Energieverlust bei Regenerationsprozessen",
+    "Ressourcenverwaltung im Regenerativen Sein",
+    "Körperliche vs. geistige Regeneration",
+    "Soziale Integration von Regenerativer Praxis",
+    "Technologische Eingriffe in natürliche Regeneration",
+    "Umweltbelastung durch Regenerative Praktiken",
+    "Motivation zur langfristigen Regeneration",
+    "Wirtschaftliche Nachhaltigkeit im Regenerativen Sein",
+    "Kulturelle Unterschiede in Regenerationsansätzen",
+    "Messbarkeit von Regenerativer Gesundheit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202863
+  }
+}

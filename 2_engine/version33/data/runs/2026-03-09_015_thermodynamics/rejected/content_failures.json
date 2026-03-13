@@ -1,0 +1,90 @@
+[
+  {
+    "item": {
+      "problem_id": "ap_thermodynamics_applications_03_5eb7a84ce0",
+      "title": "Compare Thermodynamics Applications case 3",
+      "problem_statement": "In thermodynamics, frame a Thermodynamics Applications problem using a turbine stage with measurable irreversibility. The solver should compare two plausible interpretations while trying to estimate the work output and entropy generation trend. Base the reasoning on the inlet state, outlet pressure, reference isentropic state, and mass flow rate. Use the isentropic case as the reference for the real process. Frame the task around design or operation. The response should decide which one is physically consistent.",
+      "category": "thermodynamics_applications",
+      "difficulty": "hard",
+      "source_run_id": "2026-03-09_015_thermodynamics",
+      "created_at": "2026-03-09T10:44:03Z",
+      "tags": [
+        "thermodynamics",
+        "thermodynamics_applications",
+        "compare",
+        "a_turbine_stage_with_measurable_irreversibility",
+        "hard"
+      ],
+      "content_state": "candidate"
+    },
+    "errors": [
+      "[05_validation][0] statement_too_long"
+    ]
+  },
+  {
+    "item": {
+      "problem_id": "ap_thermodynamics_applications_06_44a4321f49",
+      "title": "Explain Thermodynamics Applications case 6",
+      "problem_statement": "In thermodynamics, frame a Thermodynamics Applications problem using a closed container undergoing phase change during heating. The solver should explain an apparently counterintuitive result while trying to identify which property relation controls the final state. Base the reasoning on the initial phase condition, heat input, and container constraint. Clarify when saturation data is required. Frame the task around design or operation. The response should resolve the tension with a physical argument.",
+      "category": "thermodynamics_applications",
+      "difficulty": "medium",
+      "source_run_id": "2026-03-09_015_thermodynamics",
+      "created_at": "2026-03-09T10:44:03Z",
+      "tags": [
+        "thermodynamics",
+        "thermodynamics_applications",
+        "explain",
+        "a_closed_container_undergoing_phase_change_during_heating",
+        "medium"
+      ],
+      "content_state": "candidate"
+    },
+    "errors": [
+      "[05_validation][0] statement_too_long"
+    ]
+  },
+  {
+    "item": {
+      "problem_id": "ap_thermodynamics_analysis_05_8d1e7cc77a",
+      "title": "Predict Thermodynamics Analysis case 5",
+      "problem_statement": "In thermodynamics, frame a Thermodynamics Analysis problem using a closed container undergoing phase change during heating. The solver should predict the state change after a controlled intervention while trying to identify which property relation controls the final state. Base the reasoning on the initial phase condition, heat input, and container constraint. Clarify when saturation data is required. Test whether the simplification is defensible. The response should explain the direction of change.",
+      "category": "thermodynamics_analysis",
+      "difficulty": "expert",
+      "source_run_id": "2026-03-09_015_thermodynamics",
+      "created_at": "2026-03-09T10:44:03Z",
+      "tags": [
+        "thermodynamics",
+        "thermodynamics_analysis",
+        "predict",
+        "a_closed_container_undergoing_phase_change_during_heating",
+        "expert"
+      ],
+      "content_state": "candidate"
+    },
+    "errors": [
+      "[05_validation][0] statement_too_long"
+    ]
+  },
+  {
+    "item": {
+      "problem_id": "ap_thermodynamics_analysis_08_ed50bbb745",
+      "title": "Identify Thermodynamics Analysis case 8",
+      "problem_statement": "In thermodynamics, frame a Thermodynamics Analysis problem using a piston-cylinder compression of an ideal gas. The solver should identify the limiting constraint while trying to determine the final temperature and boundary work. Base the reasoning on the initial pressure, temperature, gas mass, and process exponent. State whether the process is best treated as isothermal, adiabatic, or polytropic. Test whether the simplification is defensible. The response should show how the bottleneck controls the outcome.",
+      "category": "thermodynamics_analysis",
+      "difficulty": "hard",
+      "source_run_id": "2026-03-09_015_thermodynamics",
+      "created_at": "2026-03-09T10:44:03Z",
+      "tags": [
+        "thermodynamics",
+        "thermodynamics_analysis",
+        "identify",
+        "a_piston_cylinder_compression_of_an_ideal_gas",
+        "hard"
+      ],
+      "content_state": "candidate"
+    },
+    "errors": [
+      "[05_validation][0] statement_too_long"
+    ]
+  }
+]

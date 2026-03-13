@@ -1,0 +1,15 @@
+{
+  "subdomain": "Spiral Dynamics",
+  "problem_groups": [
+    "Stufenübergangschwierigkeiten",
+    "Wertesystemkonflikte",
+    "Anwendung in Organisationsveränderung",
+    "Integration mehrerer Entwicklungsstufen",
+    "Widerstand gegen Entwicklungsschritte",
+    "Genauigkeit der Selbstbewertung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203438
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "run_09_psychology_problem_seed",
+  "date": "2026-01-19",
+  "domain": "psychology",
+  "purpose": "Seed the Matrix with psychology problems emphasizing construct validity, measurement uncertainty, competing models, replication limits, and normativity without clinical or therapeutic guidance.",
+  "scope": {
+    "target_problem_count": 120,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "illustrative only (theories, experiments, scales)"
+  },
+  "notes": "Problems are framed to expose ambiguity, model dependence, and social/contextual effects rather than actionable advice."
+}

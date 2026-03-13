@@ -1,0 +1,17 @@
+{
+  "subdomain": "Civic Tech",
+  "problem_groups": [
+    "Digital Inclusion Gaps",
+    "Data Privacy Concerns",
+    "Legacy System Integration Challenges",
+    "Public Trust Erosion",
+    "User-Friendly Interface Design Deficits",
+    "Regional Access Disparities",
+    "Project Sustainability Risks",
+    "Transparency and Accountability Gaps"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198674
+  }
+}

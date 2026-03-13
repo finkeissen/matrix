@@ -1,0 +1,25 @@
+{
+  "subdomain": "Entwicklungsökonomie",
+  "problem_groups": [
+    "Armut und Einkommensunterschiede",
+    "Bildungschancenungleichheit",
+    "Infrastrukturmangel",
+    "Gesundheitsversorgungsdefizite",
+    "Ressourcenverknappung",
+    "Umweltverschmutzung",
+    "Klimawandelanfälligkeit",
+    "Migrationsdruck",
+    "Staatsschwäche",
+    "Arbeitslosigkeit und Unterbeschäftigung",
+    "Technologische Rückständigkeit",
+    "Landwirtschaftliche Produktivitätsprobleme",
+    "Energieversorgungsengpässe",
+    "Korruption und Governance-Probleme",
+    "Soziale Ungleichheit",
+    "Demografischer Wandel"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199331
+  }
+}

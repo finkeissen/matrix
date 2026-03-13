@@ -1,0 +1,19 @@
+{
+  "subdomain": "Medienpsychologie",
+  "problem_groups": [
+    "Informationsüberflutung und kognitive Überlastung",
+    "Media-induzierte Aufmerksamkeitsstörungen",
+    "Soziale Vergleichsprobleme durch digitale Interaktionen",
+    "Identitätsverwirrung durch virtuelle Präsenzen",
+    "Medienabhängigkeit und soziale Isolation",
+    "Emotionale Überforderung durch kontinuierliche Medienkonsum",
+    "Veränderte Kommunikationsmuster durch digitale Medien",
+    "Ethikprobleme im Medienverhalten",
+    "Reduzierte Realitätswahrnehmung durch Medienkonsum",
+    "Psychologische Auswirkungen von sozialen Medien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200804
+  }
+}

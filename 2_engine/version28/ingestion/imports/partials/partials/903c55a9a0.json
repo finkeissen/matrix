@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Verwaltung",
+  "problem_groups": [
+    "Beteiligungskonflikte bei Planungsprozessen",
+    "Fehlende Koordination zwischen staatlichen und nichtstaatlichen Akteuren",
+    "Unzureichende Ressourcen für regenerative Projekte",
+    "Mangelnde Transparenz in Entscheidungsprozessen",
+    "Widerstände gegen Veränderungen im bestehenden Infrastruktur-Netzwerk",
+    "Inkompatibilität von Regulierungsrahmen und regenerativen Praktiken",
+    "Unzureichende Datenbasis für Planung und Evaluation",
+    "Soziale Ungleichheit in Zugang zu regenerativen Ressourcen",
+    "Fehlende langfristige Strategien zur Nachhaltigkeit",
+    "Kommunikationsdefizite zwischen Verwaltungsebenen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203005
+  }
+}

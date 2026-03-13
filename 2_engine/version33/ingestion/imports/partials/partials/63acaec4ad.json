@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Bewusstsein",
+  "problem_groups": [
+    "Definition und Konzeption von Bewusstseinsregeneration",
+    "Interdisziplinäre Integration von Neurobiologie und Philosophie",
+    "Ethik der bewussten Selbstrekonstruktion",
+    "Technologische Umsetzung von Bewusstseinsmodellen",
+    "Psychologische Auswirkungen von Bewusstseinsveränderung",
+    "Soziale Akzeptanz von regenerativen Bewusstseinsprozessen",
+    "Philosophische Grundlagen der Bewusstseinsdynamik",
+    "Kognitive Dissonanz bei Bewusstseinsrekonstruktion",
+    "Neuroplastizität und Anpassungsfähigkeit des Gehirns",
+    "Langfristige Konsequenzen von Bewusstseinsregeneration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202042
+  }
+}

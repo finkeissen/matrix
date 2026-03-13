@@ -1,0 +1,18 @@
+{
+  "subdomain": "Innere Transformation",
+  "problem_groups": [
+    "Identitätskonflikte",
+    "Selbstwahrnehmungsstörungen",
+    "Emotionale Dysregulation",
+    "Motivationsblockaden",
+    "Widerstand gegen Veränderung",
+    "Innere Konfliktmanagement",
+    "Selbstakzeptanzprobleme",
+    "Wertekollisionen",
+    "Existenzialische Unsicherheit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200138
+  }
+}

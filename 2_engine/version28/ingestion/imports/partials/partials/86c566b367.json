@@ -1,0 +1,18 @@
+{
+  "subdomain": "Regenerative Philosophie",
+  "problem_groups": [
+    "Konzeptionelle Grenzen der Regeneration",
+    "Interdisziplinäre Integration von Philosophie und Naturwissenschaften",
+    "Ethische Implikationen regenerativer Praktiken",
+    "Kulturelle Interpretationsschwierigkeiten",
+    "Systemdynamik vs. Reduktionismus",
+    "Neudefinition menschlicher Beziehungen zur Natur",
+    "Zeithorizonte und Langfristigkeit",
+    "Wertesysteme in regenerativen Prozessen",
+    "Epistemologische Herausforderungen der Regeneration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202744
+  }
+}

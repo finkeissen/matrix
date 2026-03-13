@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Sexualität",
+  "problem_groups": [
+    "Hormonstörungen",
+    "Fortpflanzungsprobleme",
+    "sexuelle Dysfunktionen",
+    "Alterungsprozesse",
+    "psychologische Faktoren",
+    "Beziehungsprobleme",
+    "soziokulturelle Einflüsse",
+    "körperliche Gesundheitsprobleme",
+    "Lebensstilfaktoren",
+    "medizinische Interventionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202875
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Gig Economy",
+  "problem_groups": [
+    "Unsichere Einkommensquellen",
+    "Mangelnde Sozialversicherung",
+    "Arbeitsplatzunsicherheit",
+    "Fehlende Arbeitsrechte",
+    "Prekarisierung der Beschäftigung",
+    "Geringe Lohnsicherheit",
+    "Unzureichende Arbeitsschutzmaßnahmen",
+    "Mangelnde Karriereperspektiven",
+    "Soziale Ausgrenzung",
+    "Arbeitszeitenflexibilität vs. Arbeitsbelastung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199805
+  }
+}

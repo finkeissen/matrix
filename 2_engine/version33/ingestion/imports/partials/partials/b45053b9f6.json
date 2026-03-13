@@ -1,0 +1,19 @@
+{
+  "subdomain": "Multi-Agent-Systeme",
+  "problem_groups": [
+    "Kommunikationsprotokolle",
+    "Ressourcenallokation",
+    "Konfliktlösung",
+    "Koordinationsprobleme",
+    "Entscheidungsfindung unter Unsicherheit",
+    "Autonomie vs. Kooperation",
+    "Dynamische Umgebungen",
+    "Sicherheitsaspekte in Agenteninteraktionen",
+    "Lernverhalten von Agenten",
+    "Skalierbarkeit von Agentennetzwerken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200931
+  }
+}

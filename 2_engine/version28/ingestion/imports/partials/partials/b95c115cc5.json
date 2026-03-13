@@ -1,0 +1,17 @@
+{
+  "subdomain": "Zero Waste",
+  "problem_groups": [
+    "Mangel an Recycling-Infrastruktur",
+    "Verunreinigung von Recycling-Strömen",
+    "Unwissenheit über Zero-Waste-Prinzipien",
+    "Kostenbarrieren für nachhaltige Alternativen",
+    "Fehlende politische Rahmenbedingungen",
+    "Soziale Stigmatisierung von Nachhaltigkeitspraktiken",
+    "Greenwashing in der Marketingkommunikation",
+    "Unverträglichkeit von Produktmaterialien mit Recyclingprozessen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204354
+  }
+}

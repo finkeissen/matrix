@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Wirtschaft",
+  "problem_groups": [
+    "Mangel an finanzieller Infrastruktur für regenerative Projekte",
+    "Unzureichende politische Unterstützung für nachhaltige Initiativen",
+    "Fehlende Marktwertschöpfung von regenerativen Produkten",
+    "Kapazitätsmangel in der Umsetzung von Regenerationsprojekten",
+    "Mangel an Wissen und Bildung im Bereich Regenerative Wirtschaft",
+    "Unklare Rechtsrahmen für regenerative Geschäftsmodelle",
+    "Wettbewerbsverzerrung zugunsten fossiler Energiequellen",
+    "Fehlende Integration von Regenerationsprinzipien in bestehende Wirtschaftssysteme",
+    "Mangel an sozialer Akzeptanz für regenerative Technologien",
+    "Unzureichende Ressourcenverteilung in ländlichen Regionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203056
+  }
+}

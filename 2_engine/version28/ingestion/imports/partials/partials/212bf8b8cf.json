@@ -1,0 +1,18 @@
+{
+  "subdomain": "Elliptische Kurven",
+  "problem_groups": [
+    "Algebraische Struktur von elliptischen Kurven",
+    "Rationale Punkte auf elliptischen Kurven",
+    "Modularität und L-Funktionen",
+    "Kryptografische Anwendungen",
+    "Komplexe Multiplizität",
+    "Isogenie zwischen elliptischen Kurven",
+    "Diskriminante und Singularitäten",
+    "Torsionsuntergruppen",
+    "Hasse-Weil-Schranken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199263
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Homomorphe Verschlüsselung",
+  "problem_groups": [
+    "Effizienz von Rechenoperationen",
+    "Genauigkeit bei Datenverarbeitung",
+    "Sicherheitslücken in Implementierungen",
+    "Schlüsselmanagement-Strategien",
+    "Interoperabilität mit anderen Systemen",
+    "Skalierbarkeit bei großen Datensätzen",
+    "Benutzerfreundlichkeit der Schnittstellen",
+    "Rechtliche Konformität mit Datenschutzvorschriften"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200008
+  }
+}

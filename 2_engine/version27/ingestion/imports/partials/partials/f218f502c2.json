@@ -1,0 +1,19 @@
+{
+  "subdomain": "Planetary Boundaries",
+  "problem_groups": [
+    "Klimawandel-Überschreitung",
+    "Biodiversitätsverlust",
+    "Wasserressourcen-Übernutzung",
+    "Nährstoffkreislauf-Verstößung",
+    "Luftverschmutzung",
+    "Ozonschicht-Abbau",
+    "Küsten- und Ozeanversauerung",
+    "Landnutzungsveränderung",
+    "Mikroplastik-Belastung",
+    "Ressourcen-Überlastung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201431
+  }
+}

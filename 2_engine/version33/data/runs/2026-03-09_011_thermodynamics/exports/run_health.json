@@ -1,0 +1,13 @@
+{
+  "run_id": "2026-03-09_011_thermodynamics",
+  "score": 60,
+  "invariant_errors": [
+    "count_mismatch",
+    "low_acceptance_rate"
+  ],
+  "schema_errors": 0,
+  "quality_errors": 0,
+  "failed_steps": [],
+  "incomplete_steps": [],
+  "status": "degraded"
+}

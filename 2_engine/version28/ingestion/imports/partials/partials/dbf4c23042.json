@@ -1,0 +1,19 @@
+{
+  "subdomain": "Fertigungstechnik",
+  "problem_groups": [
+    "Materialverformung bei Bearbeitung",
+    "Werkzeugverschleiß und -bruch",
+    "Unregelmäßige Oberflächenqualität",
+    "Schwingungen und Vibrationen in Maschinenteilen",
+    "Thermische Dehnung und Verzerrung",
+    "Unscharfe Bearbeitungsgrenzen",
+    "Kollision von Werkzeug und Werkstück",
+    "Unzuverlässige Schneidkante",
+    "Unkontrollierte Scherkräfte",
+    "Unzureichende Kühlung und Schmierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199484
+  }
+}

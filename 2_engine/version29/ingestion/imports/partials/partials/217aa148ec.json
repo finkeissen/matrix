@@ -1,0 +1,19 @@
+{
+  "subdomain": "Geschichte der Reife",
+  "problem_groups": [
+    "Definition von Reifephase im historischen Kontext",
+    "Kontinuität vs. Diskontinuität in Entwicklungsnarrativen",
+    "Selektive Darstellung von Reifeprozessen in Quellen",
+    "Interpretation von Minderjährigkeit und Reife in kulturellen Systemen",
+    "Temporalisierung von Reifephänen in historischen Periodisierungen",
+    "Konstruktion von Entwicklungsstufen im Geschichtsunterricht",
+    "Kritische Aneignung von Reifekonzepten in der Geschichtswissenschaft",
+    "Verknüpfung von individueller und gesellschaftlicher Reife",
+    "Repräsentation von Reifeprozessen in historischen Medien",
+    "Normative Bewertung von Reife in vergangenen Epochen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199777
+  }
+}

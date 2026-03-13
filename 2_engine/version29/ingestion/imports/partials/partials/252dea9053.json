@@ -1,0 +1,20 @@
+{
+  "subdomain": "Umweltsoziologie",
+  "problem_groups": [
+    "Mensch-Natur-Beziehungen",
+    "Nachhaltigkeitsdifferenzierung",
+    "Industrieller Umweltschutz",
+    "Klimawandelauswirkungen",
+    "Umweltbildung",
+    "Politische Umweltpolitik",
+    "Widerstand gegen Umweltreformen",
+    "NGO-Aktivitäten im Umweltschutz",
+    "Umweltverschmutzungsfolgen",
+    "Globaler Umweltverantwortlichkeitskonflikt",
+    "Umweltrisiken und soziale Auswirkungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204021
+  }
+}

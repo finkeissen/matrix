@@ -1,0 +1,17 @@
+{
+  "subdomain": "Hard Problem of Consciousness",
+  "problem_groups": [
+    "Subjektive Erfahrungserzeugung",
+    "Definition von Bewusstsein",
+    "Geist-Körper-Interaktion",
+    "Bewusstsein in nicht-bewussten Systemen",
+    "Neuronale Korrelate von Bewusstsein",
+    "Grenzen wissenschaftlicher Methoden",
+    "Integration von Erkenntnisniveaus",
+    "Objektiv vs. subjektiv messbare Bewusstseinsphänomene"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199959
+  }
+}

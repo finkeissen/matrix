@@ -1,0 +1,17 @@
+{
+  "subdomain": "Maßtheorie",
+  "problem_groups": [
+    "Lebesgue-Maß-Eigenschaften",
+    "Messbare Funktionen",
+    "Integrationstheorien",
+    "Konvergenzsätze",
+    "Maßerweiterungen",
+    "Nicht-messbare Mengen",
+    "Äußere und Innere Maße",
+    "Wahrscheinlichkeitsmaße"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200775
+  }
+}

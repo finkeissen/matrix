@@ -1,0 +1,17 @@
+{
+  "subdomain": "Riemann-Geometrie",
+  "problem_groups": [
+    "Krümmungsberechnungen auf Mannigfaltigkeiten",
+    "Topologische Eigenschaften gekrümmter Räume",
+    "Differentialgleichungen auf Riemannschen Mannigfaltigkeiten",
+    "Geodätische Struktur und Verhalten",
+    "Metrische Invarianten und Symmetrien",
+    "Klassifikation von Riemannschen Metriken",
+    "Beziehung zwischen Geometrie und Physikalischem Modell",
+    "Konstruktion spezieller Mannigfaltigkeiten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203175
+  }
+}

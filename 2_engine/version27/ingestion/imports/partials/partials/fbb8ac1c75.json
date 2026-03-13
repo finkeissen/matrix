@@ -1,0 +1,16 @@
+{
+  "subdomain": "Transformative Literacy",
+  "problem_groups": [
+    "Mangel an zugänglichen Bildungsressourcen für marginalisierte Gruppen",
+    "Widerstand gegen kritische Lernansätze in traditionellen Bildungssystemen",
+    "Unzureichende Integration von sozialer Verantwortung in Lehrpläne",
+    "Fehlende Methoden zur Bewertung von Transformationswirkungen",
+    "Diskriminierung durch sprachliche und kulturelle Barrieren",
+    "Unsicherheit bei der Umsetzung partizipativer Lernpraktiken",
+    "Mangel an langfristiger Förderung für Bildungsinnovationen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203876
+  }
+}

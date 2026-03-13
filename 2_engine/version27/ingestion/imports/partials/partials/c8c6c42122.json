@@ -1,0 +1,18 @@
+{
+  "subdomain": "Regenerative Alles",
+  "problem_groups": [
+    "Standardisierung von Regenerationsmethoden",
+    "Integration in bestehende Systeme",
+    "Ressourcenallokation für Regeneration",
+    "Öffentliche Akzeptanz von Regenerativtechniken",
+    "Technische Grenzen der Regeneration",
+    "Wirtschaftliche Nachhaltigkeit regeneratorischer Prozesse",
+    "Umweltverträglichkeit von Regenerationsmaßnahmen",
+    "Interdisziplinäre Koordination bei Regeneration",
+    "Regulatorische Rahmenbedingungen für Regenerative Technologien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201958
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Holografisches Prinzip",
+  "problem_groups": [
+    "Konzeptionelle Interpretation des Holografischen Prinzips",
+    "Mathematische Formalisierung der Holographie",
+    "Beziehung zwischen Quanteninformation und Gravitationsphänomenen",
+    "Anwendungsbereiche im Rahmen der Theoretischen Physik",
+    "Kritische Bewertung von Holografie-Modellen",
+    "Integration mit anderen physikalischen Theorien",
+    "Grundlagen der AdS/CFT-Korrespondenz",
+    "Verständnis von Entropie in holografischen Systemen",
+    "Vergleich unterschiedlicher holografischer Ansätze",
+    "Praktische Implementierbarkeit des Holografischen Prinzips"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199983
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Algorithmic Bias",
+  "problem_groups": [
+    "Datenrepräsentationsungleichheit",
+    "Entscheidungstransparenzmangel",
+    "Historische Diskriminierungsfestigung",
+    "Verantwortlichkeitslücken bei Schadensfolgen",
+    "Ressourcenverteilungsunfairness",
+    "Methodefehler in Fairness-Metriken",
+    "Benutzergruppenmarginalisierung",
+    "Algorithmenentwicklungssektoren-Isolation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198163
+  }
+}

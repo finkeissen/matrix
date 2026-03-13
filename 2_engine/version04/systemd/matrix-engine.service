@@ -1,0 +1,24 @@
+[Unit]
+Description=Matrix Engine daemon (consumes MATRIX_RUNS_ROOT/incoming)
+After=network.target
+
+[Service]
+Type=simple
+User=ef
+Group=ef
+
+# zentrale Konfiguration
+EnvironmentFile=/etc/matrix-engine/matrix-engine.env
+
+WorkingDirectory=${MATRIX_ENGINE_ROOT}
+ExecStart=${MATRIX_PYTHON} -m engine.cli daemon --runs-root ${MATRIX_RUNS_ROOT} --poll-sec ${MATRIX_POLL_SEC}
+
+Restart=always
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

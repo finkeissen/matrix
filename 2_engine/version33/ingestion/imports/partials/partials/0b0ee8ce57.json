@@ -1,0 +1,19 @@
+{
+  "subdomain": "Entwicklungspolitik",
+  "problem_groups": [
+    "Funding Shortages for Development Projects",
+    "Political Instability in Target Countries",
+    "Corruption in Aid Distribution",
+    "Cultural Barriers to Implementation",
+    "Environmental Sustainability Challenges",
+    "Evaluation Challenges in Development Programs",
+    "Balancing Local and Foreign Interests",
+    "Dependency on External Support",
+    "Inadequate Infrastructure in Developing Regions",
+    "Long-term vs. Short-term Goal Conflicts"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199309
+  }
+}

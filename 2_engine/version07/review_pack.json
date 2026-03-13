@@ -1,0 +1,37 @@
+{
+  "pack_version": "v1",
+  "run_id": "2026-02-XX",
+  "engine_version": "version06",
+  "created_at": "2026-02-XXT00:00:00Z",
+  "time_window": {
+    "snapshot_from": "snapshot_001",
+    "snapshot_to": "snapshot_005"
+  },
+  "metrics_ref": {
+    "path": "artifacts/review_pack/metrics.json",
+    "sha256": "..."
+  },
+  "summary_ref": {
+    "path": "artifacts/review_pack/summary.md",
+    "sha256": "..."
+  },
+  "reports": [
+    {"name": "dedup", "path": "artifacts/alignment/dedup_report.json", "sha256": "..."},
+    {"name": "conflict", "path": "artifacts/alignment/conflict_report.json", "sha256": "..."},
+    {"name": "coverage", "path": "artifacts/alignment/coverage_report.json", "sha256": "..."},
+    {"name": "novelty", "path": "artifacts/alignment/novelty_report.json", "sha256": "..."}
+  ],
+  "sample_sets": [
+    {
+      "name": "A",
+      "intent": "risk_based",
+      "path": "artifacts/review_pack/samples/sample_set_A.json",
+      "sha256": "...",
+      "size": 90
+    }
+  ],
+  "pointers_ref": {
+    "path": "artifacts/review_pack/pointers.json",
+    "sha256": "..."
+  }
+}

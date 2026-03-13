@@ -1,0 +1,39 @@
+{
+  "commit_id": "2026-01-18",
+  "created_at": "2026-01-18T00:00:00Z",
+  "description": "Seed commit: minimal end-to-end structure (problem-first, v1 contracts).",
+  "schemas": {
+    "problem": "mms.problem@1",
+    "claim": "mms.claim@1",
+    "relation": "mms.relation@1",
+    "source": "mms.source@1",
+    "conflict": "mms.conflict@1"
+  },
+  "runs": [
+    "run:2026-01-18T00-00Z:import:seed"
+  ],
+  "artifacts": {
+    "matrix.problems.jsonl": "matrix.problems.jsonl",
+    "matrix.claims.jsonl": "matrix.claims.jsonl",
+    "matrix.relations.jsonl": "matrix.relations.jsonl",
+    "matrix.sources.jsonl": "matrix.sources.jsonl",
+    "matrix.conflicts.jsonl": "matrix.conflicts.jsonl",
+    "notes.md": "notes.md",
+    "catalog.domains.jsonl": "catalog.domains.jsonl",
+    "catalog.subdomains.jsonl": "catalog.subdomains.jsonl",
+    "catalog.problem_groups.jsonl": "catalog.problem_groups.jsonl",
+    "catalog.problems.jsonl": "catalog.problems.jsonl"
+  },
+  "checksums": {
+    "catalog.domains.jsonl": "sha256:c35c591d67adde17c8618ca527f9291b507f6572e5899336f48be94d4ecfeb63",
+    "catalog.problem_groups.jsonl": "sha256:3880f4ac2e1ee476ebb8d01fad5a29b3806a10b6efd5167259cc434d809fb6dd",
+    "catalog.problems.jsonl": "sha256:67fb93e5c49d0b1bf25a9c480b1de08849b418286ba457c4e802e74e6813f0e8",
+    "catalog.subdomains.jsonl": "sha256:06a3ba2fd0e6426c860036e7b00f3bc62e7364dcfc0ace10d64d5df100d85e99",
+    "matrix.claims.jsonl": "sha256:97a8f5c3d2750c8048f5188a8d916c09a4ac1bfbee5caa7590c3bbca65fd9fe0",
+    "matrix.conflicts.jsonl": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matrix.problems.jsonl": "sha256:67fb93e5c49d0b1bf25a9c480b1de08849b418286ba457c4e802e74e6813f0e8",
+    "matrix.relations.jsonl": "sha256:3c3a88b3cea84e2c655f0ffa61979100b17a8907a6dc7f560e802eb637ffffc4",
+    "matrix.sources.jsonl": "sha256:7898be24ab7cc0c520f9338909887f889e71329bb37e220d7555b839b31e591e",
+    "notes.md": "sha256:554c2d63d662b0f6c07cb6170b829409ed5ea520d5f68f9d6bb4a165b8ac3312"
+  }
+}

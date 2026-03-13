@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Lernfähigkeit",
+  "problem_groups": [
+    "Lernblockaden durch Überforderung",
+    "Mangelnde Motivation zur Wissensaktualisierung",
+    "Unzureichende Selbstwahrnehmung von Lernfortschritten",
+    "Fehlende Strategien für gezieltes Lernen",
+    "Überlastung durch Informationsflut",
+    "Inkonsistente Lernumgebungen",
+    "Mangelnde Anpassungsfähigkeit an neue Inhalte",
+    "Unzureichende Ressourcen zur Lernunterstützung",
+    "Fehlende Feedbackmechanismen im Lernprozess",
+    "Stagnation der kognitiven Flexibilität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202588
+  }
+}

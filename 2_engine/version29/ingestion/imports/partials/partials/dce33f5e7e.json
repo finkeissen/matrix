@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Liebe",
+  "problem_groups": [
+    "Emotionale Verletzlichkeit",
+    "Mangelnde Selbstwertschätzung",
+    "Unfähigkeit zur Empathie",
+    "Verdrängte Traumata",
+    "Kommunikationsblockaden",
+    "Erwartungsdruck in Beziehungen",
+    "Angst vor Abhängigkeit",
+    "Schwierigkeiten mit Vergebung",
+    "Mangelnde Grenzen",
+    "Unsichere Bindungsmuster"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202596
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Kulturgeschichte",
+  "problem_groups": [
+    "Kulturelle Identitäten und ihre Veränderung",
+    "Traditionen und Modernisierungskonflikte",
+    "Kulturerbe und Schutz vor Zerstörung",
+    "Interkulturelle Begegnungen und Konflikte",
+    "Medienwirkung auf kulturelle Wahrnehmung",
+    "Religionsformen und ihre gesellschaftliche Einbettung",
+    "Sprachentwicklung und Sprachverlust",
+    "Kunstformen und ihre historische Entwicklung",
+    "Migrationsbewegungen und kulturelle Vermischung",
+    "Nationalismus und kulturelle Selbstwahrnehmung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200666
+  }
+}

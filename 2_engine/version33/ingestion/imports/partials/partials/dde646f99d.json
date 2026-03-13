@@ -1,0 +1,17 @@
+{
+  "subdomain": "Commoning",
+  "problem_groups": [
+    "Übernutzung und Ausbeutung von Ressourcen",
+    "Unfairer Zugang zu gemeinsamen Ressourcen",
+    "Konflikte zwischen Nutzergruppen",
+    "Mangelnde Governance-Strukturen",
+    "Externe Druckfaktoren wie Klimawandel",
+    "Rechtliche Unsicherheit bei kollektivem Eigentum",
+    "Soziale Koordinationsschwierigkeiten",
+    "Wissensdefizite in der Ressourcenverwaltung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198686
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "validation_report.schema.json",
+  "title": "ValidationReport",
+  "type": "object",
+  "required": ["subdomain_id", "total_problems", "valid", "schema_errors",
+               "duplicates", "scope_violations", "atomicity_failures",
+               "atomicity_sample_size", "atomicity_failure_rate",
+               "scope_unclear", "routing", "validated_at"],
+  "additionalProperties": true,
+  "properties": {
+    "subdomain_id":           { "type": "string" },
+    "total_problems":         { "type": "integer", "minimum": 0 },
+    "valid":                  { "type": "boolean" },
+    "schema_errors":          { "type": "array" },
+    "jsonschema_errors":      { "type": "array" },
+    "duplicates":             { "type": "array" },
+    "scope_violations":       { "type": "array" },
+    "atomicity_failures":     { "type": "array" },
+    "atomicity_sample_size":  { "type": "integer", "minimum": 0 },
+    "atomicity_failure_rate": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+    "scope_unclear":          { "type": "boolean" },
+    "routing": {
+      "type": "string",
+      "enum": ["proceed", "clarify", "retry_categories", "insufficient"]
+    },
+    "notes":        { "type": ["string", "null"] },
+    "validated_at": { "type": "string" }
+  }
+}

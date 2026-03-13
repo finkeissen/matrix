@@ -1,0 +1,19 @@
+{
+  "subdomain": "Psychologie der Verantwortung",
+  "problem_groups": [
+    "Verantwortungsgefühl bei Entscheidungen",
+    "Zurückweisung von Verantwortung",
+    "Kognitive Dissonanz bei Verantwortung",
+    "Soziale Erwartungen und Verantwortung",
+    "Moralische Konflikte um Verantwortung",
+    "Selbstwirksamkeit im Kontext von Verantwortung",
+    "Verantwortungsübernahme in Gruppen",
+    "Ambivalente Verantwortungsempfindungen",
+    "Verantwortungsschuldgefühle",
+    "Kulturelle Unterschiede in der Wahrnehmung von Verantwortung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201732
+  }
+}

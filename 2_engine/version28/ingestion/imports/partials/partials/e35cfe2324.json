@@ -1,0 +1,15 @@
+{
+  "subdomain": "Regenerative Schönheit",
+  "problem_groups": [
+    "Hautregeneration und Schutz vor Umweltbelastungen",
+    "Haarwachstum und Dauerhafte Haarausfallprobleme",
+    "Balance zwischen natürlichen Prozessen und äußeren Einflüssen",
+    "Psychologische Aspekte der Selbstwahrnehmung in der Regenerativen Schönheit",
+    "Soziale Druckfaktoren bei der Gestaltung von Schönheitsstandards",
+    "Integration von Technologie und natürlichen Prozessen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202847
+  }
+}

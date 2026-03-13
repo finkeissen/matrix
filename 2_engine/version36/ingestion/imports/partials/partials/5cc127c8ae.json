@@ -1,0 +1,19 @@
+{
+  "subdomain": "Synthetische Biologie",
+  "problem_groups": [
+    "Ethische und soziale Implikationen",
+    "Regulatorische Konformität",
+    "Technische Grenzen",
+    "Umweltverträglichkeit",
+    "Interdisziplinäre Zusammenarbeit",
+    "Öffentliche Wahrnehmung",
+    "Datenintegration und Standardisierung",
+    "Skalierbarkeit und Kosten",
+    "Biosicherheit",
+    "Urheberrechtliche Aspekte"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203615
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Atmende Commons",
+  "problem_groups": [
+    "Ressourcenübernutzung",
+    "Konfliktumfelder",
+    "Unwirksame Governance",
+    "Inequitable Zugangsverteilung",
+    "Partizipationsbarrieren",
+    "Dauerhaftigkeitsschwächen",
+    "Externe Druckfaktoren",
+    "Wissensdefizite"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198361
+  }
+}

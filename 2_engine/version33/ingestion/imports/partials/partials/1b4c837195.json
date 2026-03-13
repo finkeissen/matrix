@@ -1,0 +1,17 @@
+{
+  "subdomain": "Technologische Singularität",
+  "problem_groups": [
+    "Ethik der KI-Entwicklung",
+    "Existenzrisiken durch unkontrollierte Technologie",
+    "Sozialer Strukturwandel durch Automatisierung",
+    "Regulierungsdefizite für exponentielle Innovationen",
+    "Kognitive Überforderung durch technologische Veränderungen",
+    "Menschliche Identitätsverluste durch KI-Überlegenheit",
+    "Ressourcenkonkurrenz zwischen Mensch und Maschine",
+    "Sicherheitslücken in kritischen KI-Anwendungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203728
+  }
+}

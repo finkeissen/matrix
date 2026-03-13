@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Run Job",
+  "type": "object",
+  "required": [
+    "id",
+    "cmd"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "cwd": {
+      "type": "string",
+      "default": "."
+    },
+    "timeout_sec": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 3600
+    },
+    "cmd": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "out_dir": {
+      "type": "string",
+      "default": "out"
+    }
+  },
+  "additionalProperties": true
+}

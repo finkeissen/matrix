@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bio-Art",
+  "problem_groups": [
+    "Ethik der lebenden Materialien",
+    "Künstlerische Freiheit vs. biologische Integrität",
+    "Verantwortung für lebende Elemente",
+    "Grenzen kreativer Ausdrucksformen",
+    "Soziale Rezeption von Bio-Art",
+    "Technische Umsetzung biologischer Prozesse",
+    "Rechtliche Klassifizierung von Bio-Art",
+    "Umweltverträglichkeit der Praxis",
+    "Wissenschaftliche Genauigkeit in der Darstellung",
+    "Kulturelle Wahrnehmung lebender Kunst"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198457
+  }
+}

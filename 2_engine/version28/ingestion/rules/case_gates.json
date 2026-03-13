@@ -1,0 +1,105 @@
+{
+  "version": "v2",
+  "gates": [
+    {
+      "id": "A-000001",
+      "status": "STOP",
+      "trigger_terms": [
+        "implicit assumption conflict",
+        "implicit assumption conflict core model",
+        "conflict core model"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000001__implicit-assumption-conflict-core-model"
+    },
+    {
+      "id": "A-000002",
+      "status": "STOP",
+      "trigger_terms": [
+        "scope collapse advisory to operational",
+        "advisory to operational",
+        "scope collapse"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000002__scope-collapse-advisory-to-operational"
+    },
+    {
+      "id": "A-000003",
+      "status": "STOP",
+      "trigger_terms": [
+        "authority leakage internal guidance",
+        "authority leakage",
+        "internal guidance leakage"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000003__authority-leakage-internal-guidance"
+    },
+    {
+      "id": "A-000004",
+      "status": "STOP",
+      "trigger_terms": [
+        "temporal drift legacy assumptions",
+        "legacy assumptions drift",
+        "temporal drift"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000004__temporal-drift-legacy-assumptions"
+    },
+    {
+      "id": "A-000005",
+      "status": "STOP",
+      "trigger_terms": [
+        "constraint inversion metric optimization",
+        "constraint inversion",
+        "metric optimization inversion"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000005__constraint-inversion-metric-optimization"
+    },
+    {
+      "id": "A-000006",
+      "status": "STOP",
+      "trigger_terms": [
+        "contextual dependency lost environment",
+        "dependency lost environment",
+        "context lost environment"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000006__contextual-dependency-lost-environment"
+    },
+    {
+      "id": "A-000007",
+      "status": "STOP",
+      "trigger_terms": [
+        "epistemic overconfidence weak evidence",
+        "overconfidence weak evidence",
+        "weak evidence overconfidence"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000007__epistemic-overconfidence-weak-evidence"
+    },
+    {
+      "id": "A-000008",
+      "status": "STOP",
+      "trigger_terms": [
+        "epistemic vs contextual borderline",
+        "contextual borderline",
+        "epistemic borderline"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000008__epistemic-vs-contextual-borderline"
+    },
+    {
+      "id": "A-000009",
+      "status": "STOP",
+      "trigger_terms": [
+        "almost allow but stop",
+        "allow but stop",
+        "borderline allow but stop"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000009__almost-allow-but-stop"
+    },
+    {
+      "id": "A-000010",
+      "status": "STOP",
+      "trigger_terms": [
+        "pressure to invent new mode",
+        "invent new mode",
+        "pressure invent new mode"
+      ],
+      "source_dir": "ingestion/imports/cases/cases/A-000010__pressure-to-invent-new-mode"
+    }
+  ]
+}

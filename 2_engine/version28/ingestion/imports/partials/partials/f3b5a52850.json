@@ -1,0 +1,23 @@
+{
+  "subdomain": "Populismusforschung",
+  "problem_groups": [
+    "Definition und Kriterien des Populismus",
+    "Unterscheidung von Populismus und anderen politischen Phänomenen",
+    "Methode zur Erfassung und Messung von Populismus",
+    "Einfluss auf demokratische Prozesse",
+    "Populistische Rhetorik und Framingstrategien",
+    "Beziehung zwischen Populismus und Medien",
+    "Populismus in der Parteipolitik",
+    "Soziologische Ursachen des Populismus",
+    "Populismus und Migrationsthematik",
+    "Populismus im Kontext von Nationalismus",
+    "Verbreitung und Auswirkungen von Populismus in der EU",
+    "Populismus und politische Polarisation",
+    "Populismus in der digitalen Kommunikation",
+    "Populismus und Vertrauensverlust in Institutionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201601
+  }
+}

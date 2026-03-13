@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Kooperation",
+  "problem_groups": [
+    "Mangelnde Ressourcenverteilung",
+    "Unzureichende Kommunikation zwischen Parteien",
+    "Fehlende langfristige Planung",
+    "Widerstand gegen Veränderungen",
+    "Ungleichgewicht im Machtverhältnis",
+    "Mangelnde Transparenz in Entscheidungsprozessen",
+    "Unzureichende Ressourcenallokation",
+    "Fehlende Interdependenz zwischen Akteuren",
+    "Übermäßige Abhängigkeit von externen Faktoren",
+    "Unklare Zielsetzung und Priorisierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202535
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Gravitationswellen",
+  "problem_groups": [
+    "Detektionsgrenzen und Rauschunterdrückung",
+    "Modellierung von Quellenverhalten",
+    "Interpretation von Signalformen",
+    "Instrumentelle Limitationen",
+    "Datenanalyse bei Überlappungen",
+    "Theoretische Unschärfen in Wellenmodellen",
+    "Korrelation mit elektromagnetischen Beobachtungen",
+    "Numerische Simulationen von Kollisionen",
+    "Kalibrierung von Detektoren",
+    "Identifikation von Quellentypen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199884
+  }
+}

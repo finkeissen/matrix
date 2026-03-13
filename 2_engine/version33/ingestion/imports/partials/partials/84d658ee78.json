@@ -1,0 +1,19 @@
+{
+  "subdomain": "360°-Video",
+  "problem_groups": [
+    "Kameraplatzierung und Bewegungseffekte",
+    "Stitching von Mehrkamerasignalen",
+    "Auflösungs- und Bildrateanforderungen",
+    "Räumliche Audiokopplung",
+    "Benutzerinteraktion im 360°-Blickfeld",
+    "Plattformkompatibilität und Browserunterstützung",
+    "Speicherbedarf für hochauflösende Videos",
+    "Streaming von großvolumigen Datenströmen",
+    "Motion sickness durch Bewegungseffekte",
+    "Interaktionsdesign in virtuellen Umgebungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198094
+  }
+}

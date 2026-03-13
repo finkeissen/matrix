@@ -1,0 +1,70 @@
+[
+  {
+    "problem_id": "ap_thermodynamics_applications_01_190491f923",
+    "title": "Analyze Thermodynamics Applications case 1",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Applications. The solver must determine the governing physical principle. Separate the dominant effect from secondary corrections. The write-up should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "analyze",
+      "a_practical_engineering_setup",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_05_5346216f0a",
+    "title": "Predict Thermodynamics Applications case 5",
+    "problem_statement": "Construct a a parameter-sweep experiment case in thermodynamics focused on Thermodynamics Applications. The solver must predict the system response after a controlled change. Point out which quantity sets the scale of the outcome. The write-up should explain the direction and scale of the change.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "predict",
+      "a_parameter_sweep_experiment",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_09_f354bf800f",
+    "title": "Analyze Thermodynamics Applications case 9",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Applications. The solver must determine the governing physical principle. State the governing variables before drawing a conclusion. The write-up should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "analyze",
+      "a_practical_engineering_setup",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_04_f2f93bed98",
+    "title": "Estimate Thermodynamics Analysis case 4",
+    "problem_statement": "Construct a a parameter-sweep experiment case in thermodynamics focused on Thermodynamics Analysis. The solver must estimate the dominant order-of-magnitude behavior. Include the physical consistency check that validates the result. The write-up should explain why secondary effects can be neglected.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "estimate",
+      "a_parameter_sweep_experiment",
+      "medium"
+    ],
+    "content_state": "candidate"
+  }
+]

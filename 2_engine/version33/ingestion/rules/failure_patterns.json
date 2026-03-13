@@ -1,0 +1,93 @@
+{
+  "version": "v1",
+  "patterns": [
+    {
+      "name": "authority_leakage",
+      "triggers": [
+        "authority leakage",
+        "authority leakage"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/authority_leakage.md"
+    },
+    {
+      "name": "constraint_inversion",
+      "triggers": [
+        "constraint inversion",
+        "constraint inversion"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/constraint_inversion.md"
+    },
+    {
+      "name": "contradiction_population_vs_individual",
+      "triggers": [
+        "contradiction population vs individual",
+        "contradiction population versus individual"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/contradiction_population_vs_individual.md"
+    },
+    {
+      "name": "descriptive_vs_normative",
+      "triggers": [
+        "descriptive vs normative",
+        "descriptive versus normative"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/descriptive_vs_normative.md"
+    },
+    {
+      "name": "implicit_assumption_conflict",
+      "triggers": [
+        "implicit assumption conflict",
+        "implicit assumption conflict"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/implicit_assumption_conflict.md"
+    },
+    {
+      "name": "population_vs_individual",
+      "triggers": [
+        "population vs individual",
+        "population versus individual"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/population_vs_individual.md"
+    },
+    {
+      "name": "proxy_measure_vs_real_outcome",
+      "triggers": [
+        "proxy measure vs real outcome",
+        "proxy measure versus real outcome"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/proxy_measure_vs_real_outcome.md"
+    },
+    {
+      "name": "role_confusion",
+      "triggers": [
+        "role confusion",
+        "role confusion"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/role_confusion.md"
+    },
+    {
+      "name": "scope_collapse",
+      "triggers": [
+        "scope collapse",
+        "scope collapse"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/scope_collapse.md"
+    },
+    {
+      "name": "temporal_misalignment",
+      "triggers": [
+        "temporal misalignment",
+        "temporal misalignment"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/temporal_misalignment.md"
+    },
+    {
+      "name": "uncertainty_acknowledged_vs_action",
+      "triggers": [
+        "uncertainty acknowledged vs action",
+        "uncertainty acknowledged versus action"
+      ],
+      "source_file": "ingestion/imports/contradictions/contradictions/uncertainty_acknowledged_vs_action.md"
+    }
+  ]
+}

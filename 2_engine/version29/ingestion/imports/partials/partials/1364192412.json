@@ -1,0 +1,17 @@
+{
+  "subdomain": "Transpersonale Psychologie",
+  "problem_groups": [
+    "Integration von transzendentalen Erfahrungen in therapeutische Praxis",
+    "Definition von Grenzen zwischen persönlicher und transpersonalen Phänomenen",
+    "Validierung von nicht-äquivalenten Erlebnissen im psychologischen Kontext",
+    "Konflikt zwischen traditioneller Psychologie und transpersonaler Theorie",
+    "Individuelle Unterschiede in der Wahrnehmung von Transzendenz",
+    "Kulturelle Einflüsse auf die Interpretation transpersonaler Phänomene",
+    "Ethik der spirituellen Praktiken in psychotherapeutischen Settings",
+    "Kommunikation von nicht-äquivalenten Erlebnissen im Alltag"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203918
+  }
+}

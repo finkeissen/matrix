@@ -1,0 +1,19 @@
+{
+  "subdomain": "Reproduktionsmedizin",
+  "problem_groups": [
+    "Infertilität bei Männern",
+    "Infertilität bei Frauen",
+    "Hormonstörungen im Reproduktionssystem",
+    "Gynäkologische Erkrankungen mit reproduktiver Relevanz",
+    "Männliche Fertilitätsstörungen",
+    "Pränatale Diagnostik und Risikobewertung",
+    "Erbliche oder genetische Faktoren bei Unfruchtbarkeit",
+    "Psychosoziale Belastungen im Zusammenhang mit Infertilität",
+    "Technische Herausforderungen der Assisted Reproductive Technologies (ART)",
+    "Langfristige Gesundheitsfolgen von Reproduktionstherapien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203143
+  }
+}

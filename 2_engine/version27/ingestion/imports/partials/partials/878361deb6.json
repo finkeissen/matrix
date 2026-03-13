@@ -1,0 +1,15 @@
+{
+  "subdomain": "Regenerative Paradox",
+  "problem_groups": [
+    "Konflikt zwischen Regenerationszielen und bestehenden Systemen",
+    "Ressourcenknappheit bei Regenerationsprozessen",
+    "Unabsichtliche Folgen von Regenerationsmaßnahmen",
+    "Widerspruch zwischen Innovation und Tradition in der Regeneration",
+    "Messschwierigkeiten bei regenerativen Prozessen",
+    "Soziale Ungleichheit im Zugang zur Regeneration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202731
+  }
+}

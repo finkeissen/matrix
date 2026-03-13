@@ -1,0 +1,14 @@
+{
+  "subdomain": "Regenerative Governance",
+  "problem_groups": [
+    "Mangelnde Partizipation",
+    "Unzureichende Transparenz",
+    "Mangelnde Repräsentation",
+    "Unzureichende Ressourcen",
+    "Mangelnde Koordination"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202382
+  }
+}

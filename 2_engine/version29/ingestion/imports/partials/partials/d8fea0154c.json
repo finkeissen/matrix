@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Kulturen",
+  "problem_groups": [
+    "Bewusstseinsmangel über Regenerationsprozesse",
+    "Fehlende Integration von traditionellen Wissensformen",
+    "Mangelnde Ressourcenverfügbarkeit für regenerative Praktiken",
+    "Konflikte zwischen ökonomischen Interessen und Regeneration",
+    "Unzureichende politische Unterstützung für regenerative Kulturen",
+    "Fehlende Bildungsangebote zur Regenerationskompetenz",
+    "Soziale Ungleichheit im Zugang zu regenerativen Praktiken",
+    "Mangelnde Wissenschaftliche Validierung von traditionellen Methoden",
+    "Klimawandelbedingte Herausforderungen für Regenerationsprozesse",
+    "Fehlende langfristige Planung in regenerativen Projekten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202558
+  }
+}

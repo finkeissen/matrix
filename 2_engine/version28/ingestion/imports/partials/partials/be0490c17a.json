@@ -1,0 +1,19 @@
+{
+  "subdomain": "Big Data Analytics",
+  "problem_groups": [
+    "Datenintegration aus heterogenen Quellen",
+    "Skalierbarkeit von Analyseprozessen",
+    "Verarbeitung unstrukturierter Daten",
+    "Datenspeicherung bei hohem Volumen",
+    "Echtzeitdatenverarbeitung",
+    "Datenqualität und Konsistenz",
+    "Sicherheit bei sensiblen Daten",
+    "Ressourcennutzungsoptimierung",
+    "Modellierbarkeit komplexer Beziehungen",
+    "Interoperabilität von Analysetools"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198433
+  }
+}

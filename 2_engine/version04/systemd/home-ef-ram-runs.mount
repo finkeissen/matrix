@@ -1,0 +1,11 @@
+[Unit]
+Description=tmpfs for run batches in RAM
+
+[Mount]
+What=tmpfs
+Where=/home/ef/ram/runs
+Type=tmpfs
+Options=mode=0770,uid=1000,gid=1000,size=8G,nr_inodes=1m
+
+[Install]
+WantedBy=multi-user.target

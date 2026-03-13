@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Bildung",
+  "problem_groups": [
+    "Fehlende Integration von Nachhaltigkeitsprinzipien in Lehrpläne",
+    "Unzureichende Qualifikation von Pädagog:innen für regenerative Methoden",
+    "Mangelnde Ressourcen und Infrastruktur für praxisnahe Lernformate",
+    "Widersprüchliche Definitionen von Regeneration in pädagogischen Kontexten",
+    "Geringe gesellschaftliche Anerkennung von alternativen Bildungsansätzen",
+    "Überforderung durch fragmentierte Ansätze der regenerativen Entwicklung",
+    "Mangelnde Langzeitdaten zur Wirksamkeit regeneratorischer Bildungsformate",
+    "Konflikte zwischen traditionellen und innovativen Bildungsmodellen",
+    "Unzureichende Förderung von interdisziplinärer Zusammenarbeit",
+    "Fehlende Standardisierung von Qualitätskriterien für regenerative Bildung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202070
+  }
+}

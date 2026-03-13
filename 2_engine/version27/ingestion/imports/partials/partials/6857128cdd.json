@@ -1,0 +1,19 @@
+{
+  "subdomain": "Longevity Escape Velocity",
+  "problem_groups": [
+    "Biologische Alterungsmechanismen",
+    "Technologische Entwicklungshürden",
+    "Ethische Dilemmata",
+    "Gesellschaftliche Anpassung",
+    "Finanzierung und Investition",
+    "Interdisziplinäre Koordination",
+    "Öffentliche Wahrnehmung",
+    "Regulatorische Rahmenbedingungen",
+    "Ressourcenallokation",
+    "Risikomanagement"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200746
+  }
+}

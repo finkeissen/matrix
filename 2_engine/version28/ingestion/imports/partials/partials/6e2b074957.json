@@ -1,0 +1,24 @@
+{
+  "subdomain": "Psychiatrie",
+  "problem_groups": [
+    "Diagnoseverwechslungen",
+    "Medikamentenresistenz",
+    "Therapiecompliance",
+    "Symptomverdrängung",
+    "Soziale Isolation",
+    "Krankheitsstigmatisierung",
+    "Begleiterkrankungen",
+    "Risiko für Selbstschädigung",
+    "Langzeitsymptome",
+    "Fehlinterpretation von Verhaltensweisen",
+    "Mangel an ambulanter Betreuung",
+    "Unzureichende Ressourcenplanung",
+    "Kommunikationsbarrieren zwischen Patient und Arzt",
+    "Psychosoziale Belastungen",
+    "Verwechslung mit neurologischen Erkrankungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201688
+  }
+}

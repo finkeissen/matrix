@@ -1,0 +1,17 @@
+{
+  "asset_id": "global_atomic_patterns.v1.json",
+  "asset_path": "seeds/global_atomic_patterns.v1.json",
+  "asset_type": "seed_library",
+  "domain": "global",
+  "version": "v1",
+  "status": "approved",
+  "sources": [
+    "atomic.zip"
+  ],
+  "decision": "normalized_and_approved",
+  "decision_reason": "Atomic pattern cards are reusable with care.",
+  "reuse_policy": "May be loaded as reusable upstream seed library.",
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": []
+}

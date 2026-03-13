@@ -1,0 +1,16 @@
+{
+  "subdomain": "Plurale Unternehmensformen",
+  "problem_groups": [
+    "Rechtliche Konformität unterschiedlicher Unternehmensformen",
+    "Steuerliche Unterschiede bei verschiedenen Geschäftsstrukturformen",
+    "Governance-Strukturen und Entscheidungsprozesse in heterogenen Unternehmensformen",
+    "Haftungsverteilung und Risikomanagement je nach Rechtsform",
+    "Verwaltungscomplexität durch mehrere Unternehmensstrukturen",
+    "Konflikte bei der Fusion oder Integration verschiedener Geschäftsmodelle",
+    "Anpassungsfähigkeit von Unternehmensformen an regulatorische Änderungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201496
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "subdomain": "Regenerative Nichts",
+  "problem_groups": [
+    "Ressourcenmangel bei Regenerationsprozessen",
+    "Fehlende ökologische Regeneration",
+    "Psychologische Leere nach Trauma",
+    "Technologische Systemausfälle bei Datenregeneration",
+    "Soziale Abwesenheit von Unterstützungsstrukturen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202694
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Upcycling",
+  "problem_groups": [
+    "Materialverfügbarkeit und -qualität",
+    "Technische Herausforderungen bei der Verarbeitung",
+    "Design- und Ästhetikprobleme",
+    "Kosteneffizienz",
+    "Marktfähigkeit und Vermarktung von Upcycled Produkten",
+    "Nachhaltigkeit und Umweltverträglichkeit der Prozesse",
+    "Mangel an Wissen und Bildung im Bereich Upcycling",
+    "Soziale und kulturelle Barrieren",
+    "Mangel an Infrastruktur und Ressourcen",
+    "Mangel an Standardisierung und Normen im Upcycling-Bereich"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204093
+  }
+}

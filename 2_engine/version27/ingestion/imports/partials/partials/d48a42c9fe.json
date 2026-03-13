@@ -1,0 +1,17 @@
+{
+  "subdomain": "Computational Aesthetics",
+  "problem_groups": [
+    "Algorithmische Kunstgenerierung",
+    "Aesthetische Bewertungsalgorithmen",
+    "Integration von Ästhetik in Benutzeroberflächen",
+    "Modellierung subjektiver Ästhetik",
+    "Datendarstellung ästhetischer Merkmale",
+    "Kreativitätsmodellierung durch Algorithmen",
+    "Ästhetische Wertalignierung in Computern",
+    "Ethik der computergestützten Kunst"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198736
+  }
+}

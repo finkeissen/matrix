@@ -1,0 +1,19 @@
+{
+  "subdomain": "Nachhaltige Unternehmensführung",
+  "problem_groups": [
+    "Konflikte zwischen ökonomischen und ökologischen Zielen",
+    "Mangelnde Transparenz in Nachhaltigkeitsberichten",
+    "Unzureichende Stakeholder-Engagement-Strategien",
+    "Fehlende Langfristplanung für Umwelt- und Sozialziele",
+    "Inkompatibilität von Geschäftsmodellen mit Nachhaltigkeitszielen",
+    "Unklare Verantwortlichkeiten in der Nachhaltigkeitsstrategie",
+    "Widerstände bei der Implementierung von Nachhaltigkeitsmaßnahmen",
+    "Fehlende Integration von Nachhaltigkeit in die Unternehmenskultur",
+    "Überforderung durch komplexe Nachhaltigkeitsstandards und -anforderungen",
+    "Unzureichende Ressourcen für Nachhaltigkeitsinitiativen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200941
+  }
+}

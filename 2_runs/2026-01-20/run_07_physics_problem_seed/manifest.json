@@ -1,0 +1,13 @@
+{
+  "run_id": "run_07_physics_problem_seed",
+  "date": "2026-01-19",
+  "domain": "physics",
+  "purpose": "Seed epistemic problem space for physics focusing on model limits, competing theories, idealizations, and historical revisions.",
+  "scope": {
+    "target_problem_count": 100,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "illustrative only"
+  },
+  "notes": "This run is intended as a structural stress test, not a physics knowledge base."
+}

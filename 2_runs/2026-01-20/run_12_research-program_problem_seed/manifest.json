@@ -1,0 +1,13 @@
+{
+  "run_id": "run_12_research_program_problem_seed",
+  "date": "2026-01-19",
+  "domain": "research_program",
+  "purpose": "Seed the Matrix with meta-level problems about epistemic admissibility, boundary setting, failure modes, and governance of structured artifacts.",
+  "scope": {
+    "target_problem_count": 60,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "internal docs + illustrative references"
+  },
+  "notes": "These problems are about the research-program layer itself (admissibility, assumptions, boundaries), not about external domains."
+}

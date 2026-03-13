@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bayesianische Statistik",
+  "problem_groups": [
+    "Priorverteilungswahl",
+    "Posteriorinferenz",
+    "Modellvergleich",
+    "Computational complexity bei MCMC",
+    "Sensitivitätsanalyse von Priors",
+    "Datenintegration in bayesianischen Modellen",
+    "Hierarchische Modellierung",
+    "Modellvalidierung",
+    "Interpretation von Bayes-Resultaten",
+    "Prior-Posterior-Konflikt"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198384
+  }
+}

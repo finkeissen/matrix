@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Recht",
+  "problem_groups": [
+    "Rechtslücken bei ökologischer Wiederherstellung",
+    "Konflikt zwischen wirtschaftlichen Interessen und Umweltzielen",
+    "Durchsetzung von Regenerationsvorschriften",
+    "Interdisziplinäre Koordination im Recht",
+    "Öffentliche Akzeptanz von Regenerationsmaßnahmen",
+    "Ressourcenallokation für regenerative Projekte",
+    "Internationale Rechtskoordination",
+    "Technologische Integration in rechtlichen Rahmenbedingungen",
+    "Kulturelle Widerstände gegen Veränderung",
+    "Langfristige vs. kurzfristige gesetzliche Zielsetzung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202798
+  }
+}

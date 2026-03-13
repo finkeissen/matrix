@@ -1,0 +1,28 @@
+{
+  "subdomain": "Ophthalmologie",
+  "problem_groups": [
+    "Katarakt-Entwicklung",
+    "Glaukom-Erkrankung",
+    "Netzhauterkrankungen",
+    "Sehschärfenverlust",
+    "Augeninnendrucksteigerung",
+    "Linsenverschiebung",
+    "Bindehautentzündungen",
+    "Kornea-Veränderungen",
+    "Makuladegeneration",
+    "Dioptrienanpassungsprobleme",
+    "Augenmuskelfunktionstörungen",
+    "Lidverformungen",
+    "Tränensäckchenbildung",
+    "Augenlidpathologien",
+    "Farbsehstörungen",
+    "Katarakt-Operationserfolg",
+    "Glaukom-Diagnoseversäumnisse",
+    "Netzhautabhebungen",
+    "Sehnervenschädigungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201204
+  }
+}

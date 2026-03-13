@@ -1,0 +1,19 @@
+{
+  "subdomain": "Genetik",
+  "problem_groups": [
+    "Genetische Variation und Diversität",
+    "Erbleitung und Mendel'sche Gesetze",
+    "Mutationen und Genomstabilität",
+    "Gen-Expression und Regulation",
+    "Epigenetische Mechanismen",
+    "Genetische Karteierung und Sequenzierung",
+    "Vererbungssysteme und Chromosomenanomalien",
+    "Genetische Risikofaktoren für Erkrankungen",
+    "Gentechnologische Anwendungen und Ethik",
+    "Interaktion von Genen und Umwelt"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199661
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "asset_id": "global_structural_patterns.v1",
+  "asset_type": "seed_library",
+  "domain": "global",
+  "version": "v1",
+  "status": "approved",
+  "sources": [
+    "structural.zip"
+  ],
+  "items": [
+    {
+      "id": "consistency_vs_correctness_fillet",
+      "label": "Consistency ≠ Correctness",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Consistency_vs_Correctness.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "A system can be internally consistent without being correct or adequate."
+    },
+    {
+      "id": "coverage_vs_validity_fillet",
+      "label": "Coverage ≠ Validity",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Coverage_vs_Validity.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Broad coverage captures many cases."
+    },
+    {
+      "id": "framework_vs_world_fillet",
+      "label": "Framework ≠ World",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Framework_vs_World.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Frameworks structure interpretation and analysis."
+    },
+    {
+      "id": "hierarchy_vs_priority_fillet",
+      "label": "Hierarchy ≠ Priority",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Hierarchy_vs_Priority.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Hierarchical ordering structures components but does not establish importance or fundamentality."
+    },
+    {
+      "id": "integration_vs_truth_fillet",
+      "label": "Integration ≠ Truth",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Integration_vs_Truth.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Integrating components increases coverage and coherence."
+    },
+    {
+      "id": "layering_vs_explanation_fillet",
+      "label": "Layering ≠ Explanation",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Layering_vs_Explanation.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Layered models organize complexity across levels."
+    },
+    {
+      "id": "modularity_vs_independence_fillet",
+      "label": "Modularity ≠ Independence",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Modularity_vs_Independence.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Modules can be separated for design without being independent in reality."
+    },
+    {
+      "id": "scalability_vs_generality_fillet",
+      "label": "Scalability ≠ Generality",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Scalability_vs_Generality.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Scalable systems perform under increased load."
+    },
+    {
+      "id": "stability_vs_optimality_fillet",
+      "label": "Stability ≠ Optimality",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/Stability_vs_Optimality.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Stable systems persist over time."
+    },
+    {
+      "id": "system_closure_vs_completeness_fillet",
+      "label": "System Closure ≠ Completeness",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/System_Closure_vs_Completeness.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Closed systems define internal boundaries."
+    },
+    {
+      "id": "accumulation_effects_are_ignored",
+      "label": "Accumulation effects are ignored",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/accumulation_effects_are_ignored.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "action_requires_certainty",
+      "label": "Action requires certainty",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/action_requires_certainty.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "adversaries_share_your_objectives",
+      "label": "Adversaries share your objectives",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/adversaries_share_your_objectives.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "ambiguity_is_treated_as_error",
+      "label": "Ambiguity is treated as error",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/ambiguity_is_treated_as_error.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "auditability_prevents_manipulation",
+      "label": "Auditability prevents manipulation",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/auditability_prevents_manipulation.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "automation_transfers_blame",
+      "label": "Automation transfers blame",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/automation_transfers_blame.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "benchmark_success_implies_real_world_success",
+      "label": "Benchmark success implies real world success",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/benchmark_success_implies_real_world_success.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "collective_action_removes_individual_accountability",
+      "label": "Collective action removes individual accountability",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/collective_action_removes_individual_accountability.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "complexity_can_be_safely_reduced",
+      "label": "Complexity can be safely reduced",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/complexity_can_be_safely_reduced.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "compliance_implies_good_faith",
+      "label": "Compliance implies good faith",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/compliance_implies_good_faith.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "delay_preserves_truth",
+      "label": "Delay preserves truth",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/delay_preserves_truth.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "delays_imply_absence_of_effects",
+      "label": "Delays imply absence of effects",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/delays_imply_absence_of_effects.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "delegation_dissolves_responsibility",
+      "label": "Delegation dissolves responsibility",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/delegation_dissolves_responsibility.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "deterrence_is_automatic",
+      "label": "Deterrence is automatic",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/deterrence_is_automatic.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "edge_cases_are_ignored",
+      "label": "Edge cases are ignored",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/edge_cases_are_ignored.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "evaluation_criteria_do_not_shape_outcomes",
+      "label": "Evaluation criteria do not shape outcomes",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/evaluation_criteria_do_not_shape_outcomes.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "gaming_the_metric_is_impossible",
+      "label": "Gaming the metric is impossible",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/gaming_the_metric_is_impossible.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "handoffs_do_not_introduce_distortion",
+      "label": "Handoffs do not introduce distortion",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/handoffs_do_not_introduce_distortion.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "historical_success_guarantees_future_success",
+      "label": "Historical success guarantees future success",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/historical_success_guarantees_future_success.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "incentives_cannot_be_exploited",
+      "label": "Incentives cannot be exploited",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/incentives_cannot_be_exploited.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "incentives_reveal_intent",
+      "label": "Incentives reveal intent",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/incentives_reveal_intent.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "instant_feedback_is_assumed",
+      "label": "Instant feedback is assumed",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/instant_feedback_is_assumed.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "irreversibility_requires_omniscience",
+      "label": "Irreversibility requires omniscience",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/irreversibility_requires_omniscience.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "legal_liability_equals_moral_responsibility",
+      "label": "Legal liability equals moral responsibility",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/legal_liability_equals_moral_responsibility.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "lossy_abstraction_is_treated_as_exact",
+      "label": "Lossy abstraction is treated as exact",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/lossy_abstraction_is_treated_as_exact.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "measurement_does_not_distort_behavior",
+      "label": "Measurement does not distort behavior",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/measurement_does_not_distort_behavior.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "metrics_are_neutral",
+      "label": "Metrics are neutral",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/metrics_are_neutral.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "minority_cases_are_negligible",
+      "label": "Minority cases are negligible",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/minority_cases_are_negligible.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "multiple_dimensions_are_merged_prematurely",
+      "label": "Multiple dimensions are merged prematurely",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/multiple_dimensions_are_merged_prematurely.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "no_single_actor_implies_no_responsibility",
+      "label": "No single actor implies no responsibility",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/no_single_actor_implies_no_responsibility.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "noise_is_removed_without_analysis",
+      "label": "Noise is removed without analysis",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/noise_is_removed_without_analysis.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "one_policy_fits_all_adversaries",
+      "label": "One policy fits all adversaries",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/one_policy_fits_all_adversaries.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "optimization_reflects_value",
+      "label": "Optimization reflects value",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/optimization_reflects_value.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "oversight_substitutes_ownership",
+      "label": "Oversight substitutes ownership",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/oversight_substitutes_ownership.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "path_dependence_is_neglected",
+      "label": "Path dependence is neglected",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/path_dependence_is_neglected.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "precision_is_mistaken_for_accuracy",
+      "label": "Precision is mistaken for accuracy",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/precision_is_mistaken_for_accuracy.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "process_compliance_equals_accountability",
+      "label": "Process compliance equals accountability",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/process_compliance_equals_accountability.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "red_teaming_equals_security",
+      "label": "Red teaming equals security",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/red_teaming_equals_security.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "reporting_equals_reality",
+      "label": "Reporting equals reality",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/reporting_equals_reality.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "responsibility_can_be_fully_externalized",
+      "label": "Responsibility can be fully externalized",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/responsibility_can_be_fully_externalized.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "responsibility_requires_control",
+      "label": "Responsibility requires control",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/responsibility_requires_control.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "reversibility_is_assumed",
+      "label": "Reversibility is assumed",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/reversibility_is_assumed.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "role_definition_limits_responsibility",
+      "label": "Role definition limits responsibility",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/role_definition_limits_responsibility.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "schemas_prevent_semantic_drift",
+      "label": "Schemas prevent semantic drift",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/schemas_prevent_semantic_drift.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "selection_bias_is_random",
+      "label": "Selection bias is random",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/selection_bias_is_random.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "selection_effects_are_negligible",
+      "label": "Selection effects are negligible",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/selection_effects_are_negligible.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "short_term_stability_implies_long_term_stability",
+      "label": "Short-term stability implies long-term stability",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/short_term_stability_implies_long_term_stability.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "speed_equals_efficiency",
+      "label": "Speed equals efficiency",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/speed_equals_efficiency.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "strategic_behavior_is_noise",
+      "label": "Strategic behavior is noise",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/strategic_behavior_is_noise.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "survivorship_reflects_quality",
+      "label": "Survivorship reflects quality",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/survivorship_reflects_quality.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "timing_is_irrelevant",
+      "label": "Timing is irrelevant",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/timing_is_irrelevant.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "translation_errors_are_locally_contained",
+      "label": "Translation errors are locally contained",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/translation_errors_are_locally_contained.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "transparency_alone_prevents_gaming",
+      "label": "Transparency alone prevents gaming",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/transparency_alone_prevents_gaming.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "trends_extrapolate_linearly",
+      "label": "Trends extrapolate linearly",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/trends_extrapolate_linearly.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "uncertainty_blocks_action",
+      "label": "Uncertainty blocks action",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/uncertainty_blocks_action.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "uncertainty_is_collapsed_into_point_values",
+      "label": "Uncertainty is collapsed into point values",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/uncertainty_is_collapsed_into_point_values.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "variance_is_discarded",
+      "label": "Variance is discarded",
+      "family": "structural_patterns",
+      "source_file": "imports/structural/structural/variance_is_discarded.md",
+      "tags": [],
+      "notes": ""
+    }
+  ],
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": [
+    "Normalized from markdown pattern cards.",
+    "Reusable as seed source, taxonomy source and prompt support material."
+  ]
+}

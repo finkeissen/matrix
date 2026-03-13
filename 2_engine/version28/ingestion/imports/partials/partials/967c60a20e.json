@@ -1,0 +1,19 @@
+{
+  "subdomain": "Innovationsmanagement",
+  "problem_groups": [
+    "Strategische Ausrichtung von Innovationen",
+    "Ressourcenallokation für Innovationsprojekte",
+    "Kommunikation von Innovationszielen innerhalb der Organisation",
+    "Integration von Innovation in bestehende Geschäftsmodelle",
+    "Messung und Bewertung von Innovationserfolg",
+    "Management von Innovationsrisiken und Unsicherheiten",
+    "Interne Widerstände gegen Innovationen",
+    "Koordination zwischen Forschung und Entwicklung",
+    "Identifikation von Markttrends und Kundenbedürfnissen",
+    "Dauerhaftigkeit von Innovationsvorteilen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200143
+  }
+}

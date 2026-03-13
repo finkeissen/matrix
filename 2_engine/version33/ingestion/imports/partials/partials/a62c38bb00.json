@@ -1,0 +1,19 @@
+{
+  "subdomain": "Statistische Physik",
+  "problem_groups": [
+    "Thermodynamische Grenzen und Gesetze",
+    "Verteilungsfunktionen und Ensemble-Methoden",
+    "Phasenübergänge und Kritische Phänomene",
+    "Entropie und Informationsentropie",
+    "Fluktuationen und Korrelationen",
+    "Statistische Beschreibung von Gase und Plasmen",
+    "Quantenstatistische Systeme",
+    "Kinetische Theorie und Transportphänomene",
+    "Komplexe Systeme und Selbstorganisation",
+    "Statistische Modelle für Festkörperphysik"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203485
+  }
+}

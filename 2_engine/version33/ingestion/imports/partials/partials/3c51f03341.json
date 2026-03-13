@@ -1,0 +1,15 @@
+{
+  "subdomain": "Regenerative Demut",
+  "problem_groups": [
+    "Konflikt zwischen Regenerationsbedürfnis und Selbstzweifeln",
+    "Überforderung durch komplexe Systemdynamiken",
+    "Mangel an struktureller Unterstützung für demütige Handlungsansätze",
+    "Widerspruch zwischen individueller Demut und kollektiver Machtstruktur",
+    "Risiko der Unterdrückung von Selbstwirksamkeit durch übermäßige Demut",
+    "Unklarheit bei der Abgrenzung zwischen Demut und Passivität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202092
+  }
+}

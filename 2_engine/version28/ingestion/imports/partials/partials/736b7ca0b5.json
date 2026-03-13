@@ -1,0 +1,19 @@
+{
+  "subdomain": "Topologie",
+  "problem_groups": [
+    "Topologische Räume und ihre Eigenschaften",
+    "Stetigkeit und Kontinuität",
+    "Konvergenz und Grenzwerte",
+    "Homotopie und Homologie",
+    "Mannigfaltigkeiten und Differentialtopologie",
+    "Klassifikation von Flächen",
+    "Topologische Invarianten",
+    "Basis und Umgebungen",
+    "Offene und abgeschlossene Mengen",
+    "Trennbarkeit und Separationsaxiome"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203838
+  }
+}

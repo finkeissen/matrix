@@ -1,0 +1,20 @@
+{
+  "subdomain": "Geopolitik",
+  "problem_groups": [
+    "Grenzkonflikte und Territorialstreitigkeiten",
+    "Machtverhältnisse zwischen Nationen",
+    "Internationale Beziehungen und Diplomatie",
+    "Waffenrassen und militärische Konfrontationen",
+    "Wirtschaftssanktionen und Handelskriege",
+    "Proxy-Konflikte und indirekte Machtkämpfe",
+    "Rolle internationaler Organisationen",
+    "Regionale Instabilität und Sicherheitsbedrohungen",
+    "Migration und Flüchtlingsströme durch Konfliktzonen",
+    "Informationskrieg und Cyberoperationen",
+    "Ressourcenkonkurrenz und Erschließung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199734
+  }
+}

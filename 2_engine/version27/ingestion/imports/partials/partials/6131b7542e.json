@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Familie",
+  "problem_groups": [
+    "Ressourcenknappheit in Familienstrukturen",
+    "Konfliktmuster im sozialen Zusammenleben",
+    "Traditionelle Rollenzuordnungsschwierigkeiten",
+    "Soziale Isolation durch unkonventionelle Lebensformen",
+    "Erwartungsdruck an nachhaltige Familienmodelle",
+    "Mangel an intergenerationalem Wissenstransfer",
+    "Finanzielle Unsicherheit in regenerativen Haushalten",
+    "Kulturelle Anerkennungsmangel für alternative Familienformen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202221
+  }
+}

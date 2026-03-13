@@ -1,0 +1,19 @@
+{
+  "subdomain": "Systemische Nachhaltigkeit",
+  "problem_groups": [
+    "Interdependenzen zwischen ökonomischen und ökologischen Systemen",
+    "Mangel an langfristiger Planung in politischen Entscheidungsprozessen",
+    "Unverträglichkeit von Wirtschaftswachstum und Ressourcenschutz",
+    "Fehlende Integration sozialer Ungleichheit in Nachhaltigkeitsstrategien",
+    "Kopplung von Umweltverschmutzung und sozialem Ausgleich",
+    "Unzureichende Verantwortlichkeitsverteilung zwischen Akteuren",
+    "Konflikte zwischen lokalen Interessen und globalen Nachhaltigkeitszielen",
+    "Mangel an Transparenz in Nachhaltigkeitskommunikation",
+    "Dysbalancen zwischen kurzfristigen Gewinnen und langfristiger Stabilität",
+    "Unverhältnismäßige Belastung von marginalisierten Gruppen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203646
+  }
+}

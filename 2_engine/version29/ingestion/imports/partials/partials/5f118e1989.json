@@ -1,0 +1,21 @@
+{
+  "subdomain": "Umwelttoxikologie",
+  "problem_groups": [
+    "Schadstoffidentifikation",
+    "Risikobewertung von Substanzen",
+    "Toxische Wirkung auf Organismen",
+    "Bioverfügbarkeit von Schadstoffen",
+    "Wechselwirkungen zwischen Schadstoffen",
+    "Langzeitwirkung von Schadstoffen",
+    "Anreicherung in Ökosystemen",
+    "Expositionsmodellierung",
+    "Toxische Effekte auf Nahrungsnetze",
+    "Schadstoffverbreitung in der Umwelt",
+    "Regulierungsbedarf für Schadstoffe",
+    "Entsorgung und Aufbewahrung von Toxinen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204034
+  }
+}

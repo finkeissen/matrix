@@ -1,0 +1,16 @@
+{
+  "boundaries": [
+    "core principles of thermodynamics",
+    "canonical problem families in thermodynamics",
+    "assessment-ready tasks for thermodynamics"
+  ],
+  "exclusions": [
+    "history of thermodynamics",
+    "biographical content unrelated to thermodynamics"
+  ],
+  "confidence_score": 0.8,
+  "generated_at": "2026-03-09T10:40:37Z",
+  "_prompt_version": "v1",
+  "_prompt_hash": "sha256:7f7177f4bfd03e384465ed9ce7b2ab6f2c5864da0105cb1e02b5859b88f0cd58",
+  "_domain": "thermodynamics"
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Politik der Verantwortung",
+  "problem_groups": [
+    "Verantwortlichkeitsverweigerung durch Institutionen",
+    "Unklarheit bei Rollenzuordnung in Entscheidungsprozessen",
+    "Mangelnde Transparenz im Verantwortungsmanagement",
+    "Konflikte zwischen individueller und kollektiver Verantwortung",
+    "Überlastung von Verantwortungsträgern",
+    "Unzureichende Rechtsgrundlagen für Verantwortungsausübung",
+    "Mangelnde Kultur der Verantwortungsübernahme",
+    "Verweigerung von Verantwortung durch Machtmissbrauch",
+    "Fehlende Mechanismen zur Nachverfolgbarkeit von Entscheidungen",
+    "Unklarheit in der Definition von politischer Verantwortung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201525
+  }
+}

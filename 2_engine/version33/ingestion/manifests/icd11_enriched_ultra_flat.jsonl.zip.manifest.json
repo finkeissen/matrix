@@ -1,0 +1,17 @@
+{
+  "asset_id": "icd11_enriched_ultra_flat.jsonl.zip",
+  "asset_path": "archive/imports/icd11_enriched_ultra_flat.jsonl.zip",
+  "asset_type": "archive_only",
+  "domain": null,
+  "version": "n/a",
+  "status": "archived",
+  "sources": [
+    "icd11_enriched_ultra_flat.jsonl.zip"
+  ],
+  "decision": "archive_only",
+  "decision_reason": "Archived because it is too domain-specific for global runtime use.",
+  "reuse_policy": "Archive only; transform into domain-specific assets before any reuse.",
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": []
+}

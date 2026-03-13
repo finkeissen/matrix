@@ -1,0 +1,24 @@
+{
+  "subdomain": "Umweltrecht",
+  "problem_groups": [
+    "Klimaschutzverpflichtungen",
+    "Naturschutz und Biotopverbesserung",
+    "Abfallwirtschaft und Deponien",
+    "Luftschadstoffe und Emissionen",
+    "Wasser- und Abwasserrecht",
+    "Bodenverschmutzung und Altlasten",
+    "Naturraumplanung und Landschaftsschutz",
+    "Umweltverträglichkeitsprüfung",
+    "Industrieemissionen und Umweltschäden",
+    "Kohlenstoffdioxid-Steuerung und -Handel",
+    "Biodiversitäts- und ArtenSchutz",
+    "Umweltverschmutzung durch Schifffahrt",
+    "Energiewende und Erneuerbare Energien",
+    "Umweltverträglichkeit von Bauprojekten",
+    "Klimawandelanpassung und Resilienz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204003
+  }
+}

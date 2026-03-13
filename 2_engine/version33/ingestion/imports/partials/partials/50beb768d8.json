@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Integrität",
+  "problem_groups": [
+    "Mangelnde Zellreparaturmechanismen",
+    "Dysregulation der Stoffwechselprozesse",
+    "Fehlende Immunantwort auf Schäden",
+    "Unzureichende Blutversorgung von Geweben",
+    "Degeneration von Extrazellularmatrix",
+    "Störung der Zellkommunikation",
+    "Reduzierte Regenerationskapazität im Alter",
+    "Chronische Entzündungsprozesse",
+    "Fehlende Anpassungsfähigkeit an Stressoren",
+    "Unvollständige Wundheilung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202457
+  }
+}

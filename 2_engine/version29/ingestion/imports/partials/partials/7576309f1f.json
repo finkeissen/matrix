@@ -1,0 +1,19 @@
+{
+  "subdomain": "Politik der Transparenz",
+  "problem_groups": [
+    "Unvollständige Informationsbereitstellung",
+    "Mangelnde Standardisierung von Offenlegungsverfahren",
+    "Institutionelle Widerstände gegen Transparenzmaßnahmen",
+    "Rechtliche Unsicherheiten bei Datenzugriff",
+    "Technische Schwierigkeiten bei Datenspeicherung und -bereitstellung",
+    "Unklare Definition von Öffentlichkeit und Zugangsberechtigung",
+    "Konflikte zwischen Transparenzpflichten und Geheimhaltungsbedürfnissen",
+    "Mangelnde Aufklärung der Öffentlichkeit über Transparenzinstrumente",
+    "Uneinheitliche Umsetzung von Transparenzanforderungen in Praxis",
+    "Überforderung von Behörden durch hohe Offenlegungsanforderungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201520
+  }
+}

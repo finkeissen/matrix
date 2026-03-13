@@ -1,0 +1,19 @@
+{
+  "subdomain": "Wissenschaftssoziologie",
+  "problem_groups": [
+    "Akademische Hierarchien und Machtstrukturen",
+    "Interdisziplinäre Kooperationsschwierigkeiten",
+    "Verwertung von Forschungsergebnissen durch Industrie",
+    "Diversitätsdefizite in wissenschaftlichen Institutionen",
+    "Finanzierungskonflikte zwischen Wissenschaft und Politik",
+    "Reputationssysteme in der Wissenschaft",
+    "Ethikdilemmata im Forschungsprozess",
+    "Verbreitung von Pseudowissenschaft",
+    "Grenzen zwischen Wissenschaft und Populärkultur",
+    "Kritische Auseinandersetzung mit wissenschaftlicher Objektivität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204263
+  }
+}

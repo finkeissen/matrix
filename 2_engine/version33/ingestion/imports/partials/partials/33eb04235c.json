@@ -1,0 +1,19 @@
+{
+  "subdomain": "Immersive Medien",
+  "problem_groups": [
+    "Technische Kompatibilität von Geräten",
+    "Benutzererfahrung in virtuellen Umgebungen",
+    "Datenspeicherung und -sicherheit bei Immersionstechnologien",
+    "Psychologische Auswirkungen der Immersion",
+    "Soziale Interaktion in immersiven Umgebungen",
+    "Inhaltliche Qualität von immersiven Medien",
+    "Energieverbrauch von Immersionsanlagen",
+    "Verbreitbarkeit und Zugänglichkeit von Immersionstechnologien",
+    "Ethik der Nutzerinteraktion in immersiven Systemen",
+    "Integration von Immersionstechnologien in bestehende Medienformate"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200055
+  }
+}

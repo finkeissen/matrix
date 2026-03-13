@@ -1,0 +1,16 @@
+{
+  "subdomain": "Photonik",
+  "problem_groups": [
+    "Materialverhalten unter Belastung",
+    "Integration von Komponenten in Systeme",
+    "Signalverlust und -distorion bei Übertragung",
+    "Herstellung präziser optischer Komponenten",
+    "Energieeffizienz von Photonsystemen",
+    "Kompatibilität mit anderen Technologien",
+    "Umgebungsbedingungen und deren Einfluss"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201396
+  }
+}

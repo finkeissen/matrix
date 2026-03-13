@@ -1,0 +1,15 @@
+{
+  "subdomain": "Ökonomie der Langfristigkeit",
+  "problem_groups": [
+    "Langfristige Ressourcenplanung",
+    "Kurzfristige Gewinne vs Langfristige Nachhaltigkeit",
+    "Intergenerationale Gerechtigkeit in der Wirtschaft",
+    "Langfristige Wirtschaftsfolgenbewertung",
+    "Nachhaltige Investitionen und Ressourcenschutz",
+    "Langfristige Wirtschaftsprognosen und Unsicherheiten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204488
+  }
+}

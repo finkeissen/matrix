@@ -1,0 +1,19 @@
+{
+  "subdomain": "Compilerbau",
+  "problem_groups": [
+    "Lexikalische Analyse",
+    "Syntaxanalyse",
+    "Semantik-Prüfung",
+    "Codegenerierung",
+    "Fehlerbehandlung",
+    "Performance-Optimierung",
+    "Zielarchitektur-Anpassung",
+    "Eingabe-/Ausgabeverarbeitung",
+    "Symboltabelle-Management",
+    "Grammatik-Implementierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198724
+  }
+}

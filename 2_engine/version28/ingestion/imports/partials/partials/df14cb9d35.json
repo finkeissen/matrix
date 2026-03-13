@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ergodentheorie",
+  "problem_groups": [
+    "Erhaltungssätze und Invarianten",
+    "Mischungsverhalten dynamischer Systeme",
+    "Konvergenz von Zeitdurchschnittswerten",
+    "Zusammenhang zwischen statistischen und zeitlichen Mittelwerten",
+    "Ergodizität in nicht-ergodischen Systemen",
+    "Anwendung der Ergodentheorie auf Markov-Ketten",
+    "Charakterisierung ergodischer Transformationen",
+    "Verhalten unter Störungen und Nichtlinearitäten",
+    "Zusammenhang mit Thermodynamik und Statistischen Physik",
+    "Konstruktion von Invariantenmaßen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199354
+  }
+}

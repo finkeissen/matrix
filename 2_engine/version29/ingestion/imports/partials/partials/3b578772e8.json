@@ -1,0 +1,19 @@
+{
+  "subdomain": "Edge Computing",
+  "problem_groups": [
+    "Ressourcenbeschränkungen bei Edge-Devices",
+    "Latenzoptimierung durch lokale Verarbeitung",
+    "Daten-Synchronisation zwischen Edge und Cloud",
+    "Sicherheitsrisiken bei dezentraler Datenverarbeitung",
+    "Netzwerkunzuverlässigkeit in Edge-Umgebungen",
+    "Energieeffizienz von Edge-Infrastrukturen",
+    "Heterogenität von Edge-Hardware und -Software",
+    "Skalierbarkeit verteilter Edge-Systeme",
+    "Datenschutz bei dezentraler Datenverarbeitung",
+    "Fehlertoleranz in Edge-Netzwerken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199208
+  }
+}

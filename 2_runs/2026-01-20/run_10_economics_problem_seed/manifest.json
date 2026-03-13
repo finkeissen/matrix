@@ -1,0 +1,13 @@
+{
+  "run_id": "run_10_economics_problem_seed",
+  "date": "2026-01-19",
+  "domain": "economics",
+  "purpose": "Seed the Matrix with economics problems emphasizing model assumptions, equilibrium concepts, empirical identification limits, normative overlays, and policy interpretation without recommendations.",
+  "scope": {
+    "target_problem_count": 120,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "illustrative only (models, datasets, policy frameworks)"
+  },
+  "notes": "Problems expose tension between formal models, empirical evidence, and normative policy claims."
+}

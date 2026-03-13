@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "manifest.schema.json",
+  "title": "Manifest",
+  "type": "object",
+  "required": ["run_id", "artifacts"],
+  "additionalProperties": false,
+  "properties": {
+    "run_id": { "type": "string" },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["path", "hash", "content_state", "step", "registered_at"],
+        "additionalProperties": true,
+        "properties": {
+          "path":          { "type": "string" },
+          "hash":          { "type": "string", "pattern": "^sha256:" },
+          "content_state": {
+            "type": "string",
+            "enum": ["candidate", "verified", "accepted", "disputed", "superseded", "rejected"]
+          },
+          "step":          { "type": "string" },
+          "registered_at": { "type": "string" },
+          "promoted_at":   { "type": "string" }
+        }
+      }
+    }
+  }
+}

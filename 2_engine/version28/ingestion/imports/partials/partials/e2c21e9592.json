@@ -1,0 +1,17 @@
+{
+  "subdomain": "Creative Coding",
+  "problem_groups": [
+    "Integration von kreativen Technologien",
+    "Balance zwischen Ästhetik und Funktionalität",
+    "Performance-Optimierung bei komplexen Visualisierungen",
+    "Umgang mit nichtdeterministischen Algorithmen",
+    "Interoperabilität zwischen Tools und Frameworks",
+    "Dokumentation von kreativen Prozessen",
+    "Verwaltung von Ressourcen in interaktiven Projekten",
+    "Adaptivität von Code an unterschiedliche Plattformen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198809
+  }
+}

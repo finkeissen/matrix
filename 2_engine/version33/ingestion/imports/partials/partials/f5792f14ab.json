@@ -1,0 +1,19 @@
+{
+  "subdomain": "Politische Ökonomie",
+  "problem_groups": [
+    "Klassenkonflikte",
+    "Wirtschaftsungleichheit",
+    "Staatliche Intervention in Märkten",
+    "Globalisierung und lokale Wirtschaften",
+    "Arbeitsmarktreformen",
+    "Sozialversicherungssysteme",
+    "Kapitalverteilung",
+    "Fiskalpolitik",
+    "Wachstumsmodelle",
+    "Machtstrukturen im Kapitalismus"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201576
+  }
+}

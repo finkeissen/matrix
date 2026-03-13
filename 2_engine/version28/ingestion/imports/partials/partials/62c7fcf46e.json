@@ -1,0 +1,19 @@
+{
+  "subdomain": "Analysis",
+  "problem_groups": [
+    "Datenaufbereitung und -qualität",
+    "Statistische Modellierung und Schätzung",
+    "Zeitreihenanalyse und Prognose",
+    "Multivariate Analyse und Dimensionsreduktion",
+    "Interpretation von Ergebnissen",
+    "Validierung und Verifikation von Modellen",
+    "Umgang mit fehlenden Daten",
+    "Erkennung von Ausreißern",
+    "Korrelation vs. Kausalität",
+    "Computational Complexity in Analysen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198219
+  }
+}

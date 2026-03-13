@@ -1,0 +1,17 @@
+{
+  "subdomain": "Degrowth & Postwachstum",
+  "problem_groups": [
+    "Widersprüche zwischen ökologischen Grenzen und wirtschaftlichem Wachstum",
+    "Soziale Ungleichheit im Kontext von Ressourcenverteilung",
+    "Institutionelle Abhängigkeit von Wachstumsmodellen",
+    "Kulturelle Verankerung des Konsums als Wertmaßstab",
+    "Technologische Überoptimierung ohne ökonomischen Rahmen",
+    "Mangel an alternativen Wirtschaftssystemen zur Skalierbarkeit",
+    "Konflikte zwischen globaler Nachhaltigkeit und nationalen Interessen",
+    "Unvermögen von politischen Systemen zur Umgestaltung der Wachstumslogik"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198935
+  }
+}

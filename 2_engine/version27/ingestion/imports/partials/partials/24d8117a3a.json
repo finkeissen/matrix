@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bioreaktoren",
+  "problem_groups": [
+    "Medienzusammensetzung und -durchlässigkeit",
+    "Temperaturregulation und Wärmeverteilung",
+    "Gaswechsel und Sauerstoffversorgung",
+    "Schlamm- oder Biomasseansammlung",
+    "Druckstabilität und Membranintegrität",
+    "Korrosion und Materialabrieb",
+    "Mikrobielle Verunreinigung",
+    "Energieeffizienz und Wärmebehandlung",
+    "Prozessteuerung und Automatisierung",
+    "Skalierbarkeit und Modellvalidität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198551
+  }
+}

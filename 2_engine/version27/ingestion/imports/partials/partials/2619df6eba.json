@@ -1,0 +1,16 @@
+{
+  "subdomain": "Klinische Entscheidungsunterstützung",
+  "problem_groups": [
+    "Datenintegrationsschwierigkeiten",
+    "Reliabilitätsprobleme von Informationen",
+    "Benutzeroberflächendesignfehler",
+    "Umgang mit medizinischer Unsicherheit",
+    "Wissensaktualisierung und -pflege",
+    "Interoperabilitätsprobleme zwischen Systemen",
+    "Übervertrauen in automatisierte Entscheidungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200512
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "KI-Ethik",
+  "problem_groups": [
+    "Algorithmische Diskriminierung und Bias",
+    "Transparenz und Erklärbarkeit von KI-Entscheidungen",
+    "Datenschutzverletzungen durch KI-Systeme",
+    "Verlust menschlicher Autonomie durch Automatisierung",
+    "Umweltbelastung durch KI-Infrastruktur",
+    "Soziale Ungleichheit durch KI-Zugang",
+    "Rechtliche Lücken in der KI-Regulierung",
+    "Bedrohung menschlicher Würde und Rechte",
+    "Arbeitsplatzverlust durch Automatisierung",
+    "Ethische Nutzung von KI im militärischen Kontext"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200341
+  }
+}

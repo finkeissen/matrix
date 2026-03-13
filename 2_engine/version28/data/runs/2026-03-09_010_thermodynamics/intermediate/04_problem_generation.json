@@ -1,0 +1,53 @@
+[
+  {
+    "problem_id": "ap_thermodynamics_foundations_01_1375ccd1c9",
+    "title": "Analyze Thermodynamics Foundations case 1",
+    "problem_statement": "In thermodynamics, frame a problem about Thermodynamics Foundations using a rigid insulated tank connected briefly to a high-pressure supply line. The solver should identify the governing thermodynamic principle while determining how to determine the final thermodynamic state inside the tank. Base the reasoning on the tank volume, inlet state, initial tank state, and the mass that enters. Clarify why the control-volume energy balance is the right model and identify the dominant storage term. focus on first-law reasoning before invoking more advanced interpretation The response should justify the conclusion with a compact but explicit reasoning chain.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_010_thermodynamics",
+    "created_at": "2026-03-09T10:25:14Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "analyze",
+      "a_rigid_insulated_tank_connected_briefly_to_a_high_pressure_supply_line",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_01_15f8c02116",
+    "title": "Analyze Thermodynamics Applications case 1",
+    "problem_statement": "Create a Thermodynamics Applications task in thermodynamics built around a throttling valve in a refrigeration loop. Require the solver to identify the governing thermodynamic principle. The scenario should provide the inlet pressure, inlet enthalpy, downstream pressure, and the expected phase behavior. Explain why enthalpy rather than temperature is the natural quantity to track across the valve. connect the thermodynamic reasoning to an engineering device or operating decision The final write-up should justify the conclusion with a compact but explicit reasoning chain.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_010_thermodynamics",
+    "created_at": "2026-03-09T10:25:14Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "analyze",
+      "a_throttling_valve_in_a_refrigeration_loop",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_01_1cb70cd4dd",
+    "title": "Analyze Thermodynamics Analysis case 1",
+    "problem_statement": "Within thermodynamics, use a counterflow heat exchanger operating under steady conditions to probe Thermodynamics Analysis. The solver must identify the governing thermodynamic principle and explain how to estimate the outlet temperatures and identify the controlling thermal bottleneck. Work explicitly with both inlet temperatures, both mass flow rates, and the heat-capacity rates. Distinguish between the stream with the larger thermal capacity rate and the stream that limits the temperature approach. highlight the tradeoff between two competing interpretations or approximations The answer should justify the conclusion with a compact but explicit reasoning chain.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_010_thermodynamics",
+    "created_at": "2026-03-09T10:25:14Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "analyze",
+      "a_counterflow_heat_exchanger_operating_under_steady_conditions",
+      "medium"
+    ],
+    "content_state": "candidate"
+  }
+]

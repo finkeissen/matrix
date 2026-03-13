@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Antifragilität",
+  "problem_groups": [
+    "Mangelnde Resilienz in biologischen Systemen",
+    "Unzureichende Regenerationskapazität bei Schäden",
+    "Überlastung von Selbstreparaturmechanismen",
+    "Fehlende Anpassungsfähigkeit an wechselnde Umweltbedingungen",
+    "Ineffiziente Ressourcennutzung für Regeneration",
+    "Unstabile Struktur- und Funktionserhaltung",
+    "Mangelnde Koordination von Reparaturprozessen",
+    "Fehlende Langzeitstabilität bei wiederholter Belastung",
+    "Unzureichende Anpassung an neue Stressoren",
+    "Dysbalancen zwischen Zerstörung und Regeneration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201980
+  }
+}

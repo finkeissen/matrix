@@ -1,0 +1,19 @@
+{
+  "subdomain": "Anomalieerkennung",
+  "problem_groups": [
+    "Definition von Anomalien",
+    "Erkennungsgrenzen festlegen",
+    "Datenaufbereitung für Anomalieerkennung",
+    "Modellierung von Normalverhalten",
+    "Identifikation von Ausreißern",
+    "Klassifizierung von Anomalietypen",
+    "Verarbeitung von zeitbasierten Anomalien",
+    "Erkennung von Musteranomalien",
+    "Integration mit Monitoring-Systemen",
+    "Evaluation der Erkennungsgenauigkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198239
+  }
+}

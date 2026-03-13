@@ -1,0 +1,19 @@
+{
+  "subdomain": "Inner Development Goals",
+  "problem_groups": [
+    "Mangelnde Motivation",
+    "Zeitmanagementprobleme",
+    "Selbstzweifel",
+    "Unrealistische Zielsetzung",
+    "Schwierigkeiten bei der Konsistenz",
+    "Angst vor Fehlschlägen",
+    "Überforderung",
+    "Burnout-Risiken",
+    "Unklare Prioritäten",
+    "Ausgewogenheit zwischen Persönlichkeitsentwicklung und Beruf"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200099
+  }
+}

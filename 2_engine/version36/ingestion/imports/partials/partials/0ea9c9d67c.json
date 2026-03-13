@@ -1,0 +1,19 @@
+{
+  "subdomain": "Energieeffizienz",
+  "problem_groups": [
+    "Technische Optimierung von Energieverbrauchssystemen",
+    "Unzureichende Wartung und Pflege von Anlagen",
+    "Fehlende Integration von Erneuerbaren Energien",
+    "Inkompatible Systeme und Komponenten",
+    "Mangelnde Nutzerakzeptanz bei Energieeffizienzmaßnahmen",
+    "Unklare oder widersprüchliche Normen und Standards",
+    "Hohe Investitionskosten für Effizienzsteigerungen",
+    "Fehlende Daten zur Energieverbrauchsanalyse",
+    "Unzureichende Aufklärung über Energieeinsparpotenziale",
+    "Überlastete Infrastruktur mit geringer Effizienz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199286
+  }
+}

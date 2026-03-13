@@ -1,0 +1,18 @@
+{
+  "subdomain": "Elektrochemie",
+  "problem_groups": [
+    "Korrosionsmechanismen",
+    "Elektrodenmaterial-Abrieb",
+    "Reaktionsgeschwindigkeitskontrolle",
+    "Elektrolyt-Elektrode-Schnittstellenstabilität",
+    "Energieumwandlungs-effizienz",
+    "Materialauswahl für Elektroden",
+    "Nebenreaktionen unterdrücken",
+    "Skalierung elektrochemischer Prozesse",
+    "Mathematische Modellierung elektrochemischer Systeme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199235
+  }
+}

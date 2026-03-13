@@ -1,0 +1,19 @@
+{
+  "subdomain": "Geschichte der Technologien",
+  "problem_groups": [
+    "Technologische Innovation und gesellschaftliche Veränderung",
+    "Wettbewerb zwischen Technologien",
+    "Verdrängung traditioneller Techniken",
+    "Kulturelle Anpassung an neue Technologien",
+    "Ressourcenkonflikte bei Technologieentwicklung",
+    "Technologische Abhängigkeit und Autonomieverlust",
+    "Ethische Konflikte in der Technologiegeschichte",
+    "Verdrängung von Wissen durch technologische Fortschritte",
+    "Technologische Disruption im historischen Kontext",
+    "Interdependenzen zwischen Technologie und Politik"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199788
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Fourier-Analysis",
+  "problem_groups": [
+    "Konvergenzverhalten von Fourierreihen",
+    "Sampling-Theorem und Abtastungsgrenzen",
+    "Unterscheidung kontinuierlicher und diskreter Fouriertransformationen",
+    "Behandlung periodischer vs. nichtperiodischer Funktionen",
+    "Orthogonalität von Basisfunktionen",
+    "Inversion von Fourier-Transformationen",
+    "Differentielle Konvergenzarten (punktweise, gleichmäßige)",
+    "Wechselwirkung mit Differentialgleichungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199568
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "subdomain": "Militärgeschichte",
+  "problem_groups": [
+    "Kriegsursachen und Konfliktentstehung",
+    "Strategische Entscheidungen im Krieg",
+    "Feldherren- und Kommandantentypen",
+    "Schlachtverläufe und militärische Taktiken",
+    "Militärtechnologischer Fortschritt",
+    "Logistik und Versorgungssysteme",
+    "Zivile Auswirkungen von Kriegen",
+    "Kriegspropaganda und Public Relations",
+    "Feldmobilisierung und Rekrutierungsstrategien",
+    "Militärische Allianzen und Bündnisse",
+    "Gefechtsberichte und militärische Dokumentation",
+    "Kriegsverbrechen und ethische Dilemmata",
+    "Militärarchitektur und Stellungsbau",
+    "Kampftechniken und Waffenentwicklung",
+    "Militärische Rangordnung und Hierarchie",
+    "Kriegserinnerungskultur und Erbe"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200880
+  }
+}

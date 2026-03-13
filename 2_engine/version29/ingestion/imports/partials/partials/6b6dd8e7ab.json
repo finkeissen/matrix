@@ -1,0 +1,24 @@
+{
+  "subdomain": "Regenerative Stadt",
+  "problem_groups": [
+    "Bauwerksaltlasten",
+    "Energiesystemeintegration",
+    "Grundwasserbelastung",
+    "Innovationsresistenz",
+    "Klimaresilienz",
+    "Mikrobiologische Verunreinigung",
+    "Naturraumverknappung",
+    "Ökonomische Unabhängigkeit",
+    "Partizipationsdefizite",
+    "Ressourcenverknappung",
+    "Sozialer Wohnungsmangel",
+    "Stadtklimaoptimierung",
+    "Umweltverschmutzung",
+    "Verkehrsinfrastruktur",
+    "Wassermanagement"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202919
+  }
+}

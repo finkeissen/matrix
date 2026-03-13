@@ -1,0 +1,19 @@
+{
+  "subdomain": "Mixed Reality",
+  "problem_groups": [
+    "Hardware-Integration",
+    "Benutzerinteraktion",
+    "Visuelle Darstellung",
+    "Sensorgenauigkeit",
+    "Echtzeitverarbeitung",
+    "Kontextualisierung von Inhalten",
+    "Datensicherheit und Privatsphäre",
+    "Anpassung an unterschiedliche Umgebungen",
+    "Benutzeranpassung und Personalisierung",
+    "Verzögerungs- und Latenzprobleme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200899
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "subdomain": "Gaia 2.0",
+  "problem_groups": [
+    "Datenintegration aus heterogenen Quellen",
+    "Echtzeitverarbeitung großer Datensätze",
+    "Sensorfehler und Kalibrierungsprobleme",
+    "Interoperabilität zwischen Systemkomponenten",
+    "Langfristige Datenarchivierung",
+    "Öffentliche Zugänglichkeit vs. Datenschutz",
+    "Unschärfen in prognostischen Modellen",
+    "Skalierbarkeit von Analysetools",
+    "Systemzuverlässigkeit bei Extremwetterereignissen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199598
+  }
+}

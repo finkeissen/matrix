@@ -1,0 +1,19 @@
+{
+  "subdomain": "Erklärbare KI (XAI)",
+  "problem_groups": [
+    "Transparenz vs. Komplexität",
+    "Interpretierbarkeitsmethoden",
+    "Genauigkeits-Explainability-Kompromisse",
+    "Validierung von Erklärungen",
+    "Benutzerverständnis",
+    "Ethische Implikationen",
+    "Skalierbarkeit von Erklärungen",
+    "Umgang mit komplexen Modellen",
+    "Systemintegration",
+    "Metrik zur Bewertung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199362
+  }
+}

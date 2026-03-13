@@ -1,0 +1,16 @@
+{
+  "subdomain": "Wirtschaftspsychologie",
+  "problem_groups": [
+    "Verhaltensmuster im Konsumverhalten",
+    "Entscheidungsprozesse bei finanziellen Risiken",
+    "Motivation und Leistungsbereitschaft am Arbeitsplatz",
+    "Sozialer Einfluss auf wirtschaftliche Entscheidungen",
+    "Kognitiv-emotionale Barrieren im Wirtschaftsleben",
+    "Organisationspsychologische Herausforderungen in Unternehmen",
+    "Verhaltensökonomische Aspekte der Ressourcenverteilung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204253
+  }
+}

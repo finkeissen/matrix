@@ -1,0 +1,23 @@
+{
+  "subdomain": "Immunologie",
+  "problem_groups": [
+    "Struktur und Funktion des Immunsystems",
+    "Autoimmunerkrankungen",
+    "Immunologische Toleranz",
+    "Infektionsabwehrmechanismen",
+    "Allergische Reaktionen",
+    "Immunodefizite",
+    "Tumorimmunologie",
+    "Entzündungsprozesse im Immunsystem",
+    "Antigen-Antikörper-Interaktionen",
+    "Zelluläre Immunkomponenten",
+    "Adaptive und angeborene Immunität",
+    "Immuntherapieansätze",
+    "Pathogen-Immuninteraktionen",
+    "Immunologische Diagnostik"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200066
+  }
+}

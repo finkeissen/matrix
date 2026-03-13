@@ -1,0 +1,134 @@
+{
+  "run_id": "2026-03-09_014_thermodynamics",
+  "domain": "thermodynamics",
+  "pipeline_version": "19.0.0",
+  "status": "completed_with_warnings",
+  "created_at": "2026-03-09T10:41:29Z",
+  "finished_at": "2026-03-09T10:41:29Z",
+  "prompt_versions": {
+    "01_scope": "v1",
+    "02_seed_expansion": "v1",
+    "03_categories": "v1",
+    "04_problem_generation": "v1",
+    "05_validation": "v1",
+    "07_ranking": "v1",
+    "08_export": "v1"
+  },
+  "prompt_hashes": {
+    "01_scope": "sha256:7f7177f4b...",
+    "02_seed_expansion": "sha256:2ccdb36fb...",
+    "03_categories": "sha256:29ebd251d...",
+    "04_problem_generation": "sha256:dd05bf38a...",
+    "05_validation": "sha256:2179e01ac...",
+    "07_ranking": "sha256:e83d33414...",
+    "08_export": "sha256:9b2476f29..."
+  },
+  "model": null,
+  "metrics": {
+    "generated": 30,
+    "by_category": {
+      "thermodynamics_foundations": 10,
+      "thermodynamics_applications": 10,
+      "thermodynamics_analysis": 10
+    },
+    "by_difficulty": {
+      "easy": 7,
+      "medium": 13,
+      "hard": 8,
+      "expert": 2
+    },
+    "accepted": 26,
+    "rejected_exact": 0,
+    "rejected_normalized": 0,
+    "rejected_semantic": 0,
+    "duplicates": 0,
+    "rejected_content": 4,
+    "acceptance_rate": 0.867,
+    "invariant_errors": [
+      "count_mismatch"
+    ]
+  },
+  "steps": [
+    {
+      "name": "01_scope",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "boundaries": 3,
+        "exclusions": 2
+      },
+      "error_type": null
+    },
+    {
+      "name": "02_seed_expansion",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "seeds": 199
+      },
+      "error_type": null
+    },
+    {
+      "name": "03_categories",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "categories": 3
+      },
+      "error_type": null
+    },
+    {
+      "name": "04_problem_generation",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "generated": 30,
+        "categories": 3,
+        "problems_per_category": 10
+      },
+      "error_type": null
+    },
+    {
+      "name": "05_validation",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "input": 30,
+        "accepted": 26,
+        "rejected": 4
+      },
+      "error_type": null
+    },
+    {
+      "name": "06_deduplication",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "input": 26,
+        "accepted": 26,
+        "rejected_exact": 0,
+        "rejected_normalized": 0,
+        "rejected_semantic": 0
+      },
+      "error_type": null
+    },
+    {
+      "name": "07_ranking",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "ranked": 26
+      },
+      "error_type": null
+    },
+    {
+      "name": "08_export",
+      "status": "completed",
+      "duration_ms": 0,
+      "counts": {
+        "exported": 26
+      },
+      "error_type": null
+    }
+  ]
+}

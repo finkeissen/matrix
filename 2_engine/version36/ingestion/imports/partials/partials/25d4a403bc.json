@@ -1,0 +1,19 @@
+{
+  "subdomain": "Systembiologie",
+  "problem_groups": [
+    "Integration von Multi-Omics-Daten",
+    "Modellierung komplexer biologischer Netzwerke",
+    "Standardisierung und Interoperabilität von Datenformaten",
+    "Analyse dynamischer Systemverhalten",
+    "Skalierbarkeit von Computermodellen",
+    "Validierung theoretischer Modelle",
+    "Kreuzdisziplinäre Kommunikation",
+    "Umgang mit heterogenen Datensätzen",
+    "Prädiktive Kraft von Modellen",
+    "Ethische Aspekte in systemischen Forschungsprojekten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203630
+  }
+}

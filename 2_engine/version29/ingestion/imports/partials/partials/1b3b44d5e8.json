@@ -1,0 +1,19 @@
+{
+  "subdomain": "Neuropsychologie",
+  "problem_groups": [
+    "Kognitiv-neurologische Dysfunktionen",
+    "Erkrankungen des Gedächtnisses",
+    "Aufmerksamkeitsstörungen",
+    "Sprach- und Kommunikationsdefizite",
+    "Exekutive Funktionenbeeinträchtigungen",
+    "Emotionale Regulationsschwierigkeiten",
+    "Neurologische Diagnoseunsicherheiten",
+    "Rehabilitationsprobleme bei Hirnschäden",
+    "Kognitive Degeneration im Alter",
+    "Neuroimaging-Interpretationsschwierigkeiten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201086
+  }
+}

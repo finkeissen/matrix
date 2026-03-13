@@ -1,0 +1,43 @@
+{
+  "record_type": "run_manifest",
+  "schema_version": "v1",
+  "run_id": "run_P-001_negative_inadmissible_2026-02-12",
+  "run_alias": "run_P-001_negative_inadmissible",
+  "run_date": "2026-02-12",
+  "timezone": "Europe/Berlin",
+  "scope": "verification / inadmissible rejection",
+  "inputs": {
+    "upstream_commit": "2026-02-11",
+    "sources": [],
+    "notes": "P-001 verification run"
+  },
+  "tools": {
+    "generator": null,
+    "validator": null,
+    "tool_versions": {}
+  },
+  "schemas": {
+    "problem": "v1",
+    "claim": "v1",
+    "relation": "v1",
+    "source": "v1",
+    "conflict": "v1"
+  },
+  "outputs": {
+    "produced_files": [
+      "FAIL.md",
+      "README.md",
+      "RUN_REVIEW.md",
+      "candidate_run.md",
+      "manifest.json"
+    ],
+    "checksums": {
+      "README.md": "52b0064628a569ed0cbc4560143d7567b55e530ed0f74bc02427b24f0f17fb40",
+      "candidate_run.md": "67c6b343d236c5e28ed7761b226c3d87218bd5595b113a1a0ef2dae8af4e973f",
+      "RUN_REVIEW.md": "0da5033c8362aed9041dbc94b38f8cb2a47555f70b78716e13d6747927ca6b9d",
+      "FAIL.md": "cef02da91becff838ca256f2b7fbff39d3a34e13489f1aeb5fb9f8875c5140e3",
+      "manifest.json": "94fabd3314cb7ad9efa018eef9fc36969ad1d2a5691a524f1518e0cd84d573c5"
+    },
+    "checksum_algorithm": "sha256"
+  }
+}

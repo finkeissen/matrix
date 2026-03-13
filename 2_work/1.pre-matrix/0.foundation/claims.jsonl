@@ -1,0 +1,5 @@
+{"id":"0f-claim-001","domain":"0.foundation","scope":"argumentative_state","text":"In this project, a \"state\" is understood as a temporally bounded configuration of explicit arguments, assumptions, and distinctions.","time":"2026-01-17","source_id":"0f-source-001"}
+{"id":"0f-claim-002","domain":"0.foundation","scope":"llm_role","text":"Large language models are used to externalize and vary arguments and assumptions, so that they can be inspected, compared, and revised.","time":"2026-01-17","source_id":"0f-source-001"}
+{"id":"0f-claim-003","domain":"0.foundation","scope":"non_authority","text":"No claim in the Matrix is treated as authoritative; inclusion records an articulated position with provenance and time, not correctness.","time":"2026-01-17","source_id":"0f-source-001"}
+{"id":"0f-claim-004","domain":"0.foundation","scope":"explicitness","text":"A central failure mode is implicitness: when assumptions or scopes remain unstated, disagreement becomes unreadable and the state becomes structurally unstable.","time":"2026-01-17","source_id":"0f-source-001"}
+

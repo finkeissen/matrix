@@ -1,0 +1,19 @@
+{
+  "subdomain": "Stadtsoziologie",
+  "problem_groups": [
+    "Soziale Ungleichheit in urbanen Räumen",
+    "Urbanisierungsprozesse und ihre Auswirkungen",
+    "Migrantenintegration in städtischen Umgebungen",
+    "Veränderung von Stadtstrukturen durch Globalisierung",
+    "Kulturelle Diversität und Identitäten in Städten",
+    "Sozialräumliche Segregation",
+    "Stadterneuerung und Gentrifizierung",
+    "Öffentlicher Raum und soziale Interaktion",
+    "Verkehrssysteme und Mobilität in Städten",
+    "Umweltprobleme und Nachhaltigkeit in urbanen Gebieten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203453
+  }
+}

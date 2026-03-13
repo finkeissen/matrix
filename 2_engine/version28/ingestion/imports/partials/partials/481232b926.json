@@ -1,0 +1,16 @@
+{
+  "subdomain": "Gentechnik",
+  "problem_groups": [
+    "Ethische Bedenken bei menschlicher Genbearbeitung",
+    "Unerwünschte ökologische Auswirkungen von GVOs",
+    "Regulatorische Unklarheiten und nationale Unterschiede",
+    "Risiko unkontrollierter Genflüchtigkeit",
+    "Öffentliche Akzeptanz und Vertrauensprobleme",
+    "Mögliche Missbrauch potenziell pathogener Organismen",
+    "Langfristige Auswirkungen auf Biodiversität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199686
+  }
+}

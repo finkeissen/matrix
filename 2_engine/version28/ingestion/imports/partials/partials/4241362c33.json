@@ -1,0 +1,17 @@
+{
+  "subdomain": "Katalyse",
+  "problem_groups": [
+    "Katalysator-Deaktivierung",
+    "Selektivitätsmangel",
+    "Thermische Instabilität",
+    "Materialkosten und Ressourcenverbrauch",
+    "Umweltverträglichkeit von Katalysatoren",
+    "Skalierbarkeit von Katalyseprozessen",
+    "Regenerationsmethoden für Katalysatoren",
+    "Molekulare Reaktionsmechanismen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200231
+  }
+}

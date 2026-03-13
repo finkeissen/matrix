@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Bewusstheit",
+  "problem_groups": [
+    "Aufmerksamkeitsverlust",
+    "Mentale Erschöpfung",
+    "Überlastung durch Reize",
+    "Unfähigkeit zur Selbstreflexion",
+    "Konflikte zwischen innerem und äußerem Bewusstsein",
+    "Mangel an Motivation zur Regeneration",
+    "Emotionale Überforderung",
+    "Schwierigkeiten bei der Integration neuer Erkenntnisse",
+    "Unstabilität des Bewusstseinszustands",
+    "Isolation von kognitiven Prozessen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202026
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "subdomain": "Desinformation",
+  "problem_groups": [
+    "Falschinformationen in Medien",
+    "Manipulation der Öffentlichkeit durch Desinformation",
+    "Verbreitung von Fakenews über soziale Medien",
+    "Desinformationskampagnen zur Beeinflussung von Wahlen",
+    "Fehlinformationen in wissenschaftlichen Kontexten",
+    "Erzeugung von Verwirrung durch widersprüchliche Informationen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198964
+  }
+}

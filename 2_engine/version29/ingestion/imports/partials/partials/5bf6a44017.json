@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Vollkommenheit",
+  "problem_groups": [
+    "Konflikt zwischen Ideal und Realität",
+    "Überforderung durch Perfektionssucht",
+    "Erschöpfung durch ständige Selbstoptimierung",
+    "Isolation durch übermäßige Selbstanforderungen",
+    "Unzufriedenheit mit dem Erreichten",
+    "Verlust der Balance zwischen Fortschritt und Ruhe",
+    "Erwartungsdruck von außen und innen",
+    "Zweifel an der Sinnhaftigkeit von Bemühungen",
+    "Mangel an akzeptablen Zwischenzuständen",
+    "Überforderung durch ständige Verbesserung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203015
+  }
+}

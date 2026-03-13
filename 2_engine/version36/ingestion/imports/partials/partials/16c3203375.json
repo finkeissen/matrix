@@ -1,0 +1,19 @@
+{
+  "subdomain": "Angewandte Ethik",
+  "problem_groups": [
+    "Moralische Entscheidungsfindung in beruflichen Kontexten",
+    "Verantwortung und Rechtfertigung von Handlungen",
+    "Konflikt zwischen individueller Moral und gesellschaftlicher Normen",
+    "Ethische Bewertung technologischer Entwicklungen",
+    "Grenzen der Privatsphäre und Überwachung",
+    "Umgang mit ethischen Dilemmata in Medizin und Pflege",
+    "Verantwortung von Unternehmen gegenüber Gesellschaft und Umwelt",
+    "Ethische Aspekte im Umgang mit KI und Algorithmen",
+    "Gerechtigkeit und Fairness in sozialen Systemen",
+    "Ethik des Wissens- und Forschungsgegenstands"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198235
+  }
+}

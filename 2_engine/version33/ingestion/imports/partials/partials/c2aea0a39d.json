@@ -1,0 +1,17 @@
+{
+  "subdomain": "Systemökologie",
+  "problem_groups": [
+    "Dynamik von Rückkopplungsprozessen",
+    "Interdependenzen zwischen Biodiversität und Ökosystemfunktionen",
+    "Skalierung von Modellen auf unterschiedliche Ebenen",
+    "Unschärfen in Systemgrenzen und Wechselwirkungen",
+    "Langzeitverhalten komplexer Ökosysteme",
+    "Einfluss menschlicher Störungen auf Systemstabilität",
+    "Integration von nicht-linearen Prozessen",
+    "Datenmangel bei räumlich-zeitlichen Komplexitäten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203661
+  }
+}

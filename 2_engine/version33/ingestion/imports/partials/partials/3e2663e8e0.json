@@ -1,0 +1,16 @@
+{
+  "subdomain": "Post-Quantum-Kryptografie",
+  "problem_groups": [
+    "Entwicklung von quantenresistenten Algorithmen",
+    "Sicherheitsbewertung gegen Quantenangriffe",
+    "Integration in bestehende Kryptosysteme",
+    "Effizienz- und Leistungsprobleme",
+    "Standardisierung von Post-Quantum-Methoden",
+    "Interoperabilität zwischen Algorithmen",
+    "Übergangsstrategien zu quantenresistenten Systemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201624
+  }
+}

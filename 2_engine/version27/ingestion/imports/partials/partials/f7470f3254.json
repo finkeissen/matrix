@@ -1,0 +1,19 @@
+{
+  "subdomain": "Data Art",
+  "problem_groups": [
+    "Dateninterpretationsschwierigkeiten",
+    "Visuelle Darstellungskonflikte",
+    "Technische Umsetzungshindernisse",
+    "Ethik- und Datenschutzprobleme",
+    "Kunst- und Datenästhetik-Kollisionen",
+    "Interpretationsbarrieren bei komplexen Datensätzen",
+    "Tool- und Softwarebegrenzungen",
+    "Kreativitätsbeschränkungen durch Datenstruktur",
+    "Zweckmäßigkeit vs. künstlerische Freiheit",
+    "Interdisziplinäre Integrationsschwierigkeiten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198862
+  }
+}

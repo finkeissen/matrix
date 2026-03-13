@@ -1,0 +1,13 @@
+{
+  "run_id": "run_14_matrix_self_reference",
+  "date": "2026-01-19",
+  "domain": "matrix",
+  "purpose": "Seed the Matrix with self-referential problems about its own structure, limits, biases, failure modes, and misinterpretation risks.",
+  "scope": {
+    "target_problem_count": 50,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "internal artifacts only"
+  },
+  "notes": "These problems treat the Matrix itself as an epistemic subject under test."
+}

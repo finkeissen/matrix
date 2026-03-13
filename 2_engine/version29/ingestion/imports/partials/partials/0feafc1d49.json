@@ -1,0 +1,19 @@
+{
+  "subdomain": "Privacy-Preserving ML",
+  "problem_groups": [
+    "Datenanonymisierungstechniken",
+    "Modellinversionsschutz",
+    "Differenzielle Privatsphäre-Implementierung",
+    "Federated Learning-Sicherheitslücken",
+    "Secure Multi-party Computation-Integration",
+    "Reidentifizierbarkeit in synthetischen Daten",
+    "Datennutzungsbeschränkungen bei Trainingsdaten",
+    "Modelltransparenz vs. Datenschutz",
+    "Kollision von Privatsphäre und Modellgenauigkeit",
+    "Regulatorische Konformität bei Privacy-Techniken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201671
+  }
+}

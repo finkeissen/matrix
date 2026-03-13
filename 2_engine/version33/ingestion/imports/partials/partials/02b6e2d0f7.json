@@ -1,0 +1,19 @@
+{
+  "subdomain": "Formale Spezifikation",
+  "problem_groups": [
+    "Unklarheit der Anforderungen",
+    "Inkonsistenz zwischen Spezifikation und Implementierung",
+    "Fehlende Vollständigkeit der Spezifikation",
+    "Ambiguität in logischen Ausdrücken",
+    "Unzureichende Formalisierbarkeit von Domänenelementen",
+    "Überkomplexität der Spezifikationsstruktur",
+    "Mangelnde Modularität der Spezifikation",
+    "Inkonsistenz zwischen verschiedenen Spezifikationsformalismen",
+    "Fehlende Validierungsmöglichkeiten der Spezifikation",
+    "Unklarheit in der Semantik von Spezifikationsmodellen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199530
+  }
+}

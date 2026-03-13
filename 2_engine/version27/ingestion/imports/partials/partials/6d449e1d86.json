@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bionische Konstruktion",
+  "problem_groups": [
+    "Materialverhalten bei biologischen Modellen",
+    "Anpassungsfähigkeit von Strukturen an Umweltbedingungen",
+    "Integration natürlicher Formen in technische Systeme",
+    "Optimierung von Energieeffizienz durch biomimetische Prinzipien",
+    "Verformungsverhalten bei dynamischen Belastungen",
+    "Skalierbarkeit biologischer Strukturen auf technische Maßstäbe",
+    "Kopplung von biomechanischen und technischen Funktionen",
+    "Robustheit gegenüber Umwelteinflüssen",
+    "Modellierung komplexer biologischer Interaktionen",
+    "Herstellungstechniken für bionische Strukturen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198542
+  }
+}

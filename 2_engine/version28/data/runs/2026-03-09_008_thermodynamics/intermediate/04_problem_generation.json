@@ -1,0 +1,512 @@
+[
+  {
+    "problem_id": "ap_thermodynamics_foundations_01_e38c0f04c3",
+    "title": "Analyze Thermodynamics Foundations case 1",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Foundations under a quasi-static process setting. Ask the solver to determine the governing physical principle. Name the assumption that matters most for the answer. The final answer should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "analyze",
+      "a_quasi_static_process_setting",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_02_9d10719299",
+    "title": "Derive Thermodynamics Foundations case 2",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Foundations. The solver must derive the relevant relationship from first principles. Include the physical consistency check that validates the result. The write-up should state each assumption explicitly and show the critical steps.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "derive",
+      "a_practical_engineering_setup",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_03_defa2827a2",
+    "title": "Compare Thermodynamics Foundations case 3",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Foundations as a limiting-case approximation. Require the solver to contrast two plausible system behaviors. Use a single argument structure from setup to conclusion. The solution should identify which interpretation is physically consistent and why.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "compare",
+      "a_limiting_case_approximation",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_04_0e9e61f029",
+    "title": "Estimate Thermodynamics Foundations case 4",
+    "problem_statement": "In thermodynamics, consider a measurement-oriented investigation for the category Thermodynamics Foundations. The task is to estimate the dominant order-of-magnitude behavior. Name the assumption that matters most for the answer. The response should explain why secondary effects can be neglected.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "estimate",
+      "a_measurement_oriented_investigation",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_05_9e1fa43d83",
+    "title": "Predict Thermodynamics Foundations case 5",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Foundations under a reversible-versus-irreversible comparison. Ask the solver to predict the system response after a controlled change. Include the physical consistency check that validates the result. The final answer should explain the direction and scale of the change.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "predict",
+      "a_reversible_versus_irreversible_comparison",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_06_1270029ede",
+    "title": "Explain Thermodynamics Foundations case 6",
+    "problem_statement": "Construct a a parameter-sweep experiment case in thermodynamics focused on Thermodynamics Foundations. The solver must explain an apparently counterintuitive observation. Use a single argument structure from setup to conclusion. The write-up should resolve the tension with a coherent domain argument.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "explain",
+      "a_parameter_sweep_experiment",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_07_0ca7bbf977",
+    "title": "Evaluate Thermodynamics Foundations case 7",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Foundations as a boundary-condition stress test. Require the solver to evaluate whether a proposed interpretation is valid. Name the assumption that matters most for the answer. The solution should identify the decisive criterion and defend the conclusion.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "evaluate",
+      "a_boundary_condition_stress_test",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_08_239056978d",
+    "title": "Identify Thermodynamics Foundations case 8",
+    "problem_statement": "In thermodynamics, consider idealized closed-system conditions for the category Thermodynamics Foundations. The task is to identify the limiting constraint in the scenario. Include the physical consistency check that validates the result. The response should show how the bottleneck controls the final outcome.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "identify",
+      "idealized_closed_system_conditions",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_09_ebac2606a1",
+    "title": "Analyze Thermodynamics Foundations case 9",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Foundations under a quasi-static process setting. Ask the solver to determine the governing physical principle. Use a single argument structure from setup to conclusion. The final answer should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "analyze",
+      "a_quasi_static_process_setting",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_foundations_10_f543b536da",
+    "title": "Derive Thermodynamics Foundations case 10",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Foundations. The solver must derive the relevant relationship from first principles. Name the assumption that matters most for the answer. The write-up should state each assumption explicitly and show the critical steps.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "derive",
+      "a_practical_engineering_setup",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_01_190491f923",
+    "title": "Analyze Thermodynamics Applications case 1",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Applications. The solver must determine the governing physical principle. Separate the dominant effect from secondary corrections. The write-up should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "analyze",
+      "a_practical_engineering_setup",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_02_a5a80e231c",
+    "title": "Derive Thermodynamics Applications case 2",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Applications as a limiting-case approximation. Require the solver to derive the relevant relationship from first principles. Point out which quantity sets the scale of the outcome. The solution should state each assumption explicitly and show the critical steps.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "derive",
+      "a_limiting_case_approximation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_03_65534490aa",
+    "title": "Compare Thermodynamics Applications case 3",
+    "problem_statement": "In thermodynamics, consider a measurement-oriented investigation for the category Thermodynamics Applications. The task is to contrast two plausible system behaviors. State the governing variables before drawing a conclusion. The response should identify which interpretation is physically consistent and why.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "compare",
+      "a_measurement_oriented_investigation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_04_d5a2fe523f",
+    "title": "Estimate Thermodynamics Applications case 4",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Applications under a reversible-versus-irreversible comparison. Ask the solver to estimate the dominant order-of-magnitude behavior. Separate the dominant effect from secondary corrections. The final answer should explain why secondary effects can be neglected.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "estimate",
+      "a_reversible_versus_irreversible_comparison",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_05_5346216f0a",
+    "title": "Predict Thermodynamics Applications case 5",
+    "problem_statement": "Construct a a parameter-sweep experiment case in thermodynamics focused on Thermodynamics Applications. The solver must predict the system response after a controlled change. Point out which quantity sets the scale of the outcome. The write-up should explain the direction and scale of the change.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "predict",
+      "a_parameter_sweep_experiment",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_06_919247050b",
+    "title": "Explain Thermodynamics Applications case 6",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Applications as a boundary-condition stress test. Require the solver to explain an apparently counterintuitive observation. State the governing variables before drawing a conclusion. The solution should resolve the tension with a coherent domain argument.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "explain",
+      "a_boundary_condition_stress_test",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_07_9e739d33db",
+    "title": "Evaluate Thermodynamics Applications case 7",
+    "problem_statement": "In thermodynamics, consider idealized closed-system conditions for the category Thermodynamics Applications. The task is to evaluate whether a proposed interpretation is valid. Separate the dominant effect from secondary corrections. The response should identify the decisive criterion and defend the conclusion.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "evaluate",
+      "idealized_closed_system_conditions",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_08_3f3a96f276",
+    "title": "Identify Thermodynamics Applications case 8",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Applications under a quasi-static process setting. Ask the solver to identify the limiting constraint in the scenario. Point out which quantity sets the scale of the outcome. The final answer should show how the bottleneck controls the final outcome.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "identify",
+      "a_quasi_static_process_setting",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_09_f354bf800f",
+    "title": "Analyze Thermodynamics Applications case 9",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Applications. The solver must determine the governing physical principle. State the governing variables before drawing a conclusion. The write-up should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "analyze",
+      "a_practical_engineering_setup",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_10_76337bf502",
+    "title": "Derive Thermodynamics Applications case 10",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Applications as a limiting-case approximation. Require the solver to derive the relevant relationship from first principles. Separate the dominant effect from secondary corrections. The solution should state each assumption explicitly and show the critical steps.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "derive",
+      "a_limiting_case_approximation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_01_082bb9c960",
+    "title": "Analyze Thermodynamics Analysis case 1",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Analysis as a limiting-case approximation. Require the solver to determine the governing physical principle. Include the physical consistency check that validates the result. The solution should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "analyze",
+      "a_limiting_case_approximation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_02_cd241ec4bb",
+    "title": "Derive Thermodynamics Analysis case 2",
+    "problem_statement": "In thermodynamics, consider a measurement-oriented investigation for the category Thermodynamics Analysis. The task is to derive the relevant relationship from first principles. Use a single argument structure from setup to conclusion. The response should state each assumption explicitly and show the critical steps.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "derive",
+      "a_measurement_oriented_investigation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_03_5716fa0ee8",
+    "title": "Compare Thermodynamics Analysis case 3",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Analysis under a reversible-versus-irreversible comparison. Ask the solver to contrast two plausible system behaviors. Name the assumption that matters most for the answer. The final answer should identify which interpretation is physically consistent and why.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "compare",
+      "a_reversible_versus_irreversible_comparison",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_04_f2f93bed98",
+    "title": "Estimate Thermodynamics Analysis case 4",
+    "problem_statement": "Construct a a parameter-sweep experiment case in thermodynamics focused on Thermodynamics Analysis. The solver must estimate the dominant order-of-magnitude behavior. Include the physical consistency check that validates the result. The write-up should explain why secondary effects can be neglected.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "estimate",
+      "a_parameter_sweep_experiment",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_05_663e5cea5b",
+    "title": "Predict Thermodynamics Analysis case 5",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Analysis as a boundary-condition stress test. Require the solver to predict the system response after a controlled change. Use a single argument structure from setup to conclusion. The solution should explain the direction and scale of the change.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "predict",
+      "a_boundary_condition_stress_test",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_06_dba73059dd",
+    "title": "Explain Thermodynamics Analysis case 6",
+    "problem_statement": "In thermodynamics, consider idealized closed-system conditions for the category Thermodynamics Analysis. The task is to explain an apparently counterintuitive observation. Name the assumption that matters most for the answer. The response should resolve the tension with a coherent domain argument.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "explain",
+      "idealized_closed_system_conditions",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_07_ded7a64bd2",
+    "title": "Evaluate Thermodynamics Analysis case 7",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Analysis under a quasi-static process setting. Ask the solver to evaluate whether a proposed interpretation is valid. Include the physical consistency check that validates the result. The final answer should identify the decisive criterion and defend the conclusion.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "evaluate",
+      "a_quasi_static_process_setting",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_08_e2186e208c",
+    "title": "Identify Thermodynamics Analysis case 8",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Analysis. The solver must identify the limiting constraint in the scenario. Use a single argument structure from setup to conclusion. The write-up should show how the bottleneck controls the final outcome.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "identify",
+      "a_practical_engineering_setup",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_09_4d413f38fd",
+    "title": "Analyze Thermodynamics Analysis case 9",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Analysis as a limiting-case approximation. Require the solver to determine the governing physical principle. Name the assumption that matters most for the answer. The solution should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "analyze",
+      "a_limiting_case_approximation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_10_5cd0017a09",
+    "title": "Derive Thermodynamics Analysis case 10",
+    "problem_statement": "In thermodynamics, consider a measurement-oriented investigation for the category Thermodynamics Analysis. The task is to derive the relevant relationship from first principles. Include the physical consistency check that validates the result. The response should state each assumption explicitly and show the critical steps.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_008_thermodynamics",
+    "created_at": "2026-03-09T10:03:02Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "derive",
+      "a_measurement_oriented_investigation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  }
+]

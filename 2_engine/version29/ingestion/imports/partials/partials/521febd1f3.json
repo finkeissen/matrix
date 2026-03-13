@@ -1,0 +1,22 @@
+{
+  "subdomain": "Entwicklungspsychologie",
+  "problem_groups": [
+    "Entwicklung im Säuglingsalter",
+    "Soziale Beziehungen in der Kindheit",
+    "Kognitive Entwicklung im Vorschulalter",
+    "Sprachentwicklung im Kindesalter",
+    "Motorische Entwicklung im Frühkindesalter",
+    "Emotionale Entwicklung in der Adoleszenz",
+    "Identitätsbildung in der Jugend",
+    "Soziale Integration im Erwachsenenalter",
+    "Altersbedingte Veränderungen im Alter",
+    "Lernprozesse in der Schule",
+    "Übergänge zwischen Lebensphasen",
+    "Einfluss von Umweltfaktoren auf die Entwicklung",
+    "Entwicklungsstörungen und deren Auswirkungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199325
+  }
+}

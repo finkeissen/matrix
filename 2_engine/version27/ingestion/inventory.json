@@ -1,0 +1,30 @@
+{
+  "bundle": "information_ingestion_bundle",
+  "created_at": "2026-03-07T00:00:00Z",
+  "assets": {
+    "approved": [
+      "rules/global_contradiction_patterns.v1.json",
+      "rules/global_case_corpus.v1.json",
+      "rules/global_case_gates.v1.json",
+      "seeds/global_meta_patterns.v1.json",
+      "seeds/global_structural_patterns.v1.json",
+      "seeds/global_atomic_patterns.v1.json",
+      "taxonomy/global_information_taxonomy.v1.json"
+    ],
+    "reviewed_only": [
+      "seeds/partial_seed_candidates.v1.json"
+    ],
+    "archived_only": [
+      "archive/imports/icd11_enriched_ultra_flat.jsonl.zip"
+    ]
+  },
+  "counts": {
+    "contradiction_rules": 11,
+    "cases": 11,
+    "case_gates": 11,
+    "meta_patterns": 53,
+    "structural_patterns": 67,
+    "atomic_patterns": 87,
+    "partial_candidates": 650
+  }
+}

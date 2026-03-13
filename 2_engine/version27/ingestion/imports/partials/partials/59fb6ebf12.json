@@ -1,0 +1,19 @@
+{
+  "subdomain": "Health Data Interoperability",
+  "problem_groups": [
+    "Datenstandardisierungsprobleme",
+    "Interoperabilitätsbarrieren zwischen Systemen",
+    "Datensicherheits- und Privatsphärebedenken",
+    "Inkompatibilität von Datenformaten",
+    "Fehlende einheitliche Schnittstellenstandards",
+    "Unzureichende Interoperabilität in der Patientenversorgung",
+    "Datenintegration zwischen medizinischen Fachbereichen",
+    "Mangelnde Unterstützung durch Softwarearchitekturen",
+    "Probleme bei der Langzeitarchivierung von Gesundheitsdaten",
+    "Unklare Rechtsgrundlagen für Datenweitergabe"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199978
+  }
+}

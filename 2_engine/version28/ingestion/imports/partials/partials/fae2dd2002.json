@@ -1,0 +1,18 @@
+{
+  "subdomain": "Regenerative Gesundheit",
+  "problem_groups": [
+    "Zugang zu regenerativen Therapien",
+    "Integration in bestehende medizinische Systeme",
+    "Ethik der biologischen Modifikationen",
+    "Langfristige Sicherheit von Regenerationsverfahren",
+    "Patientenaufklärung und Einwilligung",
+    "Regulierung neuer Technologien",
+    "Interdisziplinäre Zusammenarbeit",
+    "Öffentliche Akzeptanz regeneratorischer Methoden",
+    "Kosteneffizienz von Regenerationsbehandlungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202353
+  }
+}

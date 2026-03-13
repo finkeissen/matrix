@@ -1,0 +1,19 @@
+{
+  "subdomain": "Stakeholder-Kapitalismus",
+  "problem_groups": [
+    "Konflikte zwischen Stakeholder-Interessen",
+    "Überforderung von Unternehmen mit diversen Stakeholder-Ansprüchen",
+    "Mangelnde Transparenz in Stakeholder-Engagement-Prozessen",
+    "Unausgewogene Gewichtung von Stakeholder-Interessen",
+    "Fehlende Langfristigkeit im Stakeholder-Managements",
+    "Risiko der Stakeholder-Überlastung durch zu viele Anforderungen",
+    "Mangelnde Einbindung marginalisierter Stakeholder-Gruppen",
+    "Konflikte zwischen ökonomischen und sozialen Stakeholder-Zielen",
+    "Unklarheit in der Definition von Stakeholder-Verantwortlichkeiten",
+    "Fehlende Kriterien für Priorisierung von Stakeholder-Ansprüchen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203459
+  }
+}

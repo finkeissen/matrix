@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Heilung",
+  "problem_groups": [
+    "Zellproliferationseinschränkungen",
+    "Stemzellen-Verfügbarkeit",
+    "Immunreaktionen bei Heilungsprozessen",
+    "Mikroumgebungsdysbalancen",
+    "Nährstoffversorgungsschwierigkeiten",
+    "Genetische Prädispositionen",
+    "Extrazelluläre Matrix-Defizite",
+    "Inflammatorische Überreaktionen",
+    "Neuromodulationseinschränkungen",
+    "Oxidativer Stress"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202415
+  }
+}

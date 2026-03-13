@@ -1,0 +1,19 @@
+{
+  "subdomain": "Computer Vision",
+  "problem_groups": [
+    "Bilderkennung",
+    "Objektidentifikation",
+    "Szenenverstehen",
+    "Bewegungsanalyse",
+    "Bildsegmentierung",
+    "Lichtbedingungenbehandlung",
+    "Oklusionserkennung",
+    "3D-Rekonstruktion aus 2D-Bildern",
+    "Skalierbarkeit von Bildinhalten",
+    "Perspektivananpassung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198758
+  }
+}

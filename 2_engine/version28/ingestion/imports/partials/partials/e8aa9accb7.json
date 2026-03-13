@@ -1,0 +1,19 @@
+{
+  "subdomain": "Verteilte Systeme",
+  "problem_groups": [
+    "Konsistenzmanagement bei parallelen Datenzugriffen",
+    "Fehlerresilienz und Ausfallsicherung",
+    "Synchronisation von Prozessen in heterogenen Umgebungen",
+    "Ressourcenverteilung und Lastenausgleich",
+    "Netzwerklatenz und Kommunikationsverzögerung",
+    "Datenintegrität bei verteilten Transaktionen",
+    "Skalierbarkeit von Architekturen",
+    "Sicherheitsanforderungen in vernetzten Systemen",
+    "Serviceentdeckung und Interoperabilität",
+    "Konsensbildung in dezentralen Umgebungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204152
+  }
+}

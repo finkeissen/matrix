@@ -1,0 +1,43 @@
+{
+  "record_type": "run_manifest",
+  "schema_version": "v1",
+  "run_id": "run_P-003_explanatory_vs_normative_2026-02-12",
+  "run_alias": "run_P-003_explanatory_vs_normative",
+  "run_date": "2026-02-12",
+  "timezone": "Europe/Berlin",
+  "scope": "verification / explanatory vs normative",
+  "inputs": {
+    "upstream_commit": "2026-02-11",
+    "sources": [],
+    "notes": "P-003 verification run"
+  },
+  "tools": {
+    "generator": null,
+    "validator": null,
+    "tool_versions": {}
+  },
+  "schemas": {
+    "problem": "v1",
+    "claim": "v1",
+    "relation": "v1",
+    "source": "v1",
+    "conflict": "v1"
+  },
+  "outputs": {
+    "produced_files": [
+      "FAIL.md",
+      "README.md",
+      "RUN_REVIEW.md",
+      "candidate_misuse.md",
+      "manifest.json"
+    ],
+    "checksums": {
+      "README.md": "bbaf492d717abe1320d3928ce948e4bacb88939c9c6b4cd3a910333ef084da83",
+      "candidate_misuse.md": "0564b91b78212b254b0626572e76ab0acc8eac4721b2178ceb9cc3ccbab42436",
+      "FAIL.md": "4210f100001b9b36f41af5906de73df925c999ce748cfaa03b186ba88047e9aa",
+      "RUN_REVIEW.md": "dbc9c962b14687d867c8bf2f3f711e3f9f66cc2d7ec39d585caaf17efcb2d9ac",
+      "manifest.json": "b6286dc8ceda84e78fd58ecb5342e58edafdb07ef4b7158698c11f1ae1c8f471"
+    },
+    "checksum_algorithm": "sha256"
+  }
+}

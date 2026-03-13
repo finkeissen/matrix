@@ -1,0 +1,19 @@
+{
+  "subdomain": "Wirtschaftsgeografie",
+  "problem_groups": [
+    "Ressourcenverteilung und -nutzung",
+    "Industriestandortwahl und -entwicklung",
+    "Handelsroutinen und Handelsbeziehungen",
+    "Urbanisierung und Stadtentwicklung",
+    "Landwirtschaftliche Nutzungskonflikte",
+    "Tourismus und Tourismusdruck",
+    "Infrastrukturplanung und -ausbau",
+    "Klimawandel und wirtschaftliche Anpassung",
+    "Globalisierung und lokale Wirtschaftsstrukturen",
+    "Arbeitsmarktbewegungen und Migration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204230
+  }
+}

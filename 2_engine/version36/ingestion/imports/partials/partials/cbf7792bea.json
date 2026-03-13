@@ -1,0 +1,19 @@
+{
+  "subdomain": "Religionssoziologie",
+  "problem_groups": [
+    "Religionszugehörigkeit und soziale Identität",
+    "Religiöse Praktiken in sozialen Kontexten",
+    "Konflikt zwischen Religiosität und gesellschaftlichen Normen",
+    "Religion als soziale Institution",
+    "Religionsverbreitung und Migration",
+    "Sekten- und Neureligionenentstehung",
+    "Religiöse Symbolik in der Öffentlichkeit",
+    "Religion und politische Macht",
+    "Religionskritik und Säkularisierung",
+    "Religion im Bildungssektor"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203138
+  }
+}

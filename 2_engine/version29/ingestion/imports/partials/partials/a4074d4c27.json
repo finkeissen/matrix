@@ -1,0 +1,19 @@
+{
+  "subdomain": "Philosophie der Transparenz",
+  "problem_groups": [
+    "Definition von Transparenz in philosophischen Kontexten",
+    "Grenzen und Limits der Transparenz",
+    "Transparenz als ethisches Prinzip",
+    "Konflikte zwischen Transparenz und Privatsphäre",
+    "Transparenz in politischen Systemen",
+    "Transparenz im Wissensvermittlungskontext",
+    "Verhältnis von Transparenz und Macht",
+    "Transparenz als epistemische Verpflichtung",
+    "Kritik an der Idee der vollständigen Transparenz",
+    "Transparenz in digitalen Kommunikationsformen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201374
+  }
+}

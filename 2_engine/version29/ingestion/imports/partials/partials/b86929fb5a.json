@@ -1,0 +1,19 @@
+{
+  "subdomain": "Computational Mechanics",
+  "problem_groups": [
+    "Numerische Modellierung von mechanischen Systemen",
+    "Validierung und Verifikation von Simulationsergebnissen",
+    "Gittergenerierung und -optimierung",
+    "Behandlung nichtlinearer Materialverhalten",
+    "Zeitintegration bei dynamischen Prozessen",
+    "Unschärferesolution in parametrischen Modellen",
+    "Parallelisierbarkeit von Algorithmen",
+    "Multi-Physik-Kopplung",
+    "Konvergenzanalyse von numerischen Verfahren",
+    "Skalierung auf Hochleistungsrechnern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198746
+  }
+}

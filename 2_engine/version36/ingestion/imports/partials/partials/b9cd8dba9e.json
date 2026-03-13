@@ -1,0 +1,16 @@
+{
+  "subdomain": "Neurostimulation",
+  "problem_groups": [
+    "Gerätefehler und Kalibrierungsprobleme",
+    "Unsichere Patientenauswahl",
+    "Langfristige Therapieeffizienz",
+    "Elektrodenplatzierungsgenauigkeit",
+    "Individuelle Reaktionsunterschiede",
+    "Therapeutische vs. Nebenwirkungen",
+    "Standardisierungsprobleme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201096
+  }
+}

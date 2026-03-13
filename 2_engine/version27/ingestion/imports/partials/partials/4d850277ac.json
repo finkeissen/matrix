@@ -1,0 +1,19 @@
+{
+  "subdomain": "Self-Sovereign Identity",
+  "problem_groups": [
+    "Interoperabilität zwischen Identitätsanbietern",
+    "Vertrauensbildung in dezentrale Systeme",
+    "Rechtliche Anerkennung von SSI-Zertifikaten",
+    "Datenschutz bei selbstbestimmter Identität",
+    "Technische Standardisierung von SSI-Protokollen",
+    "Benutzerfreundlichkeit von Identitätsmanagementsystemen",
+    "Sicherheit bei dezentraler Schlüsselverwaltung",
+    "Skalierbarkeit von SSI-Netzwerken",
+    "Vermeidung von Zentralisierungstendenzen",
+    "Kollisionsschutz bei identischen Identitäten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203267
+  }
+}

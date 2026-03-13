@@ -1,0 +1,17 @@
+{
+  "subdomain": "Global Consciousness",
+  "problem_groups": [
+    "Mangelnde globale Umweltbewusstsein",
+    "Ungleichheit im Zugang zu Informationen",
+    "Verbreitung von Fehlinformationen",
+    "Kulturelle Homogenisierung",
+    "Digitale Kluft",
+    "Globaler Sozialer Ungleichheit",
+    "Mangelnde internationale Zusammenarbeit",
+    "Überforderung durch globale Probleme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199828
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Ökologische Ökonomie",
+  "problem_groups": [
+    "Ressourcenverknappung und Nachhaltigkeit",
+    "Umweltexternalitäten und Marktversagen",
+    "Intergenerationale Gerechtigkeit",
+    "Evaluierung von Ökosystemdienstleistungen",
+    "Integration ökologischer Grenzen in Wirtschaftspolitik",
+    "Konsummuster und Ressourcennutzung",
+    "Wachstumsdruck vs. ökologische Tragfähigkeit",
+    "Messung ökonomischer Aktivitäten mit ökologischen Konsequenzen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204454
+  }
+}

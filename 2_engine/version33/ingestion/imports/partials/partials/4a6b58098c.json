@@ -1,0 +1,25 @@
+{
+  "subdomain": "Soziale Ungleichheit",
+  "problem_groups": [
+    "Einkommensunterschiede",
+    "Bildungsungleichheit",
+    "Arbeitsmarktdiskriminierung",
+    "Wohnungsmarktspannungen",
+    "Krankenversicherungsunterschiede",
+    "Zugang zu Gesundheitsleistungen",
+    "Soziale Ausgrenzung",
+    "Rassismus und Diskriminierung",
+    "Geschlechterungleichheit",
+    "Generationenarmut",
+    "Regionale Ungleichheit",
+    "Armut im Alter",
+    "Migrations- und Flüchtlingsungleichheit",
+    "Digitale Kluft",
+    "Kulturelle Unterschiede",
+    "Rechtliche Benachteiligung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203388
+  }
+}

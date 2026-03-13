@@ -1,0 +1,19 @@
+{
+  "subdomain": "Spektraltheorie",
+  "problem_groups": [
+    "Spektralabbildung und Operatoren",
+    "Kompaktheit von Spektren",
+    "Resolventenanalyse",
+    "Eigenwertverteilung",
+    "Spektralklasse von Operatoren",
+    "Approximationsspektren",
+    "Stetigkeit des Spektrums",
+    "Spektralzerlegung",
+    "Verzweigungspunkte im Spektrum",
+    "Numerische Berechnung von Spektren"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203409
+  }
+}

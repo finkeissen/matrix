@@ -1,0 +1,53 @@
+[
+  {
+    "problem_id": "ap_thermodynamics_foundations_01_86aed682c5",
+    "title": "Analyze Thermodynamics Foundations case 1",
+    "problem_statement": "A thermodynamics team is reviewing Thermodynamics Foundations under a quasi-static process setting. Ask the solver to determine the governing physical principle. Name the assumption that matters most for the answer. The final answer should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_005_thermodynamics",
+    "created_at": "2026-03-09T09:59:23Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "analyze",
+      "a_quasi_static_process_setting",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_01_a5e12aa01f",
+    "title": "Analyze Thermodynamics Applications case 1",
+    "problem_statement": "Construct a a practical engineering setup case in thermodynamics focused on Thermodynamics Applications. The solver must determine the governing physical principle. Separate the dominant effect from secondary corrections. The write-up should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_005_thermodynamics",
+    "created_at": "2026-03-09T09:59:23Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "analyze",
+      "a_practical_engineering_setup",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_01_4f2c66971d",
+    "title": "Analyze Thermodynamics Analysis case 1",
+    "problem_statement": "Within thermodynamics, frame Thermodynamics Analysis as a limiting-case approximation. Require the solver to determine the governing physical principle. Include the physical consistency check that validates the result. The solution should justify the final result with a concise reasoning chain.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_005_thermodynamics",
+    "created_at": "2026-03-09T09:59:23Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "analyze",
+      "a_limiting_case_approximation",
+      "medium"
+    ],
+    "content_state": "candidate"
+  }
+]

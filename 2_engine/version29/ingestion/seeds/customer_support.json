@@ -1,0 +1,21 @@
+{
+  "domain": "customer support",
+  "version": "v1",
+  "seeds": [
+    "ticket closure rate mistaken for true issue resolution",
+    "escalation authority overriding frontline evidence",
+    "support policy applied outside intended case scope",
+    "metric optimization degrading actual customer outcomes",
+    "handoff boundaries causing responsibility leakage",
+    "legacy support assumptions persisting after product changes",
+    "agent confidence exceeding available evidence",
+    "knowledge base guidance conflicting with real customer context",
+    "case labels hiding relevant contextual differences",
+    "sla compliance substituting for customer success",
+    "decision closure blocking continued evidence review",
+    "official guidance treated as automatically correct",
+    "customer segmentation applied at the wrong level of analysis",
+    "queue routing optimizing throughput instead of resolution quality",
+    "exceptions handled inconsistently across teams"
+  ]
+}

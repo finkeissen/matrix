@@ -1,0 +1,24 @@
+{
+  "subdomain": "Human Resource Management",
+  "problem_groups": [
+    "Kommunikationsprobleme zwischen Mitarbeitern und Vorgesetzten",
+    "Mangelnde Einbindung von Mitarbeitern in Entscheidungsprozesse",
+    "Unklare Rollenverteilung im Team",
+    "Fehlende oder unzureichende Weiterbildungsangebote",
+    "Ungleichbehandlung im Unternehmen",
+    "Hohe Fluktuation und Abwanderung von Mitarbeitern",
+    "Mangelnde Work-Life-Balance bei Mitarbeitern",
+    "Unzufriedenheit mit Gehältern und Sozialleistungen",
+    "Fehlende oder unklare Karrierepfade",
+    "Konflikte zwischen Mitarbeitern",
+    "Unzureichende Einarbeitung neuer Mitarbeiter",
+    "Mangelnde Anerkennung von Leistungen",
+    "Unpassende Arbeitszeiten und Überstundenprobleme",
+    "Fehlende oder unklare Zielsetzungen im Personalmanagement",
+    "Probleme bei der Rekrutierung geeigneter Fachkräfte"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200027
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Graphentheorie",
+  "problem_groups": [
+    "Kürzeste Pfade",
+    "Graphen-Isomorphie",
+    "Matching in Graphen",
+    "Flussnetzwerke",
+    "Graphfärbung",
+    "Baumstruktur und Spannbaum",
+    "Planarität von Graphen",
+    "Eulerianische Trails",
+    "Hamiltonsche Kreise",
+    "Knoten- und Kantenverbindungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199872
+  }
+}

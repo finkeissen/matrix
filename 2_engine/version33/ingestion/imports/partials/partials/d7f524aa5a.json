@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Landwirtschaft",
+  "problem_groups": [
+    "Bödenverdichtung durch mechanische Bearbeitung",
+    "Verlust von organischer Substanz im Boden",
+    "Erosion und Bodenabtrag durch Regen und Wind",
+    "Reduzierte Biodiversität in landwirtschaftlichen Systemen",
+    "Übernutzung von Wasserressourcen",
+    "Abhängigkeit von chemischen Düngemitteln und Pflanzenschutzmitteln",
+    "Verlust traditioneller Anbaupraktiken",
+    "Unverträglichkeit von Kulturpflanzen in Mischkulturen",
+    "Mangel an Wissen über regenerative Techniken",
+    "Wirtschaftliche Unsicherheit bei Umstellung auf regenerative Methoden"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202575
+  }
+}

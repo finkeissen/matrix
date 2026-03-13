@@ -1,0 +1,16 @@
+{
+  "subdomain": "Topologische Physik",
+  "problem_groups": [
+    "Topologische Phasenübergänge",
+    "Topologische Defekte in Materialien",
+    "Symmetrie-basierte Schutzmechanismen",
+    "Mathematische Modellierung topologischer Räume",
+    "Anwendung von Topologie in der Festkörperphysik",
+    "Elektronenverhalten in topologischen Materialien",
+    "Stabilität topologischer Strukturen unter Deformation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203854
+  }
+}

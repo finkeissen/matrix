@@ -1,0 +1,16 @@
+{
+  "subdomain": "Wavelet-Theorie",
+  "problem_groups": [
+    "Konstruktion orthogonaler Wavelets",
+    "Selektion geeigneter Wavelet-Basisfunktionen",
+    "Balance zwischen Zeit- und Frequenzauflösung",
+    "Behandlung von nichtstationären Signalen",
+    "Effiziente Implementierung in Anwendungen",
+    "Mathematische Grundlagen der Skalierungsfunktionen",
+    "Erweiterung auf multidimensionale Daten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204200
+  }
+}

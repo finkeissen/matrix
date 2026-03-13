@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Seele",
+  "problem_groups": [
+    "Selbstwahrnehmung und Identitätsverlust",
+    "Emotionale Blockaden und Verdrängung",
+    "Körperliche Verspannung und Schmerz",
+    "Mangel an innerem Gleichgewicht",
+    "Verbindung zu dem eigenen Wesen",
+    "Zyklische Erschöpfung und Burnout",
+    "Unfähigkeit zur emotionalen Regeneration",
+    "Akkumulation von Trauma und Stress",
+    "Fehlende Resonanz mit dem inneren Selbst",
+    "Dauerhafte Entfremdung vom eigenen Kern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202851
+  }
+}

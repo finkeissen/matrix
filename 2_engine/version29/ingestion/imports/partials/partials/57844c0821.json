@@ -1,0 +1,24 @@
+{
+  "subdomain": "Systemischer Wandel",
+  "problem_groups": [
+    "Resistenz gegen Veränderung",
+    "Unklarheit der Zielsetzungen",
+    "Mangel an Ressourcen",
+    "Fehlende Kommunikation",
+    "Inkohärenz zwischen Struktur und Prozessen",
+    "Unzureichende Beteiligung der Stakeholder",
+    "Widersprüchliche Interessen",
+    "Unklare Rollenverteilung",
+    "Mangelnde Transparenz",
+    "Fehlende Langfristplanung",
+    "Inkompatibilität von Systemelementen",
+    "Überlastung von Prozessen",
+    "Unzureichende Feedbackmechanismen",
+    "Kulturelle Widerstände",
+    "Mangelnde Anpassungsfähigkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203651
+  }
+}

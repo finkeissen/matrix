@@ -1,0 +1,19 @@
+{
+  "subdomain": "Medizinsoziologie",
+  "problem_groups": [
+    "Arzt-Patient-Beziehung",
+    "Gesundheitsversorgungsungleichheit",
+    "Krankenhausorganisation und -struktur",
+    "Medizinische Ethik in der Praxis",
+    "Patientenrechte und Selbstbestimmung",
+    "Soziale Determinanten der Gesundheit",
+    "Vertrauensverhältnisse im medizinischen Kontext",
+    "Zugang zu medizinischer Versorgung",
+    "Kommunikation in der medizinischen Praxis",
+    "Gesundheitskompetenz und Aufklärung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200832
+  }
+}

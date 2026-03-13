@@ -1,0 +1,24 @@
+{
+  "subdomain": "Neuroimaging-Technologien",
+  "problem_groups": [
+    "Bildauflösungsbeschränkungen",
+    "Signal-Rausch-Verhältnis",
+    "Koordinatenreferenzsysteme",
+    "Anatomische Variabilität",
+    "Volumetrische Verzerrung",
+    "Temporaler Auflösungsbedarf",
+    "Modus-spezifische Artefakte",
+    "Hardware-Software-Interoperabilität",
+    "Datenspeicher- und -verarbeitungskapazitäten",
+    "Klinisch-relevante Bildinterpretation",
+    "Magnetfeldinhomogenitäten",
+    "Bewegungsartefakte",
+    "Elektromagnetische Störsignale",
+    "Verfahrens-spezifische Validierung",
+    "Datensicherheit und -integrität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201030
+  }
+}

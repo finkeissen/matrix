@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Mitgefühl",
+  "problem_groups": [
+    "Emotionale Überlastung durch kontinuierliche Empathie",
+    "Unfähigkeit zur Grenzziehung bei emotionalen Belastungen",
+    "Mangel an Ressourcen für emotionale Regeneration",
+    "Konflikt zwischen Mitgefühl und Selbstfürsorge",
+    "Verzerrte Wahrnehmung von Emotionen durch Überforderung",
+    "Unzureichende soziale Unterstützung bei emotionaler Belastung",
+    "Überforderung durch ständige Hilfsbereitschaft",
+    "Mangel an strukturellen Rahmenbedingungen für emotionale Erholung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202632
+  }
+}

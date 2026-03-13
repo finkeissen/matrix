@@ -1,0 +1,19 @@
+{
+  "subdomain": "Kommunikationspsychologie",
+  "problem_groups": [
+    "Verständnisdefizite in sozialen Interaktionen",
+    "Emotionale Verarbeitung von Kommunikation",
+    "Sprachliche und nonverbale Kommunikationsbarrieren",
+    "Konfliktentstehung durch Kommunikationsmuster",
+    "Kommunikationsstil und Beziehungsqualität",
+    "Einfluss von Körpersprache auf Verständnis",
+    "Wahrnehmung von Tonfall und Intonation",
+    "Kommunikation in kulturell heterogenen Gruppen",
+    "Vertrauensbildung durch Kommunikationsverhalten",
+    "Rücksichtslosigkeit bei der Nachrichtenübermittlung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200589
+  }
+}

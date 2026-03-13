@@ -1,0 +1,18 @@
+{
+  "subdomain": "Stammzellbiologie",
+  "problem_groups": [
+    "Differenzierungssteuerung von Stammzellen",
+    "Ethik der Stammzellforschung",
+    "Klonale Instabilität in Stammzellkulturen",
+    "Immunologische Kompatibilität bei Transplantationen",
+    "Methode zur Identifikation pluripotenter Zellen",
+    "Regeneration von Geweben durch Stammzellen",
+    "Risiko der Tumorbildung bei Stammzelltherapien",
+    "Speicherung und Langzeitstabilität von Stammzellen",
+    "Verständnis der Selbstverlängerung von Stammzellen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203469
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Wearable Health Technology",
+  "problem_groups": [
+    "Technische Zuverlässigkeit und Robustheit von Wearables",
+    "Datenintegrität und Genauigkeit von Gesundheitsdaten",
+    "Energieeffizienz und Batterieleistung von Wearables",
+    "Benutzerfreundlichkeit und Usability von Wearable-Geräten",
+    "Datenschutz und Sicherheit von gesammelten Gesundheitsdaten",
+    "Integration mit bestehenden medizinischen Systemen und Apps",
+    "Akzeptanz und Vertrauen der Nutzer in Wearables",
+    "Medizinische Validierung und Zulassung von Wearable-Technologien",
+    "Interoperabilität zwischen verschiedenen Wearable-Geräten und Plattformen",
+    "Erschwinglichkeit und Zugänglichkeit von Wearable-Technologie"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204215
+  }
+}

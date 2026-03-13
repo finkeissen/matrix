@@ -1,0 +1,29 @@
+{
+  "domain": "thermodynamics",
+  "created_at": "2026-03-09T13:16:37Z",
+  "mode": "offline-template",
+  "inputs": [
+    "/mnt/data/work/ap_pack/data/test_fixtures/subdomains_fixture.jsonl"
+  ],
+  "output_dir": "/mnt/data/work/ap_pack/data/ap_test_runs/offline_smoke",
+  "records_per_file": 1000,
+  "subdomains_per_call": 5,
+  "atomic_per_subdomain": 3,
+  "language": "English",
+  "model": null,
+  "lm_url": "http://localhost:1234/v1/chat/completions",
+  "stats": {
+    "subdomains_loaded": 25,
+    "prompt_batches": 5,
+    "lm_calls": 0,
+    "parse_failures": 0,
+    "valid_candidates": 75,
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 75,
+    "total": 75
+  },
+  "files_written": [
+    "/mnt/data/work/ap_pack/data/ap_test_runs/offline_smoke/ap_000001.jsonl"
+  ]
+}
