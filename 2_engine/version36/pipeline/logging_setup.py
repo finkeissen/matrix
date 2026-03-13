@@ -123,7 +123,7 @@ def configure_logging(log_file: Optional[Path] = None, level: int = logging.INFO
 
 def get_logger(name: str) -> PipelineLogger:
     if not _configured:
-        configure_logging()
+    configure_logging()
     return logging.getLogger(name)  # type: ignore[return-value]
 
 
