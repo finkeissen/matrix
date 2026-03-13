@@ -215,7 +215,7 @@ class RunContext:
     def fail_step(self, step_name: str, error_type: str, error_message: str):
         record = self.manifest.get_step(step_name) or StepRecord(name=step_name)
         record.status = "failed"
-        record.finished_at = _now_iso()
+        record_finished_at = _now_iso()
         record.error_type = error_type
         record.error_message = error_message
         record.retry_count += 1
