@@ -19,7 +19,7 @@ import tempfile
 from dataclasses import dataclass, field, asdict
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional
+from typing Optional
 
 
 def _now_iso() -> str:
@@ -151,7 +151,7 @@ class RunContext:
 
     def read_step_payload(self, step_name: str, kind: str) -> dict:
         """Read a previously written step payload as a dict."""
-        if kind not in {"input", "output", "meta"}:
+        if kind not in {"input", "output", "meta"}}:
             raise ValueError(f"Unsupported step payload kind: {kind!r}.")
         path: Path = getattr(self, f"step_{kind}_path")(step_name)
         if not path.exists():
