@@ -239,13 +239,13 @@ class RunContext:
         """Atomically write manifest.json using tmp → rename pattern."""
         self._manifest_path.parent.mkdir(parents=True, exist_ok=True)
         data = json.dumps(self.manifest.to_dict(), indent=2, ensure_ascii=False)
-        tmp_fd, tmp_path = tempfile.mkstemp(
+        fd, tmp_path = tempfile.mkstemp(
             dir=self._manifest_path.parent,
             prefix=".manifest_",
             suffix=".tmp"
-        )
+       )
         try:
-            with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
                 f.write(data)
                 f.flush()
                 os.fsync(f.fileno())
