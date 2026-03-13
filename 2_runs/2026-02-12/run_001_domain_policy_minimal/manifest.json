@@ -1,0 +1,11 @@
+{
+  "run_id": "domain_policy_minimal_001",
+  "domain": "public_policy",
+  "purpose": "Demonstrate STOP on normative claim under admissibility rules",
+  "bound_documents": [
+    "PUBLIC_SCOPE.md",
+    "RUN_ADMISSIBILITY.md",
+    "Stop_Rules.md"
+  ],
+  "expected_outcome": "STOP"
+}

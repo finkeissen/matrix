@@ -1,0 +1,229 @@
+{
+  "model": "qwen2.5-72b",
+  "domain": "thermodynamics",
+  "evaluated_steps": {
+    "04_problem_generation": {
+      "suitable": false,
+      "threshold": 0.65,
+      "best_trial": {
+        "profile": {
+          "name": "conservative",
+          "temperature": 0.2,
+          "top_p": 0.85,
+          "max_tokens": 1400
+        },
+        "returncode": 0,
+        "run_dir": "data/runs/2026-03-08_016_thermodynamics",
+        "score": 0.4325,
+        "metrics": {
+          "recorded_at": "2026-03-08T10:07:11Z",
+          "step.01_scope.duration_ms": 0,
+          "step.01_scope.status": "completed",
+          "step.02_seed_expansion.duration_ms": 0,
+          "step.02_seed_expansion.status": "completed",
+          "step.03_categories.duration_ms": 0,
+          "step.03_categories.status": "completed",
+          "step.04_problem_generation.duration_ms": 0,
+          "step.04_problem_generation.status": "completed",
+          "step.05_validation.duration_ms": 0,
+          "step.05_validation.status": "completed",
+          "step.06_deduplication.duration_ms": 0,
+          "step.06_deduplication.status": "completed",
+          "step.07_ranking.duration_ms": 0,
+          "step.07_ranking.status": "completed",
+          "step.08_export.duration_ms": 0,
+          "step.08_export.status": "completed",
+          "generated": 60,
+          "accepted": 3,
+          "rejected_exact": 57,
+          "rejected_normalized": 0,
+          "rejected_semantic": 0,
+          "duplicates": 57,
+          "rejected_content": 0,
+          "acceptance_rate": 0.05,
+          "invariant_errors": [
+            "low_acceptance_rate"
+          ],
+          "run.status": "completed_with_warnings"
+        },
+        "run_health": {
+          "run_id": "2026-03-08_016_thermodynamics",
+          "score": 80,
+          "invariant_errors": [
+            "low_acceptance_rate"
+          ],
+          "schema_errors": 0,
+          "quality_errors": 0,
+          "failed_steps": [],
+          "incomplete_steps": [],
+          "status": "degraded"
+        }
+      },
+      "trials": [
+        {
+          "profile": {
+            "name": "conservative",
+            "temperature": 0.2,
+            "top_p": 0.85,
+            "max_tokens": 1400
+          },
+          "returncode": 0,
+          "run_dir": "data/runs/2026-03-08_016_thermodynamics",
+          "score": 0.4325,
+          "metrics": {
+            "recorded_at": "2026-03-08T10:07:11Z",
+            "step.01_scope.duration_ms": 0,
+            "step.01_scope.status": "completed",
+            "step.02_seed_expansion.duration_ms": 0,
+            "step.02_seed_expansion.status": "completed",
+            "step.03_categories.duration_ms": 0,
+            "step.03_categories.status": "completed",
+            "step.04_problem_generation.duration_ms": 0,
+            "step.04_problem_generation.status": "completed",
+            "step.05_validation.duration_ms": 0,
+            "step.05_validation.status": "completed",
+            "step.06_deduplication.duration_ms": 0,
+            "step.06_deduplication.status": "completed",
+            "step.07_ranking.duration_ms": 0,
+            "step.07_ranking.status": "completed",
+            "step.08_export.duration_ms": 0,
+            "step.08_export.status": "completed",
+            "generated": 60,
+            "accepted": 3,
+            "rejected_exact": 57,
+            "rejected_normalized": 0,
+            "rejected_semantic": 0,
+            "duplicates": 57,
+            "rejected_content": 0,
+            "acceptance_rate": 0.05,
+            "invariant_errors": [
+              "low_acceptance_rate"
+            ],
+            "run.status": "completed_with_warnings"
+          },
+          "run_health": {
+            "run_id": "2026-03-08_016_thermodynamics",
+            "score": 80,
+            "invariant_errors": [
+              "low_acceptance_rate"
+            ],
+            "schema_errors": 0,
+            "quality_errors": 0,
+            "failed_steps": [],
+            "incomplete_steps": [],
+            "status": "degraded"
+          }
+        },
+        {
+          "profile": {
+            "name": "balanced",
+            "temperature": 0.5,
+            "top_p": 0.92,
+            "max_tokens": 1800
+          },
+          "returncode": 0,
+          "run_dir": "data/runs/2026-03-08_017_thermodynamics",
+          "score": 0.4325,
+          "metrics": {
+            "recorded_at": "2026-03-08T10:07:12Z",
+            "step.01_scope.duration_ms": 0,
+            "step.01_scope.status": "completed",
+            "step.02_seed_expansion.duration_ms": 0,
+            "step.02_seed_expansion.status": "completed",
+            "step.03_categories.duration_ms": 0,
+            "step.03_categories.status": "completed",
+            "step.04_problem_generation.duration_ms": 0,
+            "step.04_problem_generation.status": "completed",
+            "step.05_validation.duration_ms": 0,
+            "step.05_validation.status": "completed",
+            "step.06_deduplication.duration_ms": 0,
+            "step.06_deduplication.status": "completed",
+            "step.07_ranking.duration_ms": 0,
+            "step.07_ranking.status": "completed",
+            "step.08_export.duration_ms": 0,
+            "step.08_export.status": "completed",
+            "generated": 60,
+            "accepted": 3,
+            "rejected_exact": 57,
+            "rejected_normalized": 0,
+            "rejected_semantic": 0,
+            "duplicates": 57,
+            "rejected_content": 0,
+            "acceptance_rate": 0.05,
+            "invariant_errors": [
+              "low_acceptance_rate"
+            ],
+            "run.status": "completed_with_warnings"
+          },
+          "run_health": {
+            "run_id": "2026-03-08_017_thermodynamics",
+            "score": 80,
+            "invariant_errors": [
+              "low_acceptance_rate"
+            ],
+            "schema_errors": 0,
+            "quality_errors": 0,
+            "failed_steps": [],
+            "incomplete_steps": [],
+            "status": "degraded"
+          }
+        },
+        {
+          "profile": {
+            "name": "exploratory",
+            "temperature": 0.8,
+            "top_p": 0.97,
+            "max_tokens": 2200
+          },
+          "returncode": 0,
+          "run_dir": "data/runs/2026-03-08_018_thermodynamics",
+          "score": 0.4325,
+          "metrics": {
+            "recorded_at": "2026-03-08T10:07:12Z",
+            "step.01_scope.duration_ms": 0,
+            "step.01_scope.status": "completed",
+            "step.02_seed_expansion.duration_ms": 0,
+            "step.02_seed_expansion.status": "completed",
+            "step.03_categories.duration_ms": 0,
+            "step.03_categories.status": "completed",
+            "step.04_problem_generation.duration_ms": 0,
+            "step.04_problem_generation.status": "completed",
+            "step.05_validation.duration_ms": 0,
+            "step.05_validation.status": "completed",
+            "step.06_deduplication.duration_ms": 0,
+            "step.06_deduplication.status": "completed",
+            "step.07_ranking.duration_ms": 0,
+            "step.07_ranking.status": "completed",
+            "step.08_export.duration_ms": 0,
+            "step.08_export.status": "completed",
+            "generated": 60,
+            "accepted": 3,
+            "rejected_exact": 57,
+            "rejected_normalized": 0,
+            "rejected_semantic": 0,
+            "duplicates": 57,
+            "rejected_content": 0,
+            "acceptance_rate": 0.05,
+            "invariant_errors": [
+              "low_acceptance_rate"
+            ],
+            "run.status": "completed_with_warnings"
+          },
+          "run_health": {
+            "run_id": "2026-03-08_018_thermodynamics",
+            "score": 80,
+            "invariant_errors": [
+              "low_acceptance_rate"
+            ],
+            "schema_errors": 0,
+            "quality_errors": 0,
+            "failed_steps": [],
+            "incomplete_steps": [],
+            "status": "degraded"
+          }
+        }
+      ],
+      "reason": "low_acceptance_rate, high_duplicate_rate"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{"subdomain": "open-system energy balance"}
+{"subdomain": "closed-system boundary work"}
+{"subdomain": "isentropic compressor relations"}
+{"subdomain": "heat exchanger effectiveness"}
+{"subdomain": "steam quality and dryness fraction"}
+{"subdomain": "phase-equilibrium pressure estimation"}
+{"subdomain": "refrigeration cycle COP"}
+{"subdomain": "entropy generation minimization"}
+{"subdomain": "nozzle exit state estimation"}
+{"subdomain": "pump power consistency"}
+{"subdomain": "Rankine cycle outlet state"}
+{"subdomain": "Brayton cycle efficiency interpretation"}
+{"subdomain": "combustion air-fuel ratio bounds"}
+{"subdomain": "humid air mixing"}
+{"subdomain": "transient lumped-capacitance heating"}
+{"subdomain": "radiation view-factor sanity check"}
+{"subdomain": "fin effectiveness comparison"}
+{"subdomain": "boiling heat-transfer regime check"}
+{"subdomain": "conduction resistance network"}
+{"subdomain": "exergy destruction ranking"}
+{"subdomain": "compressible-flow choking condition"}
+{"subdomain": "gas-mixture partial pressure consistency"}
+{"subdomain": "chemical equilibrium extent estimate"}
+{"subdomain": "turbine outlet moisture constraint"}
+{"subdomain": "thermal-storage charging balance"}

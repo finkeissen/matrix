@@ -1,0 +1,16 @@
+{
+  "subdomain": "Quantenbewusstsein",
+  "problem_groups": [
+    "Interpretation quantenmechanischer Phänomene im Kontext von Bewusstsein",
+    "Verknüpfung von Quantenphysik und neurobiologischen Prozessen",
+    "Kritische Bewertung von Theorien zur Quantenbewusstseinsforschung",
+    "Methodische Herausforderungen bei der Erforschung von Quantenbewusstsein",
+    "Philosophische Implikationen quantenmechanischer Modelle des Bewusstseins",
+    "Kommunikationsbarrieren zwischen Physik und Neurowissenschaften im Quantenbewusstseinsdiskurs",
+    "Validierung experimenteller Ansätze zur Erforschung von Quantenbewusstsein"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201787
+  }
+}

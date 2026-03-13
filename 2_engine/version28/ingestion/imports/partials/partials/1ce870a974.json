@@ -1,0 +1,19 @@
+{
+  "subdomain": "Telemedizin",
+  "problem_groups": [
+    "Technische Infrastruktur und Stabilität von Plattformen",
+    "Datenschutz und Sicherheit bei Datenübertragung",
+    "Benutzerfreundlichkeit digitaler Gesundheitsdienste",
+    "Zugang zu Telemedizin für benachteiligte Gruppen",
+    "Interoperabilität zwischen medizinischen Systemen",
+    "Qualitätssicherung in der Ferndiagnose",
+    "Rechtliche Rahmenbedingungen und Haftungsfragen",
+    "Patientenakzeptanz von digitalen Gesundheitsdiensten",
+    "Integration in bestehende medizinische Prozesse",
+    "Ausbildung und Kompetenz von Fachkräften"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203752
+  }
+}

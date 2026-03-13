@@ -1,0 +1,16 @@
+{
+  "subdomain": "Diskrete Mathematik",
+  "problem_groups": [
+    "Kombinatorische Zählprobleme",
+    "Graphentheoretische Konnektivitätsfragen",
+    "Logische Beweisstrategien",
+    "Mengenoperationen und Eigenschaften",
+    "Zahlentheoretische Teilbarkeitsprobleme",
+    "Algorithmische Effizienzanalyse",
+    "Diskrete Strukturen wie Bäume und Graphen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199109
+  }
+}

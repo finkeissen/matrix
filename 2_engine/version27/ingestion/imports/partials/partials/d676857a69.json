@@ -1,0 +1,19 @@
+{
+  "subdomain": "Neurologie",
+  "problem_groups": [
+    "Demenzformen und kognitive Störungen",
+    "Epilepsien und Krampfanfälle",
+    "Migräne und andere primäre Schmerzstörungen",
+    "Multiple Sklerose und entzündliche Neuroerkrankungen",
+    "Neurodegenerative Erkrankungen",
+    "Neuromuskuläre Erkrankungen",
+    "Schlaganfall und zerebrale Durchblutungsstörungen",
+    "Spastizität und Bewegungsstörungen",
+    "Traumata des Nervensystems",
+    "Verlaufs- und Prognosefragen neurologischer Erkrankungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201035
+  }
+}

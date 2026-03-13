@@ -1,0 +1,19 @@
+{
+  "subdomain": "Funktionalanalysis",
+  "problem_groups": [
+    "Konvergenz von Funktionenfolgen",
+    "Stetigkeit und Beschränktheit von Operatoren",
+    "Dualraum und schwache Konvergenz",
+    "Spektraltheorie linearer Operatoren",
+    "Approximationstheorie in Funktionenräumen",
+    "Integrale Transformationen und Fourier-Analysis",
+    "Vektorräume mit Norm und Skalarprodukt",
+    "Fixpunktsätze und ihre Anwendungen",
+    "Differenzierbarkeit von Funktionen auf Banachräumen",
+    "Topologische Eigenschaften von Funktionenräumen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199586
+  }
+}

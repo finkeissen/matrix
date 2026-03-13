@@ -1,0 +1,16 @@
+{
+  "subdomain": "Ökonomie der inneren Freiheit",
+  "problem_groups": [
+    "Vermögensverteilung und individuelle Freiheitsrechte",
+    "Wirtschaftssysteme mit eingeschränkter individueller Entscheidungsfreiheit",
+    "Kapitalismus vs. Sozialismus in der Freiheitsentfaltung",
+    "Marktwirtschaftliche Zwänge und Selbstbestimmung",
+    "Staatliche Eingriffe in die wirtschaftliche Freiheit",
+    "Ressourcenverfügungsfreiheit im Wettbewerbsdruck",
+    "Kollektivinteressen vs. individuelle Freiheitsansprüche"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204469
+  }
+}

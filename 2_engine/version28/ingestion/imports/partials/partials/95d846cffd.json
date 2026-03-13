@@ -1,0 +1,17 @@
+{
+  "subdomain": "Zelluläre Reprogrammierung",
+  "problem_groups": [
+    "Effizienz von Reprogrammierungsprozessen",
+    "Stabilität der erzeugten Zelltypen",
+    "Unspezifische Genexpression bei Reprogrammierung",
+    "Zelluläre Plastizitätsgrenzen",
+    "Ethik der Zellquellen",
+    "Technische Herausforderungen bei Faktor-Delivery",
+    "Immunitätsreaktionen auf reprogrammierte Zellen",
+    "Methode-spezifische Limitationen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204342
+  }
+}

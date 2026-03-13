@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Intelligenz",
+  "problem_groups": [
+    "Definition und Abgrenzung von Regenerativer Intelligenz",
+    "Integration von Regenerativer Intelligenz in bestehende Systeme",
+    "Ethische Implikationen der Regenerativen Intelligenz",
+    "Technologische Limitationen bei der Umsetzung",
+    "Interdisziplinäre Koordination und Kommunikation",
+    "Datennutzung und Privatsphäre in regenerativen Systemen",
+    "Langfristige Stabilität und Anpassungsfähigkeit von Intelligenzsystemen",
+    "Soziale Akzeptanz und Vertrauensbildung",
+    "Ressourcennutzung und Nachhaltigkeit bei der Entwicklung",
+    "Kultur- und kontextsensitive Anwendung in unterschiedlichen Umgebungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202463
+  }
+}

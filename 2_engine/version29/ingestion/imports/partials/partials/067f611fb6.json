@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Erleuchtung",
+  "problem_groups": [
+    "Regenerationsprozessstagnation",
+    "Ressourcenkonflikte in der Regeneration",
+    "Unverträglichkeit von Regenerationsmethoden",
+    "Langfristige Nachhaltigkeit von Erleuchtungspraktiken",
+    "Integration von Regeneration und Bewusstseinsentwicklung",
+    "Überlastung durch Regenerationsanforderungen",
+    "Mangel an individueller Anpassungsfähigkeit",
+    "Kollision zwischen traditionellen und innovativen Erleuchtungsansätzen",
+    "Unklarheit der Regenerationsziele",
+    "Soziale Akzeptanz von Regenerationspraktiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202175
+  }
+}

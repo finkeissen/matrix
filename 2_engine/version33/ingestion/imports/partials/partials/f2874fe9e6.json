@@ -1,0 +1,19 @@
+{
+  "subdomain": "Diversitätsmanagement",
+  "problem_groups": [
+    "Unterrepräsentation von Minderheiten",
+    "Diskriminierung aufgrund von Geschlecht oder Ethnie",
+    "Unbewusste Vorurteile in Entscheidungsprozessen",
+    "Kulturelle Barrieren im Teamgepräch",
+    "Widerstand gegen Diversitätsinitiativen",
+    "Mangelnde Inklusionsstrategien",
+    "Ungleichheit im Zugang zu Entwicklungsmöglichkeiten",
+    "Konflikte durch unterschiedliche Wertvorstellungen",
+    "Unzureichende Diversity-Trainings",
+    "Fehlende Maßnahmen zur Gleichstellung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199125
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Nicht-Sein",
+  "problem_groups": [
+    "Regenerationsdefizite",
+    "Nicht-Existenz-Konflikte",
+    "Unvollständige Regeneration",
+    "Zyklische Nicht-Auflösung",
+    "Stagnation der Regenerationsprozesse",
+    "Konträre Existenzbedingungen",
+    "Unverhältnismäßige Ressourcenverteilung",
+    "Dauernde Rekonstitutionsschwierigkeiten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202685
+  }
+}

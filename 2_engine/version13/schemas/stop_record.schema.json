@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "stop_record.schema.json",
+  "title": "StopRecord",
+  "description": "Written atomically to stop_record.json on STOP. STOP is a valid outcome. Version 2.0.0 adds scope_clarification_exhausted and retrieval_empty.",
+  "type": "object",
+  "required": ["run_id", "stop_code", "recoverable", "stage", "reason", "timestamp"],
+  "additionalProperties": false,
+  "properties": {
+    "run_id":     { "type": "string" },
+    "session_id": { "type": "string" },
+    "stop_code": {
+      "type": "string",
+      "enum": [
+        "preflight_snapshot_missing",
+        "preflight_dir_unwritable",
+        "preflight_input_empty",
+        "manifest_integrity_mismatch",
+        "required_output_missing",
+        "deterministic_step_error",
+        "llm_output_invalid",
+        "no_novelty_on_retry",
+        "loop_limit_exceeded",
+        "scope_clarification_exhausted",
+        "retrieval_empty",
+        "audit_write_failure",
+        "policy_violation"
+      ]
+    },
+    "recoverable": { "type": "boolean" },
+    "stage":       { "type": "string" },
+    "task_id":     { "type": ["string", "null"] },
+    "reason":      { "type": "string" },
+    "details": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "snapshot_before_stop": { "type": ["string", "null"] },
+    "timestamp": { "type": "string", "format": "date-time" }
+  }
+}

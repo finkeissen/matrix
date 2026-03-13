@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Kunst",
+  "problem_groups": [
+    "Materialverfügbarkeit und Nachhaltigkeit",
+    "Künstlerische Identität im Kontext von Regeneration",
+    "Technologische Integration in kreative Prozesse",
+    "Soziale Akzeptanz und Wahrnehmung der Regenerativen Kunst",
+    "Ethische Fragestellungen bei der Nutzung biologischer Materialien",
+    "Konservierung und Langzeitstabilität von regenerativen Werken",
+    "Interdisziplinäre Zusammenarbeit zwischen Künstlern und Wissenschaftlern",
+    "Finanzierbarkeit und Förderung von Regenerative Kunstprojekten",
+    "Öffentliches Bewusstsein für regenerative kreative Praktiken",
+    "Kulturelle Relevanz und Einfluss auf gesellschaftliche Diskurse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202564
+  }
+}

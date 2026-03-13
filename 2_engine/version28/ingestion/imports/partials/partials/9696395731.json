@@ -1,0 +1,19 @@
+{
+  "subdomain": "Science & Technology Studies (STS)",
+  "problem_groups": [
+    "Ethik der Technologien",
+    "Wissensproduktion und Validierung",
+    "Technologische Determinismus",
+    "Soziale Ungleichheit durch Technologie",
+    "Wissenschaftliche Kommunikation",
+    "Technokratische Governance",
+    "Umweltverträglichkeit von Technologien",
+    "Geschlechter- und Rassismen in Technologie",
+    "Korporative Machtstrukturen",
+    "Wissenskultur und Bildung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203230
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "run_record.schema.json",
+  "title": "RunRecord",
+  "description": "Top-level run metadata written to run_record.json.",
+  "type": "object",
+  "required": ["run_id", "session_id", "kb_snapshot_id", "status", "created_at"],
+  "additionalProperties": false,
+  "properties": {
+    "run_id":            { "type": "string" },
+    "session_id":        { "type": "string" },
+    "kb_snapshot_id":    { "type": "string" },
+    "kb_version":        { "type": "string" },
+    "system_version":    { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["init", "preflight", "planned", "running", "finalizing", "done", "stop"]
+    },
+    "created_at":           { "type": "string", "format": "date-time" },
+    "completed_at":         { "type": ["string", "null"] },
+    "envelopes_total":      { "type": "integer", "minimum": 0 },
+    "envelopes_complete":   { "type": "integer", "minimum": 0 },
+    "envelopes_pending":    { "type": "integer", "minimum": 0 },
+    "clarification_rounds": { "type": "integer", "minimum": 0, "default": 0 }
+  }
+}

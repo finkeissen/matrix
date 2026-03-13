@@ -1,0 +1,112 @@
+# RUN MISSION — ENGINE (version06)
+
+## Objective
+Build and continuously improve a catalog of atomic problems across 80 domains (e.g., Medicine, Law, ...).
+For each atomic problem, gather structured information and cross-check artifacts across problems to detect duplicates, conflicts, and missing coverage.
+
+This is an iterative, resumable, append-only process.
+
+## Canonical Outputs (must be in 2.runs/<date>/<run_id>/)
+
+### A) Domain inventory
+artifacts/domains/domains_80.json
+- list of 80 domains
+- rationale + scope notes
+- domain_id stable identifiers
+
+### B) Atomic problem catalog (canonical)
+artifacts/problems/atomic_problems.matrix
+- append-only catalog of atomic problems
+- each problem has stable problem_id
+- each entry links to provenance (generation tasks, verification tasks, sources/tasks)
+
+### C) Problem dossiers (one per problem_id)
+artifacts/problems/dossiers/<problem_id>.json
+Must include:
+- title
+- domain_id
+- problem statement
+- boundary conditions (what it is / what it is not)
+- prerequisites (assumptions)
+- typical failure modes / risks
+- evaluation criteria (what counts as “solved/handled”)
+- related problems (links)
+- conflicts/disputes (links)
+- provenance (task_ids, artifact hashes, timestamps)
+
+### D) Cross-problem alignment artifacts
+artifacts/alignment/
+- dedup_report.json
+- conflict_report.json
+- coverage_report.json
+- novelty_report.json
+
+### E) Logs + state + snapshots (mandatory)
+logs/run.jsonl
+state.jsonl
+snapshots/<snapshot_id>/
+
+Snapshot cadence:
+- at least every ~30 minutes
+- plus after each major phase (collect → enrich → align)
+
+## Iteration Model (repeatable loop)
+
+### Iteration 0 — Bootstrapping
+1. Produce domains_80.json (stable domain IDs).
+2. Create initial atomic_problems.matrix for each domain (seed list).
+3. Snapshot.
+
+### Iteration N — Improve quality
+For each domain:
+1. Expand candidate atomic problems (generation)
+2. Deduplicate (task- and artifact-level)
+3. Enrich dossiers (deterministic fields first, then semantic fill)
+4. Cross-problem alignment:
+   - duplicates
+   - near-duplicates
+   - dependencies / prerequisites
+   - conflicts / overlaps
+5. Produce reports + snapshot.
+
+## Quality Gates (per iteration)
+
+### Gate 1 — Structure completeness
+- 100% of problem entries have:
+  problem_id, domain_id, statement, provenance
+- 100% of dossiers validate schema
+
+### Gate 2 — Dedup baseline
+- dedup_report exists
+- duplicates are linked (not deleted)
+- canonical problem chosen (with provenance)
+
+### Gate 3 — Coverage sanity
+- each domain has minimum atomic problems threshold (configurable)
+- coverage_report lists gaps
+
+### Gate 4 — Conflict visibility
+- conflict_report exists
+- disputes are recorded as artifacts (no silent resolution)
+
+## Constraints (v06)
+- Deterministic-first: do schema + hashing + id stability before expanding LLM work.
+- Append-only: never overwrite canonical history; create new artifacts or new versions.
+- No direct writes to 3.commit/ from this run.
+- If compute explodes or novelty collapses → STOP with diagnostic + snapshot.
+
+## STOP Criteria (examples)
+- regeneration loops with no novelty
+- integrity mismatch
+- runaway expansion (problem count growth without dedup)
+- reports cannot be produced deterministically
+- snapshot fails repeatedly
+
+## Definition of Done (for a run)
+A run is DONE when:
+- domains_80.json exists and is stable
+- atomic_problems.matrix updated for this iteration
+- dossiers created/updated for targeted batch
+- alignment reports produced
+- snapshot created
+- logs/state complete

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Erwachsenenbildung",
+  "problem_groups": [
+    "Zugangschancengleichheit für benachteiligte Gruppen",
+    "Work-Life-Balance-Konflikte bei Lernenden",
+    "Praxisrelevanz der Bildungsinhalte",
+    "Finanzielle Barrieren für Teilnehmer",
+    "Teilnehmertretung durch fehlende Motivation",
+    "Qualifikation und Ausbildung von Dozenten",
+    "Digitalisierung der Lehrmethoden",
+    "Soziale Unterstützung für Lernende",
+    "Zielorientierte Bewertungsmethoden",
+    "Anpassung von Inhalten an heterogene Lerngruppen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199380
+  }
+}

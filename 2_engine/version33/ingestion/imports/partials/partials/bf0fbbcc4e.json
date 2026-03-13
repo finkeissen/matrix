@@ -1,0 +1,19 @@
+{
+  "subdomain": "Psychopathologie",
+  "problem_groups": [
+    "Diagnose von psychischen Störungen",
+    "Klassifizierung von Symptomen",
+    "Verlaufsprognosen bei Erkrankungen",
+    "Interaktion zwischen Neurobiologie und Psychopathie",
+    "Einfluss von Umweltfaktoren auf Erkrankungsentwicklung",
+    "Psychopharmakologische Behandlungsstrategien",
+    "Kognitive Funktionen bei psychischen Erkrankungen",
+    "Verhaltensmuster bei psychotischen Störungen",
+    "Emotionale Dysregulation in psychischen Erkrankungen",
+    "Soziale Isolation und psychische Gesundheit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201742
+  }
+}

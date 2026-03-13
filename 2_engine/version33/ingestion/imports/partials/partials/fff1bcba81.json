@@ -1,0 +1,16 @@
+{
+  "subdomain": "Umweltökonomie",
+  "problem_groups": [
+    "Bewertung von Umweltgütern",
+    "Externe Effekte in der Wirtschaft",
+    "Klimawandel",
+    "Nachhaltigkeit und ökonomische Entwicklung",
+    "Ressourcenverknappung",
+    "Umweltverschmutzung",
+    "Ökonomische Auswirkungen des Klimawandels"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204045
+  }
+}

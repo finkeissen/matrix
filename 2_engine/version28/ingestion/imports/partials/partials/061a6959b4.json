@@ -1,0 +1,19 @@
+{
+  "subdomain": "Digitalökonomie",
+  "problem_groups": [
+    "Daten als Wirtschaftsgut bewerten",
+    "Digitale Kluft zwischen Regionen/Schichten",
+    "Plattformwettbewerbsverzerrung",
+    "Regulierung digitaler Marktteilnehmer",
+    "Automatisierung und Arbeitsmarktwandel",
+    "Nachhaltigkeit digitaler Infrastrukturen",
+    "Datensouveränität und Privatsphäre",
+    "Gig-Economy-Strukturen",
+    "Digitalwährungen und Finanzstabilität",
+    "Digitale Monopolbildung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199092
+  }
+}

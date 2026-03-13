@@ -1,0 +1,17 @@
+{
+  "subdomain": "Dynamische Systeme",
+  "problem_groups": [
+    "Stabilität und Instabilität von Systemverhalten",
+    "Langzeitverhalten und Konvergenz von Trajektorien",
+    "Bifurkationen und Phasenübergänge",
+    "Attraktoren und ihre Einzugsgebiete",
+    "Chaos und Sensitivität gegenüber Anfangsbedingungen",
+    "Periodische Orbits und deren Stabilität",
+    "Modellfehler und Approximationsprobleme",
+    "Synchronisation von gekoppelten Systemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199151
+  }
+}

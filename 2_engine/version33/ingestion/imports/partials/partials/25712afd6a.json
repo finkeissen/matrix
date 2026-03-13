@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Narrative",
+  "problem_groups": [
+    "Erhaltung von kulturellen Erzählungen",
+    "Verlust traditioneller Narrativen",
+    "Integration neuer Erzählmuster",
+    "Konflikt zwischen moderner und traditioneller Sprache",
+    "Dekolonisierung narrativer Strukturen",
+    "Überlastung von Erzählformen durch digitale Medien",
+    "Verlust von oralen Traditionen",
+    "Unverhältnismäßige Darstellung von Gruppen in Narrativen",
+    "Zersplitterung von kulturellen Identitäten",
+    "Mangel an intergenerationeller Erzählförderung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202669
+  }
+}

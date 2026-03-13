@@ -1,0 +1,18 @@
+{
+  "subdomain": "Circular Economy",
+  "problem_groups": [
+    "Materialien nicht wiederverwertbar",
+    "Produkte nicht für Kreislaufwirtschaft gestaltet",
+    "Falsches Entsorgungsverhalten",
+    "Mangel an Recycling-Infrastruktur",
+    "Kosten für Recycling höher als Neuproduktion",
+    "Normen und Regulierungen nicht kreislaufwirtschaftsfähig",
+    "Komplexe Materialmischungen",
+    "Unternehmensmodelle nicht anpassbar",
+    "Mangelnde Aufklärung über Kreislaufwirtschaft"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198664
+  }
+}

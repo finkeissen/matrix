@@ -1,0 +1,24 @@
+{
+  "subdomain": "Regenerative Gesellschaft",
+  "problem_groups": [
+    "Soziale Ungleichheit",
+    "Ressourcenverknappung",
+    "Klimawandelresistente Infrastruktur",
+    "Verlust biologischer Vielfalt",
+    "Umweltverschmutzung",
+    "Abhängigkeit von fossilen Brennstoffen",
+    "Soziale Ausgrenzung",
+    "Mangel an nachhaltiger Energieversorgung",
+    "Zerstörung natürlicher Ökosysteme",
+    "Übernutzung landwirtschaftlicher Flächen",
+    "Verlust kultureller Vielfalt",
+    "Ungleichheit im Zugang zu Ressourcen",
+    "Mangel an ökologischem Wissen",
+    "Zerstörung von Böden und Wasserressourcen",
+    "Soziale Ungerechtigkeit in der Umweltpolitik"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202342
+  }
+}

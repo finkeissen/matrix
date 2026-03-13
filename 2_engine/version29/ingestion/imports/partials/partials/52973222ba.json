@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Hoffnung",
+  "problem_groups": [
+    "Ressourcenübernutzung und -erschöpfung",
+    "Biodiversitätsverlust durch menschliche Aktivitäten",
+    "Klimawandel-bedingte Ökosystemstörungen",
+    "Soziale Ungleichheit im Zugang zu Regenerationsprozessen",
+    "Technologische Abhängigkeit und deren Auswirkungen auf Regeneration",
+    "Kulturelle Erosion durch Globalisierung und Modernisierung",
+    "Wirtschaftliche Ungleichgewichte in regenerativen Systemen",
+    "Politische Vernachlässigung von Nachhaltigkeitszielen",
+    "Psychologische Desorientierung durch Umweltveränderungen",
+    "Mangelnde Resilienz in sozialen und ökologischen Systemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202452
+  }
+}

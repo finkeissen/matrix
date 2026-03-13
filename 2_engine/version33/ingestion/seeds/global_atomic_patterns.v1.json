@@ -1,0 +1,865 @@
+{
+  "asset_id": "global_atomic_patterns.v1",
+  "asset_type": "seed_library",
+  "domain": "global",
+  "version": "v1",
+  "status": "approved",
+  "sources": [
+    "atomic.zip"
+  ],
+  "items": [
+    {
+      "id": "algorithms_formal_vs_human_fillet",
+      "label": "Computation – Formal Decidability ≠ Human Judgment",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Algorithms_Formal_vs_Human.fillet.md",
+      "tags": [
+        "Computer Science",
+        "Philosophy of Mind"
+      ],
+      "notes": "Algorithmic decidability concerns well-defined formal tasks."
+    },
+    {
+      "id": "almost_everywhere",
+      "label": "Almost Everywhere",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Almost_Everywhere.md",
+      "tags": [],
+      "notes": "A property holds almost everywhere if the set of exceptions has measure zero."
+    },
+    {
+      "id": "automation_vs_neutrality_fillet",
+      "label": "Automation ≠ Neutrality",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Automation_vs_Neutrality.fillet.md",
+      "tags": [
+        "Technology",
+        "Ethics"
+      ],
+      "notes": "Automation replaces manual processes with algorithmic ones."
+    },
+    {
+      "id": "banach_tarski",
+      "label": "Banach–Tarski Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Banach_Tarski.md",
+      "tags": [],
+      "notes": "The Banach–Tarski theorem shows that, assuming the axiom of choice, a solid sphere can be decomposed and reassembled into two spheres of the same size."
+    },
+    {
+      "id": "behavior_vs_mental_state_fillet",
+      "label": "Behavior ≠ Mental State",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Behavior_vs_Mental_State.fillet.md",
+      "tags": [
+        "Philosophy of Mind",
+        "Psychology"
+      ],
+      "notes": "Behavior is observable action."
+    },
+    {
+      "id": "bells_theorem",
+      "label": "Bell’s Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Bells_Theorem.md",
+      "tags": [],
+      "notes": "Bell’s theorem shows that no local hidden-variable theory can reproduce all quantum predictions."
+    },
+    {
+      "id": "beth_definedness",
+      "label": "Beth Definability Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Beth_Definedness.md",
+      "tags": [],
+      "notes": "Beth’s theorem states that if a relation is implicitly definable in a theory (fixed by all models of the theory), then it is explicitly definable in the theory."
+    },
+    {
+      "id": "busy_beaver",
+      "label": "Busy Beaver Function",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Busy_Beaver.md",
+      "tags": [],
+      "notes": "The Busy Beaver function grows faster than any computable function."
+    },
+    {
+      "id": "church_turing_thesis",
+      "label": "Church–Turing Thesis",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Church_Turing_Thesis.md",
+      "tags": [],
+      "notes": "It is often treated as a necessary truth about minds, nature, or physical reality."
+    },
+    {
+      "id": "compactness_theorem",
+      "label": "Compactness Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Compactness_Theorem.md",
+      "tags": [],
+      "notes": "The compactness theorem states that if every finite subset of a first-order theory is satisfiable, then the entire theory is satisfiable."
+    },
+    {
+      "id": "consensus_vs_evidence_fillet",
+      "label": "Consensus ≠ Evidence",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Consensus_vs_Evidence.fillet.md",
+      "tags": [
+        "Epistemology",
+        "Sociology of Knowledge"
+      ],
+      "notes": "Consensus reflects social convergence."
+    },
+    {
+      "id": "continuity_vs_identity_fillet",
+      "label": "Continuity ≠ Identity",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Continuity_vs_Identity.fillet.md",
+      "tags": [
+        "Metaphysics",
+        "Personal Identity"
+      ],
+      "notes": "Continuity describes persistence over time."
+    },
+    {
+      "id": "continuum_hypothesis",
+      "label": "Continuum Hypothesis",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Continuum_Hypothesis.md",
+      "tags": [],
+      "notes": "The continuum hypothesis is independent of standard ZFC set theory."
+    },
+    {
+      "id": "control_vs_understanding_fillet",
+      "label": "Control ≠ Understanding",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Control_vs_Understanding.fillet.md",
+      "tags": [
+        "Science",
+        "Epistemology"
+      ],
+      "notes": "Control enables prediction or manipulation."
+    },
+    {
+      "id": "craig_interpolation",
+      "label": "Craig’s Interpolation Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Craig_Interpolation.md",
+      "tags": [],
+      "notes": "If a sentence A entails a sentence B in first-order logic, then there exists an interpolant C using only the vocabulary shared by A and B such that A entails C and C entails B."
+    },
+    {
+      "id": "decision_theory_fillet",
+      "label": "Decision Theory — Fillet",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Decision_Theory.fillet.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "definition_vs_essence_fillet",
+      "label": "Definition ≠ Essence",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Definition_vs_Essence.fillet.md",
+      "tags": [
+        "Metaphysics",
+        "Conceptual Analysis"
+      ],
+      "notes": "Definitions clarify usage within a framework."
+    },
+    {
+      "id": "descartes_cogito_fillet",
+      "label": "Descartes – Cogito and Certainty",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Descartes_Cogito.fillet.md",
+      "tags": [
+        "Philosophy",
+        "Epistemology",
+        "Metaphysics",
+        "Self"
+      ],
+      "notes": "The Cogito establishes minimal certainty within methodical doubt: doubting presupposes thinking."
+    },
+    {
+      "id": "diagonal_lemma",
+      "label": "Diagonal Lemma",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Diagonal_Lemma.md",
+      "tags": [],
+      "notes": "The diagonal lemma guarantees, for any sufficiently expressive formal system, the existence of sentences that refer to their own provability or unprovability."
+    },
+    {
+      "id": "economics_model_rationality_fillet",
+      "label": "Economics – Model Rationality ≠ Human Rationality",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Economics_Model_Rationality.fillet.md",
+      "tags": [
+        "Economics",
+        "Methodology"
+      ],
+      "notes": "Economic models use idealized rational agents."
+    },
+    {
+      "id": "equivalence_of_categories",
+      "label": "Equivalence of Categories",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Equivalence_of_Categories.md",
+      "tags": [],
+      "notes": "Two categories are equivalent if there exist functors between them that preserve all categorical structure up to natural isomorphism."
+    },
+    {
+      "id": "explanation_vs_ontology_fillet",
+      "label": "Meta – Explanation ≠ Ontology",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Explanation_vs_Ontology.fillet.md",
+      "tags": [
+        "Philosophy of Science",
+        "Ontology"
+      ],
+      "notes": "Explanatory success does not automatically entail ontological commitment."
+    },
+    {
+      "id": "forcing",
+      "label": "Forcing",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Forcing.md",
+      "tags": [],
+      "notes": "Forcing constructs model extensions in which certain statements hold or fail."
+    },
+    {
+      "id": "formal_vs_metaphysical_necessity_fillet",
+      "label": "Meta – Formal Necessity ≠ Metaphysical Necessity",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Formal_vs_Metaphysical_Necessity.fillet.md",
+      "tags": [
+        "Logic",
+        "Metaphysics"
+      ],
+      "notes": "Formal necessity concerns derivability within a system."
+    },
+    {
+      "id": "game_theory_fillet",
+      "label": "Game Theory — Fillet",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Game_Theory.fillet.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "godel_completeness",
+      "label": "Gödel’s Completeness Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Godel_Completeness.md",
+      "tags": [],
+      "notes": "Gödel’s completeness theorem states that every logically valid formula of first-order logic is provable within a sound and complete proof system. Equivalently, if a sentence is true in all models of a first-order theory, then it is derivable from the axioms of that theory.\n\nThis result concerns the alignment of syntax and semantics *within first-order logic*. It does not address the expressive adequacy of first-order languages, nor does it claim that all mathematically meaningful truths are capturable in first-order form."
+    },
+    {
+      "id": "godel_incompleteness",
+      "label": "Gödel’s Incompleteness Theorems",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Godel_Incompleteness.md",
+      "tags": [],
+      "notes": "Gödel’s incompleteness theorems establish that any consistent, effectively axiomatized formal system strong enough to represent elementary arithmetic contains sentences that are not provable within that system. The result is purely proof-theoretic: it concerns what can and cannot be derived from axioms by formal rules."
+    },
+    {
+      "id": "goedel_incompleteness_fillet",
+      "label": "Gödel – Incompleteness as Metaphysics (Fallacy)",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Goedel_Incompleteness.fillet.md",
+      "tags": [
+        "Logic",
+        "Philosophy",
+        "Mathematics"
+      ],
+      "notes": "Gödel shows limits of formal systems regarding provability."
+    },
+    {
+      "id": "heisenberg_uncertainty",
+      "label": "Heisenberg Uncertainty Principle",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Heisenberg_Uncertainty.md",
+      "tags": [],
+      "notes": "The uncertainty principle sets lower bounds on simultaneous operator variances in quantum mechanics."
+    },
+    {
+      "id": "hume_induction_fillet",
+      "label": "Hume – The Problem of Induction",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Hume_Induction.fillet.md",
+      "tags": [
+        "Philosophy",
+        "Epistemology",
+        "Philosophy of Science"
+      ],
+      "notes": "Hume exposes the difficulty of non-circularly justifying inductive inference."
+    },
+    {
+      "id": "information_theory_fillet",
+      "label": "Information Theory — Fillet",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Information_Theory.fillet.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "is_vs_ought_fillet",
+      "label": "Is ≠ Ought",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Is_vs_Ought.fillet.md",
+      "tags": [
+        "Ethics",
+        "Normativity"
+      ],
+      "notes": "Descriptive statements report facts."
+    },
+    {
+      "id": "kant_categories_fillet",
+      "label": "Kant – Categories as Conditions of Knowledge",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Kant_Categories.fillet.md",
+      "tags": [
+        "Philosophy",
+        "Epistemology",
+        "Transcendental",
+        "Category Error"
+      ],
+      "notes": "Kant’s categories (e.g., causality, substance) describe conditions for the possibility of experience and judgment, not properties of things-in-themselves."
+    },
+    {
+      "id": "kolmogorov_complexity",
+      "label": "Kolmogorov Complexity",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Kolmogorov_Complexity.md",
+      "tags": [],
+      "notes": "Kolmogorov complexity measures the length of the shortest description of an object."
+    },
+    {
+      "id": "law_validity_vs_morality_fillet",
+      "label": "Law – Validity ≠ Moral Truth",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Law_Validity_vs_Morality.fillet.md",
+      "tags": [
+        "Legal Philosophy",
+        "Ethics"
+      ],
+      "notes": "Legal norms derive validity from institutional procedures."
+    },
+    {
+      "id": "law_of_large_numbers",
+      "label": "Law of Large Numbers",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Law_of_Large_Numbers.md",
+      "tags": [],
+      "notes": "The law of large numbers states that, under suitable conditions, sample averages converge to expected values as the number of trials increases."
+    },
+    {
+      "id": "limits_of_knowledge_fillet",
+      "label": "Meta – Limits of Knowledge ≠ Limits of Being",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Limits_of_Knowledge.fillet.md",
+      "tags": [
+        "Epistemology",
+        "Metaphysics"
+      ],
+      "notes": "Epistemic limits describe what can be known or proven."
+    },
+    {
+      "id": "lowenheim_skolem",
+      "label": "Löwenheim–Skolem Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Lowenheim_Skolem.md",
+      "tags": [],
+      "notes": "The Löwenheim–Skolem theorem states that if a first-order theory has an infinite model, then it has a countable model. This is a model-theoretic result about the expressive limits of first-order logic."
+    },
+    {
+      "id": "meaning_vs_reference_fillet",
+      "label": "Meaning ≠ Reference",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Meaning_vs_Reference.fillet.md",
+      "tags": [
+        "Semantics",
+        "Philosophy of Language"
+      ],
+      "notes": "Meaning concerns sense, use, or inferential role; reference concerns what a term picks out."
+    },
+    {
+      "id": "modal_logic_possibility_fillet",
+      "label": "Modal Logic – Formal vs. Metaphysical Possibility",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Modal_Logic_Possibility.fillet.md",
+      "tags": [
+        "Logic",
+        "Metaphysics"
+      ],
+      "notes": "Modal logic models necessity and possibility within formal semantics."
+    },
+    {
+      "id": "multiverse_ontology_fillet",
+      "label": "Cosmology – Multiverse: Heuristic ≠ Ontological Commitment",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Multiverse_Ontology.fillet.md",
+      "tags": [
+        "Cosmology",
+        "Ontology"
+      ],
+      "notes": "Multiverse ideas arise in certain theoretical frameworks."
+    },
+    {
+      "id": "neural_networks_understanding_fillet",
+      "label": "AI – Output Equivalence ≠ Understanding",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Neural_Networks_Understanding.fillet.md",
+      "tags": [
+        "AI",
+        "Philosophy of Mind"
+      ],
+      "notes": "Models can replicate behavior without clear evidence of understanding."
+    },
+    {
+      "id": "nonmeasurable_sets",
+      "label": "Non-measurable Sets",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Nonmeasurable_Sets.md",
+      "tags": [],
+      "notes": "Assuming the axiom of choice, there exist sets that cannot be assigned a Lebesgue measure."
+    },
+    {
+      "id": "operationalization_vs_definition_fillet",
+      "label": "Operationalization ≠ Definition",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Operationalization_vs_Definition.fillet.md",
+      "tags": [
+        "Methodology",
+        "Philosophy of Science"
+      ],
+      "notes": "Operationalization specifies how a concept is measured."
+    },
+    {
+      "id": "optimization_vs_value_fillet",
+      "label": "Optimization ≠ Value",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Optimization_vs_Value.fillet.md",
+      "tags": [
+        "AI",
+        "Ethics",
+        "Decision Theory"
+      ],
+      "notes": "Optimization maximizes a defined objective function."
+    },
+    {
+      "id": "pa2_categoricity",
+      "label": "Categoricity of Second-Order Arithmetic",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/PA2_Categoricity.md",
+      "tags": [],
+      "notes": "Second-order Peano arithmetic is categorical under full second-order semantics."
+    },
+    {
+      "id": "p_vs_np",
+      "label": "P vs NP Problem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/P_vs_NP.md",
+      "tags": [],
+      "notes": "It is often claimed that a separation would prove human creativity non-algorithmic."
+    },
+    {
+      "id": "paradoxes_language_fillet",
+      "label": "Paradoxes – Linguistic Pathology ≠ World Contradiction",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Paradoxes_Language.fillet.md",
+      "tags": [
+        "Logic",
+        "Semantics",
+        "Philosophy"
+      ],
+      "notes": "Paradoxes reveal tensions in language or axioms."
+    },
+    {
+      "id": "plato_forms_fillet",
+      "label": "Plato – Forms and Reification",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Plato_Forms.fillet.md",
+      "tags": [
+        "Philosophy",
+        "Metaphysics",
+        "Universals"
+      ],
+      "notes": "The theory of Forms explains stability and generality of concepts."
+    },
+    {
+      "id": "preference_vs_welfare_fillet",
+      "label": "Preference ≠ Welfare",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Preference_vs_Welfare.fillet.md",
+      "tags": [
+        "Ethics",
+        "Economics"
+      ],
+      "notes": "Preferences express choices or rankings."
+    },
+    {
+      "id": "recht_geltung_vs_moral_fillet",
+      "label": "Recht – Geltung ≠ moralische Wahrheit",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Recht_Geltung_vs_Moral.fillet.md",
+      "tags": [
+        "Rechtsphilosophie",
+        "Ethik",
+        "Normativität",
+        "Institutionen"
+      ],
+      "notes": "Rechtsnormen gelten aufgrund institutioneller Setzung, Verfahren, Anerkennung und Durchsetzbarkeit."
+    },
+    {
+      "id": "reflection_principles",
+      "label": "Reflection Principles",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Reflection_Principles.md",
+      "tags": [],
+      "notes": "Reflection principles allow certain meta-theoretic facts to be internalized incrementally."
+    },
+    {
+      "id": "relative_consistency_conservativity",
+      "label": "Relative Consistency and Conservativity",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Relative_Consistency_Conservativity.md",
+      "tags": [],
+      "notes": "Relative consistency results show that if one theory is consistent, then another is consistent; conservativity results show that an extension does not prove new theorems of a certain kind in the base language."
+    },
+    {
+      "id": "relativitaet_zeit_irrealitaet_fillet",
+      "label": "Relativität – Rahmenabhängigkeit ≠ Irrealität von Zeit",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Relativitaet_Zeit_Irrealitaet.fillet.md",
+      "tags": [
+        "Physik",
+        "Zeitphilosophie",
+        "Metaphysik",
+        "Interpretation"
+      ],
+      "notes": "Relativitätstheorie zeigt, dass Zeitmessungen von Bezugssystemen abhängen (Zeitdilatation, Gleichzeitigkeit)."
+    },
+    {
+      "id": "relativity_time_fillet",
+      "label": "Relativity – Frame Dependence ≠ Nonexistence of Time",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Relativity_Time.fillet.md",
+      "tags": [
+        "Physics",
+        "Philosophy of Time"
+      ],
+      "notes": "Relativity shows time measurements depend on reference frames."
+    },
+    {
+      "id": "reproducibility_vs_truth_fillet",
+      "label": "Reproducibility ≠ Truth",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Reproducibility_vs_Truth.fillet.md",
+      "tags": [
+        "Science",
+        "Epistemology"
+      ],
+      "notes": "Reproducibility shows stability under repetition."
+    },
+    {
+      "id": "rices_theorem",
+      "label": "Rice’s Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Rices_Theorem.md",
+      "tags": [],
+      "notes": "Rice’s theorem states that every non-trivial semantic property of programs is undecidable."
+    },
+    {
+      "id": "scalability_vs_generality_fillet",
+      "label": "Scalability ≠ Generality",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Scalability_vs_Generality.fillet.md",
+      "tags": [
+        "AI",
+        "Systems Theory"
+      ],
+      "notes": "Scalability refers to performance growth with resources."
+    },
+    {
+      "id": "second_order_semantics_full_vs_henkin",
+      "label": "Second-Order Semantics: Full vs. Henkin",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Second_Order_Semantics_Full_vs_Henkin.md",
+      "tags": [],
+      "notes": "Full semantics is treated as the uniquely correct or “intended” meaning of second-order logic, and Henkin semantics as a mere technical compromise."
+    },
+    {
+      "id": "self_model_vs_self_fillet",
+      "label": "Self-Model ≠ Self",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Self_Model_vs_Self.fillet.md",
+      "tags": [
+        "Philosophy of Mind",
+        "Identity"
+      ],
+      "notes": "Self-models are representations within cognitive systems."
+    },
+    {
+      "id": "set_theory_existence_fillet",
+      "label": "Set Theory – Mathematical vs. Real Existence",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Set_Theory_Existence.fillet.md",
+      "tags": [
+        "Mathematics",
+        "Ontology",
+        "Philosophy"
+      ],
+      "notes": "In mathematics, existence typically means derivability within axioms or model-consistency."
+    },
+    {
+      "id": "simulation_abbildung_vs_identitaet_fillet",
+      "label": "Simulation – Simulierbarkeit ≠ Ersetzbarkeit/Identität",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Simulation_Abbildung_vs_Identitaet.fillet.md",
+      "tags": [
+        "KI",
+        "Metaphysik",
+        "Philosophie der Technik",
+        "Repräsentation"
+      ],
+      "notes": "Eine Simulation bildet ausgewählte Strukturen/Relationen eines Systems ab, oft mit idealisierten Annahmen."
+    },
+    {
+      "id": "simulation_identity_fillet",
+      "label": "Simulation – Simulatability ≠ Identity",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Simulation_Identity.fillet.md",
+      "tags": [
+        "Technology",
+        "Metaphysics"
+      ],
+      "notes": "A simulation represents structural aspects of a system."
+    },
+    {
+      "id": "soundness_theorem_first_order",
+      "label": "Soundness Theorem (First-Order Logic)",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Soundness_Theorem_First_Order.md",
+      "tags": [],
+      "notes": "A proof system is sound if every sentence provable in the system is valid in all models (i.e., derivability implies semantic consequence)."
+    },
+    {
+      "id": "statistical_significance_vs_relevance_fillet",
+      "label": "Statistical Significance ≠ Practical Relevance",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Statistical_Significance_vs_Relevance.fillet.md",
+      "tags": [
+        "Statistics",
+        "Methodology"
+      ],
+      "notes": "Statistical significance measures likelihood under a null model."
+    },
+    {
+      "id": "statistics_correlation_fillet",
+      "label": "Statistics – Correlation ≠ Causation",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Statistics_Correlation.fillet.md",
+      "tags": [
+        "Statistics",
+        "Causality"
+      ],
+      "notes": "Correlation measures statistical association."
+    },
+    {
+      "id": "statistics_and_causality_fillet",
+      "label": "Statistics and Causality — Fillet",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Statistics_and_Causality.fillet.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "statistik_korrelation_kausalitaet_fillet",
+      "label": "Statistik – Korrelation ≠ Kausalität",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Statistik_Korrelation_Kausalitaet.fillet.md",
+      "tags": [
+        "Statistik",
+        "Kausalität",
+        "Wissenschaftstheorie",
+        "Methodologie"
+      ],
+      "notes": "Korrelation misst statistische Abhängigkeit; Kausalität verlangt ein Modell von Interventionen, Mechanismen oder Zeitrichtung."
+    },
+    {
+      "id": "successful_model_vs_truth_fillet",
+      "label": "Meta – Successful Model ≠ True Description",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Successful_Model_vs_Truth.fillet.md",
+      "tags": [
+        "Philosophy of Science",
+        "Realism"
+      ],
+      "notes": "Models can be highly predictive while idealized."
+    },
+    {
+      "id": "symbol_manipulation_vs_semantics_fillet",
+      "label": "Symbol Manipulation ≠ Semantics",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Symbol_Manipulation_vs_Semantics.fillet.md",
+      "tags": [
+        "AI",
+        "Semantics",
+        "Philosophy of Mind"
+      ],
+      "notes": "Formal systems manipulate symbols according to syntactic rules."
+    },
+    {
+      "id": "system_theory_fillet",
+      "label": "System Theory — Fillet",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/System_Theory.fillet.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "tarski_truth",
+      "label": "Tarski’s Undefinability of Truth",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Tarski_Truth.md",
+      "tags": [],
+      "notes": "Tarski proved that for any sufficiently expressive formal language, a truth predicate for that language cannot be defined within the language itself."
+    },
+    {
+      "id": "turing_halting",
+      "label": "Turing’s Halting Theorem",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Turing_Halting.md",
+      "tags": [],
+      "notes": "Turing’s halting theorem proves that there is no general algorithm that can decide, for every program and input, whether the program halts. This is a result about computability, not about knowledge in general."
+    },
+    {
+      "id": "wavefunction_reification_fillet",
+      "label": "Quantum Theory – Wave Function: Representation ≠ Thing",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Wavefunction_Reification.fillet.md",
+      "tags": [
+        "Physics",
+        "Philosophy of Physics"
+      ],
+      "notes": "The wave function is a mathematical object used for prediction."
+    },
+    {
+      "id": "wittgenstein_language_games_fillet",
+      "label": "Wittgenstein – Language Games and Relativism",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Wittgenstein_Language_Games.fillet.md",
+      "tags": [
+        "Philosophy",
+        "Philosophy of Language",
+        "Normativity"
+      ],
+      "notes": "Language games analyze meaning as use within practices."
+    },
+    {
+      "id": "wittgenstein_sprachspiele_fillet",
+      "label": "Wittgenstein – Sprachspiele und Relativismus",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Wittgenstein_Sprachspiele.fillet.md",
+      "tags": [
+        "Philosophie",
+        "Sprachphilosophie",
+        "Normativität",
+        "Relativismus"
+      ],
+      "notes": "Sprachspiele und Lebensformen analysieren, wie Bedeutung durch Gebrauch und Praxis stabilisiert wird."
+    },
+    {
+      "id": "yoneda_lemma",
+      "label": "Yoneda Lemma",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/Yoneda_Lemma.md",
+      "tags": [],
+      "notes": "The Yoneda lemma characterizes objects by their relations to all other objects in a category."
+    },
+    {
+      "id": "assumptions_are_invisible",
+      "label": "Assumptions are invisible",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/assumptions_are_invisible.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "evaluation_criteria_are_fixed",
+      "label": "Evaluation criteria are fixed",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/evaluation_criteria_are_fixed.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "scope_does_not_constrain_conclusions",
+      "label": "Scope does not constrain conclusions",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/scope_does_not_constrain_conclusions.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "the_framework_is_context_free",
+      "label": "The framework is context-free",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/the_framework_is_context_free.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "the_language_is_transparent",
+      "label": "The language is transparent",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/the_language_is_transparent.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "the_method_is_exempt_from_its_limits",
+      "label": "The method is exempt from its limits",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/the_method_is_exempt_from_its_limits.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "the_model_does_not_apply_to_itself",
+      "label": "The model does not apply to itself",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/the_model_does_not_apply_to_itself.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "the_observer_is_neutral",
+      "label": "The observer is neutral",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/the_observer_is_neutral.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "the_system_cannot_affect_its_own_analysis",
+      "label": "The system cannot affect its own analysis",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/the_system_cannot_affect_its_own_analysis.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "the_tool_does_not_shape_outcomes",
+      "label": "The tool does not shape outcomes",
+      "family": "atomic_patterns",
+      "source_file": "imports/atomic/atomic/the_tool_does_not_shape_outcomes.md",
+      "tags": [],
+      "notes": ""
+    }
+  ],
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": [
+    "Normalized from markdown pattern cards.",
+    "Reusable as seed source, taxonomy source and prompt support material."
+  ]
+}

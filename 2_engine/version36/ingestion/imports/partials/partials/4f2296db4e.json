@@ -1,0 +1,19 @@
+{
+  "subdomain": "Influencer-Marketing",
+  "problem_groups": [
+    "Gewinnung von Influencern",
+    "Authentizität der Inhalte",
+    "Messbarkeit von Kampagnen",
+    "Kosten-Nutzen-Relation",
+    "Imageverknüpfung mit Marken",
+    "Engagement-Rate",
+    "Inhaltsqualität",
+    "Zielgruppenrelevanz",
+    "Langfristige Beziehungen",
+    "Reputationsrisiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200091
+  }
+}

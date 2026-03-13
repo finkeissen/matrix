@@ -1,0 +1,16 @@
+{
+  "subdomain": "Regenerative Mysterium",
+  "problem_groups": [
+    "Regenerationsmechanismen",
+    "Limitationen der Regeneration",
+    "Ethik der regenerativen Medizin",
+    "Unbekannte Faktoren in Regenerationsprozessen",
+    "Regeneration und Altern",
+    "Interdisziplinäre Herausforderungen",
+    "Molekulare Grundlagen der Regeneration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202651
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Postkoloniale Studien",
+  "problem_groups": [
+    "Kolonialer Erbe und Gegenwart",
+    "Repräsentation von Kolonialgeschichte",
+    "Diskurse über Entschädigung und Reparation",
+    "Intersektionale Machtstrukturen",
+    "Zusammenbruch der Kolonialmächte",
+    "Kulturelle Aneignung und Hybridisierung",
+    "Postkoloniale Identitäten",
+    "Wissensproduktion im kolonialen Kontext",
+    "Ressentiments und Stereotype",
+    "Globalisierung und Nachkriegsverhältnisse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201629
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "subdomain": "Mechatronik",
+  "problem_groups": [
+    "Integration von mechanischen und elektronischen Komponenten",
+    "Sensor- und Aktorsteuerungskonflikte",
+    "Signalverarbeitungsfehler",
+    "Energieeffizienzprobleme",
+    "Software-Hardware-Schnittstellenstörungen",
+    "Fehlersuchstrategien bei komplexen Systemen",
+    "Benutzeroberflächen-Interaktion",
+    "Thermische Belastung von Komponenten",
+    "Materialverträglichkeit in Hybridanwendungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200786
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "subdomain": "Kryptowährungen",
+  "problem_groups": [
+    "Regulatorische Unsicherheit",
+    "Marktvolatilität",
+    "Sicherheitsrisiken bei Kryptos",
+    "Adoptionsbarrieren",
+    "Scams und Betrug",
+    "Energieverbrauch durch Mining",
+    "Interoperabilitätsprobleme",
+    "Datenschutzbedenken",
+    "Skalierbarkeitslimitationen",
+    "Geldwäsche-Prävention",
+    "Identitätsverifikationsprobleme",
+    "Juristische Verantwortlichkeit",
+    "Marktminderung durch Manipulation",
+    "Infrastrukturstabilität",
+    "Datenlagerungsprobleme",
+    "Konkurrenz zwischen Kryptowährungen",
+    "Governance-Strukturen",
+    "Verlust von digitalen Assets",
+    "Integration in traditionelle Finanzen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200649
+  }
+}

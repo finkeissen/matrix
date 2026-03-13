@@ -1,0 +1,19 @@
+{
+  "subdomain": "Wissenschaftstheorie",
+  "problem_groups": [
+    "Grundlagen der wissenschaftlichen Erkenntnis",
+    "Objektivität und Subjektivität in Forschungsmethoden",
+    "Wissenschaftliche Theorien und ihre Validierung",
+    "Interaktion von Wissenschaft und Gesellschaft",
+    "Ethik in der wissenschaftlichen Praxis",
+    "Paradigmenwechsel und wissenschaftliche Revolutionen",
+    "Differenzierungen zwischen Naturwissenschaften und Geisteswissenschaften",
+    "Wissenschaftliche Kommunikation und Öffentlichkeit",
+    "Rollen von Hypothesen und Modellen in der Forschung",
+    "Kritik an wissenschaftlichen Methoden und Annahmen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204272
+  }
+}

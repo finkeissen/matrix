@@ -1,0 +1,21 @@
+{
+  "subdomain": "Arbeitssoziologie",
+  "problem_groups": [
+    "Arbeitsmarktstruktur",
+    "Klassenunterschiede im Arbeitsleben",
+    "Arbeitsteilung und Hierarchie",
+    "Soziale Ungleichheit durch Arbeit",
+    "Kontrolle und Selbstbestimmung am Arbeitsplatz",
+    "Arbeitsmigration und Mobilität",
+    "Gewerkschaftsbildung und Kollektivverhandlungen",
+    "Arbeitsbedingungen und Gesundheitsschutz",
+    "Digitalisierung im Arbeitsprozess",
+    "Geschlechterrollen am Arbeitsplatz",
+    "Arbeitslosigkeit und Prekarität",
+    "Krisen in der Arbeitswelt"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198337
+  }
+}

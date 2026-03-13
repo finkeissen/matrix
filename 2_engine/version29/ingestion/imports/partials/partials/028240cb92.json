@@ -1,0 +1,19 @@
+{
+  "subdomain": "Emotion & Motivation",
+  "problem_groups": [
+    "Emotionale Überforderung",
+    "Motivationsverlust",
+    "Negative Emotions Regulation",
+    "Unfähigkeit zur Emotionskontrolle",
+    "Motivationsblockaden",
+    "Emotionale Burnout-Symptome",
+    "Emotionale Reaktionen auf Stress",
+    "Mangel an emotionaler Resilienz",
+    "Persistente negative Emotionen",
+    "Emotionale Konfliktmanagement"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199276
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "run_record.schema.json",
+  "title": "RunRecord",
+  "type": "object",
+  "required": ["run_id", "status", "clarification_rounds", "pipeline_version", "started_at"],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}_\\d{3}_SD-\\d{3}$",
+      "description": "Format: YYYY-MM-DD_NNN_SD-NNN"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["running", "done", "stop", "duplicate_skip", "policy_rejected", "partial"]
+    },
+    "clarification_rounds": { "type": "integer", "minimum": 0, "maximum": 2 },
+    "pipeline_version":     { "type": "string" },
+    "kb_snapshot_id":       { "type": "string" },
+    "subdomain_id":         { "type": "string" },
+    "started_at":           { "type": "string" },
+    "finished_at":          { "type": "string" },
+    "stopped_at_step":      { "type": "string" },
+    "commit_id":            { "type": "string" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "subdomain": "Migrationssoziologie",
+  "problem_groups": [
+    "Integration von Migranten in soziale Strukturen",
+    "Diskriminierung und Rassismus gegenüber Migranten",
+    "Kulturelle Aneignung und Identitätskonflikte",
+    "Sprachbarrieren und Kommunikationsprobleme",
+    "Bildungsungleichheit im Migrationskontext",
+    "Arbeitsmarktzugang für Migranten",
+    "Soziale Ausgrenzung und Marginalisierung",
+    "Familienzusammenführung und Migration",
+    "Religionspraxis in fremden Kulturen",
+    "Grenzüberschreitende soziale Beziehungen",
+    "Migrationspolitik und staatliche Regulierung",
+    "Urbanisierung durch Migration",
+    "Generationswechsel im Migrantenkontext",
+    "Gewaltdynamiken in migranten Communities",
+    "Sozialer Wohnungsbau und Migration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200849
+  }
+}

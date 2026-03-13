@@ -1,0 +1,18 @@
+{
+  "subdomain": "Stadtgeografie",
+  "problem_groups": [
+    "Urbanisierungsprozesse und Bevölkerungswachstum",
+    "Funktionale Zonierung und Stadtstruktur",
+    "Verkehrsnetze und Mobilitätsmuster",
+    "Sozialräumliche Ungleichheit und Segregation",
+    "Stadtplanung und Raumordnungskonflikte",
+    "Umweltprobleme in urbanen Räumen",
+    "Infrastrukturentwicklung und Versorgungsnetze",
+    "Kulturelle und soziale Dynamiken in Städten",
+    "Globalisierungseffekte auf städtische Strukturen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203449
+  }
+}

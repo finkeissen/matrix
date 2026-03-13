@@ -1,0 +1,19 @@
+{
+  "subdomain": "Wirtschaftssoziologie",
+  "problem_groups": [
+    "Kapitalverteilung und soziale Ungleichheit",
+    "Arbeitsmarktstruktur und Beschäftigungsmuster",
+    "Unternehmenskultur und Organisationsformen",
+    "Konsumverhalten und Marktdynamik",
+    "Globalisierung und lokale Wirtschaftsstrukturen",
+    "Krisenmanagement in wirtschaftlichen Systemen",
+    "Soziale Mobilität und Berufsbildung",
+    "Wirtschaftspolitische Entscheidungsprozesse",
+    "Arbeitsteilung und soziale Rollen",
+    "Vertrauenswürdigkeit von Wirtschaftssubjekten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204257
+  }
+}

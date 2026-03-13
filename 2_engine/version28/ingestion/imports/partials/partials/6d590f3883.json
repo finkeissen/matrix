@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Stabilität",
+  "problem_groups": [
+    "Bewegungsstörungen durch degenerative Prozesse",
+    "Dysbalancen im Bewegungsapparat",
+    "Fehlbelastungssyndrome",
+    "Kompensationsmuster bei strukturellen Veränderungen",
+    "Neuromuskuläre Dysfunktionen",
+    "Pathologische Bewegungsabläufe",
+    "Reduzierte Anpassungsfähigkeit des Bewegungsapparats",
+    "Stabilitätsdefizite im Gelenk- und Skelettsystem"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202914
+  }
+}

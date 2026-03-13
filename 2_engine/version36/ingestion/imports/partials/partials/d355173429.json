@@ -1,0 +1,19 @@
+{
+  "subdomain": "Wissensrepräsentation",
+  "problem_groups": [
+    "Formalisierte Darstellung von Wissen",
+    "Semantische Verknüpfung von Konzepten",
+    "Kontextabhängige Interpretation von Wissen",
+    "Daten- und Wissensmodellierung",
+    "Interoperabilität zwischen Repräsentationsformen",
+    "Wiederverwendbarkeit von Wissensstrukturen",
+    "Erkennung von Wissenslücken",
+    "Konsistenzprüfung von Wissen",
+    "Skalierbarkeit von Wissensmodellen",
+    "Integration heterogener Wissensquellen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204289
+  }
+}

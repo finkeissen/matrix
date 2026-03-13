@@ -1,0 +1,24 @@
+{
+  "subdomain": "Humanoide Robotik",
+  "problem_groups": [
+    "Bewegungssteuerung",
+    "Sensorintegration",
+    "Energieeffizienz",
+    "Natürliche Interaktion",
+    "Gestenerkennung",
+    "Emotionale Reaktionen",
+    "Sprachverarbeitung",
+    "Mensch-Roboter-Interaktion",
+    "Gestaltungsprinzipien",
+    "Materialauswahl",
+    "Robustheit",
+    "Lernfähigkeit",
+    "Datenspeicherung",
+    "Sicherheitsprotokolle",
+    "Kosteneffizienz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200050
+  }
+}

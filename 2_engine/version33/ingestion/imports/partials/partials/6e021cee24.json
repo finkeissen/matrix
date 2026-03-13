@@ -1,0 +1,17 @@
+{
+  "subdomain": "Umweltökonomik",
+  "problem_groups": [
+    "Bewertung von Umweltverlusten",
+    "Externe Kosten in der Wirtschaft",
+    "Ressourcenallokation und Nachhaltigkeit",
+    "Ökologische Bewertung ökonomischer Aktivitäten",
+    "Kosten-Nutzen-Analyse umweltrelevanter Maßnahmen",
+    "Verknüpfung von Umwelt- und Wirtschaftspolitik",
+    "Bewertung externer Effekte in der Produktion",
+    "Langfristige Ressourcennutzungsoptimierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204062
+  }
+}

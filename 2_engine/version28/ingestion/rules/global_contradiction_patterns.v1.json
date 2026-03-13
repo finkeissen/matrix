@@ -1,0 +1,117 @@
+{
+  "asset_id": "global_contradiction_patterns.v1",
+  "asset_type": "rule_library",
+  "domain": "global",
+  "version": "v1",
+  "status": "approved",
+  "sources": [
+    "contradictions.zip"
+  ],
+  "rules": [
+    {
+      "id": "authority_leakage",
+      "label": "Authority Leakage",
+      "source_file": "imports/contradictions/contradictions/authority_leakage.md",
+      "description": "An **authority leakage** exists when:",
+      "typical_structure": "This pattern commonly appears when material:\n\n- Uses confident tone without mandate\n- Is reused in contexts with higher stakes\n- Lacks clear audience or decision boundary\n- Migrates from internal to external use\n\n---",
+      "stop_condition": "",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "constraint_inversion",
+      "label": "Constraint Inversion",
+      "source_file": "imports/contradictions/contradictions/constraint_inversion.md",
+      "description": "A **constraint inversion** exists when:",
+      "typical_structure": "This pattern commonly appears when material:\n\n- Treats safety, compliance, or metrics as success criteria\n- Optimizes proxies while losing the underlying objective\n- Reframes limitations as defining features\n- Preserves form while hollowing out function\n- Enforces rules that undermine their original intent\n\nThe inversion is often gradual and implicit.\n\n---",
+      "stop_condition": "",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "contradiction_population_vs_individual",
+      "label": "Population-Level Evidence vs Individual-Level Recommendation",
+      "source_file": "imports/contradictions/contradictions/contradiction_population_vs_individual.md",
+      "description": "This contradiction arises in medical guideline reasoning and preventive health recommendations.",
+      "typical_structure": "",
+      "stop_condition": "This contradiction triggers STOP due to illegitimate level transfer\n(population → individual without admissible bridging conditions).",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "descriptive_vs_normative",
+      "label": "Descriptive Statement Used as Normative Authorization",
+      "source_file": "imports/contradictions/contradictions/descriptive_vs_normative.md",
+      "description": "Common in ethics-adjacent policy arguments and expert recommendations.",
+      "typical_structure": "",
+      "stop_condition": "Norm injection / is–ought slippage",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "implicit_assumption_conflict",
+      "label": "Implicit Assumption Conflict",
+      "source_file": "imports/contradictions/contradictions/implicit_assumption_conflict.md",
+      "description": "An **implicit assumption conflict** exists when:",
+      "typical_structure": "This pattern commonly appears when material:\n\n- Mixes incompatible world models without acknowledgment\n- Assumes different default states in different sections\n- Relies on background conditions that cannot coexist\n- Shifts foundational premises without signaling a transition\n- Treats contextual assumptions as universal\n\nBecause the assumptions are implicit,\nthe contradiction often goes unnoticed until stress is applied.\n\n---",
+      "stop_condition": "",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "population_vs_individual",
+      "label": "Population-Level Evidence vs Individual-Level Recommendation",
+      "source_file": "imports/contradictions/contradictions/population_vs_individual.md",
+      "description": "Common in medicine, public health, and policy guidelines.",
+      "typical_structure": "",
+      "stop_condition": "Illegitimate level transfer (population → individual without admissible bridging conditions)",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "proxy_measure_vs_real_outcome",
+      "label": "Proxy Measure Treated as the Target Outcome",
+      "source_file": "imports/contradictions/contradictions/proxy_measure_vs_real_outcome.md",
+      "description": "Common in medicine, economics, and management metrics.",
+      "typical_structure": "",
+      "stop_condition": "Surrogate substitution / proxy-to-target collapse",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "role_confusion",
+      "label": "Role Confusion",
+      "source_file": "imports/contradictions/contradictions/role_confusion.md",
+      "description": "A **role confusion** exists when:",
+      "typical_structure": "This pattern commonly appears when material:\n\n- Alternates between descriptive and prescriptive voice\n- Mixes observer, participant, and authority perspectives\n- Treats analysis as decision, or decision as analysis\n- Assumes responsibility without mandate\n- Uses “we”, “one”, or “the system” ambiguously\n\nBecause role shifts are implicit,\nthe resulting contradictions are often subtle.\n\n---",
+      "stop_condition": "",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "scope_collapse",
+      "label": "Scope Collapse",
+      "source_file": "imports/contradictions/contradictions/scope_collapse.md",
+      "description": "A **scope collapse** exists when:",
+      "typical_structure": "This pattern commonly appears when material:\n\n- Moves from local to global claims without justification\n- Treats examples as general rules\n- Applies exploratory results as operational guidance\n- Extends conclusions across domains, scales, or contexts\n- Collapses distinctions between “in this case” and “in general”\n\nThe transition is usually implicit,\nmaking the scope shift difficult to detect.\n\n---",
+      "stop_condition": "",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "temporal_misalignment",
+      "label": "Temporal Misalignment",
+      "source_file": "imports/contradictions/contradictions/temporal_misalignment.md",
+      "description": "A **temporal misalignment** exists when:",
+      "typical_structure": "This pattern commonly appears when material:\n\n- Treats snapshots as stable states\n- Applies historical assumptions to current conditions\n- Mixes real-time and delayed feedback loops\n- Assumes permanence where decay or drift exists\n- Ignores versioning or lifecycle boundaries\n\n---",
+      "stop_condition": "",
+      "family": "contradiction_patterns"
+    },
+    {
+      "id": "uncertainty_acknowledged_vs_action",
+      "label": "Uncertainty Acknowledged, Action Presented as Settled",
+      "source_file": "imports/contradictions/contradictions/uncertainty_acknowledged_vs_action.md",
+      "description": "Common in risk communication and crisis narratives.",
+      "typical_structure": "",
+      "stop_condition": "Uncertainty collapse / implicit decision rule injection",
+      "family": "contradiction_patterns"
+    }
+  ],
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": [
+    "Normalized from Markdown pattern files.",
+    "Suitable for validation, gating and category derivation."
+  ]
+}

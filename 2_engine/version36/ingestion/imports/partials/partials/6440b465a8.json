@@ -1,0 +1,19 @@
+{
+  "subdomain": "Software-Architektur",
+  "problem_groups": [
+    "Skalierbarkeitsprobleme",
+    "Wartbarkeitsschwierigkeiten",
+    "Sicherheitslücken",
+    "Interoperabilitätsstörungen",
+    "Leistungsengpässe",
+    "Komplexitätsmanagement",
+    "Technologiestapelkonflikte",
+    "Dokumentationsmängel",
+    "Ressourcenverwaltung",
+    "Konformitätsrisiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203382
+  }
+}

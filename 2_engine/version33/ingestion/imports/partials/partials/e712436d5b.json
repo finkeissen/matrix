@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Kosmos",
+  "problem_groups": [
+    "Systemische Ungleichgewichte",
+    "Ressourcenverknappung",
+    "Zyklusstörungen",
+    "Übernutzung von Ökosystemen",
+    "Mangel an Regenerationsmechanismen",
+    "Fehlende Symbiosen",
+    "Soziale Ungleichheit in Regenerationsprozessen",
+    "Technologische Abhängigkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202553
+  }
+}

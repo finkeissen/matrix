@@ -1,0 +1,19 @@
+{
+  "subdomain": "Globalgeschichte",
+  "problem_groups": [
+    "Kulturelle Konflikte und Assimilation",
+    "Wirtschaftliche Ungleichheit im globalen Maßstab",
+    "Militärische Interventionen und Kolonialismus",
+    "Migration und Bevölkerungsveränderungen",
+    "Umweltverschmutzung und Ressourcenkonflikte",
+    "Politische Machtstrukturen und Hegemonie",
+    "Technologischer Wandel und Globalisierung",
+    "Religiöse Konflikte und Interaktionen",
+    "Geschichtliche Erinnerungskultur und Narrativen",
+    "Soziale Ungleichheit und Klassenstruktur"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199851
+  }
+}

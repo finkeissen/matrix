@@ -1,0 +1,19 @@
+{
+  "subdomain": "Demokratietheorie",
+  "problem_groups": [
+    "Definition und Konzeptionalisierung von Demokratie",
+    "Verhältnis zwischen Partizipation und Repräsentation",
+    "Machtverteilung in demokratischen Systemen",
+    "Stabilität und Veränderbarkeit von Demokratien",
+    "Demokratische Legitimation und Machtübergabe",
+    "Einfluss von Medien auf demokratische Prozesse",
+    "Kritik an demokratischen Strukturen",
+    "Integration von Minderheiten in demokratische Systeme",
+    "Demokratie im internationalen Kontext",
+    "Technologische Entwicklung und Demokratie"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198945
+  }
+}

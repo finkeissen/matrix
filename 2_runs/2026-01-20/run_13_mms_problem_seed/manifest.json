@@ -1,0 +1,13 @@
+{
+  "run_id": "run_13_mms_problem_seed",
+  "date": "2026-01-19",
+  "domain": "mms",
+  "purpose": "Seed the Matrix with problems concerning the Matrix Management System (MMS): execution semantics, validation, invariants, failure handling, and drift control.",
+  "scope": {
+    "target_problem_count": 60,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "internal specifications only"
+  },
+  "notes": "Problems address MMS as an operative system, not as an epistemic authority."
+}

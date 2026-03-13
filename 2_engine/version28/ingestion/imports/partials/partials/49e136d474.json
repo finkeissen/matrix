@@ -1,0 +1,19 @@
+{
+  "subdomain": "Medienforensik",
+  "problem_groups": [
+    "Beweiswerterhaltung in digitalen Medien",
+    "Datenspurenanalyse bei Medieninhalten",
+    "Authentizitätsprüfung von Mediendateien",
+    "Verzerrungs- und Manipulationserkennung",
+    "Rekonstruktion von gelöschten oder beschädigten Medieninhalten",
+    "Identifikation von Quellen und Verbreitungswege von Medien",
+    "Schutz vor Beweisverfälschung durch digitale Mittel",
+    "Analyse von Medieninhalten zur Ermittlung von Tätern",
+    "Erhaltung der Integrität von Mediendateien bei Forensik-Untersuchungen",
+    "Datenextraktion aus verschiedenen Medienformaten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200791
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Güte",
+  "problem_groups": [
+    "Qualitätsstabilität bei Regeneration",
+    "Ressourcennutzungsoptimierung",
+    "Standardisierungsprobleme",
+    "Messmethoden-Unterschiede",
+    "Stakeholder-Koordination",
+    "Technologische Grenzen",
+    "Umweltverträglichkeit",
+    "Langlebigkeit von Materialien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202407
+  }
+}

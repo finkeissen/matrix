@@ -1,0 +1,17 @@
+{
+  "subdomain": "Geschichte der Freiheit",
+  "problem_groups": [
+    "Konflikte zwischen individueller und kollektiver Freiheit",
+    "Historische Verfälschungen im Kontext von Freiheitsbewegungen",
+    "Machtstrukturen und deren Einfluss auf die Entwicklung der Freiheit",
+    "Kulturelle Unterschiede in der Wahrnehmung von Freiheit",
+    "Grenzen und Überschreitungen von Freiheitsrechten in der Geschichte",
+    "Erinnerungskultur und ihre Auswirkungen auf das Verständnis von Freiheit",
+    "Religion und Freiheit im historischen Spannungsverhältnis",
+    "Krieg und Freiheit: Wechselaufgaben in der Geschichte"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199749
+  }
+}

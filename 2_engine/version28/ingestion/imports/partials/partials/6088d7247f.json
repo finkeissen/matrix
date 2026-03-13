@@ -1,0 +1,18 @@
+{
+  "subdomain": "Predictive Analytics",
+  "problem_groups": [
+    "Datenqualitätsprobleme",
+    "Modellvalidierungsprobleme",
+    "Überanpassung (Overfitting)",
+    "Mangelnde Interpretierbarkeit von Modellen",
+    "Unzureichende Vorhersagegenauigkeit",
+    "Echtzeitverarbeitungsprobleme",
+    "Skalierbarkeitsprobleme bei großen Datensätzen",
+    "Integration in bestehende Systeme",
+    "Ethik und Bias in Algorithmen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201646
+  }
+}

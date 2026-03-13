@@ -1,0 +1,19 @@
+{
+  "subdomain": "Noosphere",
+  "problem_groups": [
+    "Informationsüberflutung und kognitive Belastung",
+    "Digitale Kluft und Zugangschancenungleichheit",
+    "Fehlinformationen und Desinformation",
+    "Datensicherheit und Privatsphäreverletzungen",
+    "Algorithmenbias und ethische Entscheidungsfindung",
+    "Mensch-Maschine-Interaktion und Kontrollverlust",
+    "Informationsmanipulation und Manipulationsresistenz",
+    "Digitale Identität und Authentizitätsprobleme",
+    "Sozialer Medien-Einfluss auf Verhalten",
+    "Technologische Abhängigkeit und Resilienz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201125
+  }
+}

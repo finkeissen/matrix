@@ -1,0 +1,16 @@
+{
+  "subdomain": "Neuromarketing",
+  "problem_groups": [
+    "Integration von neurologischen Daten in Marketingstrategien",
+    "Ethik der neuronalen Datennutzung",
+    "Validierung von Neuro-Marketing-Methoden",
+    "Interpretation von Gehirnaktivitäten im Marketingkontext",
+    "Messgenauigkeit bei Verbraucherreaktionen",
+    "Konsistenz zwischen neurologischen und psychologischen Erkenntnissen",
+    "Datenschutz bei neuronaler Datensammlung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201047
+  }
+}

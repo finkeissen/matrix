@@ -1,0 +1,17 @@
+{
+  "subdomain": "Verhaltensökologie",
+  "problem_groups": [
+    "Anpassungsstrategien an Umweltveränderungen",
+    "Wechselwirkungen zwischen Tierverhalten und Ökosystemdynamik",
+    "Einfluss menschlicher Aktivitäten auf Verhaltensmuster",
+    "Foragierstrategien in unterschiedlichen Nahrungsverfügbarkeiten",
+    "Soziale Strukturen und deren ökologische Determinanten",
+    "Kommunikationsformen im Kontext von Ressourcenkonkurrenz",
+    "Verhaltensmuster in unterschiedlichen Habitattypen",
+    "Adaptionsmechanismen zu klimatischen Schwankungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204139
+  }
+}

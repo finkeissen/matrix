@@ -1,0 +1,19 @@
+{
+  "subdomain": "Psychologie der Weisheit",
+  "problem_groups": [
+    "Definition und Messung von Weisheit",
+    "Entwicklung von Weisheit im Lebensverlauf",
+    "Weisheit versus Intelligenz und Erfahrung",
+    "Kulturelle Unterschiede in der Wahrnehmung von Weisheit",
+    "Weisheit in sozialen Interaktionen und Entscheidungsfindung",
+    "Psychologische Mechanismen hinter weisen Handlungen",
+    "Weisheit im Kontext von Trauma und Resilienz",
+    "Weisheit als Ressource für emotionale Regulation",
+    "Weisheit in der Altersentwicklung",
+    "Weisheit und Selbstreflexion"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201737
+  }
+}

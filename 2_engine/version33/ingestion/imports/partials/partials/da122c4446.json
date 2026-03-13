@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Mobilität",
+  "problem_groups": [
+    "Technologische Integration von Regenerationsprozessen",
+    "Energieeffizienz in regenerativen Systemen",
+    "Materialverschleiß bei regenerativer Nutzung",
+    "Biologische Kompatibilität von Regenerationsmaterialien",
+    "Langfristige Stabilität regeneratorischer Strukturen",
+    "Kostenoptimierung regenerativer Prozesse",
+    "Skalierbarkeit regenerativer Systeme",
+    "Interoperabilität zwischen regenerativen und konventionellen Systemen",
+    "Minderung von Umweltbelastungen durch Regeneration",
+    "Verfügbarkeit von Ressourcen für Regenerationsprozesse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202638
+  }
+}

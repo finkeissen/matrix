@@ -1,0 +1,18 @@
+{
+  "subdomain": "Digitale Souveränität",
+  "problem_groups": [
+    "Technologische Abhängigkeit",
+    "Datensouveränität",
+    "Zugang zu digitalen Ressourcen",
+    "Digitale Spaltung",
+    "Internet-Sicherheit",
+    "Regulierung digitaler Inhalte",
+    "Digitale Identitätsverwaltung",
+    "Künstliche Intelligenz in digitalen Systemen",
+    "Schutz digitaler Rechte"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199052
+  }
+}

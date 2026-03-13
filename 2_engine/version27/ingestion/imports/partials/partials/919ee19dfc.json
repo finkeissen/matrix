@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Unendlichkeit",
+  "problem_groups": [
+    "Unendliche Ressourcennutzung",
+    "Zyklische Überlastung von Systemen",
+    "Dauerhafte Wiederherstellungskosten",
+    "Unkontrollierbare Wachstumsdynamiken",
+    "Kritische Abhängigkeit von Regenerationsprozessen",
+    "Unendliche Anreicherung von Subsystemen",
+    "Zyklische Energieverluste",
+    "Dauernde Rekursion in Prozessketten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202988
+  }
+}

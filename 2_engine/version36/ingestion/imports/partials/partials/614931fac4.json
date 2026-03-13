@@ -1,0 +1,16 @@
+{
+  "subdomain": "Stringtheorie",
+  "problem_groups": [
+    "Mathematische Komplexität in höherdimensionalen Räumen",
+    "Unifikation verschiedener Stringtheorien (Type I, II, heterotisch)",
+    "Experimentelle Verifikation von Vorhersagen durch Hochenergie-Phänomene",
+    "Beziehung zwischen Stringtheorie und Quantengravitation",
+    "Interpretation abstrakter mathematischer Strukturen wie Calabi-Yau-Mannigfaltigkeiten",
+    "Konsistenz mit beobachtbaren kosmologischen Phänomenen",
+    "Entwicklung neuer mathematischer Werkzeuge für Stringtheorie"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203545
+  }
+}

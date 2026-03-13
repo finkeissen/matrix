@@ -1,0 +1,19 @@
+{
+  "subdomain": "Betriebssysteme",
+  "problem_groups": [
+    "Systemstabilitätsprobleme",
+    "Sicherheitsvulnerabilitäten",
+    "Hardwarekompatibilitätsdefizite",
+    "Softwarekompatibilitätsmängel",
+    "Leistungsdegradation",
+    "Benutzerzugriffsfehler",
+    "Fehlerbehandlungsdefizite",
+    "Update- und Patchmanagementprobleme",
+    "Ressourcenallokationsstörungen",
+    "Treiberinkompatibilitäten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198409
+  }
+}

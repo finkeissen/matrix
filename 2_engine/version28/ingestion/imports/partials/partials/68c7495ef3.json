@@ -1,0 +1,18 @@
+{
+  "subdomain": "Verhaltensbiologie",
+  "problem_groups": [
+    "Verhaltensmuster und -entwicklung",
+    "Soziale Strukturen und Kommunikation",
+    "Nahrungsverhalten und Jagdstrategien",
+    "Fortpflanzungsverhalten und Partnerwahl",
+    "Anpassung an Umweltbedingungen",
+    "Lernprozesse und Erinnerungsfähigkeit",
+    "Migrationsverhalten und -routen",
+    "Interaktion mit anderen Arten",
+    "Verhaltensregulation durch physiologische Faktoren"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204124
+  }
+}

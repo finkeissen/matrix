@@ -1,0 +1,19 @@
+{
+  "subdomain": "Stufen der moralischen Entwicklung",
+  "problem_groups": [
+    "Definition von Moralstufen",
+    "Unterscheidung zwischen Stufen",
+    "Einflussfaktoren auf die Entwicklung",
+    "Kritik an Stufentheorien",
+    "Anwendung in der Praxis",
+    "Interkulturelle Unterschiede",
+    "Entwicklungsgeschwindigkeit",
+    "Übergänge zwischen Stufen",
+    "Individuelle Variabilität",
+    "Validierung von Theorien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203549
+  }
+}

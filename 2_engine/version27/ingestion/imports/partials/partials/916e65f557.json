@@ -1,0 +1,15 @@
+{
+  "subdomain": "Philosophie der Freiheit",
+  "problem_groups": [
+    "Definition und Grenzen von Freiheit",
+    "Freiheit vs. Determinismus",
+    "Moralische Verantwortung und Autonomie",
+    "Individualität vs. Kollektivverpflichtungen",
+    "Einfluss philosophischer Traditionen auf Freiheitsbegriffe",
+    "Grenzen der Freiheit durch äußere Zwänge"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201331
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Relativitätstheorie",
+  "problem_groups": [
+    "Zeitdilatationseffekte",
+    "Äquivalenzprinzip",
+    "Gravitationswellen",
+    "Lichtablenkung durch Massen",
+    "Koordinatentransformationen",
+    "Raum-Zeit-Krümmung",
+    "Quantengravitation",
+    "Zeitmessungsdisparitäten",
+    "Massenbedingte Raumkrümmung",
+    "Singularitäteninterpretation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203133
+  }
+}

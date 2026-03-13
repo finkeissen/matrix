@@ -1,0 +1,19 @@
+{
+  "subdomain": "Smart Materials",
+  "problem_groups": [
+    "Materialverhalten unter dynamischen Belastungen",
+    "Langzeitstabilität und Degradation von Materialien",
+    "Integration in bestehende Technologien und Systeme",
+    "Herstellungskosten und Skalierbarkeit",
+    "Wechselwirkung mit Umwelteinflüssen",
+    "Energieeffizienz bei Funktionserfüllung",
+    "Mikrostruktur- und Oberflächenmodifikation",
+    "Sensitivität gegenüber externen Stimuli",
+    "Zusammenarbeit mit biologischen Systemen",
+    "Recyclingfähigkeit und Umweltverträglichkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203359
+  }
+}

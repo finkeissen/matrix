@@ -1,0 +1,19 @@
+{
+  "subdomain": "Organoid-Forschung",
+  "problem_groups": [
+    "Kultivierungsprobleme",
+    "Standardisierung von Protokollen",
+    "Ethische Fragestellungen",
+    "Skalierbarkeit und Massenproduktion",
+    "Integration mit anderen Technologien",
+    "Finanzierung und Ressourcenallokation",
+    "Interdisziplinäre Zusammenarbeit",
+    "Dateninterpretation und -validierung",
+    "Reproduzierbarkeit und Validierung",
+    "Langfristige Stabilität und Funktion"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201270
+  }
+}

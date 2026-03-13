@@ -1,0 +1,19 @@
+{
+  "subdomain": "Psychologie der inneren Freiheit",
+  "problem_groups": [
+    "Konflikt zwischen äußeren Zwängen und innerer Freiheit",
+    "Selbstwahrnehmung als Hemmnis für Autonomie",
+    "Überforderung durch Entscheidungsdruck",
+    "Mangelnde Differenzierung von Kontrolle und Freiheit",
+    "Soziale Erwartungen vs. individuelle Wünsche",
+    "Kognitive Einschränkungen durch Selbstzweifel",
+    "Struktur- versus Spontaneitätskonflikt",
+    "Internalisierung externer Normen als Freiheitsbeschränkung",
+    "Emotionale Abhängigkeit von äußeren Validierungen",
+    "Widerstand gegen Selbstbestimmung durch Ängste"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201714
+  }
+}

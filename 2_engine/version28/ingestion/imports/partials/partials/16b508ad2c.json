@@ -1,0 +1,17 @@
+{
+  "subdomain": "Earth Jurisprudence",
+  "problem_groups": [
+    "Rechtsdurchsetzung im Umweltrecht",
+    "Konflikte zwischen ökonomischen Interessen und Umweltschutz",
+    "Anerkenntnis von Naturrechten",
+    "Internationale Rechtsdurchsetzung bei grenzüberschreitenden Umweltproblemen",
+    "Integration indigener Wissenssysteme in das Recht",
+    "Verantwortung von Unternehmen für Umweltschäden",
+    "Anpassung des Rechts an neue ökologische Herausforderungen",
+    "Konflikte um Ressourcenmanagement"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199184
+  }
+}

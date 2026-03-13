@@ -1,0 +1,19 @@
+{
+  "subdomain": "Umweltinformatik",
+  "problem_groups": [
+    "Datenintegration von Umwelt- und Technologieinformationen",
+    "Modellierung komplexer Umweltparameter",
+    "Interoperabilität zwischen Umwelt-IT-Systemen",
+    "Verarbeitung großer Umwelt-Datensätze",
+    "Usability von Umweltsoftware für Fachanwender",
+    "Sicherheit umweltrelevanter Daten",
+    "Visualisierung von Umweltdaten in Echtzeit",
+    "Standardisierung von Umweltinformationen",
+    "Integration von Umweltmodellen in IT-Systeme",
+    "Management von Umwelt-Datenbanken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203977
+  }
+}

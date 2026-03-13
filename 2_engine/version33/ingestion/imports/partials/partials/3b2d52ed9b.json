@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Geburt",
+  "problem_groups": [
+    "Integration von Regenerationsmedizin in die Geburtsmedizin",
+    "Sicherheitsrisiken bei regenerativen Geburtsverfahren",
+    "Ethische Fragestellungen zur genetischen Modifikation",
+    "Technologische Grenzen der Gewebe- und Zellregeneration",
+    "Mangel an evidenzbasierten Leitlinien für regenerative Geburtstechniken",
+    "Soziale Ungleichheit im Zugang zu regenerativen Geburtsmethoden",
+    "Interdisziplinäre Koordination von Medizinern und Regenerationsforschern",
+    "Langfristige Gesundheitsfolgen für Mutter und Kind",
+    "Regulatorische Unsicherheiten bei innovativen Geburtsverfahren",
+    "Psychologische Belastung durch unerwartete Regenerationsprozesse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202321
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Psychologie der Achtsamkeit",
+  "problem_groups": [
+    "Achtsamkeitsdefizite im Alltag",
+    "Kognitive Überlastung durch ständige Aufmerksamkeit",
+    "Emotionale Reaktionsmuster bei Stress",
+    "Schwierigkeiten mit Selbstbeobachtung",
+    "Unfähigkeit zur Präsenz in sozialen Interaktionen",
+    "Mangelnde Konzentration auf körperliche Signale",
+    "Überforderung durch ständige Wahrnehmung",
+    "Vermeidung von Achtsamkeitspraktiken",
+    "Konflikte zwischen geistiger und körperlicher Präsenz",
+    "Unklarheit über die Definition von Achtsamkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201692
+  }
+}

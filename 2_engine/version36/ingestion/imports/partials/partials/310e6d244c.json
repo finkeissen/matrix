@@ -1,0 +1,18 @@
+{
+  "subdomain": "Politische Psychologie",
+  "problem_groups": [
+    "Öffentliche Meinungsbildung",
+    "Messung politischer Einstellungen",
+    "Entscheidungsfindung unter Druck",
+    "Leader-Perception-Mechanismen",
+    "Medienbeeinflussung auf Politikverhalten",
+    "Politische Identitätsbildung",
+    "Konfliktlösungsmuster in Politik",
+    "Propaganda-Empfindlichkeit",
+    "Emotionale Entscheidungsprozesse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201554
+  }
+}

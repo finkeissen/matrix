@@ -1,0 +1,18 @@
+{
+  "subdomain": "Digital Twin",
+  "problem_groups": [
+    "Datenintegration und -synchronisation",
+    "Modellgenauigkeit und Validierung",
+    "Interoperabilität mit bestehenden Systemen",
+    "Skalierbarkeit bei komplexen Anwendungen",
+    "Sicherheit und Datenschutz",
+    "Benutzerakzeptanz und Usability",
+    "Wartung und Aktualisierung von Modellen",
+    "Kostenoptimierung bei Implementierung",
+    "Behandlung von Unsicherheiten und Fehlern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199036
+  }
+}

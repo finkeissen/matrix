@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Sprache",
+  "problem_groups": [
+    "Sprachverfall bei Altersgruppen",
+    "Kulturelle Verdrängung von Sprachen",
+    "Technologische Integration in Sprache",
+    "Kommunikationsbarrieren zwischen Sprachgruppen",
+    "Spracherhalt bei Migranten",
+    "Neologismen und Sprachwandel",
+    "Therapeutische Sprachanwendung",
+    "Multilingualität im Alltag",
+    "Digitale Sprachverarbeitung",
+    "Sprachidentität und Diversität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202910
+  }
+}

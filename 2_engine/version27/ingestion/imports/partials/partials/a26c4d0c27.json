@@ -1,0 +1,20 @@
+{
+  "subdomain": "One Health",
+  "problem_groups": [
+    "Zoonotische Krankheitsübertragung",
+    "Antimikrobielle Resistenzentwicklung",
+    "Umweltverschmutzung und Gesundheit",
+    "Klimawandel-bedingte Gesundheitsrisiken",
+    "Nahrungs- und Futtermittelkontamination",
+    "Biodiversitätsverlust und Ökosystemdienstleistungen",
+    "Urbanisierung und Infektionsrisiko",
+    "Invasive Arten und ökologische Balance",
+    "Gesundheitsversorgungslücken in ländlichen Räumen",
+    "Landwirtschaftliche Intensivierung und Umweltbelastung",
+    "Interdisziplinäre Koordinationsschwierigkeiten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201154
+  }
+}

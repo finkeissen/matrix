@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ökologische Konnektivität",
+  "problem_groups": [
+    "Habitat Fragmentierung",
+    "Korridorfunktionsverlust",
+    "Isolation von Populationen",
+    "Minderung der genetischen Vielfalt",
+    "Ökologische Trennung durch Landnutzung",
+    "Verlust von Migrationsroutinen",
+    "Störung von Nahrungsnetzen",
+    "Klimawandelbedingte Veränderungen",
+    "Invasivspezies-Induzierte Störungen",
+    "Schadstoffverbreitung in Ökosystemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204441
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Politik",
+  "problem_groups": [
+    "Integration von Regenerationszielen in bestehende politische Strukturen",
+    "Konflikte zwischen ökonomischen Interessen und Umweltregeneration",
+    "Mangel an langfristigen Planungshorizonten in politischen Strategien",
+    "Unzureichende Ressourcenallokation für regenerative Projekte",
+    "Fehlende gesetzliche Grundlagen für Regenerationsmaßnahmen",
+    "Widerstände bei der Umsetzung von Nachhaltigkeitszielen durch Interessenkonflikte",
+    "Unklare Verantwortlichkeiten in transnationalen Regenerationsinitiativen",
+    "Mangel an wissenschaftlicher Grundlagen für politische Entscheidungen",
+    "Soziale Ungleichheit bei Zugang zu regenerativen Ressourcen",
+    "Fehlende Evaluationsmethoden für regenerative Politikinstrumente"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202756
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "subdomain": "Regenerative Raum",
+  "problem_groups": [
+    "Bodenversiegelung",
+    "Erosionsrisiken",
+    "Flächenverknappung",
+    "Fragmentierung von Ökosystemen",
+    "Inanspruchnahme von Nährstoffkreisläufen",
+    "Klimaresilienzdefizite",
+    "Mikrobiologische Veränderungen",
+    "Nutzungskonflikte",
+    "Ökologische Verknappung",
+    "Schadstoffakkumulation",
+    "Soziale Ungleichheit in Ressourcenverteilung",
+    "Strukturverlust von Böden",
+    "Umwandlung von Naturräumen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202780
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Philosophie der Reife",
+  "problem_groups": [
+    "Definition und Konzeption von Reife",
+    "Reifephase im individuellen Entwicklungsprozess",
+    "Ethische Implikationen der Reife",
+    "Existenzialistische Aspekte der Reife",
+    "Soziale Erwartungen an reife Individuen",
+    "Kulturelle Konstruktionen von Reife",
+    "Übergang vom Jugendlichen zum Erwachsenen",
+    "Entscheidungsfindung im reifen Alter",
+    "Autonomie und Verantwortung in der Reife",
+    "Philosophische Debatten um die Natur der Reife"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201370
+  }
+}

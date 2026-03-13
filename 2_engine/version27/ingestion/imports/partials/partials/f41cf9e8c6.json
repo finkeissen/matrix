@@ -1,0 +1,19 @@
+{
+  "subdomain": "Klimawissenschaft",
+  "problem_groups": [
+    "Klimamodelle",
+    "Emissionsverhalten",
+    "Feedback-Mechanismen",
+    "Wetterextreme",
+    "Klimasensitivität",
+    "Ozeanversauerung",
+    "Permafrost-Veränderungen",
+    "Landnutzungseffekte",
+    "Klima-Interaktionen",
+    "Langzeitprognose"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200501
+  }
+}

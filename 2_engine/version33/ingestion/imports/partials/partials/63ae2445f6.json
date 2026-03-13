@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Gemeinschaft",
+  "problem_groups": [
+    "Ressourcenverteilung in Gemeinschaften",
+    "Langfristige Nachhaltigkeitssicherung",
+    "Soziale Dynamiken in kollektiven Systemen",
+    "Individuen- vs. Kollektivinteressen-Balance",
+    "Infrastrukturentwicklung für Regeneration",
+    "Wissensaustausch und Bildung in Gemeinschaften",
+    "Konfliktmanagement bei Ressourcennutzung",
+    "Zugang zu Land und natürlichen Ressourcen",
+    "Ökonomische Modelle für Regeneration",
+    "Kulturelle Integration von Tradition und Innovation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202332
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subdomain": "Foundation Models",
+  "problem_groups": [
+    "Datenqualität und Bias in Trainingsdaten",
+    "Skalierbarkeit und Ressourcenbedarf",
+    "Ethische Risiken und Verzerrungen",
+    "Interpretierbarkeit und Erklärbarkeit",
+    "Anpassungsfähigkeit an spezifische Aufgaben",
+    "Sicherheitsanfälligkeit und Datenschutz",
+    "Umweltbelastung durch Rechenressourcen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199555
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "asset_id": "global_case_corpus.v1",
+  "asset_type": "case_corpus",
+  "domain": "global",
+  "version": "v1",
+  "status": "approved",
+  "sources": [
+    "cases.zip"
+  ],
+  "cases": [
+    {
+      "id": "A-000001",
+      "slug": "implicit-assumption-conflict-core-model",
+      "source_dir": "imports/cases/cases/A-000001__implicit-assumption-conflict-core-model",
+      "case_title": "A-000001__implicit-assumption-conflict-core-model",
+      "case_text": "# Case Description\n\n## Overview\nArchived material describing a core conceptual model relied on\nmultiple incompatible implicit assumptions about system state\nand operating conditions.\n\n## Context\nThe material was used as a foundational reference, despite\nnever explicitly declaring its baseline assumptions.\n\n## Inadmissibility rationale\nThe material requires mutually incompatible premises to hold\nsimultaneously. Making any single assumption explicit collapses\nothers, triggering epistemic instability.\n\n## Boundaries\nThis case applies only to the core model description, not to\ndownstream implementations that explicitly re-specified assumptions.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "epistemic"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case documents material rendered inadmissible due to\nimplicit assumption conflicts at the core model level."
+    },
+    {
+      "id": "A-000002",
+      "slug": "scope-collapse-advisory-to-operational",
+      "source_dir": "imports/cases/cases/A-000002__scope-collapse-advisory-to-operational",
+      "case_title": "A-000002__scope-collapse-advisory-to-operational",
+      "case_text": "# Case Description\n\nCase: scope-collapse-advisory-to-operational\n\nThis is a structured placeholder case using the ID + slug format.\n\nReplace this content with archived material and structural rationale.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "epistemic",
+        "contextual"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case documents material classified as inadmissible."
+    },
+    {
+      "id": "A-000003",
+      "slug": "authority-leakage-internal-guidance",
+      "source_dir": "imports/cases/cases/A-000003__authority-leakage-internal-guidance",
+      "case_title": "A-000003__authority-leakage-internal-guidance",
+      "case_text": "# Case Description\n\nCase: authority-leakage-internal-guidance\n\nThis is a structured placeholder case using the ID + slug format.\n\nReplace this content with archived material and structural rationale.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "institutional"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case documents material classified as inadmissible."
+    },
+    {
+      "id": "A-000004",
+      "slug": "temporal-drift-legacy-assumptions",
+      "source_dir": "imports/cases/cases/A-000004__temporal-drift-legacy-assumptions",
+      "case_title": "A-000004__temporal-drift-legacy-assumptions",
+      "case_text": "# Case Description\n\nCase: temporal-drift-legacy-assumptions\n\nThis is a structured placeholder case using the ID + slug format.\n\nReplace this content with archived material and structural rationale.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "temporal"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case documents material classified as inadmissible."
+    },
+    {
+      "id": "A-000005",
+      "slug": "constraint-inversion-metric-optimization",
+      "source_dir": "imports/cases/cases/A-000005__constraint-inversion-metric-optimization",
+      "case_title": "A-000005__constraint-inversion-metric-optimization",
+      "case_text": "# Case Description\n\nCase: constraint-inversion-metric-optimization\n\nThis is a structured placeholder case using the ID + slug format.\n\nReplace this content with archived material and structural rationale.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "institutional",
+        "epistemic"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case documents material classified as inadmissible."
+    },
+    {
+      "id": "A-000006",
+      "slug": "contextual-dependency-lost-environment",
+      "source_dir": "imports/cases/cases/A-000006__contextual-dependency-lost-environment",
+      "case_title": "A-000006__contextual-dependency-lost-environment",
+      "case_text": "# Case Description\n\nPlaceholder for a contextual failure case.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "contextual"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP"
+    },
+    {
+      "id": "A-000007",
+      "slug": "epistemic-overconfidence-weak-evidence",
+      "source_dir": "imports/cases/cases/A-000007__epistemic-overconfidence-weak-evidence",
+      "case_title": "A-000007__epistemic-overconfidence-weak-evidence",
+      "case_text": "# Case Description\n\nPlaceholder for an epistemic failure case.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "epistemic"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP"
+    },
+    {
+      "id": "A-000008",
+      "slug": "epistemic-vs-contextual-borderline",
+      "source_dir": "imports/cases/cases/A-000008__epistemic-vs-contextual-borderline",
+      "case_title": "A-000008__epistemic-vs-contextual-borderline",
+      "case_text": "# Case Description\n\n## Overview\nThe archived material presents analysis that is internally coherent\nand cautiously framed, but depends on contextual conditions that are\nonly partially specified and epistemically assumed.\n\n## Context\nAt creation time, the surrounding environment and shared background\nknowledge made the analysis interpretable and usable.\nOver time, that context degraded without the assumptions being\nre-specified.\n\n## Inadmissibility rationale\nThe material fails epistemically because justification relies on\nunstated premises, and contextually because those premises can no\nlonger be reconstructed or verified.\n\nThe case is classified as STOP to test multi-mode admissibility\nwithout introducing new failure modes.\n\n## Tension\nIf interpreted narrowly, the failure appears contextual.\nIf interpreted structurally, it collapses into epistemic failure.\n\nThis tension is intentional and used to test mode boundaries.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "epistemic",
+        "contextual"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case intentionally documents a borderline situation\nwhere epistemic and contextual failure modes overlap."
+    },
+    {
+      "id": "A-000009",
+      "slug": "almost-allow-but-stop",
+      "source_dir": "imports/cases/cases/A-000009__almost-allow-but-stop",
+      "case_title": "A-000009__almost-allow-but-stop",
+      "case_text": "# Case Description\n\n## Overview\nThe archived material is carefully written, cautious in tone,\nand largely accurate. It would normally qualify for reuse.\n\n## Context\nThe material was produced as guidance with explicit caveats,\nand has been cited positively in several downstream contexts.\n\n## Inadmissibility rationale\nDespite surface rigor, the core justification relies on a\nsingle unverified premise that cannot be independently validated.\n\nRemoving or weakening that premise collapses the argument.\nBecause the premise cannot be rehabilitated without external\nassumptions, the material is classified as STOP.\n\n## Boundary\nThis case is intentionally close to admissible.\nIt exists to test whether the system can enforce STOP\nwithout escalating categories or relaxing standards.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "epistemic"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case documents material that appears admissible at first glance\nbut fails under stricter epistemic scrutiny."
+    },
+    {
+      "id": "A-000010",
+      "slug": "pressure-to-invent-new-mode",
+      "source_dir": "imports/cases/cases/A-000010__pressure-to-invent-new-mode",
+      "case_title": "A-000010__pressure-to-invent-new-mode",
+      "case_text": "# Case Description\n\n## Overview\nThe archived material combines strong analytical reasoning with\nimplicit authority and situational urgency.\n\nIt does not fail cleanly along a single obvious dimension.\n\n## Context\nThe material was produced in a high-pressure setting where rapid\ndecisions were required. Its authority derived from timing,\nconfidence, and partial expertise rather than formal mandate.\n\n## Inadmissibility rationale\nAt first inspection, the case appears to require a new failure mode\nto capture its structure.\n\nOn closer analysis, the failure resolves into:\n- epistemic instability (confidence exceeds justification), and\n- institutional failure (authority exercised without mandate).\n\nNo new failure mode is required.\n\n## Test condition\nThis case exists to confirm that the taxonomy resists category creep\nunder pressure and ambiguity.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "institutional",
+        "epistemic"
+      ],
+      "gate_text": "# Classification Gate\n\nStatus: STOP\n\nThis case intentionally tests whether the existing failure modes\nare sufficient under conceptual pressure to introduce a new category."
+    },
+    {
+      "id": "A-XXXXXX",
+      "slug": "CASE_TEMPLATE",
+      "source_dir": "imports/cases/cases/CASE_TEMPLATE",
+      "case_title": "CASE_TEMPLATE",
+      "case_text": "# Case Description\n\nThis file documents the context and content of the material\nclassified as inadmissible in the corresponding `gate.md`.\n\nIt exists to preserve traceability and rationale,\nnot to refine, correct, or rehabilitate the material.\n\n---\n\n## Overview\n\nBrief description of the material being archived.\n\nThis may include:\n- What the material is\n- Where it originated\n- When it was produced or used\n- In what context it appeared\n\nAvoid interpretation beyond what is necessary for identification.\n\n---\n\n## Source and provenance\n\nDescription of the source(s) of the material.\n\nInclude:\n- Origin (system, project, individual, repository, etc.)\n- Relevant timestamps or versions\n- Links or references to `raw/` material where applicable\n\nDo not reproduce large portions of the source material here.\nReference it instead.\n\n---\n\n## Context\n\nDescribe the operational, analytical, or historical context\nin which the material was created or used.\n\nThis section may explain surrounding circumstances,\ndependencies, or assumptions — but must remain factual.\n\n---\n\n## Inadmissibility rationale\n\nExplain why the material is inadmissible,\nin terms of the referenced failure modes.\n\nThis is a structural explanation, not a debate.\nDo not propose fixes, alternatives, or mitigations.\n\n---\n\n## Boundaries\n\nClarify what this case does and does not cover.\n\nThis may include:\n- Scope limitations\n- Adjacent material explicitly not covered\n- Known ambiguities or edge cases\n\n---\n\n## References\n\n- Links to `raw/` material\n- Related cases\n- External references, if required for context\n\nReferences are for traceability, not authority.\n\n---\n\n## Integrity\n\n- This document is descriptive, not prescriptive.\n- Once created, it must not be modified.\n- Changes in interpretation require a new case elsewhere.",
+      "gate_status": "STOP",
+      "failure_modes": [
+        "<failure-mode-name>"
+      ],
+      "gate_text": "# Classification Gate\n\nThis file records the explicit classification decision\nthat the referenced material is inadmissible.\n\nThe decision captured here is final for this repository.\n\n---\n\n## Decision\n\n**Status:** STOP\n\nThe material associated with this case is classified as inadmissible\nfor operational, analytical, or decision-making use.\n\n---\n\n## Failure Modes\n\nThis decision is based on the following structural failure modes:\n\n- `<failure-mode-name>`\n\nFailure modes must correspond to existing directories under\n`/antecedents/failure-modes/`.\n\n---\n\n## Scope\n\nThis classification applies to the material as archived and referenced.\nIt does not imply claims about intent, authorship, or motivation.\n\n---\n\n## Notes\n\nOptional clarifications, cross-references, or boundary notes\nmay be added here.\n\nThis section must not argue for rehabilitation, correction, or reuse.\n\n---\n\n## Integrity\n\n- This file is authoritative for the classification decision.\n- Once created, it must not be modified.\n- Reinterpretation or reclassification must occur outside this repository."
+    }
+  ],
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": [
+    "Case text and classification gates normalized from per-case folders."
+  ]
+}

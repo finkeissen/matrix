@@ -1,0 +1,16 @@
+{
+  "subdomain": "Regenerative Mythen",
+  "problem_groups": [
+    "Konflikte zwischen traditionellen und modernen Regenerationsmythen",
+    "Unklarheit in der Definition von regenerativen Mythen",
+    "Mangelnde Integration von Mythen in wissenschaftliche Regenerationsansätze",
+    "Kulturelle Widerstände gegen die Anwendung von Regenerationsmythen",
+    "Überlappung und Verwirrung verschiedener mythischer Regenerationsnarrativen",
+    "Schwierigkeiten bei der Validierung von Mythen in regenerativen Prozessen",
+    "Mangelnde Interdisziplinarität in der Erforschung regeneratorischer Mythen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202665
+  }
+}

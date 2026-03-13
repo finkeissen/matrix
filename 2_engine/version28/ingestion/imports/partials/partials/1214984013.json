@@ -1,0 +1,26 @@
+{
+  "subdomain": "Erneuerbare Energien",
+  "problem_groups": [
+    "Technologische Reife und Effizienz",
+    "Infrastrukturverknappung",
+    "Energiespeicherbedarf",
+    "Netzanbindungskapazitäten",
+    "Ressourcenverfügbarkeit",
+    "Klimafolgen der Produktion",
+    "Lärmbelästigung durch Anlagen",
+    "Naturschutzkonflikte",
+    "Landnutzungskonflikte",
+    "Energiebezugssicherheit",
+    "Marktintegration und Preisschwankungen",
+    "Wartung und Betriebskosten",
+    "Öffentliche Akzeptanz",
+    "Regulierung und Gesetzgebung",
+    "Kapazitätsplanung",
+    "Zusammenbruch der Stromnetze",
+    "Energiewende-Verzögerung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199367
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subdomain": "Regenerative Ehrlichkeit",
+  "problem_groups": [
+    "Definition und Umfangsbestimmung",
+    "Implementationsmethoden",
+    "Widerstand gegen Veränderungen",
+    "Messung und Bewertungskriterien",
+    "Kulturelle und soziale Hürden",
+    "Ressourcenallokation",
+    "Kommunikationslücken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202109
+  }
+}

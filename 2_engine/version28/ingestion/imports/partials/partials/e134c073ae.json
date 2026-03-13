@@ -1,0 +1,19 @@
+{
+  "subdomain": "Anorganische Chemie",
+  "problem_groups": [
+    "Elementklassifizierung und Periodensystemeigenschaften",
+    "Synthese von anorganischen Verbindungen",
+    "Redoxreaktionen und Elektronentransferprozesse",
+    "Kristallstrukturanalyse und Gitterparameterbestimmung",
+    "Thermodynamische Stabilität von Verbindungen",
+    "Katalytische Aktivität anorganischer Materialien",
+    "Korrosion und Materialabbau",
+    "Physikalische Eigenschaften anorganischer Substanzen",
+    "Umweltverträglichkeit anorganischer Stoffe",
+    "Analytische Techniken für anorganische Materialien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198262
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Kulturcommons",
+  "problem_groups": [
+    "Zugangshürden für unterrepräsentierte Gruppen",
+    "Konflikte um Urheberrechte und Lizenzierung",
+    "Unklarheiten bei der Inhaltsmoderation",
+    "Mangelnde Diversität in der Community-Beteiligung",
+    "Technische Barrierefreiheit von Plattformen",
+    "Übersättigung des Inhaltsangebots",
+    "Kulturelle Aneignung und Repräsentation",
+    "Unzureichende Infrastruktur für kollektive Erstellung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200661
+  }
+}

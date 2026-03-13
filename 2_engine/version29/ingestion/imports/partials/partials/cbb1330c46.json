@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bürgerwissenschaft",
+  "problem_groups": [
+    "Niedriges politisches Engagement der Bevölkerung",
+    "Ineffizienz in der öffentlichen Verwaltung",
+    "Mangel an zivilgesellschaftlicher Partizipation",
+    "Soziale Ungleichheit im Zugang zu Bürgerrechten",
+    "Digitale Kluft bei der Nutzung von Bürgerdiensten",
+    "Unklarheiten in der Aufgabenverteilung zwischen Staat und Zivilgesellschaft",
+    "Integration von Migranten in die politische Landschaft",
+    "Mangel an Transparenz in staatlichen Entscheidungsprozessen",
+    "Fehlende Bildung zur demokratischen Beteiligung",
+    "Konflikte zwischen individueller Freiheit und kollektiver Verantwortung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198623
+  }
+}

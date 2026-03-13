@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Asset Manifest",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "asset_path",
+    "asset_type",
+    "status",
+    "version",
+    "sources",
+    "decision",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "asset_id": {
+      "type": "string"
+    },
+    "asset_path": {
+      "type": "string"
+    },
+    "asset_type": {
+      "type": "string",
+      "enum": [
+        "seed_library",
+        "seed_candidates",
+        "rule_library",
+        "case_corpus",
+        "taxonomy",
+        "archive_only"
+      ]
+    },
+    "domain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved",
+        "rejected",
+        "archived"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "type": "string"
+    },
+    "decision_reason": {
+      "type": "string"
+    },
+    "reuse_policy": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "review_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

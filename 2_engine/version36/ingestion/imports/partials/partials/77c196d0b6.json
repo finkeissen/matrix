@@ -1,0 +1,19 @@
+{
+  "subdomain": "Mitochondriale Medizin",
+  "problem_groups": [
+    "Diagnostik von Mitochondrienstörungen",
+    "Genetische Ursachen von Mitochondrienerkrankungen",
+    "Pathophysiologische Mechanismen von Mitochondrienerkrankungen",
+    "Klinische Manifestationen von Mitochondrienerkrankungen",
+    "Therapeutische Strategien bei Mitochondrienerkrankungen",
+    "Neurologische Komplikationen durch Mitochondrienstörungen",
+    "Metabolische Störungen im Zusammenhang mit Mitochondrien",
+    "Entwicklung von Biomarkern für Mitochondrienerkrankungen",
+    "Interaktion zwischen Mitochondrien und anderen Zellkompartimenten",
+    "Epigenetische Einflüsse auf mitochondriale Funktion"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200896
+  }
+}

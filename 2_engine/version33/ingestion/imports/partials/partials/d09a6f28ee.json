@@ -1,0 +1,15 @@
+{
+  "subdomain": "Philosophie der KI",
+  "problem_groups": [
+    "Ethik der KI",
+    "Bewusstsein und Intelligenz in KI",
+    "Definition von Intelligenz",
+    "Sozialer Einfluss der KI",
+    "Autonomie und Kontrolle von KI",
+    "Philosophische Implikationen der KI"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201348
+  }
+}

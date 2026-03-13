@@ -1,0 +1,17 @@
+{
+  "subdomain": "Strategisches Management",
+  "problem_groups": [
+    "Strategische Ausrichtung und Abstimmung",
+    "Anpassungsfähigkeit an Marktveränderungen",
+    "Ressourcenallokation und Priorisierung",
+    "Kurzfristige vs. Langfristige Ziele",
+    "Strategische Risikobewältigung",
+    "Integration von Innovationen in Strategien",
+    "Nachfolgeplanung für strategische Leitungsfunktionen",
+    "Messung der Strategieeffektivität durch KPIs"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203518
+  }
+}

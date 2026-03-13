@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Vollendung",
+  "problem_groups": [
+    "Definition und Abgrenzung von Regenerationsprozessen",
+    "Interdependenzen zwischen biologischen und technischen Systemen",
+    "Energieverbrauch bei regenerativen Prozessen",
+    "Materialeigenschaften unter regenerativer Belastung",
+    "Langfristige Stabilität von Regenerationsmechanismen",
+    "Kopplung von biologischen und künstlichen Regenerationsformen",
+    "Skalierbarkeit von Regenerationsprozessen",
+    "Adaptionsfähigkeit bei wechselnden Umweltbedingungen",
+    "Integration in bestehende Systemarchitekturen",
+    "Messung und Validierung von Regenerationsleistungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203010
+  }
+}

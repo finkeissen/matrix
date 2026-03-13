@@ -1,0 +1,18 @@
+{
+  "subdomain": "Algorithmic Fairness",
+  "problem_groups": [
+    "Datenvielfalt-Defizite",
+    "Transparenzdefizite",
+    "Verantwortlichkeitslücken",
+    "Repräsentationsungleichheit",
+    "Entscheidungsbiases",
+    "Fairness-Messungsschwierigkeiten",
+    "Soziale Auswirkungen",
+    "Algorithmen-Opazität",
+    "Genauigkeit-Fairness-Kompromisse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198175
+  }
+}

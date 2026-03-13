@@ -1,0 +1,17 @@
+{
+  "subdomain": "Biodiversitätsforschung",
+  "problem_groups": [
+    "Datenmangel und Fragmentierung von Biodiversitätsdaten",
+    "Habitatverlust durch Landnutzungswandel",
+    "Klimawandel-bedingte Veränderungen in Artenverbreitung",
+    "Humaninduzierte Bedrohungen (Schadstoffe, Übernutzung)",
+    "Methodische Schwächen bei Biodiversitätsmodellierung",
+    "Invasivspezies und ihre ökologischen Auswirkungen",
+    "Interdisziplinäre Datenintegrationsschwierigkeiten",
+    "Unzureichende Schutzstrategien für Ökosysteme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198499
+  }
+}

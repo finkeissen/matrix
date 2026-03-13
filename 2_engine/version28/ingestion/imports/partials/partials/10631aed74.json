@@ -1,0 +1,19 @@
+{
+  "subdomain": "Blockchain-Technologie",
+  "problem_groups": [
+    "Skalierbarkeit",
+    "Sicherheitsanfälligkeit",
+    "Interoperabilität",
+    "Regulatorische Kompatibilität",
+    "Energieverbrauch",
+    "Datenschutz",
+    "Konsensmechanismen",
+    "Smart Contract-Fehler",
+    "Governance-Strukturen",
+    "Umwelteinfluss"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198561
+  }
+}

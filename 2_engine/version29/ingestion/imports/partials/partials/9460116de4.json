@@ -1,0 +1,19 @@
+{
+  "subdomain": "Philosophie der Verantwortung",
+  "problem_groups": [
+    "Definition von Verantwortung in ethischen Kontexten",
+    "Verantwortung im Zusammenspiel mit Freiheit und Schuld",
+    "Kollektive versus individuelle Verantwortung",
+    "Verantwortung in sozialen und politischen Systemen",
+    "Verantwortung bei Entscheidungen mit langfristigen Konsequenzen",
+    "Verantwortung im Kontext von Macht und Herrschaft",
+    "Verantwortung in der Wissenschaft und Forschung",
+    "Verantwortung gegenüber zukünftigen Generationen",
+    "Verantwortung in globaler Perspektive (z. B. Klimawandel)",
+    "Verantwortung bei moralischen Dilemmata"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201379
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Kosmologie",
+  "problem_groups": [
+    "Large-Scale Structure Formation",
+    "Origin of the Universe (Big Bang)",
+    "Dark Matter Distribution",
+    "Dark Energy Dynamics",
+    "Cosmic Microwave Background Analysis",
+    "Gravitational Wave Detection and Interpretation",
+    "Cosmological Constant Problems",
+    "Inflationary Theory Challenges",
+    "Galaxy Evolution Models",
+    "Observational Cosmology Techniques"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200634
+  }
+}

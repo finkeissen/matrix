@@ -1,0 +1,17 @@
+{
+  "subdomain": "Augmented Reality",
+  "problem_groups": [
+    "Benutzerinteraktion und Eingabekontrolle",
+    "Hardware-Integration und Ressourcenverwaltung",
+    "Umgebungsadaption und Realitätsdarstellung",
+    "Datenakquise und Sensorenauflösung",
+    "Content-Konsistenz und Szenenmanagement",
+    "Echtzeit-Rendering und Latenzoptimierung",
+    "Soziale Akzeptanz und Privatsphäre",
+    "Kontextuelle Relevanz und Anwendungskontinuität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198373
+  }
+}

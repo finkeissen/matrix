@@ -1,0 +1,19 @@
+{
+  "subdomain": "Planetary Regeneration",
+  "problem_groups": [
+    "Bodenverdichtung und Erosion",
+    "Verlust von Biodiversität",
+    "Klimawandel-bedingte Ökosystemstörungen",
+    "Überschwemmungsrisiken durch Landnutzung",
+    "Wasser- und Nährstoffmangel in Ökosystemen",
+    "Degradation von Wäldern und Grasländern",
+    "Verlust von Kohlenstoffspeichern",
+    "Ungleichgewicht zwischen menschlicher Nutzung und Regeneration",
+    "Fragmentierung von Lebensräumen",
+    "Chemische Verunreinigung der Böden"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201460
+  }
+}

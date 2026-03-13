@@ -1,0 +1,19 @@
+{
+  "subdomain": "Rechnungswesen",
+  "problem_groups": [
+    "Finanzberichterstattungsfehler",
+    "Compliance mit Rechtsvorschriften",
+    "Schwache interne Kontrollsysteme",
+    "Datenintegritätsprobleme",
+    "Kapitalflussmanagementprobleme",
+    "Systemintegrationsschwierigkeiten",
+    "Steuerrechtliche Komplexitäten",
+    "Prüfungsreife der Unterlagen",
+    "Budgetierungsinakkuratitäten",
+    "Komplexe Buchhaltungssituationen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201933
+  }
+}

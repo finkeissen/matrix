@@ -1,0 +1,17 @@
+{
+  "subdomain": "Senolytika",
+  "problem_groups": [
+    "Zielgenauigkeit der Senolytika",
+    "Toxizität und Nebenwirkungen von Senolytika",
+    "Widerstandsfähigkeit seneszenten Zellen gegenüber Senolytika",
+    "Arzneimittelabgabe und -verteilung bei Senolytika",
+    "Biomarkeridentifikation für Senolytika",
+    "Langfristige Wirksamkeit von Senolytika",
+    "Regulatorische Herausforderungen bei Senolytika",
+    "Kosten und Zugänglichkeit von Senolytika"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203291
+  }
+}

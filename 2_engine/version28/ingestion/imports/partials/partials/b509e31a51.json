@@ -1,0 +1,19 @@
+{
+  "subdomain": "Biodiversität",
+  "problem_groups": [
+    "Habitatverlust durch Landnutzung",
+    "Artenaussterben durch menschliche Aktivitäten",
+    "Ökosystemzerstörung durch Klimawandel",
+    "Invasive Artenverbreitung",
+    "Übernutzung von Ressourcen",
+    "Fragmentierung von Lebensräumen",
+    "Verlust genetischer Vielfalt",
+    "Degradation ökologischer Dienstleistungen",
+    "Chemische Verunreinigung der Umwelt",
+    "Klimawandel-bedingte Ökosystemveränderungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198486
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Ego-Development-Theorie (Loevinger)",
+  "problem_groups": [
+    "Stadiendifferenzierung im Egoentwicklungskontinuum",
+    "Einflussfaktoren auf die Egoentwicklungsstufen",
+    "Interindividuelle Unterschiede in der Egostruktur",
+    "Messung und Validierung von Egoentwicklungsstufen",
+    "Theoretische Verknüpfung mit anderen Entwicklungsmodellen",
+    "Kontinuität vs. Diskontinuität im Egoentwicklungsprozess",
+    "Rolle von Erfahrungen in der Stufendifferenzierung",
+    "Komplexität der höheren Egoentwicklungsstufen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199221
+  }
+}

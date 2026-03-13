@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Balance",
+  "problem_groups": [
+    "Energieverlust in biologischen Systemen",
+    "Unausgewogene Nährstoffzufuhr",
+    "Stoffwechselstörungen durch Umweltfaktoren",
+    "Zelluläre Regenerationshemmung",
+    "Immunsystem-Überlastung",
+    "Chronische Entzündungsprozesse",
+    "Neurologische Dysregulationen",
+    "Psychosomatische Belastungssyndrome",
+    "Hormonelle Instabilität",
+    "Mikrobiom-Dysbiose"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202006
+  }
+}

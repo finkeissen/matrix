@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Harmonie",
+  "problem_groups": [
+    "Energieflussstörungen",
+    "Schwingungsbalanceverlust",
+    "Resonanzmismatch",
+    "Harmoniefrequenzverschiebung",
+    "Kohärenzbrüche",
+    "Vibrationsdissynchronisation",
+    "Regenerationsblockaden",
+    "Frequenzkollisionen",
+    "Schwingungsresistenz",
+    "Dynamikstagnation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202411
+  }
+}

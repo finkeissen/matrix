@@ -1,0 +1,17 @@
+{
+  "subdomain": "Nicht-duales Bewusstsein",
+  "problem_groups": [
+    "Konflikte zwischen dualistischer und nicht-dualistischer Sichtweise",
+    "Integration von Nicht-Dualität in alltägliche Erfahrungen",
+    "Verständnis der Beziehung zwischen Subjekt und Objekt",
+    "Überwindung von Identitätskonstrukten",
+    "Kommunikation von Nicht-Dualität in Sprache und Metaphern",
+    "Konflikte zwischen individueller Erfahrung und universeller Wirklichkeit",
+    "Vermeidung von Konzeptionalisierungen der Nicht-Dualität",
+    "Anpassung von spirituellen Praktiken an nicht-duale Prinzipien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201108
+  }
+}

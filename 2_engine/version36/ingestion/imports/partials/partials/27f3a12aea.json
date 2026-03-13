@@ -1,0 +1,19 @@
+{
+  "subdomain": "Nachhaltigkeitswissenschaft",
+  "problem_groups": [
+    "Interdependenzen zwischen Umwelt und Wirtschaft",
+    "Mangel an umfassenden Nachhaltigkeitsdaten",
+    "Konflikte zwischen ökonomischen Interessen und ökologischen Zielen",
+    "Unzureichende politische Rahmenbedingungen für Nachhaltigkeit",
+    "Fehlende Integration von Nachhaltigkeit in Bildungssysteme",
+    "Ungleichheit im Zugang zu nachhaltigen Technologien",
+    "Klimawandel-bedingte Risiken und Anpassungsprobleme",
+    "Verknappung natürlicher Ressourcen",
+    "Soziale Ungleichheit in nachhaltigen Entwicklungsprozessen",
+    "Mangel an internationaler Koordination für Nachhaltigkeitsziele"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200958
+  }
+}

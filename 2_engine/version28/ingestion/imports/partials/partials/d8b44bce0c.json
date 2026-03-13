@@ -1,0 +1,17 @@
+{
+  "subdomain": "Privacy by Design",
+  "problem_groups": [
+    "Datenerfassung ohne Zweckbindung",
+    "Unzureichende Standardimplementierungen",
+    "Mangelnde Transparenz bei Datenverarbeitung",
+    "Konflikte zwischen Funktionalität und Privatsphäre",
+    "Fehlende Nutzersteuerbarkeit",
+    "Rechtliche Unklarheiten bei DSGVO-Anwendung",
+    "Technische Überlastung durch Datenschutzmaßnahmen",
+    "Unvollständige Risikoabschätzung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201657
+  }
+}

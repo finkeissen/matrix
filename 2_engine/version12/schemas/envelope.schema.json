@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "envelope.schema.json",
+  "title": "TaskEnvelope",
+  "description": "Immutable declaration of a single pipeline execution unit. Version 2.0.0 adds policy.model for step-specific model routing (E-06).",
+  "type": "object",
+  "required": [
+    "envelope_version", "task_id", "run_id", "session_id",
+    "step", "parent_step", "type", "inputs",
+    "expected_outputs", "policy", "provenance"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "envelope_version": { "type": "string", "enum": ["2.0.0"] },
+    "task_id": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$",
+      "description": "Content-addressed: sha256(step + sorted input hashes)"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{3}$",
+      "description": "Format: YYYY-MM-DD_NNN"
+    },
+    "session_id": { "type": "string" },
+    "step": {
+      "type": "string",
+      "enum": [
+        "01_scope",
+        "01_scope_confidence",
+        "02_retrieval",
+        "03_enrichment_01_categories",
+        "03_enrichment_02_normalize",
+        "03_enrichment_03_gap_detection",
+        "04a_generation",
+        "04b_generation_review",
+        "05_validation",
+        "06_clarification",
+        "07_examination_01_hallucination_scan",
+        "07_examination_02_alternative_check",
+        "08_finalization",
+        "09_commit"
+      ]
+    },
+    "parent_step": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": ["llm", "deterministic"]
+    },
+    "inputs": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Flat map of input name to hash or scalar. No raw content — only references."
+    },
+    "input_snapshot_id": {
+      "type": ["string", "null"],
+      "description": "sha256 of seeds/seed_atomare_probleme.csv for this run (E-03)."
+    },
+    "expected_outputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["key", "path", "required"],
+        "additionalProperties": false,
+        "properties": {
+          "key":      { "type": "string" },
+          "path":     { "type": "string" },
+          "required": { "type": "boolean" }
+        }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "required": ["retries", "novelty_guard"],
+      "additionalProperties": false,
+      "properties": {
+        "retries":               { "type": "integer", "minimum": 0, "maximum": 3, "default": 1 },
+        "timeout_sec":           { "type": ["integer", "null"], "minimum": 1 },
+        "priority":              { "type": "string", "enum": ["high", "normal", "low"], "default": "normal" },
+        "novelty_guard":         { "type": "boolean" },
+        "cache_scope":           { "type": "string", "enum": ["run", "cross_run"], "default": "cross_run" },
+        "require_same_snapshot": { "type": "boolean", "default": true },
+        "model": {
+          "type": "string",
+          "enum": ["19b", "35b", "122b"],
+          "description": "Local model to use for this step. Required for type: llm. Resolved to endpoint by executor (E-06)."
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["created_by", "created_at"],
+      "additionalProperties": false,
+      "properties": {
+        "created_by":     { "type": "string" },
+        "created_at":     { "type": "string", "format": "date-time" },
+        "parent_task_id": { "type": ["string", "null"] },
+        "reason":         { "type": "string" }
+      }
+    }
+  }
+}

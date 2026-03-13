@@ -1,0 +1,17 @@
+{
+  "subdomain": "Foresight-Methoden",
+  "problem_groups": [
+    "Unsicherheitsmanagement in Foresight-Prozessen",
+    "Integration heterogener Stakeholder-Perspektiven",
+    "Kurzfristige vs. langfristige Planungsbalance",
+    "Dateninterpretation bei komplexen Szenarien",
+    "Methodische Grenzen von Foresight-Techniken",
+    "Kommunikation von Zukunftsszenarien",
+    "Anpassbarkeit an unterschiedliche Kontexte",
+    "Validierung von Foresight-Ergebnissen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199526
+  }
+}

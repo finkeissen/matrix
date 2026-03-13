@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Beziehung",
+  "problem_groups": [
+    "Kommunikationsbarrieren in regenerativen Beziehungen",
+    "Ungleichgewicht zwischen Geben und Nehmen",
+    "Vertrauensdefizite und Vulnerabilität",
+    "Konflikte durch unterschiedliche Erwartungen",
+    "Schwierigkeiten bei der Aufrechterhaltung von Grenzen",
+    "Unfähigkeit zur Nachhaltigkeit im Beziehungsaufbau",
+    "Machtungleichgewichte in der Interaktion",
+    "Emotionale oder physische Erschöpfung",
+    "Wertekonflikte und Zielunterschiede",
+    "Fehlende gegenseitige Verständigung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202059
+  }
+}

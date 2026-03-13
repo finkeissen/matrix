@@ -1,0 +1,29 @@
+{
+  "subdomain": "Kognitive Psychologie",
+  "problem_groups": [
+    "Gedächtnisverlust bei Erinnerungsaufgaben",
+    "Aufmerksamkeitsstörungen bei Multitasking",
+    "Wahrnehmungsfehler durch sensorische Überlastung",
+    "Problemlöseblockaden bei komplexen Aufgaben",
+    "Entscheidungsunsicherheit unter Unsicherheit",
+    "Sprachverarbeitungsstörungen bei Leseverständnis",
+    "Exekutive Funktionen im Planungsprozess",
+    "Lernschwierigkeiten bei Wissensübertragung",
+    "Emotionale Beeinflussung von Gedächtnisleistungen",
+    "Kognitive Verzerrungen in Urteilsbildungsprozessen",
+    "Bildvorstellungsstörungen bei mentalen Repräsentationen",
+    "Logisches Denken bei inkonsistenten Informationen",
+    "Arbeitsgedächtnisbegrenzung bei komplexen Aufgaben",
+    "Informationsverarbeitungsgeschwindigkeitseinschränkungen",
+    "Konzeptbildung bei unklaren Kategorien",
+    "Metakognitives Monitoring bei Lernprozessen",
+    "Aufmerksamkeitskontrolle bei Ablenkung",
+    "Gedächtniskonsolidierungsstörungen",
+    "Wahrnehmungsorganisation bei komplexen Stimuli",
+    "Kognitive Flexibilität bei Wechseln von Aufgaben"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200556
+  }
+}

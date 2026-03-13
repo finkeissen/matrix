@@ -1,0 +1,19 @@
+{
+  "subdomain": "Kollaborative Robotik (Cobots)",
+  "problem_groups": [
+    "Sicherheitsrisiken bei mensch-roboter-Kollisionen",
+    "Integration in bestehende Produktionsumgebungen",
+    "Erkennung und Vermeidung von Hindernissen",
+    "Benutzerfreundliche Programmierung",
+    "Adaptivität an wechselnde Arbeitsabläufe",
+    "Energieeffizienz bei kontinuierlicher Nutzung",
+    "Datensicherheit und Privatsphäre in der Interaktion",
+    "Wartungskosten und Ausfallsicherheit",
+    "Psychologische Akzeptanz durch Arbeitnehmer",
+    "Kosteneffizienz gegenüber herkömmlichen Robotern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200566
+  }
+}

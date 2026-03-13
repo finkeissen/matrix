@@ -1,0 +1,18 @@
+{
+  "subdomain": "Ökosystemdienstleistungen",
+  "problem_groups": [
+    "Biodiversitätsverlust",
+    "Habitatverschlechterung",
+    "Übernutzung von Ressourcen",
+    "Klimawandelbeeinflussung",
+    "Schadstoffbelastung",
+    "Landnutzungsänderungen",
+    "Invasivspeziesausbreitung",
+    "Wissenslücken in Ökosystemdienstleistungen",
+    "Dienstleistungskapazitätsverringern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204513
+  }
+}

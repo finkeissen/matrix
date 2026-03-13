@@ -1,0 +1,11 @@
+{
+  "id": "run-template",
+  "cwd": ".",
+  "timeout_sec": 60,
+  "cmd": [
+    "bash",
+    "-lc",
+    "./scripts/run.sh"
+  ],
+  "out_dir": "out"
+}

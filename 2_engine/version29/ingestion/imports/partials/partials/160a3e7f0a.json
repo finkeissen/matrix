@@ -1,0 +1,19 @@
+{
+  "subdomain": "Geld- und Währungstheorie",
+  "problem_groups": [
+    "Funktionen des Geldes in der Wirtschaft",
+    "Bestimmung des Geldwerts",
+    "Wechselkursschwankungen und ihre Auswirkungen",
+    "Zusammenhang zwischen Geldmenge und Preisen",
+    "Geldtheoretische Modelle",
+    "Stabilität von Währungssystemen",
+    "Rolle der Geldpolitik",
+    "Kredit- und Geldschöpfungsprozesse",
+    "Wechselwirkungen zwischen Geld und Wirtschaftszyklen",
+    "Definition und Messung von Inflation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199617
+  }
+}

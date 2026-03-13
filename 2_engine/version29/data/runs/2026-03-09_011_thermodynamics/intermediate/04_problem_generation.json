@@ -1,0 +1,53 @@
+[
+  {
+    "problem_id": "ap_thermodynamics_foundations_01_78b600a488",
+    "title": "Analyze Thermodynamics Foundations case 1",
+    "problem_statement": "In thermodynamics, frame a Thermodynamics Foundations problem using a rigid insulated tank briefly connected to a high-pressure line. The solver should identify the governing principle while trying to determine the final state inside the tank. Base the reasoning on the tank volume, inlet state, initial state, and added mass. Use a control-volume energy balance and identify the dominant storage term. Focus on first-law reasoning. The response should justify the conclusion briefly.",
+    "category": "thermodynamics_foundations",
+    "difficulty": "easy",
+    "source_run_id": "2026-03-09_011_thermodynamics",
+    "created_at": "2026-03-09T10:32:07Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_foundations",
+      "analyze",
+      "a_rigid_insulated_tank_briefly_connected_to_a_high_pressure_line",
+      "easy"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_applications_01_828bb7906c",
+    "title": "Analyze Thermodynamics Applications case 1",
+    "problem_statement": "Create a Thermodynamics Applications task in thermodynamics built around a throttling valve in a refrigeration loop. Require the solver to identify the governing principle. The scenario should provide the inlet pressure, inlet enthalpy, and downstream pressure. Explain why enthalpy is the key quantity across the valve. Connect the result to an engineering device. The final write-up should justify the conclusion briefly.",
+    "category": "thermodynamics_applications",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_011_thermodynamics",
+    "created_at": "2026-03-09T10:32:07Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_applications",
+      "analyze",
+      "a_throttling_valve_in_a_refrigeration_loop",
+      "medium"
+    ],
+    "content_state": "candidate"
+  },
+  {
+    "problem_id": "ap_thermodynamics_analysis_01_1bcbff0e31",
+    "title": "Analyze Thermodynamics Analysis case 1",
+    "problem_statement": "Consider a counterflow heat exchanger at steady state in thermodynamics. For Thermodynamics Analysis, ask the solver to identify the governing principle and estimate the outlet temperatures and the thermal bottleneck. Use the inlet temperatures, mass flow rates, and heat-capacity rates. Identify which stream limits the temperature approach. Highlight the tradeoff between two interpretations. The solution should justify the conclusion briefly.",
+    "category": "thermodynamics_analysis",
+    "difficulty": "medium",
+    "source_run_id": "2026-03-09_011_thermodynamics",
+    "created_at": "2026-03-09T10:32:07Z",
+    "tags": [
+      "thermodynamics",
+      "thermodynamics_analysis",
+      "analyze",
+      "a_counterflow_heat_exchanger_at_steady_state",
+      "medium"
+    ],
+    "content_state": "candidate"
+  }
+]

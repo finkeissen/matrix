@@ -1,0 +1,17 @@
+{
+  "subdomain": "Physikalische Chemie",
+  "problem_groups": [
+    "Thermodynamische Grundlagen",
+    "Kinetische Prozesse",
+    "Quantenchemische Modelle",
+    "Spektroskopische Methoden",
+    "Elektrochemische Systeme",
+    "Statistische Thermodynamik",
+    "Reaktionsmechanismen",
+    "Computergestützte Methoden"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201417
+  }
+}

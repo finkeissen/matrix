@@ -1,0 +1,16 @@
+{
+  "subdomain": "Conscious Evolution",
+  "problem_groups": [
+    "Technologische Integration vs. Umweltverträglichkeit",
+    "Soziale Gerechtigkeit in evolutionären Prozessen",
+    "Ethische Rahmenbedingungen für bewusste Entwicklung",
+    "Ressourcenmanagement und Nachhaltigkeit",
+    "Psychologische Anpassung an technologische Veränderungen",
+    "Inter generationale Verantwortung",
+    "Systemische Resilienz in dynamischen Umwelten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198768
+  }
+}

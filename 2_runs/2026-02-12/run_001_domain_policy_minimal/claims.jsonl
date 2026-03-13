@@ -1,0 +1,5 @@
+cat > claims.jsonl <<'EOF'
+{"id":"C1","text":"Governments must implement policy X to ensure social justice.","type":"normative"}
+{"id":"C2","text":"Policy X will lead to improved social outcomes.","type":"descriptive"}
+EOF
+

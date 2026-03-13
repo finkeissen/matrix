@@ -1,0 +1,19 @@
+{
+  "subdomain": "Technologische Verantwortung",
+  "problem_groups": [
+    "Ethik in der Technologieentwicklung",
+    "Datenschutz und Privatsphäreverletzungen",
+    "Algorithmenbias und Diskriminierung",
+    "Umweltbelastung durch Technologie",
+    "Sozialer Ausgleich bei technologischem Wandel",
+    "Verantwortung von Entwicklern und Unternehmen",
+    "Technologische Abhängigkeit und Autonomieverlust",
+    "Künstliche Intelligenz in kritischen Bereichen",
+    "Transparenz und Kontrolle über Technologie",
+    "Langfristige Auswirkungen neuer Technologien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203732
+  }
+}

@@ -1,0 +1,58 @@
+epistemic_posture:
+  instantiation_type: diagnostic
+  teleology: prohibited
+  termination:
+    by: STOP
+    outcome_expected: [Absence, Gap, Silence]
+    continuation_expected: false
+
+run:
+  metadata:
+    run_id: "2026-02-12-001"
+    date: "2026-02-12"
+    domain: "epistemic-systems"
+    canonical: false
+    purpose: "pre-production stress-test"
+    provenance: "manual instantiation"
+    mode: diagnostic
+
+  problem:
+    statement: >
+      Under which conditions may behavior of a formal model
+      be treated as evidence about behavior of the world?
+    explicit_context_required: true
+    scope_limit: "diagnostic only; no prescription"
+
+  claims:
+    - id: claim-01
+      source_type: formal model performance
+      content_summary: "Model performs well on benchmark task"
+      formal_basis:
+        - internal consistency
+        - benchmark performance
+      normative_transfer_attempted: implicit
+      admissibility_check:
+        result: STOP
+        stop_rule: SR-02
+        reason: "Model → world transfer without binding conditions"
+
+  admissibility:
+    gate_reference: Admissibility.md
+
+  audit_log:
+    - timestamp: "2026-02-12T09:00Z"
+      action: admissibility evaluation
+      triggered_stop: true
+      stop_rule: SR-02
+      comment: "Transfer from formal performance to world claim inadmissible"
+
+  outcome:
+    type: Gap
+    status: Underdetermined
+    stop_triggered: true
+    stop_rule: SR-02
+
+  next_steps:
+    - type: wait
+      description: "Explicit world-model binding conditions required"
+

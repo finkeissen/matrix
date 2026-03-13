@@ -1,0 +1,18 @@
+{
+  "subdomain": "Algorithmische Kunst",
+  "problem_groups": [
+    "Kreativitäts- und Kontrollspannung",
+    "Technische Grenzen der Algorithmen",
+    "Ästhetische Relevanz von Code-Ausgaben",
+    "Interdisziplinäre Kommunikationsschwierigkeiten",
+    "Autorship und Urheberrechtsfragen",
+    "Unvorhersehbarkeit algorithmischer Prozesse",
+    "Abstraktionsbarrieren bei der Umsetzung von Ideen",
+    "Integration von traditionellen Kunstformen",
+    "Ethische Implikationen von KI-generierter Kunst"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198190
+  }
+}

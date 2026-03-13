@@ -1,0 +1,19 @@
+{
+  "subdomain": "Time Series Analysis",
+  "problem_groups": [
+    "Datenqualitätsprobleme bei Zeitreihen",
+    "Unregelmäßige Abstimmung von Datensampling",
+    "Ungleichmäßige Datenverteilung über Zeitspannen",
+    "Fehlende oder unvollständige historische Daten",
+    "Rausch- und Störsignalbeeinflussung",
+    "Unklare Definition von Zeitintervallen",
+    "Inkonsistente Datumsformate",
+    "Ungewöhnliche saisonale Muster",
+    "Unvorhergesehene Trends oder Sprünge",
+    "Mangelnde Skalierbarkeit bei langen Zeitspannen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203793
+  }
+}

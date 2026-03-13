@@ -1,0 +1,14 @@
+{
+  "subdomain": "Technologische Demut",
+  "problem_groups": [
+    "Überbewertung technologischer Potenziale",
+    "Ethische Herausforderungen in der Technologieentwicklung",
+    "Gesellschaftliche Auswirkungen der Technologie",
+    "Abhängigkeit von Technologie",
+    "Balance zwischen Innovation und Vorsicht"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203715
+  }
+}

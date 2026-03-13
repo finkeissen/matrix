@@ -1,0 +1,18 @@
+{
+  "subdomain": "Purpose Economy",
+  "problem_groups": [
+    "Impact Measurement Challenges",
+    "Profit-Purpose Balance Conflicts",
+    "Transparency and Trust Issues",
+    "Stakeholder Alignment Problems",
+    "Resource Allocation Conflicts",
+    "Regulatory Framework Gaps",
+    "Market Dynamics Disruptions",
+    "Long-Term vs Short-Term Goal Tensions",
+    "Scaling Sustainability Initiatives"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201753
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "subdomain": "Optik",
+  "problem_groups": [
+    "Lichtbrechung und -reflexion",
+    "Linsenfehler und Bildverzerrungen",
+    "Interferenz und Beugung",
+    "Optische Instrumente und deren Funktion",
+    "Lichtquellen und Strahlungscharakteristik",
+    "Polarisationseffekte",
+    "Spektroskopie und Wellenlängenanalyse",
+    "Optische Materialien und deren Eigenschaften",
+    "Bildauflösung und Schärfe",
+    "Laseranwendungen und -effekte",
+    "Faseroptik und Signalverlust",
+    "Optische Messmethoden"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201225
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "subdomain": "Data Governance",
+  "problem_groups": [
+    "Datenqualitätsmanagement",
+    "Datensicherheit und -schutz",
+    "Datenverantwortung und -eigentum",
+    "Datenstandardisierung",
+    "Dateninteroperabilität",
+    "Datenkonsistenz",
+    "Datenarchivierung",
+    "Datenzugriffsrechte",
+    "Datentransparenz",
+    "Datenethik und -moral",
+    "Datenverantwortungskette",
+    "Datenkompatibilität",
+    "Datenintegrität",
+    "Datenkonsolidierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198875
+  }
+}

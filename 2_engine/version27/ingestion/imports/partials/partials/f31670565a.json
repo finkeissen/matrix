@@ -1,0 +1,19 @@
+{
+  "subdomain": "Intersektionalität",
+  "problem_groups": [
+    "Überschneidung von systemischen Ungleichheiten",
+    "Mangel an intersektionalem Diskurs in politischen Strukturen",
+    "Doppelte oder mehrfache Diskriminierungserfahrungen",
+    "Unzureichende Repräsentation marginalisierter Gruppen",
+    "Konflikte zwischen sozialen Bewegungen",
+    "Fehlende intersektionale Datenbasis für Forschung und Politik",
+    "Institutionelle Ignoranz gegenüber komplexen Identitäten",
+    "Verstärkung von Stereotypen durch Mehrfachidentitäten",
+    "Zugangsbarrieren zu Ressourcen aufgrund intersektionaler Diskriminierung",
+    "Unzureichende rechtliche Schutzmechanismen für intersektionale Diskriminierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200181
+  }
+}

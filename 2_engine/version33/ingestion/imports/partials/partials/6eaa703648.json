@@ -1,0 +1,17 @@
+{
+  "subdomain": "Mikrobiologie",
+  "problem_groups": [
+    "Mikroorganismen-Identifikation",
+    "Pathogenresistenzentwicklung",
+    "Mikrobiologische Wechselwirkungen mit Wirtsorganismen",
+    "Mikrobielle Ökosystemdynamik",
+    "Biotechnologische Anwendungsmöglichkeiten der Mikrobiologie",
+    "Infektionsdynamik von Mikroorganismen",
+    "Mikrobielle Verunreinigungsprozesse",
+    "Mikrobiologische Diagnostikmethoden"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200863
+  }
+}

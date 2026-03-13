@@ -1,0 +1,19 @@
+{
+  "subdomain": "Datenvisualisierung",
+  "problem_groups": [
+    "Datengenauigkeit und Präzision",
+    "Benutzerfreundlichkeit von Visualisierungstools",
+    "Kognitive Verarbeitung von Grafiken",
+    "Kompatibilität mit verschiedenen Datentypen",
+    "Ästhetische Gestaltung und Lesbarkeit",
+    "Interoperabilität zwischen Tools",
+    "Datensicherheit und Privatsphäre",
+    "Barrierefreiheit für Menschen mit Behinderungen",
+    "Skalierbarkeit bei großen Datensätzen",
+    "Kommunikation von Unsicherheiten und Fehlermarginen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198912
+  }
+}

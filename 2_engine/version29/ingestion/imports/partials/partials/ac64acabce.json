@@ -1,0 +1,19 @@
+{
+  "subdomain": "Pharmakologie",
+  "problem_groups": [
+    "Arzneimittelwechselwirkungen",
+    "Dosierungsoptimierung",
+    "Nebenwirkungsmanagement",
+    "Resistenzentwicklung",
+    "Pharmakokinetische Unterschiede",
+    "Individuelle Arzneimittelverträglichkeit",
+    "Arzneimittelinteraktionen",
+    "Langzeitmedikamentennutzung",
+    "Unverträglichkeitsreaktionen",
+    "Dosierungsfehler"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201322
+  }
+}

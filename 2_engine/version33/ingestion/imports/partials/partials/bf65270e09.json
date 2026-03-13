@@ -1,0 +1,19 @@
+{
+  "subdomain": "Zero-Trust-Architektur",
+  "problem_groups": [
+    "Identitätsverifizierung und Zugriffssteuerung",
+    "Datenintegritätsschutz bei externen Zugriffen",
+    "Sicherstellung von kontinuierlicher Überwachung",
+    "Integration heterogener Systeme in die Architektur",
+    "Vertrauensverlust durch Sicherheitsvorfälle",
+    "Skalierbarkeit der Sicherheitsmaßnahmen",
+    "Benutzererfahrung bei strengen Zugriffsbeschränkungen",
+    "Konsistenz von Sicherheitsrichtlinien über verschiedene Plattformen hinweg",
+    "Erkennung und Reaktion auf Anomalien in Echtzeit",
+    "Datenvertraulichkeit im Cloud-Computing-Kontext"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204360
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Epigenetische Uhren",
+  "problem_groups": [
+    "Chronologische Genexpression",
+    "Alterungsprozesse in Zellen",
+    "Epigenetische Modifikationsmuster",
+    "Genomweite Uhr-Gen-Interaktionen",
+    "Uhr-gestützte Krankheitsvorhersage",
+    "Epigenetische Stabilität über die Zeit",
+    "Zelluläre Uhren und Zyklen",
+    "Externe Einflüsse auf epigenetische Uhren",
+    "Methylierungsveränderungen im Alter",
+    "Uhr-basierte Biomarkerentwicklung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199349
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "subdomain": "Festkörperphysik",
+  "problem_groups": [
+    "Kristallstrukturanalyse",
+    "Elektronenbandstruktur",
+    "Defekte in Kristallen",
+    "Magnetische Eigenschaften von Materialien",
+    "Supraleitung",
+    "Thermische Eigenschaften von Festkörpern",
+    "Mechanische Eigenschaften von Materialien",
+    "Oberflächen- und Grenzflächenphänomene",
+    "Optische Eigenschaften von Festkörpern",
+    "Phasenumwandlungen in Feststoffen",
+    "Quantentransport in Nanostrukturen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199494
+  }
+}

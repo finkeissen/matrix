@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Führung",
+  "problem_groups": [
+    "Fehlende Selbstreflexion im Führungsprozess",
+    "Unzureichende Ressourcenplanung für nachhaltige Entwicklung",
+    "Mangelnde Kommunikation von Vision und Zielen",
+    "Inkonsistente Entscheidungsfindung unter Druck",
+    "Unverhältnismäßige Belastungssituationen im Team",
+    "Fehlende Anpassungsfähigkeit an Veränderungen",
+    "Unklare Rollenverteilung in Teams",
+    "Mangelnde Anerkennung von Leistungen",
+    "Unzureichende Entwicklung von Führungsstrategien",
+    "Fehlende Balance zwischen Aufgaben und Erholung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202288
+  }
+}

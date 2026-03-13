@@ -1,0 +1,19 @@
+{
+  "subdomain": "Formale Verifikation",
+  "problem_groups": [
+    "Formelle Beweiskonstruktion",
+    "Spezifikationskomplexität",
+    "Unendliche Zustandsräume",
+    "Modell-Praxis-Abweichung",
+    "Skalierbarkeit von Verifikationsmethoden",
+    "Konkurrenzverhalten in Systemen",
+    "Toolintegration und Interoperabilität",
+    "Abstraktionsniveauoptimierung",
+    "Spezifikationsvollständigkeit",
+    "Formale Fehleridentifikation"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199542
+  }
+}

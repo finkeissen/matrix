@@ -1,0 +1,17 @@
+{
+  "subdomain": "Serverless Computing",
+  "problem_groups": [
+    "Kostenkontrolle bei dynamischer Ressourcennutzung",
+    "Latenz bei kalten Startvorgängen",
+    "Sicherheitsanforderungen in getrennten Umgebungen",
+    "Skalierbarkeit bei unvorhersehbaren Lastspitzen",
+    "Fehlerbehandlung in ephemeren Funktionsumgebungen",
+    "Abhängigkeitsmanagement zwischen Diensten",
+    "Persistenzverwaltung in stateless Architekturen",
+    "Vendor Lock-in durch spezifische Plattformfunktionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203304
+  }
+}

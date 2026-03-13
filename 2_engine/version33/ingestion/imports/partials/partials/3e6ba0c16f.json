@@ -1,0 +1,15 @@
+{
+  "subdomain": "Supersymmetrie",
+  "problem_groups": [
+    "Hierarchie-Problem der Massenskala",
+    "Detektierbarkeit supersymmetrischer Teilchen",
+    "Stabilität des Vakuums in supersymmetrischen Modellen",
+    "Mediation von Supersymmetrie-Bruch",
+    "Kosmologisches Konstantenproblem im Zusammenhang mit Supersymmetrie",
+    "Struktur und Renormierung supersymmetrischer Feldtheorien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203561
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Flexibilität",
+  "problem_groups": [
+    "Technologische Integration in bestehende Systeme",
+    "Energieversorgungssicherheit bei wechselnden Lasten",
+    "Kosten- und Investitionsstruktur von Regenerativen Technologien",
+    "Skalierbarkeit von Flexibilitätsanreizen",
+    "Regelungsrahmen für flexible Energiequellen",
+    "Netzstabilität durch regenerative Erzeugung",
+    "Speicherbedarf bei intermittierender Erzeugung",
+    "Marktintegration flexibler Erzeuger",
+    "Klimaresilienz von Regenerativen Systemen",
+    "Sozialakzeptanz regenerativer Technologien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202257
+  }
+}

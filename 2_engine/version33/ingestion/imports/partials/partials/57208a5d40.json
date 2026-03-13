@@ -1,0 +1,19 @@
+{
+  "subdomain": "Neuroprothetik",
+  "problem_groups": [
+    "Sensorische Signalverarbeitung",
+    "Benutzer-Interaktionsoptimierung",
+    "Biomechanische Anpassungsfähigkeit",
+    "Energieversorgungsmanagement",
+    "Psychologische Anpassungsbereitschaft",
+    "Langzeitstabilität der Verknüpfungen",
+    "Individuelle Neuroplastizität",
+    "Datensicherheit und Privatsphäre",
+    "Kognitive Belastungsgrenzen",
+    "Materialverträglichkeit mit biologischem Gewebe"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201074
+  }
+}

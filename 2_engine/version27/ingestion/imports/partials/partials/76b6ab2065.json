@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Ökologie",
+  "problem_groups": [
+    "Biodiversitätsverlust durch menschliche Eingriffe",
+    "Degradation von Ökosystemdienstleistungen",
+    "Klimawandel-bedingte Ökosystemveränderungen",
+    "Fragmentierung von Lebensräumen",
+    "Invasives Artenwachstum",
+    "Nährstoffmangel in Ökosystemen",
+    "Ökologische Unbalance durch Landnutzungswandel",
+    "Reduktion von Kohlenstoffspeicherfunktionen",
+    "Verlust von Resilienz in Ökosystemen",
+    "Wasserhaushaltsstörungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203097
+  }
+}

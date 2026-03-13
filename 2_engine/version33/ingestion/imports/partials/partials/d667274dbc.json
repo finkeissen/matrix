@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Erde",
+  "problem_groups": [
+    "Bodenverschlechterung durch Monokultur",
+    "Verlust von Biodiversität in landwirtschaftlichen Systemen",
+    "Übernutzung von Wasserressourcen in der Landwirtschaft",
+    "Klimawandel-bedingte Ernteertragsveränderungen",
+    "Chemikalien- und Pestizidabhängigkeit in der Landwirtschaft",
+    "Verlust traditioneller landwirtschaftlicher Praktiken",
+    "Soziale Ungleichheit im Zugang zu regenerativen Landwirtschaftsmethoden",
+    "Mangel an Wissen über regenerative Landwirtschaftstechniken",
+    "Kapital- und Marktdruck auf kleinbäuerliche Landwirtschaft",
+    "Degradation von Ökosystemdienstleistungen durch intensive Landnutzung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202145
+  }
+}

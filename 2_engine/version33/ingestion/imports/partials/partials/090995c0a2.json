@@ -1,0 +1,24 @@
+{
+  "subdomain": "Politische Philosophie",
+  "problem_groups": [
+    "Definition von Staat und Macht",
+    "Grundrechte und Freiheitskonzepte",
+    "Demokratietheorien und Partizipation",
+    "Gerechtigkeit und Verteilungsgerechtigkeit",
+    "Militär, Krieg und Gewalt",
+    "Nationalismus und Identität",
+    "Kulturpolitik und Diversität",
+    "Umweltpolitik und Nachhaltigkeit",
+    "Globalisierung und internationale Beziehungen",
+    "Rechtsstaatlichkeit und Justiz",
+    "Religion und Politik",
+    "Soziale Ungleichheit und Klassenstruktur",
+    "Individuum versus Gemeinschaft",
+    "Zukunft der Demokratie",
+    "Ethik in der Politik"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201543
+  }
+}

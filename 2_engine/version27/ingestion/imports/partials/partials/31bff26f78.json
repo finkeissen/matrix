@@ -1,0 +1,19 @@
+{
+  "subdomain": "KI für Wissenschaft",
+  "problem_groups": [
+    "Datenintegrationsschwierigkeiten",
+    "Modellinterpretierbarkeit",
+    "Ethik der KI-basierten Forschung",
+    "Rechenressourcenlimitation",
+    "Wiederverwendbarkeit von KI-Modellen",
+    "Interdisziplinäre Kommunikationsbarrieren",
+    "Übervertrauen in KI-Ergebnisse",
+    "Datengüteprobleme",
+    "Standardisierungsdefizite",
+    "Öffentliche Akzeptanz von KI-generierten Erkenntnissen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200308
+  }
+}

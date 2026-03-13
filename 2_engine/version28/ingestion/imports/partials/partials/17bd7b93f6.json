@@ -1,0 +1,24 @@
+{
+  "subdomain": "Urologie",
+  "problem_groups": [
+    "Harnwegsinfektionen",
+    "Prostataerkrankungen",
+    "Nieren- und Harnleitererkrankungen",
+    "Männliche Sexualfunktionen",
+    "Harninkontinenz",
+    "Urologische Tumore",
+    "Schwellkörpererkrankungen",
+    "Harnröhrenverengung",
+    "Nierensteine",
+    "Blasenentzündungen",
+    "Harnstauung",
+    "Urologische Wachstumsstörungen",
+    "Harnschlussstörungen",
+    "Urologische Schmerzsyndrome",
+    "Hormonstörungen im urologischen Bereich"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204106
+  }
+}

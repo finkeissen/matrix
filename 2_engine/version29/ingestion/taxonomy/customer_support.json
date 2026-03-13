@@ -1,0 +1,14 @@
+{
+  "domain": "customer support",
+  "version": "v1",
+  "categories": [
+    "escalation_and_authority_failures",
+    "scope_and_policy_failures",
+    "metrics_and_proxy_failures",
+    "handoff_and_ownership_failures",
+    "evidence_and_uncertainty_failures",
+    "knowledge_base_and_guidance_failures",
+    "workflow_and_queueing_failures",
+    "customer_outcome_vs_process_optimization"
+  ]
+}

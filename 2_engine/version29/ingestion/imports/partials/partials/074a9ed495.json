@@ -1,0 +1,19 @@
+{
+  "subdomain": "Sicherheitspolitik",
+  "problem_groups": [
+    "Militärische Konflikte",
+    "Zusammenarbeit mit anderen Ländern",
+    "Cyberangriffe",
+    "Terrorismus",
+    "Nukleare Sicherheit",
+    "Militärische Ausgaben",
+    "Außenpolitische Spannungen",
+    "Kriegsverbrechen",
+    "Geheimdienstaktivitäten",
+    "Militärische Allianzen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203329
+  }
+}

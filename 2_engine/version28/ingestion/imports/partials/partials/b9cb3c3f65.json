@@ -1,0 +1,22 @@
+{
+  "subdomain": "Endokrinologie",
+  "problem_groups": [
+    "Hormonstörungen im Kindesalter",
+    "Schilddrüsenfunktionstörungen",
+    "Diabetes mellitus und seine Komplikationen",
+    "Stoffwechselstörungen",
+    "Geschlechts-hormonelle Dysbalancen",
+    "Adrenale Erkrankungen",
+    "Parathyreoiderkrankungen",
+    "Thyroid-Neoplasien",
+    "Hypophysenerkrankungen",
+    "Endokrine Tumoren und Syndromen",
+    "Resistenz gegen Hormone",
+    "Metabolische Syndrome",
+    "Endokrine Aspekte von Infektionen und Autoimmunerkrankungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199281
+  }
+}

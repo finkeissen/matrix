@@ -1,0 +1,19 @@
+{
+  "subdomain": "Science & Technology Studies",
+  "problem_groups": [
+    "Ethikdilemmata in der Technologieentwicklung",
+    "Interdisziplinäre Zusammenarbeitshindernisse",
+    "Gesellschaftliche Auswirkungen wissenschaftlicher Fortschritte",
+    "Finanzierungsbias in Forschungsprojekten",
+    "Wissensvermittlungslücken im öffentlichen Raum",
+    "Politische Entscheidungsfindung bei Technologien",
+    "Bildungsressourcenungleichheit",
+    "Umweltfolgen technologischer Innovationen",
+    "Datenschutz und Sicherheitsrisiken",
+    "Globale Koordination von Technologieentwicklung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203216
+  }
+}

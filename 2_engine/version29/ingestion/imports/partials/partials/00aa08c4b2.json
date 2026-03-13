@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Tod",
+  "problem_groups": [
+    "Definition und Konzeption des Regenerativen Tods",
+    "Ethische Implikationen des Regenerativen Tods",
+    "Technologische Machbarkeit der Regeneration",
+    "Soziale Akzeptanz des Regenerativen Tods",
+    "Rechtliche Rahmenbedingungen für den Regenerativen Tod",
+    "Psychologische Auswirkungen auf Individuen",
+    "Kulturelle und religiöse Interpretationen des Regenerativen Tods",
+    "Ökonomische Aspekte der Regenerationstechnologie",
+    "Langfristige Bevölkerungsstruktur unter Einfluss des Regenerativen Tods",
+    "Interaktion zwischen regenerativer und natürlicher Sterblichkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202959
+  }
+}

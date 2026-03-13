@@ -1,0 +1,17 @@
+{
+  "subdomain": "Synthetic Data",
+  "problem_groups": [
+    "Datenqualitätsmangel",
+    "Bias-Verstärkung",
+    "Ethik- und Rechtskonflikte",
+    "Unnatürliche Datenverteilungen",
+    "Computational Resource Overhead",
+    "Repräsentationslücken",
+    "Überanpassung an Szenarien",
+    "Datensicherheitsrisiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203594
+  }
+}

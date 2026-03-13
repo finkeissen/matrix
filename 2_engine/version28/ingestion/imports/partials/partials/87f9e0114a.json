@@ -1,0 +1,19 @@
+{
+  "subdomain": "Digital Commons",
+  "problem_groups": [
+    "Zugangsbegrenzung zu digitalen Ressourcen",
+    "Datenverwaltung und -sicherheit",
+    "Technische Infrastrukturdefizite",
+    "Interoperabilitätsprobleme",
+    "Nutzerengagement und -teilnahme",
+    "Rechtliche Unsicherheiten",
+    "Inhaltliche Qualitätsschwankungen",
+    "Langlebigkeit von digitalen Objekten",
+    "Suchfunktionalitäten und -effizienz",
+    "Benutzeroberflächen-optimierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199012
+  }
+}

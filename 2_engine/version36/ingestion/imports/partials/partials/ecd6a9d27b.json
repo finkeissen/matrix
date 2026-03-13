@@ -1,0 +1,15 @@
+{
+  "subdomain": "Knotentheorie",
+  "problem_groups": [
+    "Knotenklassifikation",
+    "Invarianten der Knotentheorie",
+    "Algorithmische Knotensimplifizierung",
+    "Beziehungen zwischen Knoten und anderen topologischen Strukturen",
+    "Minimale Kreuzungszahlen von Knoten",
+    "Symmetrieeigenschaften von Knoten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200538
+  }
+}

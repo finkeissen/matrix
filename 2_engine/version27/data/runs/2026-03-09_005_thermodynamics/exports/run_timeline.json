@@ -1,0 +1,45 @@
+{
+  "run_id": "2026-03-09_005_thermodynamics",
+  "steps": [
+    {
+      "name": "01_scope",
+      "status": "completed",
+      "started_at": "2026-03-09T09:59:23Z",
+      "finished_at": "2026-03-09T09:59:23Z",
+      "duration_ms": 0,
+      "counts": {
+        "boundaries": 3,
+        "exclusions": 2
+      }
+    },
+    {
+      "name": "02_seed_expansion",
+      "status": "completed",
+      "started_at": "2026-03-09T09:59:23Z",
+      "finished_at": "2026-03-09T09:59:23Z",
+      "duration_ms": 0,
+      "counts": {
+        "seeds": 199
+      }
+    },
+    {
+      "name": "03_categories",
+      "status": "completed",
+      "started_at": "2026-03-09T09:59:23Z",
+      "finished_at": "2026-03-09T09:59:23Z",
+      "duration_ms": 0,
+      "counts": {
+        "categories": 3
+      }
+    },
+    {
+      "name": "04_problem_generation",
+      "status": "failed",
+      "started_at": "2026-03-09T09:59:23Z",
+      "finished_at": "2026-03-09T09:59:23Z",
+      "duration_ms": null,
+      "counts": {}
+    }
+  ],
+  "total_duration_ms": 0
+}

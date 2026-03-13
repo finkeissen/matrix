@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Achtsamkeit",
+  "problem_groups": [
+    "Achtsamkeitsverlust durch Überforderung",
+    "Unfähigkeit zur Selbstwahrnehmung",
+    "Mangelnde Ressourcen für Regeneration",
+    "Dauerhafte Stressreaktionen",
+    "Fehlende Integration von Achtsamkeit in den Alltag",
+    "Überforderung durch digitale Reize",
+    "Unklare Grenzen zwischen Arbeit und Erholung",
+    "Mangelnde Körperwahrnehmung",
+    "Verdrängung von Emotionen",
+    "Erschöpfung durch ständige Anspannung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201947
+  }
+}

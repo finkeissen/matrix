@@ -1,0 +1,19 @@
+{
+  "subdomain": "Interaktive Kunst",
+  "problem_groups": [
+    "Technische Integration von Sensoren und Aktoren",
+    "Benutzerinteraktion und Feedback-Design",
+    "Datenverarbeitung und -sicherheit",
+    "Energieversorgung und Nachhaltigkeit",
+    "Künstlerische Ausdrucksfreiräume vs. Technologischen Einschränkungen",
+    "Zugänglichkeit für Menschen mit Behinderungen",
+    "Langfristige Wartbarkeit von Installationen",
+    "Soziale Interaktion in interaktiven Räumen",
+    "Materialauswahl und Umweltverträglichkeit",
+    "Kollaboration zwischen Künstler:innen und Technikern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200163
+  }
+}

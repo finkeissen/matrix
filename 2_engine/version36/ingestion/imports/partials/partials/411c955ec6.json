@@ -1,0 +1,19 @@
+{
+  "subdomain": "Globaler Süden",
+  "problem_groups": [
+    "Armut und soziale Ungleichheit",
+    "Klimawandelanfälligkeit",
+    "Mangel an Infrastruktur",
+    "Geringe Bildungschancen",
+    "Politische Instabilität",
+    "Nahrungsmittelunsicherheit",
+    "Gesundheitsversorgungsdefizite",
+    "Wasser- und Energieknappheit",
+    "Migration und Flucht",
+    "Kulturelle Marginalisierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199846
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Chemische Biologie",
+  "problem_groups": [
+    "Molekulare Interaktionen",
+    "Enzymatische Reaktionen",
+    "Biomoleküle",
+    "Zelluläre Signale",
+    "Metabolische Pfade",
+    "Synthetische Biologie",
+    "Analytische Methoden",
+    "Umwelt Einflüsse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198646
+  }
+}

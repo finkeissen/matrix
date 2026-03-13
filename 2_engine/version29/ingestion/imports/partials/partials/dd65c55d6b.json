@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Feste",
+  "problem_groups": [
+    "Kulturerhaltung unter modernen Einflüssen",
+    "Traditionelle Rituale im Wandel der Zeit",
+    "Soziale Integration durch Festlichkeiten",
+    "Ressourcenverfügbarkeit für Veranstaltungen",
+    "Identitätsbildung durch kulturelle Praxis",
+    "Verfall von traditionellen Handwerken",
+    "Interkulturelle Konflikte bei Festeinrichtung",
+    "Dokumentation und Archivierung von Festen",
+    "Öffentliche Wahrnehmung von Regenerativen Feste",
+    "Finanzierung und Sponsoring von kulturellen Events"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202240
+  }
+}

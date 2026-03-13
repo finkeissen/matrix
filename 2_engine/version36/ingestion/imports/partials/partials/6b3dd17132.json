@@ -1,0 +1,17 @@
+{
+  "subdomain": "Purpose Marketing",
+  "problem_groups": [
+    "Authentizitätsrisiken bei sozialer Verantwortung",
+    "Messbarkeit von Impact-Kampagnen",
+    "Konflikt zwischen Profit- und Zweckorientierung",
+    "Stakeholder-Aligment in Zweckkommunikation",
+    "Greenwashing-Vorwürfe durch Überforderung",
+    "Konsistenz von Markennarrativen",
+    "Ressourcenallokation für Zweckinitiativen",
+    "Langfristige Relevanz von Zweckstrategien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201763
+  }
+}

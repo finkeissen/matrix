@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bewusstseinscommons",
+  "problem_groups": [
+    "Kognitive Überlastung durch Informationsflut",
+    "Mangel an kritischer Distanz zu digitalen Inhalten",
+    "Verwechslung von Bewusstsein und Wissensverarbeitung",
+    "Überforderung durch Multitasking im digitalen Raum",
+    "Reduktion der Aufmerksamkeitsspanne durch ständige Reizverfügbarkeit",
+    "Dysregulation des Selbstbewusstseins durch soziale Medien",
+    "Verlust von Kontrolle über digitale Identitäten",
+    "Kognitive Fragmentierung durch kontinuierliche Informationsaufnahme",
+    "Unfähigkeit zur Tiefenverarbeitung digitaler Inhalte",
+    "Dependenz von externen Stimulanzien für Konzentration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198415
+  }
+}

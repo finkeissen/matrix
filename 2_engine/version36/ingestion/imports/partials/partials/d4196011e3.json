@@ -1,0 +1,19 @@
+{
+  "subdomain": "Earth Regeneration",
+  "problem_groups": [
+    "Bodendegradation und Erosion",
+    "Verlust von Pflanzenarten und Ökosystemen",
+    "Aussterben von Tierarten und Nahrungsnetzstörung",
+    "Klimaveränderungen und Temperaturanstieg",
+    "Wasserressourcenverschmutzung und -übernutzung",
+    "Luftverschmutzung und Treibhausgasemissionen",
+    "Urbanisierung und Zerstörung von Lebensräumen",
+    "Intensive Landwirtschaft und Ressourcenschädigung",
+    "Abfallmengensteigerung und falsche Entsorgung",
+    "Fossiler Brennstoffverbrauch und Energieineffizienz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199196
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Great Transition",
+  "problem_groups": [
+    "Klimawandelanpassung",
+    "Ressourcenverwaltung",
+    "Soziale Ungleichheit",
+    "Kulturelle Transformation",
+    "Wirtschaftliche Umstrukturierung",
+    "Politische Governance",
+    "Technologische Innovationen",
+    "Infrastrukturmodernisierung",
+    "Gesundheitssystembelastung",
+    "Bildungsanpassung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199897
+  }
+}

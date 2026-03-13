@@ -1,0 +1,482 @@
+{
+  "asset_id": "global_meta_patterns.v1",
+  "asset_type": "seed_library",
+  "domain": "global",
+  "version": "v1",
+  "status": "approved",
+  "sources": [
+    "meta.zip"
+  ],
+  "items": [
+    {
+      "id": "consistency_vs_correctness_fillet",
+      "label": "Consistency ≠ Correctness",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Consistency_vs_Correctness.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "A system can be internally consistent without being correct or adequate."
+    },
+    {
+      "id": "coverage_vs_validity_fillet",
+      "label": "Coverage ≠ Validity",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Coverage_vs_Validity.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Broad coverage captures many cases."
+    },
+    {
+      "id": "framework_vs_world_fillet",
+      "label": "Framework ≠ World",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Framework_vs_World.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Frameworks structure interpretation and analysis."
+    },
+    {
+      "id": "hierarchy_vs_priority_fillet",
+      "label": "Hierarchy ≠ Priority",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Hierarchy_vs_Priority.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Hierarchical ordering structures components but does not establish importance or fundamentality."
+    },
+    {
+      "id": "integration_vs_truth_fillet",
+      "label": "Integration ≠ Truth",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Integration_vs_Truth.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Integrating components increases coverage and coherence."
+    },
+    {
+      "id": "layering_vs_explanation_fillet",
+      "label": "Layering ≠ Explanation",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Layering_vs_Explanation.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Layered models organize complexity across levels."
+    },
+    {
+      "id": "modularity_vs_independence_fillet",
+      "label": "Modularity ≠ Independence",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Modularity_vs_Independence.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Modules can be separated for design without being independent in reality."
+    },
+    {
+      "id": "scalability_vs_generality_fillet",
+      "label": "Scalability ≠ Generality",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Scalability_vs_Generality.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Scalable systems perform under increased load."
+    },
+    {
+      "id": "stability_vs_optimality_fillet",
+      "label": "Stability ≠ Optimality",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/Stability_vs_Optimality.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Stable systems persist over time."
+    },
+    {
+      "id": "system_closure_vs_completeness_fillet",
+      "label": "System Closure ≠ Completeness",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/System_Closure_vs_Completeness.fillet.md",
+      "tags": [
+        "Structural",
+        "Systems",
+        "Epistemic Authority"
+      ],
+      "notes": "Closed systems define internal boundaries."
+    },
+    {
+      "id": "authority_implies_truth",
+      "label": "Authority implies truth",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/authority_implies_truth.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "average_implies_representative",
+      "label": "Average implies representative",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/average_implies_representative.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "choice_validates_belief",
+      "label": "Choice validates belief",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/choice_validates_belief.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "closure_implies_truth",
+      "label": "Closure implies truth",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/closure_implies_truth.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "commitment_equals_correctness",
+      "label": "Commitment equals correctness",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/commitment_equals_correctness.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "consensus_among_elites_equals_validity",
+      "label": "Consensus among elites equals validity",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/consensus_among_elites_equals_validity.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "consistency_implies_truth",
+      "label": "Consistency implies truth",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/consistency_implies_truth.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "context_is_assumed_stable",
+      "label": "Context is assumed stable",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/context_is_assumed_stable.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "correlation_implies_causation",
+      "label": "Correlation implies causation",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/correlation_implies_causation.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "credentials_replace_argument",
+      "label": "Credentials replace argument",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/credentials_replace_argument.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "decision_closes_epistemic_space",
+      "label": "Decision closes epistemic space",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/decision_closes_epistemic_space.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "decision_confirms_model",
+      "label": "Decision confirms model",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/decision_confirms_model.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "description_implies_normativity",
+      "label": "Description implies normativity",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/description_implies_normativity.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "epistemic_humility_blocks_decision",
+      "label": "Epistemic humility blocks decision",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/epistemic_humility_blocks_decision.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "expertise_transfers_across_domains",
+      "label": "Expertise transfers across domains",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/expertise_transfers_across_domains.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "explanation_implies_justification",
+      "label": "Explanation implies justification",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/explanation_implies_justification.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "externalities_are_treated_as_noise",
+      "label": "Externalities are treated as noise",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/externalities_are_treated_as_noise.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "formal_proof_implies_applicability",
+      "label": "Formal proof implies applicability",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/formal_proof_implies_applicability.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "formal_scope_equals_practical_scope",
+      "label": "Formal scope equals practical scope",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/formal_scope_equals_practical_scope.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "inputs_define_all_relevant_causes",
+      "label": "Inputs define all relevant causes",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/inputs_define_all_relevant_causes.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "institutional_status_guarantees_correctness",
+      "label": "Institutional status guarantees correctness",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/institutional_status_guarantees_correctness.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "interface_completeness_is_assumed",
+      "label": "Interface completeness is assumed",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/interface_completeness_is_assumed.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "interfaces_capture_all_relevant_assumptions",
+      "label": "Interfaces capture all relevant assumptions",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/interfaces_capture_all_relevant_assumptions.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "labels_capture_categories",
+      "label": "Labels capture categories",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/labels_capture_categories.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "mandate_implies_epistemic_authority",
+      "label": "Mandate implies epistemic authority",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/mandate_implies_epistemic_authority.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "mapping_preserves_meaning",
+      "label": "Mapping preserves meaning",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/mapping_preserves_meaning.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "measurement_definitions_are_context_free",
+      "label": "Measurement definitions are context free",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/measurement_definitions_are_context_free.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "model_output_implies_decision",
+      "label": "Model output implies decision",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/model_output_implies_decision.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "official_sources_are_unbiased",
+      "label": "Official sources are unbiased",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/official_sources_are_unbiased.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "outputs_exhaust_system_effects",
+      "label": "Outputs exhaust system effects",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/outputs_exhaust_system_effects.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "peer_review_implies_truth",
+      "label": "Peer review implies truth",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/peer_review_implies_truth.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "policy_text_equals_implementation_behavior",
+      "label": "Policy text equals implementation behavior",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/policy_text_equals_implementation_behavior.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "prediction_implies_control",
+      "label": "Prediction implies control",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/prediction_implies_control.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "quantification_implies_objectivity",
+      "label": "Quantification implies objectivity",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/quantification_implies_objectivity.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "rank_substitutes_evidence",
+      "label": "Rank substitutes evidence",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/rank_substitutes_evidence.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "reputation_ensures_correctness",
+      "label": "Reputation ensures correctness",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/reputation_ensures_correctness.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "requirements_are_unambiguous",
+      "label": "Requirements are unambiguous",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/requirements_are_unambiguous.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "round_trip_translation_recovers_truth",
+      "label": "Round trip translation recovers truth",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/round_trip_translation_recovers_truth.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "statistical_significance_implies_relevance",
+      "label": "Statistical significance implies relevance",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/statistical_significance_implies_relevance.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "system_boundary_equals_world_boundary",
+      "label": "System boundary equals world boundary",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/system_boundary_equals_world_boundary.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "unmodeled_actors_are_negligible",
+      "label": "Unmodeled actors are negligible",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/unmodeled_actors_are_negligible.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "what_is_not_measured_is_irrelevant",
+      "label": "What is not measured is irrelevant",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/what_is_not_measured_is_irrelevant.md",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "what_is_outside_the_model_does_not_exist",
+      "label": "What is outside the model does not exist",
+      "family": "meta_patterns",
+      "source_file": "imports/meta/meta/what_is_outside_the_model_does_not_exist.md",
+      "tags": [],
+      "notes": ""
+    }
+  ],
+  "created_at": "2026-03-07T00:00:00Z",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "review_notes": [
+    "Normalized from markdown pattern cards.",
+    "Reusable as seed source, taxonomy source and prompt support material."
+  ]
+}

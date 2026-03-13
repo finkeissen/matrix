@@ -1,0 +1,19 @@
+{
+  "subdomain": "Molekularbiologie",
+  "problem_groups": [
+    "Genexpression und Regulation",
+    "Proteinstruktur und Funktion",
+    "DNA-Reparaturmechanismen",
+    "Enzymfunktion und Inhibition",
+    "Zelluläre Signalwege",
+    "Metabolische Prozesse",
+    "Genetische Mutationen und Effekte",
+    "Molekulare Wechselwirkungen",
+    "Epigenetische Regulation",
+    "Molekulares Diagnose- und Therapieansätze"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200922
+  }
+}

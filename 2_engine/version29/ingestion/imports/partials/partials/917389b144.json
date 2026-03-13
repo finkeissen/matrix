@@ -1,0 +1,19 @@
+{
+  "subdomain": "Leistungselektronik",
+  "problem_groups": [
+    "Thermische Verluste in Halbleitern",
+    "Schaltverluste bei hohen Frequenzen",
+    "Elektromagnetische Interferenz (EMI)",
+    "Überspannungsschutz und Schutzschaltungen",
+    "Leistungsdichte und Wärmemanagement",
+    "Effizienzsteigerung durch Schaltungsoptimierung",
+    "Zusammenbruch von Isolationsmaterialien",
+    "Schwingungs- und Resonanzphänomene",
+    "Energieverbrauch bei Lastwechseln",
+    "Leitungsinduktivitäten in Stromkreisen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200717
+  }
+}

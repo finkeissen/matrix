@@ -1,0 +1,18 @@
+[Unit]
+Description=Matrix Engine daemon (consumes /home/ef/ram/runs/incoming)
+After=network.target
+
+[Service]
+Type=simple
+User=ef
+Group=ef
+ExecStart=/usr/bin/env python3 /home/ef/Beruflich/GitHub/3.matrix\x20(artifacts)/1.engine/engine/cli.py daemon --runs-root /home/ef/ram/runs --poll-sec 1.0
+Restart=always
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

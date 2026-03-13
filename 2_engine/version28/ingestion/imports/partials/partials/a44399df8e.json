@@ -1,0 +1,19 @@
+{
+  "subdomain": "Science and Technology Studies (STS)",
+  "problem_groups": [
+    "Ethik der technologischen Entwicklung",
+    "Interaktion von Wissenschaft, Technologie und Gesellschaft",
+    "Validierung wissenschaftlicher Erkenntnisse",
+    "Regulierung und Governance technologischer Innovationen",
+    "Soziale Auswirkungen von Technologien",
+    "Wissensproduktion in interdisziplinären Kontexten",
+    "Kommunikation wissenschaftlicher Inhalte",
+    "Historische Entwicklung der Wissenschaft und Technologie",
+    "Globalisierung technologischer Praktiken",
+    "Umweltfolgen technologischer Innovationen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203244
+  }
+}

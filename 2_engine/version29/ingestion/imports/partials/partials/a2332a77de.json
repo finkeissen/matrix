@@ -1,0 +1,19 @@
+{
+  "subdomain": "Zellbiologie",
+  "problem_groups": [
+    "Zellstruktur und -organisation",
+    "Zellteilung und Zellzyklus",
+    "Membrantransport und -dynamik",
+    "Organelle-Funktionen und -interaktionen",
+    "Zellmetabolismus und Energieumsetzung",
+    "Zellkommunikation und Signalwege",
+    "Apoptose und Zelltod-Mechanismen",
+    "Genetisches Material und Replikationsprozesse",
+    "Extrazelluläre Matrix und Zell-Substrat-Interaktion",
+    "Stressreaktionen und Zellanpassung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204332
+  }
+}

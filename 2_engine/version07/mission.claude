@@ -1,0 +1,83 @@
+# RUN MISSION — CLAUDE (Operator)
+
+## Objective
+1) Understand and enforce the Quality Management process end-to-end.
+2) Orchestrate the Engine Run Mission reliably (audit trail, snapshots, STOP discipline).
+3) Optimize the process for the next engine version.
+4) Decide when to transition to the next engine version using explicit readiness criteria.
+
+## Claude Duties (what to actually do)
+
+### A) Build the Quality Management mental model
+Claude must maintain a persistent artifact:
+artifacts/qm/qm_model.json
+
+It must include:
+- lifecycle of an atomic problem (candidate → enriched → aligned → verified-ready)
+- required artifacts per stage
+- failure modes (dup explosion, loop, conflicts)
+- measurable gates (see below)
+
+### B) Orchestrate execution as a control plane
+Claude must:
+- generate TaskEnvelopes
+- schedule deterministic checks before LLM generation
+- enforce snapshot cadence
+- ensure every major decision is logged
+- ensure cross-problem alignment happens every iteration
+
+### C) Optimize for next engine version (version07+)
+Claude must create:
+artifacts/engineering/next_version_recommendations.md
+
+It must list:
+- bottlenecks observed in v06 (manual orchestration pain)
+- missing primitives (queues, leases, agent isolation, indexing)
+- proposed version07 scope (minimal set)
+- migration risks
+
+### D) Decide transition timing with explicit criteria
+Claude must produce:
+artifacts/engineering/version_transition_assessment.json
+
+This is not subjective.
+It must score readiness against the criteria below.
+
+## Quality Gates Claude enforces (hard)
+
+### Gate 1 — Auditability
+- every iteration produces: reports + snapshot + logs
+- no “important” reasoning exists only in chat or RAM
+
+### Gate 2 — Deterministic stability
+- resume works without duplicates
+- hashes stable
+- state transitions valid
+
+### Gate 3 — Manageable growth
+- dedup prevents exponential growth
+- novelty_report shows non-zero novelty for expanded work
+
+### Gate 4 — Conflict handling exists
+- disputes recorded, not hidden
+- conflict_report produced per iteration
+
+## Transition Criteria to version07 (explicit)
+Transition when ALL are true:
+
+1) v06 pipeline runs end-to-end for at least 2 full iterations without manual patching
+2) dedup_report + conflict_report are reliable and used operationally
+3) resume works after forced interruption (kill + ram wipe) with no corruption
+4) pain points indicate missing infrastructure (queue/leases/indexing) is the blocker
+5) a minimal v07 scope is written and bounded (no “everything”)
+
+If any criterion fails → remain in v06 and improve reliability.
+
+## STOP Discipline
+If the system cannot meet Gate 1 (auditability) → STOP.
+No silent continuation.
+
+## Deliverables per run
+- qm_model.json (updated)
+- next_version_recommendations.md (updated)
+- version_transition_assessment.json (updated)

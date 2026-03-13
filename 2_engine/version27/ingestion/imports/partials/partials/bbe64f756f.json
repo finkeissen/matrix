@@ -1,0 +1,19 @@
+{
+  "subdomain": "Selbstorganisation",
+  "problem_groups": [
+    "Rollenverwirrung und Zuständigkeitskonflikte",
+    "Entscheidungsfindungsprozesse ohne Hierarchie",
+    "Motivations- und Engagementdefizite",
+    "Konfliktlösungsmechanismen in dezentralen Strukturen",
+    "Fokusverlust durch fehlende Priorisierung",
+    "Ressourcenallokation ohne zentrale Steuerung",
+    "Kommunikationsstrukturen und Informationsflüsse",
+    "Verantwortlichkeitszuordnung in kollektiven Prozessen",
+    "Anpassungsfähigkeit an externe Veränderungen",
+    "Integration von externen Einflüssen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203256
+  }
+}

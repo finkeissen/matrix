@@ -1,0 +1,18 @@
+{
+  "subdomain": "KI & Menschenrechte",
+  "problem_groups": [
+    "Datenschutzverletzungen durch KI-Systeme",
+    "Algorithmische Diskriminierung",
+    "Überwachungstechnologien und Freiheitsrechte",
+    "Autonome Waffen und Kriegsrecht",
+    "Deepfakes und Reputationsschäden",
+    "Zugangsungleichheit zu KI-Vorteilen",
+    "Ethische Nutzung in der Polizeiarbeit",
+    "Transparenzmangel bei Entscheidungsprozessen",
+    "Arbeitsplatzverlust durch Automatisierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200276
+  }
+}

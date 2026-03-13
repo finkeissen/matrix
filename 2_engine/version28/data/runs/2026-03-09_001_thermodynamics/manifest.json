@@ -1,0 +1,81 @@
+{
+  "run_id": "2026-03-09_001_thermodynamics",
+  "created_at": "2026-03-09T09:55:19Z",
+  "domain": "thermodynamics",
+  "pipeline_version": "19.0.0",
+  "status": "failed",
+  "finished_at": "2026-03-09T09:55:19Z",
+  "model_config": {
+    "model": null,
+    "url": "http://localhost:1234/v1/chat/completions",
+    "timeout": 120
+  },
+  "prompt_versions": {
+    "01_scope": "v1",
+    "02_seed_expansion": "v1",
+    "03_categories": "v1",
+    "04_problem_generation": "v1",
+    "05_validation": "v1",
+    "07_ranking": "v1",
+    "08_export": "v1"
+  },
+  "prompt_hashes": {
+    "01_scope": "sha256:7f7177f4bfd03e384465ed9ce7b2ab6f2c5864da0105cb1e02b5859b88f0cd58",
+    "02_seed_expansion": "sha256:2ccdb36fb2b24d779c7cbbe3b28f63033bef1f07f42ed809cc683d80160eeb73",
+    "03_categories": "sha256:29ebd251dc4e329494eadf3441a41487743484112fec466b2801d02ce9faab14",
+    "04_problem_generation": "sha256:dd05bf38a92ad5396627817d9a26cc3bde8d0110daf435a8c24d47162d34dc50",
+    "05_validation": "sha256:2179e01acf0382c8e6838c5bd61dc28a59681ef0da6d1681737102871da438a8",
+    "07_ranking": "sha256:e83d3341449033164cdf0eb4746b551048684a7d2267b82b35657ac9d8ebbfcf",
+    "08_export": "sha256:9b2476f294bed5e8945e38de96f0b1a987f346fcba3782d7feeb8c4cf9425d1a"
+  },
+  "steps": [
+    {
+      "name": "01_scope",
+      "status": "completed",
+      "started_at": "2026-03-09T09:55:19Z",
+      "finished_at": "2026-03-09T09:55:19Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version25/data/runs/2026-03-09_001_thermodynamics/intermediate/01_scope.json",
+      "retry_count": 0,
+      "counts": {
+        "boundaries": 3,
+        "exclusions": 2
+      }
+    },
+    {
+      "name": "02_seed_expansion",
+      "status": "completed",
+      "started_at": "2026-03-09T09:55:19Z",
+      "finished_at": "2026-03-09T09:55:19Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version25/data/runs/2026-03-09_001_thermodynamics/intermediate/02_seed_expansion.json",
+      "retry_count": 0,
+      "counts": {
+        "seeds": 199
+      }
+    },
+    {
+      "name": "03_categories",
+      "status": "completed",
+      "started_at": "2026-03-09T09:55:19Z",
+      "finished_at": "2026-03-09T09:55:19Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version25/data/runs/2026-03-09_001_thermodynamics/intermediate/03_categories.json",
+      "retry_count": 0,
+      "counts": {
+        "categories": 3
+      }
+    },
+    {
+      "name": "04_problem_generation",
+      "status": "failed",
+      "started_at": "2026-03-09T09:55:19Z",
+      "finished_at": "2026-03-09T09:55:19Z",
+      "retry_count": 3,
+      "error_type": "ValueError",
+      "error_message": "[04_problem_generation][0] $.problem_id: 'ap_thermodynamics_foundations_01_d1a54e3188' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][1] $.problem_id: 'ap_thermodynamics_foundations_02_71239be47d' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][2] $.problem_id: 'ap_thermodynamics_foundations_03_379b946a47' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][3] $.problem_id: 'ap_thermodynamics_foundations_04_5e104f4d5b' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][4] $.problem_id: 'ap_thermodynamics_foundations_05_9cfef39a38' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][5] $.problem_id: 'ap_thermodynamics_foundations_06_201ca07e75' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][6] $.problem_id: 'ap_thermodynamics_foundations_07_f85929312f' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][7] $.problem_id: 'ap_thermodynamics_foundations_08_dc3f624c8d' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][8] $.problem_id: 'ap_thermodynamics_foundations_09_a11b70b744' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][9] $.problem_id: 'ap_thermodynamics_foundations_10_bee231cce5' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][10] $.problem_id: 'ap_thermodynamics_applications_01_0bac0fd137' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][11] $.problem_id: 'ap_thermodynamics_applications_02_1b9cc85864' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][12] $.problem_id: 'ap_thermodynamics_applications_03_2c6aea120c' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][13] $.problem_id: 'ap_thermodynamics_applications_04_608dc17827' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][14] $.problem_id: 'ap_thermodynamics_applications_05_5425bf9a59' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][15] $.problem_id: 'ap_thermodynamics_applications_06_02c179c93a' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][16] $.problem_id: 'ap_thermodynamics_applications_07_f462c75e5c' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][17] $.problem_id: 'ap_thermodynamics_applications_08_592b254061' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][18] $.problem_id: 'ap_thermodynamics_applications_09_08373cbf56' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][19] $.problem_id: 'ap_thermodynamics_applications_10_05db1ad224' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][20] $.problem_id: 'ap_thermodynamics_analysis_01_0253389001' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][21] $.problem_id: 'ap_thermodynamics_analysis_02_9340a39fa0' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][22] $.problem_id: 'ap_thermodynamics_analysis_03_7d6f06c6f6' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][23] $.problem_id: 'ap_thermodynamics_analysis_04_a7346ca025' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][24] $.problem_id: 'ap_thermodynamics_analysis_05_1d1d488c1c' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][25] $.problem_id: 'ap_thermodynamics_analysis_06_377f2707d6' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][26] $.problem_id: 'ap_thermodynamics_analysis_07_efc94f4677' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][27] $.problem_id: 'ap_thermodynamics_analysis_08_b0fb1d5ae5' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][28] $.problem_id: 'ap_thermodynamics_analysis_09_ae4fd2cc28' does not match '^ap_[a-zA-Z0-9]{6,}$'; [04_problem_generation][29] $.problem_id: 'ap_thermodynamics_analysis_10_b21e5b3928' does not match '^ap_[a-zA-Z0-9]{6,}$'",
+      "counts": {}
+    }
+  ],
+  "metrics": {}
+}

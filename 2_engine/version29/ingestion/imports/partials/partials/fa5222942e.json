@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Jugend",
+  "problem_groups": [
+    "Biologische Alterungsprozesse",
+    "Unwirksamkeit von Regenerationsbehandlungen",
+    "Zugangshürden zu regenerativen Therapien",
+    "Ethische Konflikte bei Jugendregeneration",
+    "Sozialer Druck zur Dauerjungheit",
+    "Psychologische Belastungen durch Alterungsprozesse",
+    "Regulatorische Lücken in der Regenerativmedizin",
+    "Ungleiche Verteilung von Ressourcen für Regeneration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202485
+  }
+}

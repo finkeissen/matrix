@@ -1,0 +1,13 @@
+{
+  "run_id": "run_11_politics_problem_seed",
+  "date": "2026-01-19",
+  "domain": "politics",
+  "purpose": "Seed the Matrix with political problems emphasizing normativity, institutional interpretation, power dynamics, legitimacy, and conflicting value frameworks without policy advocacy.",
+  "scope": {
+    "target_problem_count": 120,
+    "claims_policy": "minimal",
+    "relations_policy": "minimal",
+    "sources_policy": "illustrative only (constitutions, laws, speeches, theories)"
+  },
+  "notes": "Problems are framed to expose value conflicts and institutional ambiguity rather than recommendations."
+}

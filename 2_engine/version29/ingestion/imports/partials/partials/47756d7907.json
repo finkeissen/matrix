@@ -1,0 +1,19 @@
+{
+  "subdomain": "Global Brain",
+  "problem_groups": [
+    "Informationsüberflutung und Filterproblematik",
+    "Koordination von globalen Entscheidungsprozessen",
+    "Technologische Abhängigkeit und Infrastrukturrisiken",
+    "Ethische Konflikte in vernetzten Systemen",
+    "Kulturelle und politische Diversität in globaler Kommunikation",
+    "Resilienz von globalen Netzwerken",
+    "Datensicherheit und Privatsphäre im globalen Kontext",
+    "Wirtschaftliche Ungleichheit durch digitale Integration",
+    "Ökologische Auswirkungen globaler Technologie",
+    "Governance von transnationalen Systemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199815
+  }
+}

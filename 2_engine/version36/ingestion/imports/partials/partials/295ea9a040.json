@@ -1,0 +1,16 @@
+{
+  "subdomain": "Klimafolgenforschung",
+  "problem_groups": [
+    "Ökosystemstörungen durch Klimaveränderungen",
+    "Gesundheitsrisiken aus klimatischen Veränderungen",
+    "Wirtschaftliche Auswirkungen auf Landwirtschaft und Infrastruktur",
+    "Soziale Ungleichheit und Migration durch Klimafolgen",
+    "Datenmangel und Modellunsicherheiten in der Forschung",
+    "Politische und institutionelle Herausforderungen bei der Umsetzung von Maßnahmen",
+    "Wechselwirkungen zwischen Klimafolgen und anderen Umweltfaktoren"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200400
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Software Engineering",
+  "problem_groups": [
+    "Code Maintainability",
+    "System Integration Challenges",
+    "Performance Optimization",
+    "Security Vulnerabilities",
+    "Scalability Concerns",
+    "Debugging Complexities",
+    "Documentation Inadequacies",
+    "Technology Stack Conflicts",
+    "User Interface Usability",
+    "Testing Coverage Gaps"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203370
+  }
+}

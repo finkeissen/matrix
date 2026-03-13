@@ -1,0 +1,16 @@
+{
+  "subdomain": "Regenerative Reife",
+  "problem_groups": [
+    "Incomplete Regeneration",
+    "Resource Allocation Imbalances",
+    "Environmental Stress Response Deficits",
+    "Genetic Mutation Accumulation",
+    "Signaling Pathway Dysregulation",
+    "Cellular Senescence",
+    "Tissue Synchronization Issues"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202806
+  }
+}

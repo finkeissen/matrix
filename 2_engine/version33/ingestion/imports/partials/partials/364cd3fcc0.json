@@ -1,0 +1,19 @@
+{
+  "subdomain": "Tierverhalten",
+  "problem_groups": [
+    "Aggressives Verhalten",
+    "Futterverweigerung",
+    "Lärmemission",
+    "Soziale Isolation",
+    "Unordnungsschäden",
+    "Verhaltensstörungen",
+    "Zahnschäden",
+    "Krankheitsanzeichen",
+    "Fluchtverhalten",
+    "Mangel an Bewegung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203788
+  }
+}

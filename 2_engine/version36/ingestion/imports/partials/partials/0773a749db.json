@@ -1,0 +1,17 @@
+{
+  "subdomain": "NAD+-Booster",
+  "problem_groups": [
+    "Dosierungsunsicherheit",
+    "Langzeitwirkungsbefürchtungen",
+    "Interaktionen mit Medikamenten",
+    "Qualitätsunterschiede der Produkte",
+    "Wirkungskontroversen",
+    "Regulierungslücken",
+    "Individuelle Verträglichkeitsschwankungen",
+    "Kosten- und Verfügbarkeitsprobleme"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200971
+  }
+}

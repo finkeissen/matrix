@@ -1,0 +1,16 @@
+{
+  "subdomain": "Regenerative Spezies",
+  "problem_groups": [
+    "Genetische Modifikation",
+    "Ökologische Auswirkungen",
+    "Konservationsbedarf",
+    "Regulatorische Rahmenbedingungen",
+    "Biologische Komplexität",
+    "Ressourcenverbrauch",
+    "Ethik der Anwendung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202883
+  }
+}

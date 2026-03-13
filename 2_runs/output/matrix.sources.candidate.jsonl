@@ -1,0 +1,1 @@
+{"record_type": "source", "schema_version": "mms.source@1", "source_id": "src:internal:commit-readme", "title": "3.commit/readme.md", "source_type": "internal", "matrix_validity": {"introduced_in_commit": "2026-01-18", "deprecated_in_commit": null, "status": "active"}}

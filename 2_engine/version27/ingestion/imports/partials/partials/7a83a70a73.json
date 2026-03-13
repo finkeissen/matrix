@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bioinformatik",
+  "problem_groups": [
+    "Genomdatenverarbeitung",
+    "Proteinfunktionsermittlung",
+    "Sequenzalignment",
+    "Genetische Variationenanalyse",
+    "Transkriptomik-Interpretation",
+    "Epigenetische Datenintegration",
+    "Metabolitenmodellierung",
+    "Systembiologische Netzwerkanalyse",
+    "Algorithmenentwicklung für Biologie",
+    "Datenstandardisierung in der Bioinformatik"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198503
+  }
+}

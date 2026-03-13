@@ -1,0 +1,17 @@
+{
+  "subdomain": "Conscious Societies",
+  "problem_groups": [
+    "Ressourcenverteilungsungleichheit",
+    "Ökonomische Nachhaltigkeit vs. Wachstum",
+    "Soziale Inklusion in bewussten Gemeinschaften",
+    "Ethik der Entscheidungsfindung",
+    "Kulturelle Identitätsschutz",
+    "Technologischer Fortschritt vs. traditionelle Praktiken",
+    "Bildung und Bewusstseinsbildung",
+    "Governance-Strukturen für bewusste Gesellschaften"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198778
+  }
+}

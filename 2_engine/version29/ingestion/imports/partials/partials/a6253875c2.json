@@ -1,0 +1,19 @@
+{
+  "subdomain": "Klimawandel-Ökologie",
+  "problem_groups": [
+    "Biodiversitätsverlust durch Klimafaktoren",
+    "Ökosystemstörungen durch Temperaturanstieg",
+    "Habitatveränderung infolge Klimaschwankungen",
+    "Speziesmigration und Verbreitungsverschiebung",
+    "Nahrungsnetz-Instabilität durch Klimaänderungen",
+    "Korallenriff-Degradation durch Ozeanwärme",
+    "Bodenökosysteme unter Klimadrücke",
+    "Wasserhaushaltsstörung in Ökosystemen",
+    "Invasivspezies-Expansion durch Klimawandel",
+    "Genetische Diversitätsverengung durch Klimafaktoren"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200487
+  }
+}

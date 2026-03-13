@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Robustheit",
+  "problem_groups": [
+    "Materialverschleiß bei dynamischen Belastungen",
+    "Thermische Stabilität unter wechselnden Umgebungsbedingungen",
+    "Schadensanfälligkeit durch wiederholte Lastwechsel",
+    "Korrosionsresistenz in aggressiven Umwelten",
+    "Ermüdungsfestigkeit bei zyklischen Belastungen",
+    "Strukturverformung unter langfristiger Beanspruchung",
+    "Schwingungsresistenz bei mechanischer Stabilität",
+    "Wärmeabfuhrkapazität bei hohen Lasten",
+    "Mikrostrukturstabilität bei thermischen Wechselwirkungen",
+    "Kontaktverschleiß an beweglichen Komponenten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202835
+  }
+}

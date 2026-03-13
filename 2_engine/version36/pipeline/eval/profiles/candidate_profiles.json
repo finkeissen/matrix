@@ -1,0 +1,102 @@
+{
+  "01_scope": [
+    {
+      "name": "conservative",
+      "temperature": 0.1,
+      "top_p": 0.8,
+      "max_tokens": 800
+    },
+    {
+      "name": "balanced",
+      "temperature": 0.2,
+      "top_p": 0.9,
+      "max_tokens": 900
+    },
+    {
+      "name": "exploratory",
+      "temperature": 0.4,
+      "top_p": 0.95,
+      "max_tokens": 1000
+    }
+  ],
+  "02_seed_expansion": [
+    {
+      "name": "conservative",
+      "temperature": 0.3,
+      "top_p": 0.85,
+      "max_tokens": 1200
+    },
+    {
+      "name": "balanced",
+      "temperature": 0.6,
+      "top_p": 0.92,
+      "max_tokens": 1400
+    },
+    {
+      "name": "exploratory",
+      "temperature": 0.8,
+      "top_p": 0.97,
+      "max_tokens": 1600
+    }
+  ],
+  "03_categories": [
+    {
+      "name": "conservative",
+      "temperature": 0.1,
+      "top_p": 0.8,
+      "max_tokens": 700
+    },
+    {
+      "name": "balanced",
+      "temperature": 0.2,
+      "top_p": 0.9,
+      "max_tokens": 800
+    },
+    {
+      "name": "exploratory",
+      "temperature": 0.4,
+      "top_p": 0.95,
+      "max_tokens": 900
+    }
+  ],
+  "04_problem_generation": [
+    {
+      "name": "conservative",
+      "temperature": 0.2,
+      "top_p": 0.85,
+      "max_tokens": 1400
+    },
+    {
+      "name": "balanced",
+      "temperature": 0.5,
+      "top_p": 0.92,
+      "max_tokens": 1800
+    },
+    {
+      "name": "exploratory",
+      "temperature": 0.8,
+      "top_p": 0.97,
+      "max_tokens": 2200
+    }
+  ],
+  "05_validation": [
+    {
+      "name": "conservative",
+      "temperature": 0.0,
+      "top_p": 0.8,
+      "max_tokens": 900
+    },
+    {
+      "name": "balanced",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_tokens": 1000
+    },
+    {
+      "name": "exploratory",
+      "temperature": 0.2,
+      "top_p": 0.95,
+      "max_tokens": 1100
+    }
+  ]
+}

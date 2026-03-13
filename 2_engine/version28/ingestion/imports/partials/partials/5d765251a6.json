@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ökonomie der Reife",
+  "problem_groups": [
+    "Kosten- und Nutzenbewertung von Bildungsabschlüssen",
+    "Ressourcenallokation in Bildungssystemen",
+    "Einkommensunterschiede durch Bildungslevel",
+    "Marktwert von akademischen Qualifikationen",
+    "Investitionsentscheidungen in Weiterbildung",
+    "Sozialer Aufstieg durch Bildung",
+    "Kosten der Reifeprüfung und Zulassungsvoraussetzungen",
+    "Bildungsungleichheit im Übergangssystem",
+    "Finanzierung von Berufsbildung und dualem System",
+    "Ertragskalkulation von Bildungsinvestitionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204495
+  }
+}

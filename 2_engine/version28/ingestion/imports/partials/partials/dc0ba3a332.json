@@ -1,0 +1,15 @@
+{
+  "subdomain": "Regenerative Authentizität",
+  "problem_groups": [
+    "Authentizitätsdifferenzierung",
+    "Authentizitätserhaltung",
+    "Regenerationsstrukturkonflikte",
+    "Authentizitätsbewertungsprobleme",
+    "Ressourcenallokation für Regeneration",
+    "Regenerationspriorisierungskonflikte"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201996
+  }
+}

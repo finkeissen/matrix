@@ -1,0 +1,17 @@
+{
+  "subdomain": "Regenerative Wahrheit",
+  "problem_groups": [
+    "Konflikt zwischen objektiver und subjektiver Wahrheit",
+    "Validierung von dynamischen Wahrheitsmodellen",
+    "Ethische Implikationen der Wahrheitsrekonstruktion",
+    "Konsistenz von regenerativen Wahrheitsansätzen",
+    "Vertrauensprobleme bei sich ändernden Wahrheitsdarstellungen",
+    "Grenzen der Regeneration von Fakten",
+    "Interdependenz zwischen Wahrheit und Zeit",
+    "Repräsentation von Wahrheit in komplexen Systemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203036
+  }
+}

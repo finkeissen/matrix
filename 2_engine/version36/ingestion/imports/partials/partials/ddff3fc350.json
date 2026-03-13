@@ -1,0 +1,25 @@
+{
+  "subdomain": "Innere Medizin",
+  "problem_groups": [
+    "Kardiovaskuläre Erkrankungen",
+    "Atemwegserkrankungen",
+    "Gastrointestinale Störungen",
+    "Endokrine Störungen",
+    "Neurologische Erkrankungen",
+    "Nierenkrankheiten",
+    "Infektiöse Erkrankungen",
+    "Hämato-onkologische Erkrankungen",
+    "Rheumatologische Erkrankungen",
+    "Metabolische Störungen",
+    "Psychische Erkrankungen bei Erwachsenen",
+    "Autoimmunerkrankungen",
+    "Lungenhypertonie",
+    "Schlafstörungen",
+    "Urologische Erkrankungen",
+    "Dermatologische Erkrankungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200130
+  }
+}

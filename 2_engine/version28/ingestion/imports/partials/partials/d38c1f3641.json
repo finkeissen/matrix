@@ -1,0 +1,17 @@
+{
+  "subdomain": "Commons-Based Peer Production",
+  "problem_groups": [
+    "Koordinationsschwierigkeiten bei dezentraler Arbeit",
+    "Ressourcenverteilung und Priorisierung",
+    "Konfliktmanagement in kollektiven Projekten",
+    "Langfristige Nachhaltigkeit von Gemeinschaftsprojekten",
+    "Qualitätssicherung bei massiver Beteiligung",
+    "Anreizstrukturen für freiwillige Beiträge",
+    "Governance-Modelle ohne zentrale Autorität",
+    "Inklusion und Zugang in Peer-Produktion"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198704
+  }
+}

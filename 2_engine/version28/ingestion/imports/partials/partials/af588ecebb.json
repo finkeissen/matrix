@@ -1,0 +1,19 @@
+{
+  "subdomain": "Bindungs- & Beziehungstheorie",
+  "problem_groups": [
+    "Theorien zur Entstehung von Bindungen",
+    "Dauerhaftigkeit von Beziehungen",
+    "Konfliktlösung in Beziehungen",
+    "Machtverhältnisse in Beziehungen",
+    "Kommunikation in Beziehungen",
+    "Emotionale Abhängigkeit in Beziehungen",
+    "Soziale Einflüsse auf Beziehungen",
+    "Kulturelle Aspekte von Beziehungen",
+    "Einfluss früherer Erfahrungen auf Beziehungen",
+    "Individuelle Bedürfnisse vs. Beziehungserfordernisse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198447
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-03-09T09:58:54Z",
+  "step.01_scope.duration_ms": 0,
+  "step.01_scope.status": "completed",
+  "step.02_seed_expansion.duration_ms": 0,
+  "step.02_seed_expansion.status": "completed",
+  "acceptance_rate": 0.0,
+  "invariant_errors": [
+    "no_problems_generated"
+  ],
+  "run.status": "completed_with_warnings"
+}

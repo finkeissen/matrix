@@ -1,0 +1,19 @@
+{
+  "subdomain": "Logik",
+  "problem_groups": [
+    "Formale Logikstrukturen",
+    "Paradoxen und Widersprüche",
+    "Axiomensysteme",
+    "Beweisverfahren",
+    "Konsistenz und Widerlegbarkeit",
+    "Logische Schlussfolgerungen",
+    "Semantik von Aussagen",
+    "Modallogik",
+    "Künstliche Intelligenz und Logik",
+    "Logische Validität"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200730
+  }
+}

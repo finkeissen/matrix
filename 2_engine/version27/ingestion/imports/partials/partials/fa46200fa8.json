@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Freude",
+  "problem_groups": [
+    "Erwartungsdruck bei Regeneration",
+    "Erschöpfungsspirale der Freude",
+    "Zielkonflikte in regenerativen Prozessen",
+    "Soziale Isolation durch individuelle Regenerationsansätze",
+    "Ressourcenmangel für nachhaltige Freude",
+    "Selbstwirksamkeitsskepsis bei Regeneration",
+    "Kontrollverlust über regenerative Aktivitäten",
+    "Müdeheit der Freude durch Überforderung",
+    "Unstetigkeit der Motivation in Regenerationsphasen",
+    "Verwechslung von Freude und Erfolgsorientierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202271
+  }
+}

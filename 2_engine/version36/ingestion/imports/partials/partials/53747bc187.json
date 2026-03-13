@@ -1,0 +1,19 @@
+{
+  "subdomain": "Kernphysik",
+  "problem_groups": [
+    "Nukleare Stabilität und Instabilität",
+    "Radioaktive Zerfallsprozesse",
+    "Kernreaktionen und Energieumwandlung",
+    "Wechselwirkungen zwischen Kernbestandteilen",
+    "Isotopenverteilung und -identifikation",
+    "Strahlungsdetektion und -messung",
+    "Nukleare Sicherheit und Strahlenexposition",
+    "Theoretische Modellierung von Kernen",
+    "Kernfusion und -spaltung",
+    "Kernstruktur und Bindungsmechanismen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200267
+  }
+}

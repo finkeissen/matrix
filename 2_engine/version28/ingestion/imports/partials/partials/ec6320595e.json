@@ -1,0 +1,19 @@
+{
+  "subdomain": "Elektronische Gesundheitsakten (EHR)",
+  "problem_groups": [
+    "Datensicherheit und -schutz",
+    "Interoperabilität zwischen Systemen",
+    "Benutzerwiderstand bei der Einführung",
+    "Datenintegrität und -konsistenz",
+    "Rechtliche Compliance (z. B. DSGVO)",
+    "Systemintegration in heterogenen Umgebungen",
+    "Datenspeicherungskapazitäten",
+    "Benutzerfreundlichkeit der Oberflächen",
+    "Datenstandardisierung und -codierung",
+    "Langfristige Datenarchivierung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199245
+  }
+}

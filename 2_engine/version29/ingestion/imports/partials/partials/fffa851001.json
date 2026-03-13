@@ -1,0 +1,19 @@
+{
+  "subdomain": "Stochastik",
+  "problem_groups": [
+    "Wahrscheinlichkeitsrechnung und Kombinatorik",
+    "Zufallsvariablen und Verteilungen",
+    "Stochastische Prozesse",
+    "Statistische Inferenz",
+    "Markov-Ketten und Übergangsmatrizen",
+    "Simulation stochastischer Systeme",
+    "Risikoanalyse und Unsicherheitsquantifizierung",
+    "Zufallsprozesse in der Naturwissenschaft",
+    "Stochastische Modelle in der Finanzmathematik",
+    "Grenzwertsätze und Gesetze der großen Zahlen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203496
+  }
+}

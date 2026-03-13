@@ -1,0 +1,16 @@
+{
+  "subdomain": "Regenerative Transzendenz",
+  "problem_groups": [
+    "Konzeptuelle Verwirrung",
+    "Praktische Umsetzungsschwierigkeiten",
+    "Widerstände bei der Anwendung",
+    "Kognitive Dissonanz zwischen Theorie und Praxis",
+    "Soziale Anerkennungsmangel",
+    "Mangel an Methoden oder Tools zur Erneuerung",
+    "Unklarheit über Ziele und Ergebnisse"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202975
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subdomain": "Rechte der Natur",
+  "problem_groups": [
+    "Juristische Anerkennung von Naturrechten",
+    "Konflikt zwischen ökonomischen Interessen und Umweltschutz",
+    "Definitionsgrenzen von Naturrechten",
+    "Implementierung in nationales Rechtssystem",
+    "Machtverhältnisse bei der Durchsetzung von Naturrechten",
+    "Internationaler Rechtsrahmen für Naturrechte",
+    "Wissenschaftliche Bewertung ökologischer Schäden",
+    "Öffentliche Wahrnehmung und Akzeptanz von Naturrechten"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201942
+  }
+}

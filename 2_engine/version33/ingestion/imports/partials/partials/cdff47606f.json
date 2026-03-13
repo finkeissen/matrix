@@ -1,0 +1,17 @@
+{
+  "subdomain": "Gender Studies",
+  "problem_groups": [
+    "Systemische Geschlechterdiskriminierung",
+    "Intersektionale Identitätsungleichheit",
+    "Medienrepräsentation und Stereotype",
+    "Traditionelle Geschlechterrollen",
+    "Non-Binary-Identitätsschwierigkeiten",
+    "Politische Einflüsse auf Gleichstellung",
+    "Bildungsdisparitäten",
+    "Globalisierungseffekte auf Geschlechterdynamiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199629
+  }
+}

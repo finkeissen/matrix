@@ -1,0 +1,17 @@
+{
+  "subdomain": "Biomechanik",
+  "problem_groups": [
+    "Bewegungsanalyse",
+    "Kraft- und Momentenverteilung im Körper",
+    "Wechselwirkung von Skelett und Muskel",
+    "Einfluss externer Kräfte auf biologische Strukturen",
+    "Mechanische Eigenschaften biologischer Gewebe",
+    "Verletzungsmechanismen bei mechanischen Belastungen",
+    "Modellierung von Biomechanik-Systemen",
+    "Biomechanische Optimierung von Bewegungsabläufen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198536
+  }
+}

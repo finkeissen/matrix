@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rule Library",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "asset_type",
+    "version",
+    "status",
+    "sources",
+    "rules"
+  ],
+  "properties": {
+    "asset_id": {
+      "type": "string"
+    },
+    "asset_type": {
+      "enum": [
+        "rule_library",
+        "case_corpus"
+      ]
+    },
+    "domain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

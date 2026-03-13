@@ -1,0 +1,159 @@
+{
+  "run_id": "2026-03-09_017_thermodynamics",
+  "created_at": "2026-03-09T10:48:34Z",
+  "domain": "thermodynamics",
+  "pipeline_version": "19.0.0",
+  "status": "completed",
+  "finished_at": "2026-03-09T10:48:34Z",
+  "model_config": {
+    "model": null,
+    "url": "http://localhost:1234/v1/chat/completions",
+    "timeout": 120
+  },
+  "prompt_versions": {
+    "01_scope": "v1",
+    "02_seed_expansion": "v1",
+    "03_categories": "v1",
+    "04_problem_generation": "v1",
+    "05_validation": "v1",
+    "07_ranking": "v1",
+    "08_export": "v1"
+  },
+  "prompt_hashes": {
+    "01_scope": "sha256:7f7177f4bfd03e384465ed9ce7b2ab6f2c5864da0105cb1e02b5859b88f0cd58",
+    "02_seed_expansion": "sha256:2ccdb36fb2b24d779c7cbbe3b28f63033bef1f07f42ed809cc683d80160eeb73",
+    "03_categories": "sha256:29ebd251dc4e329494eadf3441a41487743484112fec466b2801d02ce9faab14",
+    "04_problem_generation": "sha256:dd05bf38a92ad5396627817d9a26cc3bde8d0110daf435a8c24d47162d34dc50",
+    "05_validation": "sha256:2179e01acf0382c8e6838c5bd61dc28a59681ef0da6d1681737102871da438a8",
+    "07_ranking": "sha256:e83d3341449033164cdf0eb4746b551048684a7d2267b82b35657ac9d8ebbfcf",
+    "08_export": "sha256:9b2476f294bed5e8945e38de96f0b1a987f346fcba3782d7feeb8c4cf9425d1a"
+  },
+  "steps": [
+    {
+      "name": "01_scope",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/intermediate/01_scope.json",
+      "retry_count": 0,
+      "counts": {
+        "boundaries": 3,
+        "exclusions": 2
+      }
+    },
+    {
+      "name": "02_seed_expansion",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/intermediate/02_seed_expansion.json",
+      "retry_count": 0,
+      "counts": {
+        "seeds": 199
+      }
+    },
+    {
+      "name": "03_categories",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/intermediate/03_categories.json",
+      "retry_count": 0,
+      "counts": {
+        "categories": 3
+      }
+    },
+    {
+      "name": "04_problem_generation",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/intermediate/04_problem_generation.json",
+      "retry_count": 0,
+      "counts": {
+        "generated": 30,
+        "categories": 3,
+        "problems_per_category": 10
+      }
+    },
+    {
+      "name": "05_validation",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/intermediate/05_validation.json",
+      "retry_count": 0,
+      "counts": {
+        "input": 30,
+        "accepted": 30,
+        "rejected": 0
+      }
+    },
+    {
+      "name": "06_deduplication",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/intermediate/06_deduplication.json",
+      "retry_count": 0,
+      "counts": {
+        "input": 30,
+        "accepted": 30,
+        "rejected_exact": 0,
+        "rejected_normalized": 0,
+        "rejected_semantic": 0
+      }
+    },
+    {
+      "name": "07_ranking",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/intermediate/07_ranking.json",
+      "retry_count": 0,
+      "counts": {
+        "ranked": 30
+      }
+    },
+    {
+      "name": "08_export",
+      "status": "completed",
+      "started_at": "2026-03-09T10:48:34Z",
+      "finished_at": "2026-03-09T10:48:34Z",
+      "duration_ms": 0,
+      "output_path": "/home/ef/ram/venv/version26/data/runs/2026-03-09_017_thermodynamics/exports/atomic_problems.jsonl",
+      "retry_count": 0,
+      "counts": {
+        "exported": 30
+      }
+    }
+  ],
+  "metrics": {
+    "generated": 30,
+    "by_category": {
+      "thermodynamics_foundations": 10,
+      "thermodynamics_applications": 10,
+      "thermodynamics_analysis": 10
+    },
+    "by_difficulty": {
+      "easy": 7,
+      "medium": 13,
+      "hard": 8,
+      "expert": 2
+    },
+    "accepted": 30,
+    "rejected_exact": 0,
+    "rejected_normalized": 0,
+    "rejected_semantic": 0,
+    "duplicates": 0,
+    "rejected_content": 0,
+    "acceptance_rate": 1.0
+  }
+}

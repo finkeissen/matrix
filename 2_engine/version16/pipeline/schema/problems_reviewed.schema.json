@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "problems_reviewed.schema.json",
+  "title": "ProblemsReviewed",
+  "type": "object",
+  "required": ["subdomain_id", "category", "category_index", "problem_count", "problems"],
+  "properties": {
+    "subdomain_id":      { "type": "string" },
+    "category":          { "type": "string", "minLength": 1 },
+    "category_index":    { "type": "integer", "minimum": 1 },
+    "problem_count":     { "type": "integer", "minimum": 0 },
+    "problems_added":    { "type": "integer", "minimum": 0 },
+    "problems_removed":  { "type": "integer", "minimum": 0 },
+    "problems_modified": { "type": "integer", "minimum": 0 },
+    "changes_made": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["action", "title", "reason"],
+        "properties": {
+          "action": { "type": "string", "enum": ["added", "removed", "modified", "split"] },
+          "title":  { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "problems": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["title", "problem_statement", "difficulty", "answer_type",
+                     "canonical_source", "verifiable", "hallucination_risk",
+                     "requires_context", "tags"],
+        "properties": {
+          "title":            { "type": "string", "minLength": 1, "maxLength": 80 },
+          "problem_statement": { "type": "string", "minLength": 10 },
+          "difficulty":       { "type": "string", "enum": ["basic", "intermediate", "advanced", "expert"] },
+          "answer_type":      { "type": "string", "enum": ["factual", "procedural", "analytical", "evaluative"] },
+          "canonical_source": { "type": "string", "minLength": 1 },
+          "verifiable":       { "type": "boolean" },
+          "hallucination_risk": { "type": "string", "enum": ["low", "medium", "high"] },
+          "requires_context": { "type": "boolean" },
+          "tags":             { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

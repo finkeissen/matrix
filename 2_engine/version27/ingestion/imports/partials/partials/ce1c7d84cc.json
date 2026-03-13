@@ -1,0 +1,19 @@
+{
+  "subdomain": "Umweltethik",
+  "problem_groups": [
+    "Mensch- Natur - Beziehungskonflikte",
+    "Ressourcenverbrauch und Nachhaltigkeit",
+    "Klimawandel und Verantwortung",
+    "Biodiversitätsverlust und Schutz",
+    "Umweltverschmutzung und Gesundheit",
+    "Naturnutzung versus Naturschutz",
+    "Globalisierung und Umweltgerechtigkeit",
+    "Technologie und Umweltfolgen",
+    "Kultur und Umweltwahrnehmung",
+    "Moralische Verantwortung von Individuen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203948
+  }
+}

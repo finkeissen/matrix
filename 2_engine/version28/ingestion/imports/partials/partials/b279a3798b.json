@@ -1,0 +1,16 @@
+{
+  "subdomain": "Dunkle Materie",
+  "problem_groups": [
+    "Beobachtungsprobleme bei indirekter Detektion",
+    "Theoretische Modellierung der Wechselwirkungen",
+    "Kosmologische Auswirkungen auf Strukturbildung",
+    "Wechselwirkung mit sichtbarer Materie",
+    "Simulationsgenauigkeit in kosmischen Modellen",
+    "Datenauswertung bei schwachen Signalen",
+    "Interdisziplinäre Integration von Physik und Astronomie"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199139
+  }
+}

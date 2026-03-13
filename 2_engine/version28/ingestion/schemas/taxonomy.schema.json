@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Taxonomy",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "asset_type",
+    "version",
+    "status",
+    "families"
+  ],
+  "properties": {
+    "asset_id": {
+      "type": "string"
+    },
+    "asset_type": {
+      "const": "taxonomy"
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "families": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "family_id",
+          "label",
+          "description",
+          "members"
+        ],
+        "properties": {
+          "family_id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "members": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Ökonomie",
+  "problem_groups": [
+    "Kapital- und Wachstumsorientierung",
+    "Ressourcenverknappung",
+    "Soziale Ungleichheit",
+    "Ökosystemdienstleistungen",
+    "Marktversagen bei Nachhaltigkeit",
+    "Innovationsschwierigkeiten",
+    "Politische Willensbildung",
+    "Kultur der Konsumtion",
+    "Infrastrukturverknappung",
+    "Wissensdefizite"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203101
+  }
+}

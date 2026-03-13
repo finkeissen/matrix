@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Eins",
+  "problem_groups": [
+    "Einschlagverzögerung",
+    "Materialverschleiß",
+    "Thermische Belastung",
+    "Schwingungsstabilität",
+    "Kontaktwiderstand",
+    "Wärmeabfuhr",
+    "Mechanische Festigkeit",
+    "Oxidationsschutz",
+    "Einschlagrissbildung",
+    "Längenverformung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202123
+  }
+}

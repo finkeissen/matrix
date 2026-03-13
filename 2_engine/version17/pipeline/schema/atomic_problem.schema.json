@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "atomic_problem.schema.json",
+  "title": "AtomicProblem",
+  "type": "object",
+  "required": [
+    "problem_id", "problem_uid", "subdomain_id", "domain_id", "parent_domain",
+    "subdomain_label", "title", "problem_statement", "category",
+    "difficulty", "answer_type", "canonical_source", "verifiable",
+    "hallucination_risk", "requires_context", "tags",
+    "created_by", "created_at", "review_status", "content_state_at_commit"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "problem_id":    { "type": "string", "pattern": "^[A-Z0-9]{5,7}-\\d{4}$" },
+    "problem_uid":   { "type": "string", "pattern": "^uid:[a-f0-9]{64}$" },
+    "subdomain_id":  { "type": "string", "pattern": "^SD-\\d{3}$" },
+    "domain_id":     { "type": "string", "pattern": "^D-\\d{2}$" },
+    "parent_domain": { "type": "string", "minLength": 1 },
+    "subdomain_label": { "type": "string", "minLength": 1 },
+    "title":         { "type": "string", "minLength": 1, "maxLength": 80 },
+    "problem_statement": { "type": "string", "minLength": 10 },
+    "category":      { "type": "string", "minLength": 1 },
+    "difficulty":    { "type": "string", "enum": ["basic", "intermediate", "advanced", "expert"] },
+    "answer_type":   { "type": "string", "enum": ["factual", "procedural", "analytical", "evaluative"] },
+    "canonical_source": { "type": "string", "minLength": 1 },
+    "verifiable":    { "type": "boolean" },
+    "hallucination_risk": { "type": "string", "enum": ["low", "medium", "high"] },
+    "requires_context": { "type": "boolean" },
+    "tags":          { "type": "array", "items": { "type": "string" } },
+    "created_by":    { "type": "string", "pattern": "^pipeline_v[0-9.]+/run_.+$" },
+    "created_at":    { "type": "string", "format": "date-time" },
+    "review_status": { "type": "string", "enum": ["draft", "reviewed", "approved"] },
+    "content_state_at_commit": {
+      "type": "string",
+      "enum": ["candidate", "verified", "accepted", "disputed", "superseded", "rejected"]
+    }
+  }
+}

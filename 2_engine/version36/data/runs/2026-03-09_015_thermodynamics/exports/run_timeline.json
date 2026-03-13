@@ -1,0 +1,95 @@
+{
+  "run_id": "2026-03-09_015_thermodynamics",
+  "steps": [
+    {
+      "name": "01_scope",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "boundaries": 3,
+        "exclusions": 2
+      }
+    },
+    {
+      "name": "02_seed_expansion",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "seeds": 199
+      }
+    },
+    {
+      "name": "03_categories",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "categories": 3
+      }
+    },
+    {
+      "name": "04_problem_generation",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "generated": 30,
+        "categories": 3,
+        "problems_per_category": 10
+      }
+    },
+    {
+      "name": "05_validation",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "input": 30,
+        "accepted": 26,
+        "rejected": 4
+      }
+    },
+    {
+      "name": "06_deduplication",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "input": 26,
+        "accepted": 26,
+        "rejected_exact": 0,
+        "rejected_normalized": 0,
+        "rejected_semantic": 0
+      }
+    },
+    {
+      "name": "07_ranking",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "ranked": 26
+      }
+    },
+    {
+      "name": "08_export",
+      "status": "completed",
+      "started_at": "2026-03-09T10:44:03Z",
+      "finished_at": "2026-03-09T10:44:03Z",
+      "duration_ms": 0,
+      "counts": {
+        "exported": 26
+      }
+    }
+  ],
+  "total_duration_ms": 0
+}

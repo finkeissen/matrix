@@ -1,0 +1,48 @@
+{
+  "record_type": "run_manifest",
+  "schema_version": "v1",
+  "run_id": "run_06_medicine_problem_seed",
+  "run_date": "2026-01-20",
+  "timezone": "Europe/Berlin",
+  "scope": "medicine / problem seed (ICD-11-derived, non-authoritative)",
+  "inputs": {
+    "upstream_commit": null,
+    "sources": [
+      "source:who-icd11",
+      "source:icd11-problems-chatgpt-multilang-zip",
+      "source:run06-synthesis-protocol"
+    ],
+    "notes": "Seed run generating medical problem statements from ICD-11 classification material and multilingual candidates. No medical advice; problems are containers for later claims/conflicts."
+  },
+  "tools": {
+    "generator": "local+llm-assisted (external)",
+    "validator": null,
+    "tool_versions": {}
+  },
+  "schemas": {
+    "problem": "v1",
+    "source": "v1",
+    "claim": "v1",
+    "relation": "v1",
+    "conflict": "v1"
+  },
+  "outputs": {
+    "produced_files": [
+      "problems.jsonl",
+      "sources.jsonl",
+      "claims.jsonl",
+      "relations.jsonl",
+      "conflicts.jsonl",
+      "README.md"
+    ],
+    "checksums": {
+      "problems.jsonl": "970ec45234e04c5da9ce9e65a862c7a4f6caad4dde98e3bd0e05cae9c720c513",
+      "sources.jsonl": "73766ca77991edd1bc624c22110022d2df619d80400685dbc187ff47a13fa63c",
+      "claims.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "relations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "conflicts.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "README.md": "f74ef593f56e114305f11e3435cb71829c06d2c470c3b66253222659359cba80"
+    },
+    "checksum_algorithm": "sha256"
+  }
+}

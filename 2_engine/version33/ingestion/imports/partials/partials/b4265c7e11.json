@@ -1,0 +1,19 @@
+{
+  "subdomain": "Zoologie",
+  "problem_groups": [
+    "Taxonomische Klassifizierung von Tierarten",
+    "Artenvielfaltsschutz und Biodiversitätsmanagement",
+    "Ökologische Wechselwirkungen zwischen Spezies",
+    "Verhaltensforschung bei Tieren",
+    "Evolutionäre Beziehungen und Phylogenie",
+    "Wildtierkrankheiten und Infektionsdynamik",
+    "Klimawandel-bedingte Veränderungen in Tierpopulationen",
+    "Invasive Arten und ihre ökologischen Auswirkungen",
+    "Schutz von Lebensräumen und Habitatverlust",
+    "Ethische Aspekte der zoologischen Forschung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204385
+  }
+}

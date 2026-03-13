@@ -1,0 +1,47 @@
+{
+  "run_id": "run:2026-01-18T00-00Z:import:seed",
+  "run_type": "import",
+  "created_at": "2026-01-18T00:00:00Z",
+  "description": "Seed import run to validate end-to-end pipeline (problems, claims, relations, sources).",
+
+  "inputs": {
+    "source_paths": [
+      "3.commit/readme.md"
+    ],
+    "source_ids": [
+      "src:internal:commit-readme"
+    ]
+  },
+
+  "tools": {
+    "generator": "manual-seed",
+    "version": "v1",
+    "parameters": {}
+  },
+
+  "outputs": {
+    "candidate_problems": "2.runs/import/run:2026-01-18T00-00Z:import:seed/output/matrix.problems.candidate.jsonl",
+    "candidate_claims": "2.runs/import/run:2026-01-18T00-00Z:import:seed/output/matrix.claims.candidate.jsonl",
+    "candidate_relations": "2.runs/import/run:2026-01-18T00-00Z:import:seed/output/matrix.relations.candidate.jsonl",
+    "candidate_sources": "2.runs/import/run:2026-01-18T00-00Z:import:seed/output/matrix.sources.candidate.jsonl",
+    "candidate_conflicts": "2.runs/import/run:2026-01-18T00-00Z:import:seed/output/matrix.conflicts.candidate.jsonl"
+  },
+
+  "schema_versions": {
+    "problem": "mms.problem@1",
+    "claim": "mms.claim@1",
+    "relation": "mms.relation@1",
+    "source": "mms.source@1",
+    "conflict": "mms.conflict@1"
+  },
+
+  "statistics": {
+    "problems_extracted": 1,
+    "claims_extracted": 2,
+    "relations_extracted": 1,
+    "conflicts_extracted": 0
+  },
+
+  "notes": "This run intentionally uses a minimal seed dataset to validate contracts and commit mechanics."
+}
+

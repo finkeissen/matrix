@@ -1,0 +1,18 @@
+{
+  "subdomain": "Regenerative Hingabe",
+  "problem_groups": [
+    "Motivationsverlust bei anhaltender Praxis",
+    "Konsistenzprobleme in der täglichen Umsetzung",
+    "Ressourcenmangel für langfristige Ziele",
+    "Soziale Isolation durch individuelle Verpflichtung",
+    "Überforderung durch zu hohe Erwartungen",
+    "Balance zwischen Selbstpflege und anderen Lebensbereichen",
+    "Umgang mit Rückschlägen und Plateaus",
+    "Wissenslücken in Regenerationsmethoden",
+    "Zeitmanagementprobleme bei der Integration von Praktiken"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202435
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Nanochemie",
+  "problem_groups": [
+    "Nanoskalige Materialherstellung",
+    "Wechselwirkungen von Nanopartikeln mit biologischen Systemen",
+    "Verhalten von Nanomaterialien in chemischen Prozessen",
+    "Toxizität und Sicherheit von Nanomaterialien",
+    "Anwendung von Nanomaterialien in der Medizin",
+    "Nanomaterialien in der Umweltchemie",
+    "Elektronische Eigenschaften nanoskaliger Materialien",
+    "Katalytische Anwendungen von Nanomaterialien",
+    "Energieerzeugung mit Nanomaterialien",
+    "Industrielle Verwendung von Nanomaterialien"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200995
+  }
+}

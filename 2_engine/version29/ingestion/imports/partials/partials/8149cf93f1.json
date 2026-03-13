@@ -1,0 +1,17 @@
+{
+  "subdomain": "Supramolekulare Chemie",
+  "problem_groups": [
+    "Molekülaggregation und Selbstorganisation",
+    "Wechselwirkungen zwischen supramolekularen Strukturen",
+    "Stabilität von supramolekularen Komplexen",
+    "Design von supramolekularen Architekturen",
+    "Energieübertragung in supramolekularen Systemen",
+    "Molekülfunktion und -dynamik in supramolekularen Strukturen",
+    "Interaktion mit externen Stimuli",
+    "Struktur- und Funktionsoptimierung von supramolekularen Systemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203575
+  }
+}

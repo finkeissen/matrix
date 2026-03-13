@@ -1,0 +1,19 @@
+{
+  "subdomain": "Techniksoziologie",
+  "problem_groups": [
+    "Soziale Ungleichheit durch technologische Entwicklung",
+    "Machtstrukturen im Technik- und Wissenssystem",
+    "Ethische Konflikte in der Technikanwendung",
+    "Kulturelle Veränderungen durch digitale Technologien",
+    "Technologischer Determinismus vs. soziale Einflüsse",
+    "Abhängigkeit von Technologie im Alltag",
+    "Verantwortung und Rechenschaftspflicht bei technischen Innovationen",
+    "Sozialer Zusammenhalt in digitalisierten Gesellschaften",
+    "Arbeitsmarktveränderungen durch Automatisierung",
+    "Umweltfolgen technologischer Produktion"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203701
+  }
+}

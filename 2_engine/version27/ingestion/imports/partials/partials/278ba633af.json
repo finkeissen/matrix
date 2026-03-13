@@ -1,0 +1,17 @@
+{
+  "subdomain": "Transparenzforschung",
+  "problem_groups": [
+    "Definition von Transparenzstandards",
+    "Konflikte zwischen Transparenz und Privatsphäre",
+    "Messung der Effektivität transparenter Praktiken",
+    "Vertrauensdefizite in transparenten Prozessen",
+    "Technische Herausforderungen bei der Datenoffenlegung",
+    "Ethik der Algorithmen-Transparenz",
+    "Rechtliche Rahmenbedingungen für Transparenz",
+    "Kommunikation von Transparentheitsmaßnahmen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203907
+  }
+}

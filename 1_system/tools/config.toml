@@ -1,0 +1,70 @@
+# Matrix Pipeline Tooling Configuration (TOML)
+# Uses Python's built-in `tomllib` (no extra deps).
+
+[repo]
+root = "."
+
+[io]
+patches_file = "patches.jsonl"
+report_file = "report.json"
+review_queue_file = "review_queue.jsonl"
+
+[state]
+path = "4.state/current"
+entities_file = "entities.jsonl"
+assertions_file = "assertions.jsonl"
+evidence_file = "evidence.jsonl"
+events_file = "events.jsonl"
+
+[provider]
+type = "lm_studio_openai_compat"
+base_url = "http://localhost:1234/v1"
+api_key = ""
+model = "local-model"
+temperature = 0.0
+max_tokens = 2000
+timeout_seconds = 120
+
+[prompts]
+# Keep these stable; changes should bump module versions.
+problem_seed_system = '''
+You extract problem candidates from domain text.
+Return strictly valid JSON only.
+'''
+
+problem_seed_user = '''
+From the text below, extract a list of ProblemCandidate items.
+Each item must be:
+- label: short title
+- description: neutral, precise
+- subtype: one of [observed_issue, inferred_issue, structural_issue, meta_issue]
+- scope: a short string or "unknown"
+- evidence_excerpt: a short excerpt that supports the candidate
+
+Return JSON array only. No markdown.
+TEXT:
+{{text}}
+'''
+
+problem_atomize_system = '''
+You convert ProblemCandidates into atomic Problems.
+Return strictly valid JSON only.
+'''
+
+problem_atomize_user = '''
+Given the ProblemCandidates below, produce atomic Problems.
+Rules:
+- Split mixed scopes / multiple failure modes into separate atomic problems.
+- Atomic problem must have single scope (or "unknown") and one primary symptom class.
+
+Return JSON object with:
+{
+  "atomic_problems": [
+    { "label": "...", "description": "...", "scope": "...", "primary_symptom": "...", "derived_from_index": [0,2] }
+  ],
+  "notes": "optional"
+}
+
+ProblemCandidates JSON:
+{{candidates_json}}
+'''

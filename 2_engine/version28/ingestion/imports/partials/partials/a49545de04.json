@@ -1,0 +1,19 @@
+{
+  "subdomain": "Photoredox-Katalyse",
+  "problem_groups": [
+    "Kinetische Effizienz von Photokatalysatoren",
+    "Lichtabsorption und -verteilung in katalytischen Systemen",
+    "Stabilität von Photokatalysatoren unter UV-Strahlung",
+    "Selektivität von photoredox-katalysierten Reaktionen",
+    "Oxidationszustandsschaltung von Katalysatoren",
+    "Molekulare Wechselwirkungen zwischen Licht und Katalysator",
+    "Thermische Belastung bei Photoredox-Reaktionen",
+    "Kopplung von Photoredox-Katalyse mit anderen Katalyseformen",
+    "Photostabilität von organischen Katalysatoren",
+    "Effiziente Energieübertragung in photoredox-geführten Reaktionen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201402
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subdomain": "Nichtlineare Dynamik",
+  "problem_groups": [
+    "Chaos und Sensitivität gegenüber Anfangsbedingungen",
+    "Bifurkationen und Strukturveränderungen in dynamischen Systemen",
+    "Attraktoren und deren Stabilität",
+    "Lyapunov-Exponenten und ihre Berechnung",
+    "Phasenraumdarstellungen und Trajektorienverhalten",
+    "Erzwungene Schwingungen und Resonanzphänomene",
+    "Kurzzeit- und Langzeitverhalten von Systemen",
+    "Numerische Simulation nichtlinearer Systeme",
+    "Stabilitätsanalyse nichtlinearer Gleichungen",
+    "Wechselwirkung zwischen diskreten und kontinuierlichen Modellen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201113
+  }
+}

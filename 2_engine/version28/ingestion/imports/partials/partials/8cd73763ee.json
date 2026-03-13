@@ -1,0 +1,18 @@
+{
+  "subdomain": "Algorithmen",
+  "problem_groups": [
+    "Zeitkomplexitätsschätzung",
+    "Algorithmenauswahl für Problemklassen",
+    "Datenstrukturverträglichkeit",
+    "Optimierungskompromisse (Speicher/Leistung)",
+    "Randbedingungsbehandlung",
+    "Parallelisierbarkeit",
+    "Korrektheitsbeweis",
+    "Theoretische Grenzen (P/NP)",
+    "Anpassung an Eingabemuster"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198151
+  }
+}

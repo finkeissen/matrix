@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Demokratie",
+  "problem_groups": [
+    "Partizipationsdefizite in Entscheidungsprozessen",
+    "Mangel an transparenten Kommunikationsstrukturen",
+    "Unzureichende Repräsentation marginalisierter Gruppen",
+    "Ineffiziente Ressourcenverteilung im politischen System",
+    "Fehlende Anreize für langfristige politische Planung",
+    "Überlastung von Demokratieinstrumenten durch Zentralismus",
+    "Mangel an adaptiven Governance-Modellen",
+    "Unzureichende Integration ökologischer Prinzipien in politische Strukturen",
+    "Fehlende Verbindlichkeit von demokratischen Entscheidungen",
+    "Zyklische Erosion von partizipativer Macht"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202083
+  }
+}

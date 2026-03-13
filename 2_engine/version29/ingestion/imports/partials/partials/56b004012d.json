@@ -1,0 +1,19 @@
+{
+  "subdomain": "Single-Cell-Omics",
+  "problem_groups": [
+    "Technische Limitationen von Hochdurchsatz-Sequenzierungstechnologien",
+    "Datennutzung bei extrem hoher Datenmenge und -dimensionalität",
+    "Integration heterogener Datentypen aus verschiedenen Plattformen",
+    "Identifikation seltener Zellpopulationen in komplexen Mischverhältnissen",
+    "Reduzierung von Rauschen und Artefakten in Einzelzellendaten",
+    "Standardisierung von Protokollen für Experimentdesign und Datenanalyse",
+    "Interpretation biologischer Heterogenität aus Einzelzellen-Datensätzen",
+    "Skalierbarkeit von Algorithmen zur Analyse großer Einzelzellendatasets",
+    "Validierung von Biomarkern auf Einzelzellenebene",
+    "Ethik- und Datenschutzaspekte bei der Verarbeitung humaner Einzelzellenproben"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203343
+  }
+}

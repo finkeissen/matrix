@@ -1,0 +1,19 @@
+{
+  "subdomain": "Virtual Reality",
+  "problem_groups": [
+    "Benutzerinteraktion und Eingabetechniken",
+    "Immersionseffekte und Präsenz in virtuellen Umgebungen",
+    "Hardware-Software-Integration",
+    "Visuelle Darstellung und Renderperformance",
+    "Physikalische Simulation und Realismus",
+    "Soziale Interaktion in virtuellen Räumen",
+    "Psychologische Auswirkungen der Virtual Reality",
+    "Technische Limitationen bei mobilen VR-Systemen",
+    "Content-Erstellung und -optimierung für VR",
+    "Datensicherheit und Privatsphäre in VR-Anwendungen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204175
+  }
+}

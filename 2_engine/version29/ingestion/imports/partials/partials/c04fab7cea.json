@@ -1,0 +1,18 @@
+{
+  "subdomain": "Planetary Boundaries Framework",
+  "problem_groups": [
+    "Klimawandel",
+    "Biodiversitätsverlust",
+    "Übernutzung von Süßwasser",
+    "Ozeanversauerung und marine Ökosysteme",
+    "Atmosphärische Aerosolbelastung",
+    "Ozonabbau in der Stratosphäre",
+    "Landnutzungsveränderungen",
+    "Störung des Stickstoff- und Phosphorzyklus",
+    "Chemische Verschmutzung"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767201447
+  }
+}

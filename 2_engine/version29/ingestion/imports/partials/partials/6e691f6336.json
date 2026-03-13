@@ -1,0 +1,19 @@
+{
+  "subdomain": "Additive Fertigung",
+  "problem_groups": [
+    "Materialverhalten bei Temperaturwechseln",
+    "Schicht-zu-Schicht-Verzerrung",
+    "Oberflächenqualität und Rauheit",
+    "Druckkopf-Präzision",
+    "Energieeffizienz von Lasern",
+    "Materialverlust bei Schmelzprozessen",
+    "Designkompatibilität mit CAD-Systemen",
+    "Langzeitstabilität von Bauteilen",
+    "Kollisionserkennung in 3D-Modellen",
+    "Standardisierung von Qualitätsparametern"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198105
+  }
+}

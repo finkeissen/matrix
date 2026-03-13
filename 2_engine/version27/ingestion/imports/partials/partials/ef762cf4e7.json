@@ -1,0 +1,21 @@
+{
+  "subdomain": "Unternehmensführung",
+  "problem_groups": [
+    "Führungsstrategien und Entscheidungsprozesse",
+    "Organisationsstruktur und Hierarchie",
+    "Ressourcenallokation und -optimierung",
+    "Konfliktmanagement im Unternehmen",
+    "Veränderungsmanagement und Innovation",
+    "Risikomanagement und Krisenprävention",
+    "Mitarbeitermotivation und -bindung",
+    "Strategische Planung und Zielsetzung",
+    "Interne Kommunikation und Zusammenarbeit",
+    "Digitale Transformation und Technologieintegration",
+    "Compliance und gesetzliche Einhaltung",
+    "Work-Life-Balance und psychosoziale Gesundheit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204074
+  }
+}

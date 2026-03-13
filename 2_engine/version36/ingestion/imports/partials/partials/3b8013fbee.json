@@ -1,0 +1,17 @@
+{
+  "subdomain": "Viable System Model",
+  "problem_groups": [
+    "Organisatorische Anpassungsfähigkeit",
+    "Stabilität vs. Veränderungsbereitschaft",
+    "Ressourcenallokation und -management",
+    "Entscheidungsstruktur und Hierarchie",
+    "Interne Kommunikationsbarrieren",
+    "Feedback-Systeme und Leistungsüberwachung",
+    "Subsystem-Integration und -Koordination",
+    "Externe Veränderungen und Resilienz"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204165
+  }
+}

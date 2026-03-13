@@ -1,0 +1,1 @@
+{"record_type":"domain","schema_version":"mms.catalog.domain@1","domain_id":"dom:0001","name":"Knowledge System Engineering","description":"Building and operating the matrix as a problem-first knowledge system.","matrix_validity":{"introduced_in_commit":"2026-01-18","deprecated_in_commit":null,"status":"active"}}

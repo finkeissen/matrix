@@ -1,0 +1,17 @@
+{
+  "subdomain": "Künstliche Empathie",
+  "problem_groups": [
+    "Ethische Grenzen der Emotionsverarbeitung",
+    "Verzerrte Wahrnehmung menschlicher Gefühle",
+    "Überforderung durch emotionale Datenflut",
+    "Mangelnde Authentizität in emotionalen Interaktionen",
+    "Abhängigkeit von Algorithmen zur Empathiegenerierung",
+    "Unklarheit der Verantwortung bei Fehlern",
+    "Reduzierung komplexer Emotionen auf Datenmodelle",
+    "Verlust menschlicher Nuancen in empathischen Systemen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200681
+  }
+}

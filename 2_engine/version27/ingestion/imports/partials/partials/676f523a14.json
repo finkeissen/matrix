@@ -1,0 +1,18 @@
+{
+  "subdomain": "Human Enhancement",
+  "problem_groups": [
+    "Ethik der Leistungssteigerung",
+    "Soziale Ungleichheit durch Zugangsdifferenzen",
+    "Gesundheitsrisiken durch Technologien",
+    "Rechtliche Regulierungslücken",
+    "Identitätsveränderungen durch Modifikationen",
+    "Umweltbelastung durch Ressourcennutzung",
+    "Technologische Abhängigkeit",
+    "Psychologische Drucksituationen",
+    "Langfristige biologische Konsequenzen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200019
+  }
+}

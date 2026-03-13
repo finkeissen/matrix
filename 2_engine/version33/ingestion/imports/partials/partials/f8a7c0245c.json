@@ -1,0 +1,19 @@
+{
+  "subdomain": "Fraktale Geometrie",
+  "problem_groups": [
+    "Fraktale Dimensionen",
+    "Selbstähnlichkeit in geometrischen Strukturen",
+    "Iterative Konstruktion von Fraktalen",
+    "Skalierungseigenschaften fraktaler Objekte",
+    "Topologische Eigenschaften fraktaler Mengen",
+    "Approximation von Fraktalen durch endliche Algorithmen",
+    "Visualisierung komplexer fraktaler Strukturen",
+    "Mathematische Beschreibung von Unendlichkeit in Fraktalen",
+    "Anwendung fraktaler Konzepte in anderen Disziplinen",
+    "Klassifizierung unterschiedlicher Fraktaltypen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767199581
+  }
+}

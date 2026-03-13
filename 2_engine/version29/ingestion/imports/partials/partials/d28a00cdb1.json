@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ressourceneffizienz",
+  "problem_groups": [
+    "Ineffiziente Ressourcennutzung",
+    "Mangelnde Ressourcenverfügbarkeit",
+    "Unzureichende Ressourcenplanung",
+    "Überlastete Ressourcensysteme",
+    "Fehlende Ressourcendokumentation",
+    "Konflikte bei Ressourcenallokation",
+    "Technische Ressourceneinschränkungen",
+    "Ungleichmäßige Ressourcenverteilung",
+    "Mangelnde Ressourcenoptimierung",
+    "Ressourcenschwankungen und Unzuverlässigkeit"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767203158
+  }
+}

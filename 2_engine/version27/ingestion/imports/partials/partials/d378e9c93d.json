@@ -1,0 +1,16 @@
+{
+  "subdomain": "Regenerative Erinnerung",
+  "problem_groups": [
+    "Erinnerungsinterferenz",
+    "Emotionale Erinnerungsfärbung",
+    "Neurobiologische Regenerationsbarrieren",
+    "Kognitive Überlastung bei Erinnerungsprozessen",
+    "Schlaf- und Erholungsdefizite",
+    "Differenzierung von Erinnerungen",
+    "Externe Störungsfaktoren bei Regeneration"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202157
+  }
+}

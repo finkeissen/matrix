@@ -1,0 +1,19 @@
+{
+  "subdomain": "Regenerative Verantwortung",
+  "problem_groups": [
+    "Mangelnde Ressourcennutzungseffizienz",
+    "Unzureichende Umweltverträglichkeit von Technologien",
+    "Fehlende Langfristplanung für Nachhaltigkeit",
+    "Soziale Ungleichheit bei Regenerationsmaßnahmen",
+    "Mangelnde Öffentlichkeitsbeteiligung bei Entscheidungen",
+    "Unklare Verantwortlichkeiten in Projekten",
+    "Fehlende Integration von Biodiversitätsschutz",
+    "Übermäßige Ressourcenverwendung in der Produktion",
+    "Mangelnde Wissensvermittlung über Regeneration",
+    "Konflikte zwischen ökonomischen und ökologischen Zielen"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767202994
+  }
+}

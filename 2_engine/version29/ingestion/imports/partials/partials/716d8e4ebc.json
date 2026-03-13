@@ -1,0 +1,19 @@
+{
+  "subdomain": "Ökonomie der Kooperation",
+  "problem_groups": [
+    "Koordinationsprobleme in Wirtschaftssystemen",
+    "Ressourcenverteilung und Gerechtigkeit",
+    "Vertrauensdefizite zwischen Akteuren",
+    "Interdependenz von Entscheidungen",
+    "Machtungleichgewichte im Kooperationsprozess",
+    "Kosten- und Nutzenverteilungsfragen",
+    "Institutionelle Schieflage in kooperativen Strukturen",
+    "Informationsasymmetrie bei Entscheidungsfindung",
+    "Langfristige vs. kurzfristige Interessenkonflikte",
+    "Kulturelle und soziale Differenzierung im Kooperationsprozess"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204474
+  }
+}

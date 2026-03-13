@@ -1,0 +1,19 @@
+{
+  "subdomain": "Brain-Computer-Interfaces",
+  "problem_groups": [
+    "Technische Herausforderungen bei der Entwicklung von BCI-Systemen",
+    "Signalverarbeitung und -interpretation neuronaler Daten",
+    "Benutzeranpassung und individuelle Bedürfnisse",
+    "Datensicherheit und Privatsphäre bei neuronalen Daten",
+    "Ethik und rechtliche Rahmenbedingungen für BCI-Anwendungen",
+    "Design von Benutzeroberflächen für BCI-Systeme",
+    "Energieeffizienz und Stromverbrauch von BCI-Geräten",
+    "Psychologische Auswirkungen auf Nutzer",
+    "Integration in medizinische und alltägliche Anwendungen",
+    "Kostenstruktur und Skalierbarkeit von BCI-Technologie"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767198605
+  }
+}

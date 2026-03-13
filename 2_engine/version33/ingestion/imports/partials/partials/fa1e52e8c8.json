@@ -1,0 +1,18 @@
+{
+  "subdomain": "Urban Commons",
+  "problem_groups": [
+    "Zugang und Nutzungskonflikte",
+    "Wartung und Verschleiß",
+    "Rechtliche Unklarheiten",
+    "Soziale Konflikte",
+    "Umweltverschmutzung",
+    "Wirtschaftliche Unterfinanzierung",
+    "Inklusivitätsmangel",
+    "Sicherheitsprobleme",
+    "Stadtplanungsdefizite"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767204101
+  }
+}

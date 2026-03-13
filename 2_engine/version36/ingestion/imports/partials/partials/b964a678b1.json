@@ -1,0 +1,17 @@
+{
+  "subdomain": "Klimagerechtigkeit",
+  "problem_groups": [
+    "Ungleichheit der Klimaschadensverteilung",
+    "Historische Verantwortung für Emissionen",
+    "Zugang zu Klimafinanzierung und Technologie",
+    "Soziale Ungleichheit im Klimawandel",
+    "Internationale Klimaverpflichtungen und Durchsetzung",
+    "Kostenverteilung bei Klimaschutzmaßnahmen",
+    "Anpassungsbedarf von vulnerablen Regionen",
+    "Konflikt zwischen Wirtschaftswachstum und Umwelt"
+  ],
+  "_meta": {
+    "model": "qwen3-14b-dawnwhisper-i1",
+    "ts": 1767200415
+  }
+}
