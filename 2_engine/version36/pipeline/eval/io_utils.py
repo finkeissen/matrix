@@ -6,15 +6,18 @@ from typing import Any
 
 
 def load_json(path: Path) -> dict[str, Any]:
+    """Load JSON from file path."""
     return json.loads(path.read_text(encoding="utf-8"))
 
 
 def write_json(path: Path, payload: Any) -> None:
+    """Write JSON to file path with pretty formatting."""
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def find_latest_run(runs_dir: Path, *, after_mtime: float | None = None) -> Path | None:
+    """Find the most recent run directory."""
     candidates = [p for p in runs_dir.iterdir() if p.is_dir()] if runs_dir.exists() else []
     if after_mtime is not None:
         filtered = []
@@ -31,6 +34,7 @@ def find_latest_run(runs_dir: Path, *, after_mtime: float | None = None) -> Path
 
 
 def load_run_artifacts(run_dir: Path) -> dict[str, Any]:
+    """Load all run artifacts from a run directory."""
     exports = run_dir / "exports"
     manifest_name = "manifest.json" if (run_dir / "manifest.json").exists() else "run_manifest.json"
     manifest = load_json(run_dir / manifest_name)
