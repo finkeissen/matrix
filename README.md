@@ -1,4 +1,4 @@
-# Matrix Repository
+# MATRIX Repository
 
 Public, curated showcase of the Matrix within the Matrix/MMS research program.
 
