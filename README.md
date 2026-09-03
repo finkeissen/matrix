@@ -464,3 +464,14 @@ Static step work packages live under `engine/steps/`.
 Runtime step artifacts are written under `data/runs/<run-id>/steps/<step>/run/`.
 
 See `ENGINE.md` for the step-oriented engine layout.
+
+## License
+
+This repository is licensed under the **GNU Affero General Public License v3.0**.
+
+You may copy, modify and distribute the work under the terms of the AGPL-3.0.
+If you modify the software and run it on a network server, you must make the
+complete corresponding source code available to the users of that server.
+
+See the file `LICENSE` for the full text.
+

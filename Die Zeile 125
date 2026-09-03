@@ -1,2 +1,0 @@
-    if not _configured:
-    configure_logging()
