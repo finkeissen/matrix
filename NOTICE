@@ -1,0 +1,15 @@
+Finkeissen Research Program
+https://github.com/finkeissen
+
+Copyright (C) 2024–2026 Ekkehard Finkeissen
+
+This repository is part of a layered research architecture.
+Licensing follows the central overview in the profile repository:
+https://github.com/finkeissen/finkeissen
+
+- Epistemic kernel and code repositories → AGPL-3.0
+- Hypotheses, predictions and pure text artefacts → CC BY-SA 4.0
+
+Local experimental runs and unreleased evidence remain private
+until deliberately published under the licence of the target repository.
+
