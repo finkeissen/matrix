@@ -84,3 +84,12 @@ foundation/README.alt
 foundation/CHANGE-NOTES.md
 
 .aider*
+
+# --------------------------------------------------
+# Data-class exclusion: WHO ICD-11 derived material
+# Program rule 2026-11-22: third-party classification
+# data (WHO ICD-11) must never be public.
+# Local copies stay on disk; never track them.
+# --------------------------------------------------
+**/icd11_enriched_ultra_flat.jsonl*
+**/icd11_archive_only.note.md
